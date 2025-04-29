@@ -1,0 +1,19 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ - [L,R=404]
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Set the DirectoryIndex to index.php
+DirectoryIndex index.php
+
+# Handle 403 Forbidden errors gracefully
+ErrorDocument 403 /index.php
+
+# not found
+ErrorDocument 404 /404.html
+</IfModule>
+

@@ -1,0 +1,108 @@
+<div style="width: 195mm; margin: 0 auto; padding: 50px 20px 0; background: white; font-size: 14px;">
+<div>
+<p style="text-align: right;">den, 06.12.2023</p>
+<p style="text-align: left;">Sehr geehrte Damen und Herren,</p>
+<p style="text-align: left;">trotz mehrfacher Mahnungen blieben die nachfolgenden Rechnungen offen.<br>Der Gesamtbetrag an unbezahlten, l&auml;ngst f&auml;lligen Rechnungen in H&ouml;he<br>von <strong>0 &euro;</strong> zzgl. Mahnkosten i.H. von 30,00 &euro; setzt sich wie folgt zusammen:</p>
+</div>
+<table style="border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); text-align: left; font-size: 12px; padding: 10px; height: 184.766px;" width="100%" cellspacing="0" cellpadding="0">
+<thead style="background-color: #cdcdcd;">
+<tr style="height: 16.7969px;">
+<th style="padding: 3px 8px; text-align: center; font-weight: bold; height: 16.7969px;">Invoice No.</th>
+<th style="padding: 3px 8px; text-align: center; font-weight: bold; height: 16.7969px;">Date</th>
+<th style="padding: 3px 8px; text-align: center; font-weight: bold; height: 16.7969px;">Transaction Type</th>
+<th style="padding: 3px 8px; text-align: right; font-weight: bold; height: 16.7969px;">Deposit</th>
+<th style="padding: 3px 8px; text-align: right; font-weight: bold; height: 16.7969px;">Credit</th>
+<th style="padding: 3px 8px; text-align: right; font-weight: bold; height: 16.7969px;">Balance</th>
+</tr>
+</thead>
+<tbody>
+<tr style="height: 16.7969px;">
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: center; background-color: rgb(205, 205, 205); height: 16.7969px;">2015-0402</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: center; background-color: rgb(205, 205, 205); height: 16.7969px;">03.04.2015</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: center; background-color: rgb(205, 205, 205); height: 16.7969px;">Credit</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: right; background-color: rgb(205, 205, 205); height: 16.7969px;">0 &euro;</td>
+<td class="pr" style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: right; background-color: rgb(205, 205, 205); height: 16.7969px;">154.7 &euro;</td>
+<td class="pr" style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: right; background-color: rgb(205, 205, 205); height: 16.7969px;">154.7 &euro;</td>
+</tr>
+<tr style="height: 16.7969px;">
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: center; background-color: rgb(205, 205, 205); height: 16.7969px;">2015-0402</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: center; background-color: rgb(205, 205, 205); height: 16.7969px;">14.04.2015</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: center; background-color: rgb(205, 205, 205); height: 16.7969px;">Bank&uuml;berweisung</td>
+<td class="pr" style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: right; background-color: rgb(205, 205, 205); height: 16.7969px;">154.7 &euro;</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: right; background-color: rgb(205, 205, 205); height: 16.7969px;">0 &euro;</td>
+<td class="pr" style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: right; background-color: rgb(205, 205, 205); height: 16.7969px;">0 &euro;</td>
+</tr>
+<tr style="height: 16.7969px;">
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: center; background-color: rgb(205, 205, 205); height: 16.7969px;">2015-0118</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: center; background-color: rgb(205, 205, 205); height: 16.7969px;">26.01.2015</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: center; background-color: rgb(205, 205, 205); height: 16.7969px;">Credit</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: right; background-color: rgb(205, 205, 205); height: 16.7969px;">0 &euro;</td>
+<td class="pr" style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: right; background-color: rgb(205, 205, 205); height: 16.7969px;">89.25 &euro;</td>
+<td class="pr" style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: right; background-color: rgb(205, 205, 205); height: 16.7969px;">89.25 &euro;</td>
+</tr>
+<tr style="height: 16.7969px;">
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: center; background-color: rgb(205, 205, 205); height: 16.7969px;">2015-0118</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: center; background-color: rgb(205, 205, 205); height: 16.7969px;">19.02.2015</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: center; background-color: rgb(205, 205, 205); height: 16.7969px;">Bank&uuml;berweisung</td>
+<td class="pr" style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: right; background-color: rgb(205, 205, 205); height: 16.7969px;">89.25 &euro;</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: right; background-color: rgb(205, 205, 205); height: 16.7969px;">0 &euro;</td>
+<td class="pr" style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: right; background-color: rgb(205, 205, 205); height: 16.7969px;">0 &euro;</td>
+</tr>
+<tr style="height: 16.7969px;">
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: center; background-color: rgb(205, 205, 205); height: 16.7969px;">2015-0117</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: center; background-color: rgb(205, 205, 205); height: 16.7969px;">25.01.2015</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: center; background-color: rgb(205, 205, 205); height: 16.7969px;">Credit</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: right; background-color: rgb(205, 205, 205); height: 16.7969px;">0 &euro;</td>
+<td class="pr" style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: right; background-color: rgb(205, 205, 205); height: 16.7969px;">499.8 &euro;</td>
+<td class="pr" style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: right; background-color: rgb(205, 205, 205); height: 16.7969px;">499.8 &euro;</td>
+</tr>
+<tr style="height: 16.7969px;">
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: center; background-color: rgb(205, 205, 205); height: 16.7969px;">2015-0111</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: center; background-color: rgb(205, 205, 205); height: 16.7969px;">25.01.2015</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: center; background-color: rgb(205, 205, 205); height: 16.7969px;">Credit</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: right; background-color: rgb(205, 205, 205); height: 16.7969px;">0 &euro;</td>
+<td class="pr" style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: right; background-color: rgb(205, 205, 205); height: 16.7969px;">238 &euro;</td>
+<td class="pr" style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: right; background-color: rgb(205, 205, 205); height: 16.7969px;">737.8 &euro;</td>
+</tr>
+<tr style="height: 16.7969px;">
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: center; background-color: rgb(205, 205, 205); height: 16.7969px;">2015-0111</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: center; background-color: rgb(205, 205, 205); height: 16.7969px;">09.02.2015</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: center; background-color: rgb(205, 205, 205); height: 16.7969px;">Bank&uuml;berweisung</td>
+<td class="pr" style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: right; background-color: rgb(205, 205, 205); height: 16.7969px;">499.8 &euro;</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: right; background-color: rgb(205, 205, 205); height: 16.7969px;">0 &euro;</td>
+<td class="pr" style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: right; background-color: rgb(205, 205, 205); height: 16.7969px;">238 &euro;</td>
+</tr>
+<tr style="height: 16.7969px;">
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: center; background-color: rgb(205, 205, 205); height: 16.7969px;">2015-0111</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: center; background-color: rgb(205, 205, 205); height: 16.7969px;">09.02.2015</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: center; background-color: rgb(205, 205, 205); height: 16.7969px;">Bank&uuml;berweisung</td>
+<td class="pr" style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: right; background-color: rgb(205, 205, 205); height: 16.7969px;">238 &euro;</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: right; background-color: rgb(205, 205, 205); height: 16.7969px;">0 &euro;</td>
+<td class="pr" style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: right; background-color: rgb(205, 205, 205); height: 16.7969px;">0 &euro;</td>
+</tr>
+<tr style="height: 16.7969px;">
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: center; background-color: rgb(205, 205, 205); height: 16.7969px;">2015-0402</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: center; background-color: rgb(205, 205, 205); height: 16.7969px;">03.04.2015</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: center; background-color: rgb(205, 205, 205); height: 16.7969px;">Credit</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: right; background-color: rgb(205, 205, 205); height: 16.7969px;">0 &euro;</td>
+<td class="pr" style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: right; background-color: rgb(205, 205, 205); height: 16.7969px;">154.7 &euro;</td>
+<td class="pr" style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: right; background-color: rgb(205, 205, 205); height: 16.7969px;">154.7 &euro;</td>
+</tr>
+<tr style="height: 16.7969px;">
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: center; background-color: rgb(205, 205, 205); height: 16.7969px;">2015-0402</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: center; background-color: rgb(205, 205, 205); height: 16.7969px;">14.04.2015</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: center; background-color: rgb(205, 205, 205); height: 16.7969px;">Bank&uuml;berweisung</td>
+<td class="pr" style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: right; background-color: rgb(205, 205, 205); height: 16.7969px;">154.7 &euro;</td>
+<td style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: right; background-color: rgb(205, 205, 205); height: 16.7969px;">0 &euro;</td>
+<td class="pr" style="border-top: 1px solid rgb(0, 0, 0); padding: 3px 8px; text-align: right; background-color: rgb(205, 205, 205); height: 16.7969px;">0 &euro;</td>
+</tr>
+</tbody>
+</table>
+<div>
+<p>Bitte helfen Sie uns, den letzten Schritt &ndash; ein Inkassoverfahren gegen Sie einzuleiten &ndash; zu vermeiden, und &uuml;berweisen Sie den f&auml;lligen Betrag innerhalb der n&auml;chsten 5 Tage.<br><br>Beachten Sie, dass bei weiterem Verzug zus&auml;tzliche Mahngeb&uuml;hren und Verzugszinsen f&auml;llig werden.</p>
+<p><br>Bei nicht fristgerechter Zahlung werden die gesamte Forderung und alle weiteren Rechnungen sofort f&auml;llig. Mit diesem Schreiben stellen wir bis zum Kontoausgleich alle weiteren Lieferungen und Leistungen ein.<br><br>Bei eventuellen R&uuml;ckfragen erreichen Sie uns unter 069-95649624 <em>oder</em> <strong>info@khana.de</strong><br><br>Sofern sich Ihre Zahlung mit diesem Schreiben &uuml;berschnitten hat, betrachten Sie diese Email bitte als gegenstandslos.</p>
+<p style="margin-bottom: 0;">Mit freundlichen Gr&uuml;&szlig;en</p>
+<p style="margin: 0;"><strong>i. A. Gurpreet Mielke</strong></p>
+<p>Finanz Buchhaltung</p>
+</div>
+</div>

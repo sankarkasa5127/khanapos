@@ -1,0 +1,8 @@
+{
+    "require": {
+        "cboden/ratchet": "^0.4.4",
+        "pusher/pusher-php-server": "^7.2",
+        "stripe/stripe-php": "^16.6",
+        "plesk/ratchetphp": " ^1.0"
+    }
+}

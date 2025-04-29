@@ -1,0 +1,14 @@
+
+<?php
+require_once("db.php");
+mysqli_set_charset($conn,'utf8');
+ $id=$_POST['rowId'];
+$vendersql = "select * from _itemType WHERE id=".$id;
+$venderrecord = mysqli_query($conn, $vendersql);
+$data = array();
+$row = mysqli_fetch_assoc($venderrecord);
+$data['itemType']=$row;
+
+
+echo  json_encode($data);exit;
+?>
