@@ -1,0 +1,186 @@
+OLD TSE : daf1f92d-cb42-49ba-ba98-936aa6cfc92f
+OLD TSE CLIENT ID:2a691775-1548-437a-8f5f-b084332b00fa 
+OLD ADMIN PUK: 6771505486
+OLD ADMIN PIN: JAN291993
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3NDM0ODI3MDcsImlhdCI6MTc0MzM5NjMwNywianRpIjoiN2QwMWQwMGYtMTVmMC00OGQ2LWJlZWQtMzMyMDlmYzE5MDdlIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiJlNTg1OTcxYy1lMDE2LTQ2MjMtYjgxZC05ZjZjOTZkMDgyMGUiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiMTVlY2E4NmUtYWM5MC00MzM4LWI4ODAtNDllYTllYmNlZDNjIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIxNWVjYTg2ZS1hYzkwLTQzMzgtYjg4MC00OWVhOWViY2VkM2MiLCJvcmdhbml6YXRpb24iOiI5NWZkZTU1ZC1lNjkwLTQ3MjktYTM5NC1jOGY3NGIwYmVmYzIiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.c7K0Xi0tuP5-ktfwOOCxWQ_juJj5TW_G47nVp3e169U_bMqhVdivizkIscawykX8EPpLcygVjs73GxC3bTW-muvB1oujieQcDyWckI7m3tzz20jI7MrOCBReKH95A8AOrBcQUR-ZZauoeBdWPFXhatTugGi6KyIfjRdbRMQahwokFe6NMRSqVPYUjoTRnNcWIH9S6-7aD1qQ82hfTTMRfMRCu9MoBf6Dunw0qbewiZ8nP9iP7em2odk0jZWK4VBf1CXPqMp9OqFZMAu2Gs4XSlWyB5alffpbjrdIWxeHjTe62PnYfNw7SuN2r_K7PwawTZA1GvjlElubvsZmdnMM1g",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "95fde55d-e690-4729-a394-c8f74b0befc2"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1743482707,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3NDM1NjkxMDcsImlhdCI6MTc0MzM5NjMwNywianRpIjoiMWMzZDAzM2QtMGNhYi00MTIwLTgwZTAtZGE3NzJmOGZiZDNlIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6ImU1ODU5NzFjLWUwMTYtNDYyMy1iODFkLTlmNmM5NmQwODIwZSIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiMTVlY2E4NmUtYWM5MC00MzM4LWI4ODAtNDllYTllYmNlZDNjIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIxNWVjYTg2ZS1hYzkwLTQzMzgtYjg4MC00OWVhOWViY2VkM2MifQ.GGOu_ZRpmmQog-ckIkzEi7H7v8JnUusRxvN0a77tlSU",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1743569107
+}
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "The Room",
+        "address": "Rheinstrasse 42",
+        "address2": "Langen",
+        "address3": "",
+        "phone": "",
+        "phone2": "",
+        "description":"TSE_The Room_63225"
+		}
+		}
+response:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQErZebC1oeUajOM67K3INqzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwOTA3MDUzN1oXDTMzMDEwOTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfQTRBNURDM0MxRkY2NENCMUIzOUI2QzQxRkE1RUUyNTgxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BkOTA2YTAzOTI0NGY3MWZmMzRlN2U0ODA4Zjk1Zjc4ODIwOTJhNDkzYmZmYzBkMDljN2FiYTNjY2VkZjExZGIxMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABO49ylftspfme866b5syIF2JRskahJumWJqvCRrZ7MpT9n/Rg94T4wGr1CDsBRwYCA7apRecOfD3iIrs1waGGy2jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMFWaNToNIdKWMwEq50KfSjbqoO0AZvAncHCpxnMr3WoSGswuOs3vkeLfHft1knweFwIwF3sL6lTK7Gve96dhXqAy3vU021VcMAvDzt7vpcKqarvGEBc7gm7ZCATxVqWdpWh0",
+    "serial_number": "d906a039244f71ff34e7e4808f95f7882092a493bffc0d09c7aba3ccedf11db1",
+    "public_key": "BO49ylftspfme866b5syIF2JRskahJumWJqvCRrZ7MpT9n/Rg94T4wGr1CDsBRwYCA7apRecOfD3iIrs1waGGy0=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "a9d65547-8817-44a8-8b4b-d8738b90aa7e",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.29",
+    "time_creation": 1743396494,
+    "admin_puk": "1213922593",
+    "state": "CREATED",
+    "metadata": {
+        "name": "The Room",
+        "phone": "",
+        "phone2": "",
+        "address": "Rheinstrasse 42",
+        "address2": "Langen",
+        "address3": "",
+        "description": "TSE_The Room_63225"
+    }
+}		
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "a9d65547-8817-44a8-8b4b-d8738b90aa7e",
+    "state": "UNINITIALIZED",
+    "time_creation": 1743396494,
+    "time_uninit": 1743396604,
+    "certificate": "MIIEczCCA/qgAwIBAgIQErZebC1oeUajOM67K3INqzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwOTA3MDUzN1oXDTMzMDEwOTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfQTRBNURDM0MxRkY2NENCMUIzOUI2QzQxRkE1RUUyNTgxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BkOTA2YTAzOTI0NGY3MWZmMzRlN2U0ODA4Zjk1Zjc4ODIwOTJhNDkzYmZmYzBkMDljN2FiYTNjY2VkZjExZGIxMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABO49ylftspfme866b5syIF2JRskahJumWJqvCRrZ7MpT9n/Rg94T4wGr1CDsBRwYCA7apRecOfD3iIrs1waGGy2jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMFWaNToNIdKWMwEq50KfSjbqoO0AZvAncHCpxnMr3WoSGswuOs3vkeLfHft1knweFwIwF3sL6lTK7Gve96dhXqAy3vU021VcMAvDzt7vpcKqarvGEBc7gm7ZCATxVqWdpWh0",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "d906a039244f71ff34e7e4808f95f7882092a493bffc0d09c7aba3ccedf11db1",
+    "public_key": "BO49ylftspfme866b5syIF2JRskahJumWJqvCRrZ7MpT9n/Rg94T4wGr1CDsBRwYCA7apRecOfD3iIrs1waGGy0=",
+    "signature_counter": "86",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Rheinstrasse 42",
+        "address2": "Langen",
+        "description": "TSE_The Room_63225",
+        "name": "The Room"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.29"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "558903"
+}
+RESPONSE:
+{}
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "558903"
+}
+RESPONSE:
+{}
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "a9d65547-8817-44a8-8b4b-d8738b90aa7e",
+    "description": "fiskaly sign cloud-TSE (a9d65547-8817-44a8-8b4b-d8738b90aa7e)",
+    "state": "INITIALIZED",
+    "time_creation": 1743396494,
+    "time_uninit": 1743396604,
+    "time_init": 1743396706,
+    "certificate": "MIIEczCCA/qgAwIBAgIQErZebC1oeUajOM67K3INqzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwOTA3MDUzN1oXDTMzMDEwOTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfQTRBNURDM0MxRkY2NENCMUIzOUI2QzQxRkE1RUUyNTgxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BkOTA2YTAzOTI0NGY3MWZmMzRlN2U0ODA4Zjk1Zjc4ODIwOTJhNDkzYmZmYzBkMDljN2FiYTNjY2VkZjExZGIxMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABO49ylftspfme866b5syIF2JRskahJumWJqvCRrZ7MpT9n/Rg94T4wGr1CDsBRwYCA7apRecOfD3iIrs1waGGy2jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMFWaNToNIdKWMwEq50KfSjbqoO0AZvAncHCpxnMr3WoSGswuOs3vkeLfHft1knweFwIwF3sL6lTK7Gve96dhXqAy3vU021VcMAvDzt7vpcKqarvGEBc7gm7ZCATxVqWdpWh0",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "d906a039244f71ff34e7e4808f95f7882092a493bffc0d09c7aba3ccedf11db1",
+    "public_key": "BO49ylftspfme866b5syIF2JRskahJumWJqvCRrZ7MpT9n/Rg94T4wGr1CDsBRwYCA7apRecOfD3iIrs1waGGy0=",
+    "signature_counter": "92",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Rheinstrasse 42",
+        "address2": "Langen",
+        "description": "TSE_The Room_63225",
+        "name": "The Room"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.29"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": ""
+}
+RESPONSE:
+{
+    "_id": "18477a02-b5cb-4534-87f7-f9885fa1107b",
+    "state": "REGISTERED",
+    "serial_number": "18477a02-b5cb-4534-87f7-f9885fa1107b",
+    "time_creation": 1743396774,
+    "tss_id": "a9d65547-8817-44a8-8b4b-d8738b90aa7e",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.29"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_8vobikm7mxh5uj8tphxt4n7wi_theroom
+FISKALY API SECRET: rVhhvc1ye2KdAoktZoHtd3q88yo5gmbESxlgmZxyNrS
+TSE ID:a9d65547-8817-44a8-8b4b-d8738b90aa7e
+TSE CLIENT ID:18477a02-b5cb-4534-87f7-f9885fa1107b
+ADMIN PUK:1213922593
+ADMIN PIN:558903 

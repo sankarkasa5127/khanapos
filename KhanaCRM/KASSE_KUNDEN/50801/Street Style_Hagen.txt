@@ -1,0 +1,200 @@
+OLD TSE : 
+OLD TSE CLIENT ID: 
+OLD ADMIN PUK: 
+OLD ADMIN PIN: 
+
+-------------------------------------------------------------------------
+
+=============NEW================
+ 
+Restaurant Name: Street Style
+API Key: live_emt63pkemnsqkp76vnj8u6xle_streetstyle-32150094009
+API Secret Key: YEXjkBtPLmQiuYLIQIWndWCHE0KqiJ715WwWFenAnnJ
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3NDE4NzA2MDksImlhdCI6MTc0MTc4NDIwOSwianRpIjoiYjUyMjNkOGEtNzVmZi00OTFlLWFmOGItMDdiY2Y0MDQ0MjQwIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiIzZWNlZmVjYS04OWU2LTRkZjQtYmYyMS0zZWM2NTlhMjI4MGQiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiMzhlZWMxOTMtMWZhOC00ZmI1LWE2NWUtZWZiY2U3OWE3MTIyIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIzOGVlYzE5My0xZmE4LTRmYjUtYTY1ZS1lZmJjZTc5YTcxMjIiLCJvcmdhbml6YXRpb24iOiJmNzJkZWNlMi1mMzE3LTRhZTQtYTRkMy04M2ZiN2U2N2RkOTIiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.bxykV8D2Jp4Rvr9zXZJ7T8ZCbd8gZRKVHwqsjx5XXu7GKb4dgbyWsz2kA7gXhru7JuuBuiXYoytU6hmLSNoNor0EgVK893Fti7viuP9dJK_x2yjnZFnoMY9Ce7Mc2xzT1SuegHfobgo9WGqexRADXqkRir58ZiHC2QFtMmhP5MoCM64NOPV-awt6mQ8l31r65z87x3Nxro_tYZaZ5IJSz24XfU7g4vzxLqma2V0XybhAcjyTdPGdxncvahjgmaZ7S5nVE-Ut6l-ffB3RVEIOKv5t99jKfhtf9dFH8eRDgea0emio7f4DKeBDiqzP9A5AJ2sC4JeDI05mIEZfrCEcPA",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "f72dece2-f317-4ae4-a4d3-83fb7e67dd92"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1741870609,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3NDE5NTcwMDksImlhdCI6MTc0MTc4NDIwOSwianRpIjoiM2QxODQ0NjgtY2ExYi00ZDYwLTliNDItYzQxYjUyZjVkNjQ5IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjNlY2VmZWNhLTg5ZTYtNGRmNC1iZjIxLTNlYzY1OWEyMjgwZCIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiMzhlZWMxOTMtMWZhOC00ZmI1LWE2NWUtZWZiY2U3OWE3MTIyIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIzOGVlYzE5My0xZmE4LTRmYjUtYTY1ZS1lZmJjZTc5YTcxMjIifQ.jTIBbr13Q1M4GsebzavEM61GmVziKDBsCha94r6opLA",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1741957009
+}
+
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Street Style",
+        "address": "Elberfelder Str. 37a",
+        "address2": "Hagen",
+        "address3": "",
+        "phone": "",
+        "phone2": "",
+        "description":"TSE_Street Style_58095"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQKIEWXaXKMKIIeOo0BwqFHTAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODEyNDQ0OVoXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfQjhDRkU1QjBDRkQ1NEZFMUI0NjRBNDlGQjMxRDlCOUMxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BmNDRmOTgyOGRhNjJhOTE2MzBiODcxYjI5NDI3MGQ0NWM4MjQ0ZjI5ZWJhZDA1ODU3M2Q1ZWEwN2FhMGM4OGFhMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABNtwSL0KnXcJmD5kbesdJX/akqGgW/+rZE9XDHp/x3vNU5Aw84f3KlXMWX3BkSfOj8AUEvIUet4p4lM+pCYJEqKjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMHhL9XtX1VZ3+AFpFu32w5//0vbQ+ML6sUIHxMHsAObVipCtIIfKiqM+AK99kKenNAIwai89swMW8OMGq1I6ueYi33NqQfQJ+NK4/uFA3Ay85jAPQrtT4RasY4Hchsumj+GC",
+    "serial_number": "f44f9828da62a91630b871b294270d45c8244f29ebad058573d5ea07aa0c88aa",
+    "public_key": "BNtwSL0KnXcJmD5kbesdJX/akqGgW/+rZE9XDHp/x3vNU5Aw84f3KlXMWX3BkSfOj8AUEvIUet4p4lM+pCYJEqI=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "00e4e35e-aa04-4c5e-a287-2853970e7f5c",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.26",
+    "time_creation": 1741784342,
+    "admin_puk": "8682581081",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Street Style",
+        "phone": "",
+        "phone2": "",
+        "address": "Elberfelder Str. 37a",
+        "address2": "Hagen",
+        "address3": "",
+        "description": "TSE_Street Style_58095"
+    }
+}
+
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "00e4e35e-aa04-4c5e-a287-2853970e7f5c",
+    "state": "UNINITIALIZED",
+    "time_creation": 1741784342,
+    "time_uninit": 1741784390,
+    "certificate": "MIIEczCCA/qgAwIBAgIQKIEWXaXKMKIIeOo0BwqFHTAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODEyNDQ0OVoXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfQjhDRkU1QjBDRkQ1NEZFMUI0NjRBNDlGQjMxRDlCOUMxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BmNDRmOTgyOGRhNjJhOTE2MzBiODcxYjI5NDI3MGQ0NWM4MjQ0ZjI5ZWJhZDA1ODU3M2Q1ZWEwN2FhMGM4OGFhMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABNtwSL0KnXcJmD5kbesdJX/akqGgW/+rZE9XDHp/x3vNU5Aw84f3KlXMWX3BkSfOj8AUEvIUet4p4lM+pCYJEqKjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMHhL9XtX1VZ3+AFpFu32w5//0vbQ+ML6sUIHxMHsAObVipCtIIfKiqM+AK99kKenNAIwai89swMW8OMGq1I6ueYi33NqQfQJ+NK4/uFA3Ay85jAPQrtT4RasY4Hchsumj+GC",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "f44f9828da62a91630b871b294270d45c8244f29ebad058573d5ea07aa0c88aa",
+    "public_key": "BNtwSL0KnXcJmD5kbesdJX/akqGgW/+rZE9XDHp/x3vNU5Aw84f3KlXMWX3BkSfOj8AUEvIUet4p4lM+pCYJEqI=",
+    "signature_counter": "69",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Elberfelder Str. 37a",
+        "address2": "Hagen",
+        "description": "TSE_Street Style_58095",
+        "name": "Street Style"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.26"
+}
+
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "648454"
+}
+RESPONSE:
+{}
+
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "648454"
+}
+RESPONSE:
+{}
+
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "00e4e35e-aa04-4c5e-a287-2853970e7f5c",
+    "description": "fiskaly sign cloud-TSE (00e4e35e-aa04-4c5e-a287-2853970e7f5c)",
+    "state": "INITIALIZED",
+    "time_creation": 1741784342,
+    "time_uninit": 1741784390,
+    "time_init": 1741784516,
+    "certificate": "MIIEczCCA/qgAwIBAgIQKIEWXaXKMKIIeOo0BwqFHTAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODEyNDQ0OVoXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfQjhDRkU1QjBDRkQ1NEZFMUI0NjRBNDlGQjMxRDlCOUMxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BmNDRmOTgyOGRhNjJhOTE2MzBiODcxYjI5NDI3MGQ0NWM4MjQ0ZjI5ZWJhZDA1ODU3M2Q1ZWEwN2FhMGM4OGFhMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABNtwSL0KnXcJmD5kbesdJX/akqGgW/+rZE9XDHp/x3vNU5Aw84f3KlXMWX3BkSfOj8AUEvIUet4p4lM+pCYJEqKjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMHhL9XtX1VZ3+AFpFu32w5//0vbQ+ML6sUIHxMHsAObVipCtIIfKiqM+AK99kKenNAIwai89swMW8OMGq1I6ueYi33NqQfQJ+NK4/uFA3Ay85jAPQrtT4RasY4Hchsumj+GC",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "f44f9828da62a91630b871b294270d45c8244f29ebad058573d5ea07aa0c88aa",
+    "public_key": "BNtwSL0KnXcJmD5kbesdJX/akqGgW/+rZE9XDHp/x3vNU5Aw84f3KlXMWX3BkSfOj8AUEvIUet4p4lM+pCYJEqI=",
+    "signature_counter": "75",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Elberfelder Str. 37a",
+        "address2": "Hagen",
+        "description": "TSE_Street Style_58095",
+        "name": "Street Style"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.26"
+}
+
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "394eb4a5-520e-4a81-973b-1bdf3623dd72"
+}
+RESPONSE:
+{
+    "_id": "394eb4a5-520e-4a81-973b-1bdf3623dd72",
+    "state": "REGISTERED",
+    "serial_number": "394eb4a5-520e-4a81-973b-1bdf3623dd72",
+    "time_creation": 1741784574,
+    "tss_id": "00e4e35e-aa04-4c5e-a287-2853970e7f5c",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.26"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_emt63pkemnsqkp76vnj8u6xle_streetstyle-32150094009
+FISKALY API SECRET: YEXjkBtPLmQiuYLIQIWndWCHE0KqiJ715WwWFenAnnJ
+TSE ID: 00e4e35e-aa04-4c5e-a287-2853970e7f5c
+TSE CLIENT ID: 394eb4a5-520e-4a81-973b-1bdf3623dd72
+ADMIN PUK: 8682581081
+ADMIN PIN: 648454

@@ -1,0 +1,187 @@
+OLD TSE : 
+OLD TSE CLIENT ID: 
+OLD ADMIN PUK: 
+OLD ADMIN PIN: 
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3NDA1ODAzNDQsImlhdCI6MTc0MDQ5Mzk0NCwianRpIjoiYjdkYTExZTctYjVlNy00YzIzLWE3ZjctYmE3MTYzNTI5OTc0IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiJhNzBiZjUwNy1iZDZhLTQwNGMtYTUzNi03OTU0MjE3ZTc4YjQiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiMDRkNmMxNGItMzNiZS00ZGVkLThiYjgtYmM4YzFhMzRmZWM2Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIwNGQ2YzE0Yi0zM2JlLTRkZWQtOGJiOC1iYzhjMWEzNGZlYzYiLCJvcmdhbml6YXRpb24iOiJmZWViOWMzZS0wZTkzLTQ5M2MtYTM2YS00ZjVjNWE0NDViNjMiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.JPurBA3wwIr2xDZK9sCtT3fbcca_z0PF3GKDMiDNgdKtM7Bfi2n2ZnqBM9iAMEWuwXlyuZwd3Ryl1wxLmwgnZPGGTkrynSwuhDBLv7M1XZYgSlPAeFnymD7XeQtvsphC3zgAFEguut-JUMO9iswt0bXaJghsLUxojkGLLVKDH3N8do9vyMh6x2APx34ELZ8p51KwMk1aP5K6bFU-VJreS51DypD1hqgkDbdGxBEpO3Y3WCMEfNyHkWF9cfx0dfGVu0QxluxT5DakJNwC1xiwKxn7SWDOT-3W5SuNhnxX9N0G24WojBrQ7LAkD6sFnFn-BpZ5inCffCuJ3ccEwej--Q",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "feeb9c3e-0e93-493c-a36a-4f5c5a445b63"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1740580344,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3NDA2NjY3NDQsImlhdCI6MTc0MDQ5Mzk0NCwianRpIjoiMTI1MDJhOTQtZjUwYy00ZmE2LWIxYTgtOGVlYWMwNTI4NGYyIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6ImE3MGJmNTA3LWJkNmEtNDA0Yy1hNTM2LTc5NTQyMTdlNzhiNCIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiMDRkNmMxNGItMzNiZS00ZGVkLThiYjgtYmM4YzFhMzRmZWM2Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIwNGQ2YzE0Yi0zM2JlLTRkZWQtOGJiOC1iYzhjMWEzNGZlYzYifQ.m17z8E1D6aUcsv4MocbP-1xBa6qDIzHAWH9hzC_vp5A",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1740666744
+}
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Royal cafe",
+        "address": "",
+        "address2": "Eckenheimer Landstrasse 103",
+        "address3": "Frankfurt am Main",
+        "phone": "",
+        "phone2": "",
+        "description":"TSE_Royal cafe_60318"
+		}
+		}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQNDO3O9pPXxBEbI4p5wJMxDAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA5MzYyNVoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMUZGMkY3MUFFOTY1NEU5N0FDN0RBQUFFMTY5RUI3MEIxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A3ZDM4Yjg0OTlmZTk1OTFmNmQ5OTMwNzA3ZDE3M2VhMjU1YTI3MTI3OTNjNDQ0MmVhZDU0ZTNlN2VkZWJhNGViMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABKwxNXcMG4BMX0k6I2D3PUk417ppcBTL24Q0drZHNCRvMaMNdIrgOo8/Jnn3zOvIjAI1HHd9oN6I7ea9cdHzIyKjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMFJW4LApnC7gLErcZuOxNILf887/b70ef8dg2CXfVEKwD/3kaUGOpFvDA7kACZgfPwIwCs81rPm/KHt9fy/VIrOQGdsxbF2g7sJ6l54443PTtu9ZbJlUKR2uMZn9+SHsxnWT",
+    "serial_number": "7d38b8499fe9591f6d9930707d173ea255a2712793c4442ead54e3e7edeba4eb",
+    "public_key": "BKwxNXcMG4BMX0k6I2D3PUk417ppcBTL24Q0drZHNCRvMaMNdIrgOo8/Jnn3zOvIjAI1HHd9oN6I7ea9cdHzIyI=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "70cf1a00-342a-4a9b-9229-01f62cc6d119",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.24",
+    "time_creation": 1740494233,
+    "admin_puk": "3688204096",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Royal cafe",
+        "phone": "",
+        "phone2": "",
+        "address": "",
+        "address2": "Eckenheimer Landstrasse 103",
+        "address3": "Frankfurt am Main",
+        "description": "TSE_Royal cafe_60318"
+    }
+}
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "70cf1a00-342a-4a9b-9229-01f62cc6d119",
+    "state": "UNINITIALIZED",
+    "time_creation": 1740494233,
+    "time_uninit": 1740494275,
+    "certificate": "MIIEczCCA/qgAwIBAgIQNDO3O9pPXxBEbI4p5wJMxDAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA5MzYyNVoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMUZGMkY3MUFFOTY1NEU5N0FDN0RBQUFFMTY5RUI3MEIxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A3ZDM4Yjg0OTlmZTk1OTFmNmQ5OTMwNzA3ZDE3M2VhMjU1YTI3MTI3OTNjNDQ0MmVhZDU0ZTNlN2VkZWJhNGViMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABKwxNXcMG4BMX0k6I2D3PUk417ppcBTL24Q0drZHNCRvMaMNdIrgOo8/Jnn3zOvIjAI1HHd9oN6I7ea9cdHzIyKjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMFJW4LApnC7gLErcZuOxNILf887/b70ef8dg2CXfVEKwD/3kaUGOpFvDA7kACZgfPwIwCs81rPm/KHt9fy/VIrOQGdsxbF2g7sJ6l54443PTtu9ZbJlUKR2uMZn9+SHsxnWT",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "7d38b8499fe9591f6d9930707d173ea255a2712793c4442ead54e3e7edeba4eb",
+    "public_key": "BKwxNXcMG4BMX0k6I2D3PUk417ppcBTL24Q0drZHNCRvMaMNdIrgOo8/Jnn3zOvIjAI1HHd9oN6I7ea9cdHzIyI=",
+    "signature_counter": "126",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address2": "Eckenheimer Landstrasse 103",
+        "address3": "Frankfurt am Main",
+        "description": "TSE_Royal cafe_60318",
+        "name": "Royal cafe"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.24"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "883209"
+}
+RESPONSE:
+{}
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "883209"
+}
+RESPONSE:
+{}
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "70cf1a00-342a-4a9b-9229-01f62cc6d119",
+    "description": "fiskaly sign cloud-TSE (70cf1a00-342a-4a9b-9229-01f62cc6d119)",
+    "state": "INITIALIZED",
+    "time_creation": 1740494233,
+    "time_uninit": 1740494275,
+    "time_init": 1740494426,
+    "certificate": "MIIEczCCA/qgAwIBAgIQNDO3O9pPXxBEbI4p5wJMxDAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA5MzYyNVoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMUZGMkY3MUFFOTY1NEU5N0FDN0RBQUFFMTY5RUI3MEIxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A3ZDM4Yjg0OTlmZTk1OTFmNmQ5OTMwNzA3ZDE3M2VhMjU1YTI3MTI3OTNjNDQ0MmVhZDU0ZTNlN2VkZWJhNGViMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABKwxNXcMG4BMX0k6I2D3PUk417ppcBTL24Q0drZHNCRvMaMNdIrgOo8/Jnn3zOvIjAI1HHd9oN6I7ea9cdHzIyKjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMFJW4LApnC7gLErcZuOxNILf887/b70ef8dg2CXfVEKwD/3kaUGOpFvDA7kACZgfPwIwCs81rPm/KHt9fy/VIrOQGdsxbF2g7sJ6l54443PTtu9ZbJlUKR2uMZn9+SHsxnWT",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "7d38b8499fe9591f6d9930707d173ea255a2712793c4442ead54e3e7edeba4eb",
+    "public_key": "BKwxNXcMG4BMX0k6I2D3PUk417ppcBTL24Q0drZHNCRvMaMNdIrgOo8/Jnn3zOvIjAI1HHd9oN6I7ea9cdHzIyI=",
+    "signature_counter": "132",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address2": "Eckenheimer Landstrasse 103",
+        "address3": "Frankfurt am Main",
+        "description": "TSE_Royal cafe_60318",
+        "name": "Royal cafe"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.24"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": ""
+}
+RESPONSE:
+{
+    "_id": "cf5a14ce-91a5-440f-aae9-62e9902bad3f",
+    "state": "REGISTERED",
+    "serial_number": "cf5a14ce-91a5-440f-aae9-62e9902bad3f",
+    "time_creation": 1740494507,
+    "tss_id": "70cf1a00-342a-4a9b-9229-01f62cc6d119",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.24"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_f3b3rtiymiaghbdhymp8aw50j_royalcafe-de450329301
+FISKALY API SECRET: 7PgryHeK41BKEnxFMHyW0mrebEVtA70SKgyM5zHq85Q
+TSE ID: 70cf1a00-342a-4a9b-9229-01f62cc6d119
+TSE CLIENT ID: cf5a14ce-91a5-440f-aae9-62e9902bad3f
+ADMIN PUK: 3688204096
+ADMIN PIN: 883209

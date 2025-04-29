@@ -1,0 +1,200 @@
+OLD TSE : 
+OLD TSE CLIENT ID: 
+OLD ADMIN PUK: 
+OLD ADMIN PIN: 
+
+-------------------------------------------------------------------------
+
+=============NEW================
+ 
+Restaurant Name: Taj Mahal
+Address: Obergasse 10, Birkenau
+API Key: live_9jfa4grc4j4iqf9j292h3eusu_tajamahal-580305787
+API Secret Key: tyieTqG4fBa7Lw0dhFJLDbQSOawnRUIm2m0niblHPrT
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3MzkyNzc0NzksImlhdCI6MTczOTE5MTA3OSwianRpIjoiNDRkZDlmMmMtZjkyNy00MWZjLWI2M2MtMGNjNjJhYWU5NzVmIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiJiZTEyNDM3ZC02MGE0LTQ0MmMtYjA3YS0xYTczZWUwNWRmZjIiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiMTEzNzFjYzctYmFkZi00NGZkLTlmNzUtMjIxZjE1ZTI4NzY1Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIxMTM3MWNjNy1iYWRmLTQ0ZmQtOWY3NS0yMjFmMTVlMjg3NjUiLCJvcmdhbml6YXRpb24iOiJhMTIyODBkMS0xYWRlLTQ4NjUtYTRiMC1lZjE3ODg2OGJhNmUiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.CN7zd6TaVheNlNeqkkjLLN6xpJets6HyTUm_fMBUcB3y5rANA6p_jTlh3X9R1oT6RWNY-sfX8CS74qyWC8pUyHrUKd-U6BlfWSOJrsVWt_nf6RmJTZzXhrV98PhMP4uw3Ni7KDfTi5phM4u0W976TWCrQEZXyjk5WsbJxCNIek2C81daUnIsOzGrOugLn8WrMpIBGlDsn6kTmujfVgPT4nR9HO1QrPbm-Eczh1w16vj1xpwRVo0lD2t4aVYYkxqV6HxmSeQ78tav7KloDNn30NlmmwXMYviZpp-V-cvF84N_W3WGZpp2h-wjQEeb-_ryUt4lJzMbaXqMyxRmvxtjDg",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "a12280d1-1ade-4865-a4b0-ef178868ba6e"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1739277479,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3MzkzNjM4NzksImlhdCI6MTczOTE5MTA3OSwianRpIjoiOTIxZTkzOWQtMzVkZC00M2Q5LWI4MzAtZTA2YWU4M2U5YTRmIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6ImJlMTI0MzdkLTYwYTQtNDQyYy1iMDdhLTFhNzNlZTA1ZGZmMiIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiMTEzNzFjYzctYmFkZi00NGZkLTlmNzUtMjIxZjE1ZTI4NzY1Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIxMTM3MWNjNy1iYWRmLTQ0ZmQtOWY3NS0yMjFmMTVlMjg3NjUifQ.747b-Dccw5TYv1d8jNsqINLl90G92yJLaMkkPgR9kVU",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1739363879
+}
+
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Taj Mahal",
+        "address": "Obergasse 10",
+        "address2": "Birkenau",
+        "address3": "",
+        "phone": "",
+        "phone2": "",
+        "description":"TSE_Taj Mahal_69488"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQMl0MyppxOQOByvT1XLdw2zAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3MzUyMloXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfRDNBNjI1QjM1RTg2NENFRUIyM0IzQzkxNTc4QkU3OUExFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AxOWExZjI2NTc0ZTI2ODhkMThiN2MxNjdjMWFiNzlhNDg5OGYxZTAwMDg0ODBhOGExMjkxMDE0MDU5MjM1ZTcyMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABO3tARzldCwAHzy2t3CwBlEJ4bbowoKyDlBjOxkCNcie5h7MgWpjqo66AqS9Ob9cQidtMo7ff8vAF6J0HnZ2O5KjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMHfCW9c8MTOiAir7mDXiKj/SYrbY6eVwk96Ohqg1axVVe8q0IIYwwsSFsh0QuD9ZPAIwTkRwwNE+NoQQahD5nwcS8/huJh9CoNkrSOke8IbsKZkl2gQ73jnEqyeWmK7Ym+33",
+    "serial_number": "19a1f26574e2688d18b7c167c1ab79a4898f1e0008480a8a1291014059235e72",
+    "public_key": "BO3tARzldCwAHzy2t3CwBlEJ4bbowoKyDlBjOxkCNcie5h7MgWpjqo66AqS9Ob9cQidtMo7ff8vAF6J0HnZ2O5I=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "c738f6d1-1354-4244-848a-b4af702c50b4",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23",
+    "time_creation": 1739191189,
+    "admin_puk": "7057510336",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Taj Mahal",
+        "phone": "",
+        "phone2": "",
+        "address": "Obergasse 10",
+        "address2": "Birkenau",
+        "address3": "",
+        "description": "TSE_Taj Mahal_69488"
+    }
+}
+
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "c738f6d1-1354-4244-848a-b4af702c50b4",
+    "state": "UNINITIALIZED",
+    "time_creation": 1739191189,
+    "time_uninit": 1739191260,
+    "certificate": "MIIEczCCA/qgAwIBAgIQMl0MyppxOQOByvT1XLdw2zAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3MzUyMloXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfRDNBNjI1QjM1RTg2NENFRUIyM0IzQzkxNTc4QkU3OUExFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AxOWExZjI2NTc0ZTI2ODhkMThiN2MxNjdjMWFiNzlhNDg5OGYxZTAwMDg0ODBhOGExMjkxMDE0MDU5MjM1ZTcyMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABO3tARzldCwAHzy2t3CwBlEJ4bbowoKyDlBjOxkCNcie5h7MgWpjqo66AqS9Ob9cQidtMo7ff8vAF6J0HnZ2O5KjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMHfCW9c8MTOiAir7mDXiKj/SYrbY6eVwk96Ohqg1axVVe8q0IIYwwsSFsh0QuD9ZPAIwTkRwwNE+NoQQahD5nwcS8/huJh9CoNkrSOke8IbsKZkl2gQ73jnEqyeWmK7Ym+33",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "19a1f26574e2688d18b7c167c1ab79a4898f1e0008480a8a1291014059235e72",
+    "public_key": "BO3tARzldCwAHzy2t3CwBlEJ4bbowoKyDlBjOxkCNcie5h7MgWpjqo66AqS9Ob9cQidtMo7ff8vAF6J0HnZ2O5I=",
+    "signature_counter": "111",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Obergasse 10",
+        "address2": "Birkenau",
+        "description": "TSE_Taj Mahal_69488",
+        "name": "Taj Mahal"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "863970"
+}
+RESPONSE:
+{}
+
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "863970"
+}
+RESPONSE:
+{}
+
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "c738f6d1-1354-4244-848a-b4af702c50b4",
+    "description": "fiskaly sign cloud-TSE (c738f6d1-1354-4244-848a-b4af702c50b4)",
+    "state": "INITIALIZED",
+    "time_creation": 1739191189,
+    "time_uninit": 1739191260,
+    "time_init": 1739191385,
+    "certificate": "MIIEczCCA/qgAwIBAgIQMl0MyppxOQOByvT1XLdw2zAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3MzUyMloXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfRDNBNjI1QjM1RTg2NENFRUIyM0IzQzkxNTc4QkU3OUExFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AxOWExZjI2NTc0ZTI2ODhkMThiN2MxNjdjMWFiNzlhNDg5OGYxZTAwMDg0ODBhOGExMjkxMDE0MDU5MjM1ZTcyMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABO3tARzldCwAHzy2t3CwBlEJ4bbowoKyDlBjOxkCNcie5h7MgWpjqo66AqS9Ob9cQidtMo7ff8vAF6J0HnZ2O5KjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMHfCW9c8MTOiAir7mDXiKj/SYrbY6eVwk96Ohqg1axVVe8q0IIYwwsSFsh0QuD9ZPAIwTkRwwNE+NoQQahD5nwcS8/huJh9CoNkrSOke8IbsKZkl2gQ73jnEqyeWmK7Ym+33",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "19a1f26574e2688d18b7c167c1ab79a4898f1e0008480a8a1291014059235e72",
+    "public_key": "BO3tARzldCwAHzy2t3CwBlEJ4bbowoKyDlBjOxkCNcie5h7MgWpjqo66AqS9Ob9cQidtMo7ff8vAF6J0HnZ2O5I=",
+    "signature_counter": "117",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Obergasse 10",
+        "address2": "Birkenau",
+        "description": "TSE_Taj Mahal_69488",
+        "name": "Taj Mahal"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "0a1a7b2b-9b86-4ac9-b270-82cb1f782006"
+}
+RESPONSE:
+{
+    "_id": "0a1a7b2b-9b86-4ac9-b270-82cb1f782006",
+    "state": "REGISTERED",
+    "serial_number": "0a1a7b2b-9b86-4ac9-b270-82cb1f782006",
+    "time_creation": 1739191456,
+    "tss_id": "c738f6d1-1354-4244-848a-b4af702c50b4",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_9jfa4grc4j4iqf9j292h3eusu_tajamahal-580305787
+FISKALY API SECRET: tyieTqG4fBa7Lw0dhFJLDbQSOawnRUIm2m0niblHPrT
+TSE ID: c738f6d1-1354-4244-848a-b4af702c50b4
+TSE CLIENT ID: 0a1a7b2b-9b86-4ac9-b270-82cb1f782006
+ADMIN PUK: 7057510336
+ADMIN PIN: 863970

@@ -1,0 +1,190 @@
+OLD TSE : 
+OLD TSE CLIENT ID: b1c20f9c-b59f-45e1-b5de-dcdada9936d8
+OLD ADMIN PUK: 
+OLD ADMIN PIN: 
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3NDI1NTY4MjYsImlhdCI6MTc0MjQ3MDQyNiwianRpIjoiOGViZjNkM2YtMGQwZC00YjdiLWE1MGUtMzk5ODNlNGIzZmJjIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiJlYjY4ZjM5OC0zZGE1LTQyM2YtOTNiZS1kZDJkMmZkOTZiYjQiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiOWM4ODEyYzEtOWYwNy00YWNhLWFjMDYtNjkzOGJiNjkwOGM1Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI5Yzg4MTJjMS05ZjA3LTRhY2EtYWMwNi02OTM4YmI2OTA4YzUiLCJvcmdhbml6YXRpb24iOiI2YjU2MjRkYS1iMDYzLTQ3MWYtYjRhMS04NDQ0ZGYzYTFjOGEiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.Bc7fjpu1H31jFq2jcskFod-hnCzgrHeSLZY1Bylt_aR5FMNBssD3gU4ZLmcS61x6zPvtwCGuOhmvNnqZufWddatBS05CoDj2qWOPilnOr7SQRNPkDU9j4EjqTA0wkz_AqfpNktSmV-XavBtYmqlrf7rC-ZGjXCyIhJnxTnP8Bcy8eBntJJg8qPvo9NYoDnhI8fL5OMVTq7wSsdl4NqlKYEWGDuUnDHOOYffqclOCK6Bxx4SlaQEpn4KccpTScUYDfEY9VqMrvmdehpn9OYIhSUhztPV2KiB0VXY2QpHKHWZT60Cy2ziqwBvi7WQ93UEBk8yVtnivFg2LUvD3JcNi9Q",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "6b5624da-b063-471f-b4a1-8444df3a1c8a"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1742556826,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3NDI2NDMyMjYsImlhdCI6MTc0MjQ3MDQyNiwianRpIjoiOWFmOWY3OWEtZjNjMi00MjdiLTgxNzYtY2M0MzVjMjZmYmUxIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6ImViNjhmMzk4LTNkYTUtNDIzZi05M2JlLWRkMmQyZmQ5NmJiNCIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiOWM4ODEyYzEtOWYwNy00YWNhLWFjMDYtNjkzOGJiNjkwOGM1Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI5Yzg4MTJjMS05ZjA3LTRhY2EtYWMwNi02OTM4YmI2OTA4YzUifQ.gTIDgcQnGiozELEtBB-_WFhTpRatYYyAY51Xisf9mI8",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1742643226
+}
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Lagom",
+        "address": "Pariser Straße 8",
+        "address2": "",
+        "address3": "Frankfurt am Main",
+        "phone": "069 21001381",
+        "phone2": "",
+        "description":"TSE_Lagom_60486"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQOph0JKVXCKtIE5EdsfV3ZzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODE0MjI1MVoXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfODA1NjI1Rjk3NUU4NDMxMDlBNzdDOThGOUU4NzBBMkIxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A0YjhhODM0MmQ3ZDQzNjk0ZGI2YTFlZTg4ODhjNjQ1OGE1MTY0NDI4NTMwMGU5NzZmZDdmNDMxYTg0NjgxNDQ4MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABKggmXftcpY+FpuusfMPzI5/o5Iy4BTatDZXlqaDSyNuYKra2xfF9p3wbuGgNXqpQnTQNULXstUGTielw8mjqE6jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMDQpQQOhWJj+102FOgEqmR2x3/KjIwX7Bz6RW89ElcqlQwUeOBsoepdLBzSOQlqOFgIwVxAwGmvRi1fEJqS03PRbmNnr0sn5V1J5t+wKap8XoSE9Rb/3r3mZrouE1qPQGia9",
+    "serial_number": "4b8a8342d7d43694db6a1ee8888c6458a51644285300e976fd7f431a84681448",
+    "public_key": "BKggmXftcpY+FpuusfMPzI5/o5Iy4BTatDZXlqaDSyNuYKra2xfF9p3wbuGgNXqpQnTQNULXstUGTielw8mjqE4=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "7b2c8251-53d5-469e-8739-635cdfb45baf",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.27",
+    "time_creation": 1742470473,
+    "admin_puk": "1160878877",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Lagom",
+        "phone": "069 21001381",
+        "phone2": "",
+        "address": "Pariser Straße 8",
+        "address2": "",
+        "address3": "Frankfurt am Main",
+        "description": "TSE_Lagom_60486"
+    }
+}
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "7b2c8251-53d5-469e-8739-635cdfb45baf",
+    "state": "UNINITIALIZED",
+    "time_creation": 1742470473,
+    "time_uninit": 1742470495,
+    "certificate": "MIIEczCCA/qgAwIBAgIQOph0JKVXCKtIE5EdsfV3ZzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODE0MjI1MVoXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfODA1NjI1Rjk3NUU4NDMxMDlBNzdDOThGOUU4NzBBMkIxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A0YjhhODM0MmQ3ZDQzNjk0ZGI2YTFlZTg4ODhjNjQ1OGE1MTY0NDI4NTMwMGU5NzZmZDdmNDMxYTg0NjgxNDQ4MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABKggmXftcpY+FpuusfMPzI5/o5Iy4BTatDZXlqaDSyNuYKra2xfF9p3wbuGgNXqpQnTQNULXstUGTielw8mjqE6jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMDQpQQOhWJj+102FOgEqmR2x3/KjIwX7Bz6RW89ElcqlQwUeOBsoepdLBzSOQlqOFgIwVxAwGmvRi1fEJqS03PRbmNnr0sn5V1J5t+wKap8XoSE9Rb/3r3mZrouE1qPQGia9",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "4b8a8342d7d43694db6a1ee8888c6458a51644285300e976fd7f431a84681448",
+    "public_key": "BKggmXftcpY+FpuusfMPzI5/o5Iy4BTatDZXlqaDSyNuYKra2xfF9p3wbuGgNXqpQnTQNULXstUGTielw8mjqE4=",
+    "signature_counter": "77",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Pariser Straße 8",
+        "address3": "Frankfurt am Main",
+        "description": "TSE_Lagom_60486",
+        "name": "Lagom",
+        "phone": "069 21001381"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.27"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "25145125"
+}
+RESPONSE:
+200 OK
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "25145125"
+}
+RESPONSE:
+200 OK
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "7b2c8251-53d5-469e-8739-635cdfb45baf",
+    "description": "fiskaly sign cloud-TSE (7b2c8251-53d5-469e-8739-635cdfb45baf)",
+    "state": "INITIALIZED",
+    "time_creation": 1742470473,
+    "time_uninit": 1742470495,
+    "time_init": 1742470543,
+    "certificate": "MIIEczCCA/qgAwIBAgIQOph0JKVXCKtIE5EdsfV3ZzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODE0MjI1MVoXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfODA1NjI1Rjk3NUU4NDMxMDlBNzdDOThGOUU4NzBBMkIxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A0YjhhODM0MmQ3ZDQzNjk0ZGI2YTFlZTg4ODhjNjQ1OGE1MTY0NDI4NTMwMGU5NzZmZDdmNDMxYTg0NjgxNDQ4MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABKggmXftcpY+FpuusfMPzI5/o5Iy4BTatDZXlqaDSyNuYKra2xfF9p3wbuGgNXqpQnTQNULXstUGTielw8mjqE6jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMDQpQQOhWJj+102FOgEqmR2x3/KjIwX7Bz6RW89ElcqlQwUeOBsoepdLBzSOQlqOFgIwVxAwGmvRi1fEJqS03PRbmNnr0sn5V1J5t+wKap8XoSE9Rb/3r3mZrouE1qPQGia9",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "4b8a8342d7d43694db6a1ee8888c6458a51644285300e976fd7f431a84681448",
+    "public_key": "BKggmXftcpY+FpuusfMPzI5/o5Iy4BTatDZXlqaDSyNuYKra2xfF9p3wbuGgNXqpQnTQNULXstUGTielw8mjqE4=",
+    "signature_counter": "83",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Pariser Straße 8",
+        "address3": "Frankfurt am Main",
+        "description": "TSE_Lagom_60486",
+        "name": "Lagom",
+        "phone": "069 21001381"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.27"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "4cb44622-61a6-4170-ae4f-b3bea0a8aa6e"
+}
+RESPONSE:
+{
+    "_id": "4cb44622-61a6-4170-ae4f-b3bea0a8aa6e",
+    "state": "REGISTERED",
+    "serial_number": "4cb44622-61a6-4170-ae4f-b3bea0a8aa6e",
+    "time_creation": 1742470567,
+    "tss_id": "7b2c8251-53d5-469e-8739-635cdfb45baf",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.27"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_6crjb74p6l2v9dqk41stce0zu_lagom-1482907979
+FISKALY API SECRET: LfAFVMOfmbpSumk5AZqOZZVR1X2ZECM0f80kO3zCr11
+TSE ID: 7b2c8251-53d5-469e-8739-635cdfb45baf
+TSE CLIENT ID: 4cb44622-61a6-4170-ae4f-b3bea0a8aa6e
+ADMIN PUK: 1160878877
+ADMIN PIN: 25145125

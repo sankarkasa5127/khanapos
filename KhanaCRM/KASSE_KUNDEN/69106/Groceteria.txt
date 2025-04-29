@@ -1,0 +1,201 @@
+OLD TSE : 
+OLD TSE CLIENT ID: 
+OLD ADMIN PUK: 
+OLD ADMIN PIN: 
+
+-------------------------------------------------------------------------
+
+=============NEW================
+ 
+Restaurant Name: Groceteria
+API Key: live_bc96wase4k6crvy71g5w2hdlz_groceteria-de361448047
+API Secret Key: L3ShNf5P4r5BblBvoTBM6qp6rMVJAOc9RyFosFK4i6y
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3Mzk3MDgyNTMsImlhdCI6MTczOTYyMTg1MywianRpIjoiMDU3NThiM2YtNDVhNS00YzI1LWJhNWYtZjY2MjQ5ZDRlMjVjIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiJlNDcxYzE2Mi1lODgyLTQxZTQtYjYwOS1mNTczMmEyOWIxMTYiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiMzY1OTI1OTUtMWY3Ni00Mzk3LWJhNjYtNWRmMTQxYjdiOWQyIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIzNjU5MjU5NS0xZjc2LTQzOTctYmE2Ni01ZGYxNDFiN2I5ZDIiLCJvcmdhbml6YXRpb24iOiJiZjhkYWM2ZC00NzNlLTRkMDgtYWExMS01ZThmYzY1MDcxMjciLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.VI5K-GouSm5P9AaZlYtIYR4fN1sP6OO_gEfsDy493MTLRgaAXFaRcy55rlh1_57L0rUyKUkivehnspnSTZx_dlCg64QEMTF_T77xA4Fd-5c-WBRC777ccHGlnxbg5stkDu-KmMcwqk_fiTCG3YcL3ovHaPO1N3lnmR25j9cLSP2llT8LEoy7jYhVhwoZdbgzmsDr_6IH-_sxq3HcYkB3WtA-gc0cH79wOsrRmNv8sAfakJNJ8cmd0X1nBN4VuO69qink2tsApB_zGQG_cw7jGlBnsULDG546cm5f5V4eAbXfFDtHlGTrIJaz1Ap2HTpjjSjZ9NjthhpZcFSbw8SNsQ",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "bf8dac6d-473e-4d08-aa11-5e8fc6507127"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1739708253,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3Mzk3OTQ2NTMsImlhdCI6MTczOTYyMTg1MywianRpIjoiZTQ2OWM4YTgtODMxNy00NjM3LTkyMWQtMjM0M2RiYjlkODg4IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6ImU0NzFjMTYyLWU4ODItNDFlNC1iNjA5LWY1NzMyYTI5YjExNiIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiMzY1OTI1OTUtMWY3Ni00Mzk3LWJhNjYtNWRmMTQxYjdiOWQyIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIzNjU5MjU5NS0xZjc2LTQzOTctYmE2Ni01ZGYxNDFiN2I5ZDIifQ.uTnBMmCKvnHtpc4mb5ts-vjFhvMUlyixgB53OGzywig",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1739794653
+}
+
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Groceteria",
+        "address": "Heidelberger Str. 25",
+        "address2": "Walldorf",
+        "address3": "",
+        "phone": "",
+        "phone2": "",
+        "description":"TSE_Groceteria_69190"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQCr8rhGyfRONnEd4s4s1bvTAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA4MTU0M1oXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNDc3NjlGM0M5QTM3NDAyMDk1RTZDMkE3RTE0RTY4NTExFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A4YjliY2M0ZmJiMDJmZTdkNzhjYjZiMWRkMmQ0NTA3Yjg4YjIyZDFjYzZhMGI0OGFhMDc0ODdhOGUyNmEyNDA0MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABKvLqcge/NYL/Dfg826nrXgMt07fJi+FUOqpFeppgLmoyNeNa/uxRABGfC46TvREAQsl3t6BfPmCrf4lC5E2eAKjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMGJ8g99R9wsxUJvanIOmbzQa4wR/NjwJxtR4v1jKwQ2BJjXih3LFM3WShoW/kwfOiwIwNAdM5zAVeFzAGYoFz0VPwoygL614SfHBkRMBy/+TqfC83elYNDVK8wHriVjLjzgb",
+    "serial_number": "8b9bcc4fbb02fe7d78cb6b1dd2d4507b88b22d1cc6a0b48aa07487a8e26a2404",
+    "public_key": "BKvLqcge/NYL/Dfg826nrXgMt07fJi+FUOqpFeppgLmoyNeNa/uxRABGfC46TvREAQsl3t6BfPmCrf4lC5E2eAI=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "d7aac418-6353-4b6f-afc2-e057189132fb",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23",
+    "time_creation": 1739622217,
+    "admin_puk": "1426923064",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Groceteria",
+        "phone": "",
+        "phone2": "",
+        "address": "Heidelberger Str. 25",
+        "address2": "Walldorf",
+        "address3": "",
+        "description": "TSE_Groceteria_69190"
+    }
+}
+
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "d7aac418-6353-4b6f-afc2-e057189132fb",
+    "state": "UNINITIALIZED",
+    "time_creation": 1739622217,
+    "time_uninit": 1739622285,
+    "certificate": "MIIEczCCA/qgAwIBAgIQCr8rhGyfRONnEd4s4s1bvTAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA4MTU0M1oXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNDc3NjlGM0M5QTM3NDAyMDk1RTZDMkE3RTE0RTY4NTExFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A4YjliY2M0ZmJiMDJmZTdkNzhjYjZiMWRkMmQ0NTA3Yjg4YjIyZDFjYzZhMGI0OGFhMDc0ODdhOGUyNmEyNDA0MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABKvLqcge/NYL/Dfg826nrXgMt07fJi+FUOqpFeppgLmoyNeNa/uxRABGfC46TvREAQsl3t6BfPmCrf4lC5E2eAKjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMGJ8g99R9wsxUJvanIOmbzQa4wR/NjwJxtR4v1jKwQ2BJjXih3LFM3WShoW/kwfOiwIwNAdM5zAVeFzAGYoFz0VPwoygL614SfHBkRMBy/+TqfC83elYNDVK8wHriVjLjzgb",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "8b9bcc4fbb02fe7d78cb6b1dd2d4507b88b22d1cc6a0b48aa07487a8e26a2404",
+    "public_key": "BKvLqcge/NYL/Dfg826nrXgMt07fJi+FUOqpFeppgLmoyNeNa/uxRABGfC46TvREAQsl3t6BfPmCrf4lC5E2eAI=",
+    "signature_counter": "116",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Heidelberger Str. 25",
+        "address2": "Walldorf",
+        "description": "TSE_Groceteria_69190",
+        "name": "Groceteria"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "123586"
+}
+RESPONSE:
+{}
+
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "123586"
+}
+RESPONSE:
+{}
+
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "d7aac418-6353-4b6f-afc2-e057189132fb",
+    "description": "fiskaly sign cloud-TSE (d7aac418-6353-4b6f-afc2-e057189132fb)",
+    "state": "INITIALIZED",
+    "time_creation": 1739622217,
+    "time_uninit": 1739622285,
+    "time_init": 1739622428,
+    "certificate": "MIIEczCCA/qgAwIBAgIQCr8rhGyfRONnEd4s4s1bvTAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA4MTU0M1oXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNDc3NjlGM0M5QTM3NDAyMDk1RTZDMkE3RTE0RTY4NTExFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A4YjliY2M0ZmJiMDJmZTdkNzhjYjZiMWRkMmQ0NTA3Yjg4YjIyZDFjYzZhMGI0OGFhMDc0ODdhOGUyNmEyNDA0MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABKvLqcge/NYL/Dfg826nrXgMt07fJi+FUOqpFeppgLmoyNeNa/uxRABGfC46TvREAQsl3t6BfPmCrf4lC5E2eAKjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMGJ8g99R9wsxUJvanIOmbzQa4wR/NjwJxtR4v1jKwQ2BJjXih3LFM3WShoW/kwfOiwIwNAdM5zAVeFzAGYoFz0VPwoygL614SfHBkRMBy/+TqfC83elYNDVK8wHriVjLjzgb",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "8b9bcc4fbb02fe7d78cb6b1dd2d4507b88b22d1cc6a0b48aa07487a8e26a2404",
+    "public_key": "BKvLqcge/NYL/Dfg826nrXgMt07fJi+FUOqpFeppgLmoyNeNa/uxRABGfC46TvREAQsl3t6BfPmCrf4lC5E2eAI=",
+    "signature_counter": "122",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Heidelberger Str. 25",
+        "address2": "Walldorf",
+        "description": "TSE_Groceteria_69190",
+        "name": "Groceteria"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "46ae1300-2209-4b05-b673-c5157147c501"
+}
+RESPONSE:
+{
+    "_id": "46ae1300-2209-4b05-b673-c5157147c501",
+    "state": "REGISTERED",
+    "serial_number": "46ae1300-2209-4b05-b673-c5157147c501",
+    "time_creation": 1739622482,
+    "tss_id": "d7aac418-6353-4b6f-afc2-e057189132fb",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_bc96wase4k6crvy71g5w2hdlz_groceteria-de361448047
+FISKALY API SECRET: L3ShNf5P4r5BblBvoTBM6qp6rMVJAOc9RyFosFK4i6y
+TSE ID: d7aac418-6353-4b6f-afc2-e057189132fb
+TSE CLIENT ID: 46ae1300-2209-4b05-b673-c5157147c501
+ADMIN PUK: 1426923064
+ADMIN PIN: 123586

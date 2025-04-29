@@ -1,0 +1,202 @@
+OLD TSE : 
+OLD TSE CLIENT ID: 
+OLD ADMIN PUK: 
+OLD ADMIN PIN: 
+
+-------------------------------------------------------------------------
+
+=============NEW================
+ 
+Restaurant Name: Namaskar
+API Key: live_28npadd99mew1lzpnvct8p8au_namaskar-11712931290
+API Secret Key: kpKjDS4yGWtr60z1SbDLgjEdV1YUgYZQ6TBKeGLC43Q
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3MzkyNzA4NzksImlhdCI6MTczOTE4NDQ3OSwianRpIjoiNTcwMDQwY2MtZjQ3MS00MTZkLWI5OGQtMWNjMjM1NGVhNDUzIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiJlNzZhYjViNS1jNDYwLTQwMWMtYjViYy04NTNhYWU4ZDBhNWQiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiNjY5YTg1YTMtNDQ0Mi00NDNmLTg0ZjUtNjk0ZmQyYTgxZDJjIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI2NjlhODVhMy00NDQyLTQ0M2YtODRmNS02OTRmZDJhODFkMmMiLCJvcmdhbml6YXRpb24iOiIyNWQ4NGNmZi05MzlkLTRhYzYtOWNkOC02MzU1YzQwZDEyNDYiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.Dh46dfn175Z-iaeGmybstRX89iL2QSNqvWw_GJmOu0_Sq7Qy_IR9BraOPyPrB9pzJdiWPDOX7ONJrK-A0DmFDPF9mkDS696m0Jj1CW-slMsyWGzhuCVdlaRc_Nfdl6rg2zX8LiDI8kVZMM7sNYUkx3F6uyeZGuQ755SreJREhtEW5Mg0zJiEJ4xVVXgHCZj_E6VKHIxDnXFN5yKC7gU4UA8MUwp5yuxABSnnirubd9eG3YBk0TcBT9nLsFdNJBD7Gm6PPRJPV739TTEDh_knAzFy9VBu7F-4C8pgWIjcV_3PZRrDzrD3A5Z1cN6PWi2tL54fhKVgQuAiasnEVxyq2w",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "25d84cff-939d-4ac6-9cd8-6355c40d1246"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1739270879,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3MzkzNTcyNzksImlhdCI6MTczOTE4NDQ3OSwianRpIjoiNjIyMDVjYTItZjFiZS00NDBmLThiZTctNTIyODkxN2QyN2IwIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6ImU3NmFiNWI1LWM0NjAtNDAxYy1iNWJjLTg1M2FhZThkMGE1ZCIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiNjY5YTg1YTMtNDQ0Mi00NDNmLTg0ZjUtNjk0ZmQyYTgxZDJjIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI2NjlhODVhMy00NDQyLTQ0M2YtODRmNS02OTRmZDJhODFkMmMifQ.6_bHklgiTvIjCmOeyGcqea_mi7JRbbeLLI5s5ttpe4w",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1739357279
+}
+
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Namaskar",
+        "address": "Indisches Restaurant",
+        "address2": "Pippinstr. 1",
+        "address3": "Gauting",
+        "phone": "",
+        "phone2": "",
+        "description":"TSE_Namaskar_82131"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQMSVNA/3b7sR2wu6My5PkOzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3MzM1N1oXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfOTg1RjU0ODU4QURBNDAxRUE2NkY2QTgzMjRGQTc4NDAxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A2Y2JmNjU5MWU1MWNiNDc0ZTZjMThiZjA5ODBmMTYyMDhiOGQ4ZTUyYjU2OWQ2N2JkOTk5MjFmNTFjZjYyYTA3MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABMUBN+C1JPtxI5KLvz8diWvtGlUmiIgX3S+vAspNTK4Q9sgazAARklIkZs7I6qu3l06Je2v/JJ9bBLdl8iuaTsujggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMFq1Dc8H+edipblShIqXa+6ScV81F7Yxyn999Cgk9LKD9S+j9KGSFloHX0QOSS2x+gIwMEIiiv9iWqv2vgYN+R0lvG2odB07Q5Ghz/4Z/j2+t7jvmcxM5hyqxrLFk0FGNquG",
+    "serial_number": "6cbf6591e51cb474e6c18bf0980f16208b8d8e52b569d67bd99921f51cf62a07",
+    "public_key": "BMUBN+C1JPtxI5KLvz8diWvtGlUmiIgX3S+vAspNTK4Q9sgazAARklIkZs7I6qu3l06Je2v/JJ9bBLdl8iuaTss=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "9f205606-62a4-4105-b154-1ae330be53cf",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23",
+    "time_creation": 1739184609,
+    "admin_puk": "5790218094",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Namaskar",
+        "phone": "",
+        "phone2": "",
+        "address": "Indisches Restaurant",
+        "address2": "Pippinstr. 1",
+        "address3": "Gauting",
+        "description": "TSE_Namaskar_82131"
+    }
+}
+
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "9f205606-62a4-4105-b154-1ae330be53cf",
+    "state": "UNINITIALIZED",
+    "time_creation": 1739184609,
+    "time_uninit": 1739184686,
+    "certificate": "MIIEczCCA/qgAwIBAgIQMSVNA/3b7sR2wu6My5PkOzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3MzM1N1oXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfOTg1RjU0ODU4QURBNDAxRUE2NkY2QTgzMjRGQTc4NDAxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A2Y2JmNjU5MWU1MWNiNDc0ZTZjMThiZjA5ODBmMTYyMDhiOGQ4ZTUyYjU2OWQ2N2JkOTk5MjFmNTFjZjYyYTA3MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABMUBN+C1JPtxI5KLvz8diWvtGlUmiIgX3S+vAspNTK4Q9sgazAARklIkZs7I6qu3l06Je2v/JJ9bBLdl8iuaTsujggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMFq1Dc8H+edipblShIqXa+6ScV81F7Yxyn999Cgk9LKD9S+j9KGSFloHX0QOSS2x+gIwMEIiiv9iWqv2vgYN+R0lvG2odB07Q5Ghz/4Z/j2+t7jvmcxM5hyqxrLFk0FGNquG",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "6cbf6591e51cb474e6c18bf0980f16208b8d8e52b569d67bd99921f51cf62a07",
+    "public_key": "BMUBN+C1JPtxI5KLvz8diWvtGlUmiIgX3S+vAspNTK4Q9sgazAARklIkZs7I6qu3l06Je2v/JJ9bBLdl8iuaTss=",
+    "signature_counter": "111",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Indisches Restaurant",
+        "address2": "Pippinstr. 1",
+        "address3": "Gauting",
+        "description": "TSE_Namaskar_82131",
+        "name": "Namaskar"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "123987"
+}
+RESPONSE:
+{}
+
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "123987"
+}
+RESPONSE:
+{}
+
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "9f205606-62a4-4105-b154-1ae330be53cf",
+    "description": "fiskaly sign cloud-TSE (9f205606-62a4-4105-b154-1ae330be53cf)",
+    "state": "INITIALIZED",
+    "time_creation": 1739184609,
+    "time_uninit": 1739184686,
+    "time_init": 1739184863,
+    "certificate": "MIIEczCCA/qgAwIBAgIQMSVNA/3b7sR2wu6My5PkOzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3MzM1N1oXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfOTg1RjU0ODU4QURBNDAxRUE2NkY2QTgzMjRGQTc4NDAxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A2Y2JmNjU5MWU1MWNiNDc0ZTZjMThiZjA5ODBmMTYyMDhiOGQ4ZTUyYjU2OWQ2N2JkOTk5MjFmNTFjZjYyYTA3MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABMUBN+C1JPtxI5KLvz8diWvtGlUmiIgX3S+vAspNTK4Q9sgazAARklIkZs7I6qu3l06Je2v/JJ9bBLdl8iuaTsujggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMFq1Dc8H+edipblShIqXa+6ScV81F7Yxyn999Cgk9LKD9S+j9KGSFloHX0QOSS2x+gIwMEIiiv9iWqv2vgYN+R0lvG2odB07Q5Ghz/4Z/j2+t7jvmcxM5hyqxrLFk0FGNquG",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "6cbf6591e51cb474e6c18bf0980f16208b8d8e52b569d67bd99921f51cf62a07",
+    "public_key": "BMUBN+C1JPtxI5KLvz8diWvtGlUmiIgX3S+vAspNTK4Q9sgazAARklIkZs7I6qu3l06Je2v/JJ9bBLdl8iuaTss=",
+    "signature_counter": "117",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Indisches Restaurant",
+        "address2": "Pippinstr. 1",
+        "address3": "Gauting",
+        "description": "TSE_Namaskar_82131",
+        "name": "Namaskar"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "115f0f77-360b-40a9-bf02-92fe16b35bb9"
+}
+RESPONSE:
+{
+    "_id": "115f0f77-360b-40a9-bf02-92fe16b35bb9",
+    "state": "REGISTERED",
+    "serial_number": "115f0f77-360b-40a9-bf02-92fe16b35bb9",
+    "time_creation": 1739185029,
+    "tss_id": "9f205606-62a4-4105-b154-1ae330be53cf",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_28npadd99mew1lzpnvct8p8au_namaskar-11712931290
+FISKALY API SECRET: kpKjDS4yGWtr60z1SbDLgjEdV1YUgYZQ6TBKeGLC43Q
+TSE ID: 9f205606-62a4-4105-b154-1ae330be53cf
+TSE CLIENT ID: 115f0f77-360b-40a9-bf02-92fe16b35bb9
+ADMIN PUK: 5790218094
+ADMIN PIN: 123987

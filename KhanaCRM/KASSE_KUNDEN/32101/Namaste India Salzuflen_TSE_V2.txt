@@ -1,0 +1,192 @@
+OLD TSE : d7c64066-979f-47e0-9f32-03a2dc086ad8
+OLD TSE CLIENT ID: 34b0bab3-ebf0-4dc5-9c26-f6e41b5ae3cf
+OLD ADMIN PUK: 4641447105
+OLD ADMIN PIN: JAN291993
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3Mzg0MDk2MzksImlhdCI6MTczODMyMzIzOSwianRpIjoiNmNkNWNhM2YtMzJmYS00YmUyLTgxOTktZmQyOTk2YzQwYjdlIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiJiYTQyNDQ4Zi0zMTc4LTQ4MTQtODJjOS0xMzY1MjE4MGUzMjIiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiNzdkMGRiYzEtN2U5Ni00ZTAwLTg2NmMtMGNkMDIwOWJlOWQ4Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI3N2QwZGJjMS03ZTk2LTRlMDAtODY2Yy0wY2QwMjA5YmU5ZDgiLCJvcmdhbml6YXRpb24iOiJkZDYxYWY3ZS1jM2FkLTQwMjctYTJjOS1mZjI1ZmJkM2Q3YTYiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.Jv0i2QCoNsrq3I3ywifOpAq0Xj8sBx23LQNClxxaAVfK95Ql6xW-w81r5554ev__oRkBGkxF1QgiL5ztg4yYFvLA42WloOm7da2MPgr9OiwMGPhUbdKZfPD9V9EvTa27E0WYgDuLhaij-fErIgTWtruFDdzUtTjaj9zfsv5Nyr7unDMk-lcFwjDT_oiq0DTZvF8P8NRLYkwLPx3Nh5o4LuwCKnV4ATpStn1rACOR-51XPmow4zHlc5y04CqQ90apBF6YXCTopttilcFy0AIKQDy6_vJW6aVNRK4TMfQ-pzcKv3kEobGKphDFHSfmjmvO0vTNIY0wB1YhgCe0cZbpQw",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "dd61af7e-c3ad-4027-a2c9-ff25fbd3d7a6"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1738409639,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3Mzg0OTYwMzksImlhdCI6MTczODMyMzIzOSwianRpIjoiYTk2MzYzZGEtMjExZS00OTRmLWI5MDEtZjgxNjJkZWY1NDg0IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6ImJhNDI0NDhmLTMxNzgtNDgxNC04MmM5LTEzNjUyMTgwZTMyMiIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiNzdkMGRiYzEtN2U5Ni00ZTAwLTg2NmMtMGNkMDIwOWJlOWQ4Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI3N2QwZGJjMS03ZTk2LTRlMDAtODY2Yy0wY2QwMjA5YmU5ZDgifQ.kZhs2fAmm3KYLjwRXJ84VDkNyTkr2djDpUZ22CHlFbM",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1738496039
+}
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Namaste India",
+        "address": "Wenken Str.49",
+        "address2": "",
+        "address3": "Bad Salzuflen",
+        "phone": "052228507309",
+        "phone2": "052228507310",
+        "description":"TSE_Namaste India_31351893325"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQEt5S0zGjL7/I3jOVOBCngDAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTEzMTE0NloXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfREI0RDE2NEZCREMwNDE3QkJFMTc4MkZDRjk0RDYwQTMxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A5YjAwZmYyODQzMzI1N2EyZTQ0OTlhZGMzYTVjMTMzODJiMzdhOTRjOTAxNmE3MDZhZDE3ODQyMjdiNjgyYTI0MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABEZGx1Rsq0puGp85qISHANSguzzCBVF5gJqvPv6HyC5JcSmqqSemczwoVA6+duydNP6EZJT1bpEpEGQuWsQS7wOjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMGXYSxDnOuUFfe9H/60Oha1thFr2qC8vKwJ23jgFOX4+5l9tqzrKH2pivFW17wloBAIwK6z29T/jFrgkrXYhmi1Izl+j1IhMjQ+r2JPBhUtvhwUafKQ/8gK5OlJYvj0RNae3",
+    "serial_number": "9b00ff28433257a2e4499adc3a5c13382b37a94c9016a706ad1784227b682a24",
+    "public_key": "BEZGx1Rsq0puGp85qISHANSguzzCBVF5gJqvPv6HyC5JcSmqqSemczwoVA6+duydNP6EZJT1bpEpEGQuWsQS7wM=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "f271cb95-4dee-465e-aff6-a30ec6b884ed",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.22",
+    "time_creation": 1738323411,
+    "admin_puk": "4653472476",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Namaste India",
+        "phone": "052228507309",
+        "phone2": "052228507310",
+        "address": "Wenken Str.49",
+        "address2": "",
+        "address3": "Bad Salzuflen",
+        "description": "TSE_Namaste India_31351893325"
+    }
+}
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "f271cb95-4dee-465e-aff6-a30ec6b884ed",
+    "state": "UNINITIALIZED",
+    "time_creation": 1738323411,
+    "time_uninit": 1738323459,
+    "certificate": "MIIEczCCA/qgAwIBAgIQEt5S0zGjL7/I3jOVOBCngDAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTEzMTE0NloXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfREI0RDE2NEZCREMwNDE3QkJFMTc4MkZDRjk0RDYwQTMxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A5YjAwZmYyODQzMzI1N2EyZTQ0OTlhZGMzYTVjMTMzODJiMzdhOTRjOTAxNmE3MDZhZDE3ODQyMjdiNjgyYTI0MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABEZGx1Rsq0puGp85qISHANSguzzCBVF5gJqvPv6HyC5JcSmqqSemczwoVA6+duydNP6EZJT1bpEpEGQuWsQS7wOjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMGXYSxDnOuUFfe9H/60Oha1thFr2qC8vKwJ23jgFOX4+5l9tqzrKH2pivFW17wloBAIwK6z29T/jFrgkrXYhmi1Izl+j1IhMjQ+r2JPBhUtvhwUafKQ/8gK5OlJYvj0RNae3",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "9b00ff28433257a2e4499adc3a5c13382b37a94c9016a706ad1784227b682a24",
+    "public_key": "BEZGx1Rsq0puGp85qISHANSguzzCBVF5gJqvPv6HyC5JcSmqqSemczwoVA6+duydNP6EZJT1bpEpEGQuWsQS7wM=",
+    "signature_counter": "104",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Wenken Str.49",
+        "address3": "Bad Salzuflen",
+        "description": "TSE_Namaste India_31351893325",
+        "name": "Namaste India",
+        "phone": "052228507309",
+        "phone2": "052228507310"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.22"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "35896214"
+}
+RESPONSE:
+200 OK
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "35896214"
+}
+RESPONSE:
+200
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "f271cb95-4dee-465e-aff6-a30ec6b884ed",
+    "description": "fiskaly sign cloud-TSE (f271cb95-4dee-465e-aff6-a30ec6b884ed)",
+    "state": "INITIALIZED",
+    "time_creation": 1738323411,
+    "time_uninit": 1738323459,
+    "time_init": 1738323703,
+    "certificate": "MIIEczCCA/qgAwIBAgIQEt5S0zGjL7/I3jOVOBCngDAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTEzMTE0NloXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfREI0RDE2NEZCREMwNDE3QkJFMTc4MkZDRjk0RDYwQTMxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A5YjAwZmYyODQzMzI1N2EyZTQ0OTlhZGMzYTVjMTMzODJiMzdhOTRjOTAxNmE3MDZhZDE3ODQyMjdiNjgyYTI0MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABEZGx1Rsq0puGp85qISHANSguzzCBVF5gJqvPv6HyC5JcSmqqSemczwoVA6+duydNP6EZJT1bpEpEGQuWsQS7wOjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMGXYSxDnOuUFfe9H/60Oha1thFr2qC8vKwJ23jgFOX4+5l9tqzrKH2pivFW17wloBAIwK6z29T/jFrgkrXYhmi1Izl+j1IhMjQ+r2JPBhUtvhwUafKQ/8gK5OlJYvj0RNae3",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "9b00ff28433257a2e4499adc3a5c13382b37a94c9016a706ad1784227b682a24",
+    "public_key": "BEZGx1Rsq0puGp85qISHANSguzzCBVF5gJqvPv6HyC5JcSmqqSemczwoVA6+duydNP6EZJT1bpEpEGQuWsQS7wM=",
+    "signature_counter": "110",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Wenken Str.49",
+        "address3": "Bad Salzuflen",
+        "description": "TSE_Namaste India_31351893325",
+        "name": "Namaste India",
+        "phone": "052228507309",
+        "phone2": "052228507310"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.22"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "6fa1e1a9-ec0b-4a1a-921e-20c79610acd9"
+}
+RESPONSE:
+{
+    "_id": "6fa1e1a9-ec0b-4a1a-921e-20c79610acd9",
+    "state": "REGISTERED",
+    "serial_number": "6fa1e1a9-ec0b-4a1a-921e-20c79610acd9",
+    "time_creation": 1738323752,
+    "tss_id": "f271cb95-4dee-465e-aff6-a30ec6b884ed",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.22"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_d3tsq4pzulkxi15sbok2zlhnq_namasteindia-31351893325
+FISKALY API SECRET: UvHprktpKfQy8zA1Bab3mcZgI5vA6u0g5bOK7ONRGD
+TSE ID: f271cb95-4dee-465e-aff6-a30ec6b884ed
+TSE CLIENT ID: 6fa1e1a9-ec0b-4a1a-921e-20c79610acd9
+ADMIN PUK: 4653472476
+ADMIN PIN: 35896214

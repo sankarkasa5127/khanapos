@@ -1,0 +1,186 @@
+OLD TSE : 
+OLD TSE CLIENT ID: 
+OLD ADMIN PUK: 
+OLD ADMIN PIN: 
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3NDMzMjA1ODUsImlhdCI6MTc0MzIzNDE4NSwianRpIjoiN2YxODQxOWMtMGVjYS00NTJhLWE0YWMtZGJiYThiMzc0NmRkIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiIxNjFiYjA2OS0wMGYxLTQzOWQtYTkxNS01ODI2NzgwMjAzZWQiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiZjNhYjI4MzctN2MzOC00YTVjLWFlYTQtNWNmY2MxNGIyNmMwIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJmM2FiMjgzNy03YzM4LTRhNWMtYWVhNC01Y2ZjYzE0YjI2YzAiLCJvcmdhbml6YXRpb24iOiJhMjQ4ZjNkOS1iYjkyLTQxODItOTI3Ni1kMzU4OGMwMzE0MjciLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.Up6XDcGnM-ZNT8jsIYnGPwudDd5fn2LdjLiZXu63twg-MsaY3CDy-2St7x2hJssCJYgsahon4KByxSEeBYnEx-Po43nLj4VWyITTkwB92aWVojf_5pPTpiHU-GC_5MWdGn84jhAwpotuqF_Kq6HwhAxyX2F_rqxiid74YBPW-1eL1ukARj17fWYG6LOpd05jtDOG2CARnkRUes7kCifn4McQE7y02sLtbKyNMvHj7OPr4Bwm_qLIgovDJ4iJa5rLkXzGzJHIvYEXXXpDe41Sy7iRvIy_DNYBOOg5n5HliKqd2JDc24c1GFUQvqLzDOKeMMw0jozsBVJ9vXWk73IskQ",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "a248f3d9-bb92-4182-9276-d3588c031427"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1743320585,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3NDM0MDY5ODUsImlhdCI6MTc0MzIzNDE4NSwianRpIjoiODc0ZTQ5YzItZmE2Zi00YzAzLTg2ZTktYjc1MThhNTM2MGVjIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjE2MWJiMDY5LTAwZjEtNDM5ZC1hOTE1LTU4MjY3ODAyMDNlZCIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiZjNhYjI4MzctN2MzOC00YTVjLWFlYTQtNWNmY2MxNGIyNmMwIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJmM2FiMjgzNy03YzM4LTRhNWMtYWVhNC01Y2ZjYzE0YjI2YzAifQ.nsOFkEbSINegmzWKu-uGeg3qeY3DNAHMS_kx41Ls78I",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1743406985
+}
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Tandoori Rödelheim",
+        "address": "Alexander Strasse 52",
+        "address2": "Frankfurt am Main",
+        "address3": "",
+        "phone": "",
+        "phone2": "",
+        "description":"TSE_Tandoori Rödelheim_60489"
+		}
+		}
+response:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQCvf0vUo12bDldVGz56fbWTAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwOTA3MDEwMVoXDTMzMDEwOTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNjQ0N0Q2RDRFMjhBNDREQzk3MkJBNzVEMUNCNkRCQjAxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BmOGFiNmY2NjFiYzE5ZDgxYzllMzgwNGUxMWM4NDcxMjc0MzVjY2QxZWRjMzBlNDdmY2E3NzdjYjQ3MGM5MGMxMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABG55zfbfgylSciJMl+KBog7qpiSSDz5IXDquMjpNS8vNEI+2pDX3ira9Z7upHYpsQrWpwQHvTqbQ7LlPQm1iVk6jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMDnVKw14MXWh2VQQfVuJsYzDX1y6nVK5t1wBM0sGzhoi+Ei5PoS+pBx4OnX6KKVJSgIwQsRR0yDdN3DDnV86VksflYJjfMf7aicW32I3LE1rEMARfDjwOdav2lAdiOa7Fzdv",
+    "serial_number": "f8ab6f661bc19d81c9e3804e11c847127435ccd1edc30e47fca777cb470c90c1",
+    "public_key": "BG55zfbfgylSciJMl+KBog7qpiSSDz5IXDquMjpNS8vNEI+2pDX3ira9Z7upHYpsQrWpwQHvTqbQ7LlPQm1iVk4=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "8a219c19-a5e0-4be3-b342-d548c0c0ddbe",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.29",
+    "time_creation": 1743234326,
+    "admin_puk": "2480731073",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Tandoori Rödelheim",
+        "phone": "",
+        "phone2": "",
+        "address": "Alexander Strasse 52",
+        "address2": "Frankfurt am Main",
+        "address3": "",
+        "description": "TSE_Tandoori Rödelheim_60489"
+    }
+}		
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "8a219c19-a5e0-4be3-b342-d548c0c0ddbe",
+    "state": "UNINITIALIZED",
+    "time_creation": 1743234326,
+    "time_uninit": 1743234357,
+    "certificate": "MIIEczCCA/qgAwIBAgIQCvf0vUo12bDldVGz56fbWTAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwOTA3MDEwMVoXDTMzMDEwOTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNjQ0N0Q2RDRFMjhBNDREQzk3MkJBNzVEMUNCNkRCQjAxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BmOGFiNmY2NjFiYzE5ZDgxYzllMzgwNGUxMWM4NDcxMjc0MzVjY2QxZWRjMzBlNDdmY2E3NzdjYjQ3MGM5MGMxMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABG55zfbfgylSciJMl+KBog7qpiSSDz5IXDquMjpNS8vNEI+2pDX3ira9Z7upHYpsQrWpwQHvTqbQ7LlPQm1iVk6jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMDnVKw14MXWh2VQQfVuJsYzDX1y6nVK5t1wBM0sGzhoi+Ei5PoS+pBx4OnX6KKVJSgIwQsRR0yDdN3DDnV86VksflYJjfMf7aicW32I3LE1rEMARfDjwOdav2lAdiOa7Fzdv",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "f8ab6f661bc19d81c9e3804e11c847127435ccd1edc30e47fca777cb470c90c1",
+    "public_key": "BG55zfbfgylSciJMl+KBog7qpiSSDz5IXDquMjpNS8vNEI+2pDX3ira9Z7upHYpsQrWpwQHvTqbQ7LlPQm1iVk4=",
+    "signature_counter": "84",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Alexander Strasse 52",
+        "address2": "Frankfurt am Main",
+        "description": "TSE_Tandoori Rödelheim_60489",
+        "name": "Tandoori Rödelheim"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.29"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "558032"
+}
+RESPONSE:
+{}
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "558032"
+}
+RESPONSE:
+{}
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "8a219c19-a5e0-4be3-b342-d548c0c0ddbe",
+    "description": "fiskaly sign cloud-TSE (8a219c19-a5e0-4be3-b342-d548c0c0ddbe)",
+    "state": "INITIALIZED",
+    "time_creation": 1743234326,
+    "time_uninit": 1743234357,
+    "time_init": 1743234414,
+    "certificate": "MIIEczCCA/qgAwIBAgIQCvf0vUo12bDldVGz56fbWTAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwOTA3MDEwMVoXDTMzMDEwOTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNjQ0N0Q2RDRFMjhBNDREQzk3MkJBNzVEMUNCNkRCQjAxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BmOGFiNmY2NjFiYzE5ZDgxYzllMzgwNGUxMWM4NDcxMjc0MzVjY2QxZWRjMzBlNDdmY2E3NzdjYjQ3MGM5MGMxMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABG55zfbfgylSciJMl+KBog7qpiSSDz5IXDquMjpNS8vNEI+2pDX3ira9Z7upHYpsQrWpwQHvTqbQ7LlPQm1iVk6jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMDnVKw14MXWh2VQQfVuJsYzDX1y6nVK5t1wBM0sGzhoi+Ei5PoS+pBx4OnX6KKVJSgIwQsRR0yDdN3DDnV86VksflYJjfMf7aicW32I3LE1rEMARfDjwOdav2lAdiOa7Fzdv",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "f8ab6f661bc19d81c9e3804e11c847127435ccd1edc30e47fca777cb470c90c1",
+    "public_key": "BG55zfbfgylSciJMl+KBog7qpiSSDz5IXDquMjpNS8vNEI+2pDX3ira9Z7upHYpsQrWpwQHvTqbQ7LlPQm1iVk4=",
+    "signature_counter": "90",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Alexander Strasse 52",
+        "address2": "Frankfurt am Main",
+        "description": "TSE_Tandoori Rödelheim_60489",
+        "name": "Tandoori Rödelheim"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.29"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": ""
+}
+RESPONSE:
+{
+    "_id": "d541b5fb-f0af-4543-a9ed-3d591dd1431b",
+    "state": "REGISTERED",
+    "serial_number": "d541b5fb-f0af-4543-a9ed-3d591dd1431b",
+    "time_creation": 1743234454,
+    "tss_id": "8a219c19-a5e0-4be3-b342-d548c0c0ddbe",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.29"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_9lvj4kedttuvkavt7cf4gvmlj_tandooriroedelheim-1484448286
+FISKALY API SECRET: zqf5PiWRlitJyVy8mqNfjET62aMOTvNZBcQXxoY6FmK
+TSE ID: 8a219c19-a5e0-4be3-b342-d548c0c0ddbe
+TSE CLIENT ID:d541b5fb-f0af-4543-a9ed-3d591dd1431b
+ADMIN PUK: 2480731073
+ADMIN PIN: 558032

@@ -1,0 +1,202 @@
+OLD TSE : 
+OLD TSE CLIENT ID: 
+OLD ADMIN PUK: 
+OLD ADMIN PIN: 
+
+-------------------------------------------------------------------------
+
+=============NEW================
+ 
+Restaurant Name: Lorado Grande
+API Key: live_9inetp4vzr1bcxoqpx66tnwts_loradogrande-1328000074
+API Secret Key: RTlf31ZW2LHGin81yz9MvXtt0QRdFJDQ8U0glDhAkag
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3Mzk0NDgxMDAsImlhdCI6MTczOTM2MTcwMCwianRpIjoiYWIwMTYwZDMtMzA1ZC00NGNlLWEyOGItMzMxZjg5ZTE0YzM2IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiI2MGUxNjE4Ni04MGQ5LTQ0MTgtYjBjOC1mM2I4ODdmYjcxOWIiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiNDY0ODUyZTctZGIyMS00YjM3LWIxNWEtZGM4ZjkyMjdjNDY3Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI0NjQ4NTJlNy1kYjIxLTRiMzctYjE1YS1kYzhmOTIyN2M0NjciLCJvcmdhbml6YXRpb24iOiJhMGM1ODQxNC03MzcyLTQ3YjctYmYwMy01MDM2ZDg3OWJhZjAiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.P1QVnHD0717J3pjdaXjmyweYOk3i1RUz5YKD63xIMPlWZoJFVv_h0qa8uZXnGGXnbB9y_VwqvHLgm1sQfuha2CwI38QtXFlfnmjfM9UEOIpM0252WwdBzTSum8oPckn2lKjs32qbPPjPVErlSfjZ4s8mVibFlDUC8mxAHjqpZHfk9jAYfyI5NrJmHs-6LEVhI9tvhNcODpoCw_ylKtDG3XmK_8XUIGsiY5sC1TWniJuOT5RWMnmr-L82GoJfeQ1Kj5YjEb3jTddVcx7w2H8Oqx2acjjJnhcIyPaXpuKrMq2w2V2qfKPU3s_-8FojmdazyauE_B8ID9z5Tc0FUHB_RQ",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "a0c58414-7372-47b7-bf03-5036d879baf0"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1739448100,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3Mzk1MzQ1MDAsImlhdCI6MTczOTM2MTcwMCwianRpIjoiZGNjMjBmZWYtM2FhOC00MThkLThkNWQtMmVhNjFjZDlhNGQzIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjYwZTE2MTg2LTgwZDktNDQxOC1iMGM4LWYzYjg4N2ZiNzE5YiIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiNDY0ODUyZTctZGIyMS00YjM3LWIxNWEtZGM4ZjkyMjdjNDY3Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI0NjQ4NTJlNy1kYjIxLTRiMzctYjE1YS1kYzhmOTIyN2M0NjcifQ.yIliSjDLNwm_IF073m8z20oz_WcL_0NrZsycTKj6Q4E",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1739534500
+}
+
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Lorado Grande",
+        "address": "Inh. Sultan Singh",
+        "address2": "Bahnhofstrasse 2",
+        "address3": "Horst",
+        "phone": "",
+        "phone2": "",
+        "description":"TSE_Lorado Grande_25358"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQN33J2Qt2ziuVqF9xOsvNETAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3NDcxOVoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfOEQ5QkE2NEFDQTRCNEI0MkFCNDdEOUI3MjU4QkM0QzgxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A4ZWNiNWNhYzM5Mzk4ZmQzYjUxYmFhYjUxNThjZmQ3ZjU4MzMzMWRkYzQ5YzBlY2VmNjAxZWU1OWQ3ZTM3Nzk0MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABOlN3va9/dgTMbNywgROWGy469vuG1p6Uf2hE3qevBLLDlwwHRqgoJrbLp2fonukbCCb0bBLlzKbPxACGtqOMFGjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMDmHYEyQrPqdlhJzxoAVeBxMWFMZOoSEnQDnqL91B+inaQm2xtiBpfrT0lvehU9lNQIwN9DbPxPkU/2QnvVWLuFMdfrqE2z+KCtHaw3tQNdsHEUa3H9+XG6Crw8peZevJTm5",
+    "serial_number": "8ecb5cac39398fd3b51baab5158cfd7f583331ddc49c0ecef601ee59d7e37794",
+    "public_key": "BOlN3va9/dgTMbNywgROWGy469vuG1p6Uf2hE3qevBLLDlwwHRqgoJrbLp2fonukbCCb0bBLlzKbPxACGtqOMFE=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "d1bf4236-76b2-4df5-99de-5e409c6d1a67",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23",
+    "time_creation": 1739361909,
+    "admin_puk": "5190105895",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Lorado Grande",
+        "phone": "",
+        "phone2": "",
+        "address": "Inh. Sultan Singh",
+        "address2": "Bahnhofstrasse 2",
+        "address3": "Horst",
+        "description": "TSE_Lorado Grande_25358"
+    }
+}
+
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "d1bf4236-76b2-4df5-99de-5e409c6d1a67",
+    "state": "UNINITIALIZED",
+    "time_creation": 1739361909,
+    "time_uninit": 1739361990,
+    "certificate": "MIIEczCCA/qgAwIBAgIQN33J2Qt2ziuVqF9xOsvNETAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3NDcxOVoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfOEQ5QkE2NEFDQTRCNEI0MkFCNDdEOUI3MjU4QkM0QzgxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A4ZWNiNWNhYzM5Mzk4ZmQzYjUxYmFhYjUxNThjZmQ3ZjU4MzMzMWRkYzQ5YzBlY2VmNjAxZWU1OWQ3ZTM3Nzk0MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABOlN3va9/dgTMbNywgROWGy469vuG1p6Uf2hE3qevBLLDlwwHRqgoJrbLp2fonukbCCb0bBLlzKbPxACGtqOMFGjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMDmHYEyQrPqdlhJzxoAVeBxMWFMZOoSEnQDnqL91B+inaQm2xtiBpfrT0lvehU9lNQIwN9DbPxPkU/2QnvVWLuFMdfrqE2z+KCtHaw3tQNdsHEUa3H9+XG6Crw8peZevJTm5",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "8ecb5cac39398fd3b51baab5158cfd7f583331ddc49c0ecef601ee59d7e37794",
+    "public_key": "BOlN3va9/dgTMbNywgROWGy469vuG1p6Uf2hE3qevBLLDlwwHRqgoJrbLp2fonukbCCb0bBLlzKbPxACGtqOMFE=",
+    "signature_counter": "113",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Inh. Sultan Singh",
+        "address2": "Bahnhofstrasse 2",
+        "address3": "Horst",
+        "description": "TSE_Lorado Grande_25358",
+        "name": "Lorado Grande"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "123589"
+}
+RESPONSE:
+{}
+
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "123589"
+}
+RESPONSE:
+{}
+
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "d1bf4236-76b2-4df5-99de-5e409c6d1a67",
+    "description": "fiskaly sign cloud-TSE (d1bf4236-76b2-4df5-99de-5e409c6d1a67)",
+    "state": "INITIALIZED",
+    "time_creation": 1739361909,
+    "time_uninit": 1739361990,
+    "time_init": 1739362100,
+    "certificate": "MIIEczCCA/qgAwIBAgIQN33J2Qt2ziuVqF9xOsvNETAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3NDcxOVoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfOEQ5QkE2NEFDQTRCNEI0MkFCNDdEOUI3MjU4QkM0QzgxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A4ZWNiNWNhYzM5Mzk4ZmQzYjUxYmFhYjUxNThjZmQ3ZjU4MzMzMWRkYzQ5YzBlY2VmNjAxZWU1OWQ3ZTM3Nzk0MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABOlN3va9/dgTMbNywgROWGy469vuG1p6Uf2hE3qevBLLDlwwHRqgoJrbLp2fonukbCCb0bBLlzKbPxACGtqOMFGjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMDmHYEyQrPqdlhJzxoAVeBxMWFMZOoSEnQDnqL91B+inaQm2xtiBpfrT0lvehU9lNQIwN9DbPxPkU/2QnvVWLuFMdfrqE2z+KCtHaw3tQNdsHEUa3H9+XG6Crw8peZevJTm5",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "8ecb5cac39398fd3b51baab5158cfd7f583331ddc49c0ecef601ee59d7e37794",
+    "public_key": "BOlN3va9/dgTMbNywgROWGy469vuG1p6Uf2hE3qevBLLDlwwHRqgoJrbLp2fonukbCCb0bBLlzKbPxACGtqOMFE=",
+    "signature_counter": "119",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Inh. Sultan Singh",
+        "address2": "Bahnhofstrasse 2",
+        "address3": "Horst",
+        "description": "TSE_Lorado Grande_25358",
+        "name": "Lorado Grande"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "9e87a6cb-8dd5-44c3-a967-8208b21ded45"
+}
+RESPONSE:
+{
+    "_id": "9e87a6cb-8dd5-44c3-a967-8208b21ded45",
+    "state": "REGISTERED",
+    "serial_number": "9e87a6cb-8dd5-44c3-a967-8208b21ded45",
+    "time_creation": 1739362158,
+    "tss_id": "d1bf4236-76b2-4df5-99de-5e409c6d1a67",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_9inetp4vzr1bcxoqpx66tnwts_loradogrande-1328000074
+FISKALY API SECRET: RTlf31ZW2LHGin81yz9MvXtt0QRdFJDQ8U0glDhAkag
+TSE ID: d1bf4236-76b2-4df5-99de-5e409c6d1a67
+TSE CLIENT ID: 9e87a6cb-8dd5-44c3-a967-8208b21ded45
+ADMIN PUK: 5190105895
+ADMIN PIN: 123589

@@ -1,0 +1,195 @@
+OLD_FISKALY_API_KEY: live_cb6zppxj72p32jv7uywgppvxk_khana-kassensystem
+OLD_FISKALY_API_SECRET: UAD8FTUMSvtTdfLhzLNuYVvsngk6BZnnzNMJLmQg5Mn
+OLD_TSE_ID: e24f2faf-f93c-43fc-9638-b07dc4f0fddb
+OLD_TSE_CLIENT_ID: 64963668-394b-4fd4-8d2f-a4ca44db42f0
+OLD_ADMIN_PIN: 872416
+OLD_ADMIN_PUK: 6009688994
+------------------------------------------------------------------------
+FISKALY_API_KEY: live_aqmnbvrmmku8uz4bm6jjzkkdx_feinkostlive
+FISKALY_API_SECRET: NYRS95819EpPHb7fMBmTRJzI9bO68fYngYNpzHGUpEX
+
+*AUTHENTICATION*:
+	REQUEST:
+		{
+			"api_key": "{{api_key}}",
+			"api_secret": "{{api_secret}}"
+		}
+	RESPONSE:
+		{
+			"access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3Mzc5NTkzMDYsImlhdCI6MTczNzg3MjkwNiwianRpIjoiMTFhOTEzM2EtY2ZjMC00NjNlLWEzZjktODhkZjNlODA4YThhIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiIzMDMwNjZmZi1hOTM0LTRmMmItOWE1Ni1hZjk0NDhhNDE1MDAiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiZGFhZDRjNTctMmU2Mi00YjgzLTg5ZGEtMjI1MGJlNGI3NzA4Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJkYWFkNGM1Ny0yZTYyLTRiODMtODlkYS0yMjUwYmU0Yjc3MDgiLCJvcmdhbml6YXRpb24iOiJiNTY4MDk3MS1hODYxLTRjYWEtYjQ5Ni05NGQ2Zjc4ZjgzMzUiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.dF-s8rk-4JLKamjIO0YbMUaOrfkuQnMmQXUiZFuAom-m4fIMUGIZXlnB3-Ygj4CQmAoum9MmZcMgq733vw7rlfwkZM2IGIQTC_wI4lbRw5SN563wfa9r-3-JNL9KhpJnnesj2CmyKHzvOjb44B6T4WblsxLsv1HpGJBeOXsAOLyOWLdXUL62NmUapsdNIETMKGAV2791cFtlLP6LKTXL1AWcarcBPC-D01E1chNQ5yk7T16a7DiZFXVddcf9otDzs38aSB9zFD_Ss3dsxvw3pTwVlbjQxWF9t-QNPmzEu9s5ikBNp93bcCJmwVUpWQCIzfvdnN2rrjkfXr_WVF3z7Q",
+			"access_token_claims": {
+				"env": "LIVE",
+				"organization_id": "b5680971-a861-4caa-b496-94d6f78f8335"
+		},
+			"access_token_expires_in": 86400,
+			"access_token_expires_at": 1737959306,
+			"refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3MzgwNDU3MDYsImlhdCI6MTczNzg3MjkwNiwianRpIjoiNTBjNzRhZTQtMzQyNi00YjM4LWI3NTctYTJkN2VhOTI1NDRhIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjMwMzA2NmZmLWE5MzQtNGYyYi05YTU2LWFmOTQ0OGE0MTUwMCIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiZGFhZDRjNTctMmU2Mi00YjgzLTg5ZGEtMjI1MGJlNGI3NzA4Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJkYWFkNGM1Ny0yZTYyLTRiODMtODlkYS0yMjUwYmU0Yjc3MDgifQ.t_0pYm6CFaffdBKgYasO6QRrOiUnBcCUr8U7ZQ_O-f4",
+			"refresh_token_expires_in": 172800,
+			"refresh_token_expires_at": 1738045706
+	}
+	
+*CREATE TSS*:
+REQUEST:
+		{
+			"metadata": {
+			"name": "FEINKOST-DEMIR-DAVARCI",
+			"address": "BRUCH STR 7",
+			"address2": "",
+			"address3": "Bad Dürkheim",
+			"phone": "063229482743",
+			"phone2": "",
+			"description":"TSE_FEINKOST DEMIR DAVARCI_ 67098"
+			}
+		}
+RESPONSE:
+		{
+			"certificate": "MIIEczCCA/qgAwIBAgIQB5gtY2f1w4Eq/f5caZ7tajAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTExNTQzOVoXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMjQ2M0U4MDRBRUMyNDMzQUI4REU2MjlGMjk4OEJDQTkxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BhMTIwZWY2YmRhMjE1ZDk2M2JkMjk0NjllZjllZDYzMTkyNDZhZTZmOTRkNTMwMTdjMzk2NDUyYWU4ZWFjZGViMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABDUKOXeILaMaQvld9Aa46dWEvlD6j/dZcZMtihwkqhdrAK3CJmWxetyxrb817oldwypi2N8BUtyS+shHOrh3/nSjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMHirFFGRT5w7BQYkX9qLeMew4EEBsd24akUXr4hKmF2OMKR4wK7jJ0HqIWDOy+gDqAIwcin55TvJ6PhBjP4obiNIIzj7gg0RYjsRG8oWnUN7EEo+ybUPNwB69fMjQZHog1Um",
+			"serial_number": "a120ef6bda215d963bd29469ef9ed6319246ae6f94d53017c396452ae8eacdeb",
+			"public_key": "BDUKOXeILaMaQvld9Aa46dWEvlD6j/dZcZMtihwkqhdrAK3CJmWxetyxrb817oldwypi2N8BUtyS+shHOrh3/nQ=",
+			"signature_algorithm": "ecdsa-plain-SHA256",
+			"signature_timestamp_format": "unixTime",
+			"transaction_data_encoding": "UTF-8",
+			"max_number_registered_clients": 199,
+			"max_number_active_transactions": 2000,
+			"supported_update_variants": "SIGNED",
+			"_id": "3112ce99-3457-4dbe-81b9-eb0e55c61540",
+			"_type": "TSS",
+			"_env": "LIVE",
+			"_version": "2.1.22",
+			"time_creation": 1737873238,
+			"admin_puk": "0253604253",
+			"state": "CREATED",
+			"metadata": {
+				"name": "FEINKOST-DEMIR-DAVARCI",
+				"phone": "063229482743",
+				"phone2": "",
+				"address": "BRUCH STR 7",
+				"address2": "",
+				"address3": "Bad Dürkheim",
+				"description": "TSE_FEINKOST DEMIR DAVARCI_ 67098"
+				}
+		}
+
+*PERSONALIZE TSS*:
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "3112ce99-3457-4dbe-81b9-eb0e55c61540",
+    "state": "UNINITIALIZED",
+    "time_creation": 1737873238,
+    "time_uninit": 1737873457,
+    "certificate": "MIIEczCCA/qgAwIBAgIQB5gtY2f1w4Eq/f5caZ7tajAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTExNTQzOVoXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMjQ2M0U4MDRBRUMyNDMzQUI4REU2MjlGMjk4OEJDQTkxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BhMTIwZWY2YmRhMjE1ZDk2M2JkMjk0NjllZjllZDYzMTkyNDZhZTZmOTRkNTMwMTdjMzk2NDUyYWU4ZWFjZGViMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABDUKOXeILaMaQvld9Aa46dWEvlD6j/dZcZMtihwkqhdrAK3CJmWxetyxrb817oldwypi2N8BUtyS+shHOrh3/nSjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMHirFFGRT5w7BQYkX9qLeMew4EEBsd24akUXr4hKmF2OMKR4wK7jJ0HqIWDOy+gDqAIwcin55TvJ6PhBjP4obiNIIzj7gg0RYjsRG8oWnUN7EEo+ybUPNwB69fMjQZHog1Um",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "a120ef6bda215d963bd29469ef9ed6319246ae6f94d53017c396452ae8eacdeb",
+    "public_key": "BDUKOXeILaMaQvld9Aa46dWEvlD6j/dZcZMtihwkqhdrAK3CJmWxetyxrb817oldwypi2N8BUtyS+shHOrh3/nQ=",
+    "signature_counter": "99",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "BRUCH STR 7",
+        "address3": "Bad Dürkheim",
+        "description": "TSE_FEINKOST DEMIR DAVARCI_ 67098",
+        "name": "FEINKOST-DEMIR-DAVARCI",
+        "phone": "063229482743"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.22"
+}
+
+*CHANGING ADMIN PIN*:
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "784512369"
+}
+RESPONSE:
+OK
+
+*AUTHENTICATE ADMIN*:
+REQUEST:
+{
+	"admin_pin": "784512369"
+}
+RESPONSE:
+OK
+
+*INTIALIZE TSS*:
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "3112ce99-3457-4dbe-81b9-eb0e55c61540",
+    "description": "fiskaly sign cloud-TSE (3112ce99-3457-4dbe-81b9-eb0e55c61540)",
+    "state": "INITIALIZED",
+    "time_creation": 1737873238,
+    "time_uninit": 1737873457,
+    "time_init": 1737873662,
+    "certificate": "MIIEczCCA/qgAwIBAgIQB5gtY2f1w4Eq/f5caZ7tajAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTExNTQzOVoXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMjQ2M0U4MDRBRUMyNDMzQUI4REU2MjlGMjk4OEJDQTkxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BhMTIwZWY2YmRhMjE1ZDk2M2JkMjk0NjllZjllZDYzMTkyNDZhZTZmOTRkNTMwMTdjMzk2NDUyYWU4ZWFjZGViMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABDUKOXeILaMaQvld9Aa46dWEvlD6j/dZcZMtihwkqhdrAK3CJmWxetyxrb817oldwypi2N8BUtyS+shHOrh3/nSjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMHirFFGRT5w7BQYkX9qLeMew4EEBsd24akUXr4hKmF2OMKR4wK7jJ0HqIWDOy+gDqAIwcin55TvJ6PhBjP4obiNIIzj7gg0RYjsRG8oWnUN7EEo+ybUPNwB69fMjQZHog1Um",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "a120ef6bda215d963bd29469ef9ed6319246ae6f94d53017c396452ae8eacdeb",
+    "public_key": "BDUKOXeILaMaQvld9Aa46dWEvlD6j/dZcZMtihwkqhdrAK3CJmWxetyxrb817oldwypi2N8BUtyS+shHOrh3/nQ=",
+    "signature_counter": "105",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "BRUCH STR 7",
+        "address3": "Bad Dürkheim",
+        "description": "TSE_FEINKOST DEMIR DAVARCI_ 67098",
+        "name": "FEINKOST-DEMIR-DAVARCI",
+        "phone": "063229482743"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.22"
+}
+
+*CREATE CLIENT*:
+REQUEST:
+{
+    "serial_number": "ac4ede8b-74db-4bbe-949b-6cfbe9c3f76d"
+}
+RESPONSE:
+{
+    "_id": "ac4ede8b-74db-4bbe-949b-6cfbe9c3f76d",
+    "state": "REGISTERED",
+    "serial_number": "ac4ede8b-74db-4bbe-949b-6cfbe9c3f76d",
+    "time_creation": 1737873733,
+    "tss_id": "3112ce99-3457-4dbe-81b9-eb0e55c61540",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.22"
+}
+
+*LOGOUT ADMIN*:
+REQUEST:
+{}
+RESPONSE:
+200 OK
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+FISKALY_API_KEY: live_aqmnbvrmmku8uz4bm6jjzkkdx_feinkostlive
+FISKALY_API_SECRET: NYRS95819EpPHb7fMBmTRJzI9bO68fYngYNpzHGUpEX
+TSE_ID: 3112ce99-3457-4dbe-81b9-eb0e55c61540
+TSE_CLIENT_ID: ac4ede8b-74db-4bbe-949b-6cfbe9c3f76d
+ADMIN_PUK: 0253604253
+ADMIN_PIN: 784512369

@@ -1,0 +1,201 @@
+OLD TSE : 
+OLD TSE CLIENT ID: 
+OLD ADMIN PUK: 
+OLD ADMIN PIN: 
+
+-------------------------------------------------------------------------
+
+=============NEW================
+ 
+Restaurant Name: Athidhi Indische Restaurant
+API Key: live_jcv24rxa6daztrmhpv55husi_athidhiindische-3249780729
+API Secret Key: FLTM9GHAt7XeW6QgIuQd3otHpoBNC2seIJAaMvbHcvF
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3Mzk4NTI2MDIsImlhdCI6MTczOTc2NjIwMiwianRpIjoiNjBiMTFlNTEtNTg3Mi00NjlmLWI3ODEtOTVkZDhkMmU3YTlhIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiI4MjRiYTQ0Yi1lNmExLTRjYzAtOWJjZC1iMzc2M2ZhOTNjMTUiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiYmQ3OTEyMmItMDhjYS00YzUzLTkzMDMtOTU3MTEwYjBiYjY5Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJiZDc5MTIyYi0wOGNhLTRjNTMtOTMwMy05NTcxMTBiMGJiNjkiLCJvcmdhbml6YXRpb24iOiIwOTE1MWIyMi1lNjJkLTRlMzgtYTMwYy1lODkzZGRjMjNmMjIiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.DTzqhnoH9B4rKL-l3I3xxVQKZzOdZ6zeYqK-4shglQ_EP2epIi5UGDeEaWc3Ef6cEf7xjJb_xWLRdXdJtTkIR54w9odSZiOept-MynrsKZpw6-CIN26-UloZKAmiESra6jXrnbYpE89P_mbPDix5IRL0y2hRWBIdwBqLyDDf2D73YmtSI7oPIwFYkyAuwGblh-JGHytrQdCSq0FfkU9e7fnp5TO7Yz-F9WeCXrBAeK3AKEdJ-nitqJzns4lI8N_PG_Wr4AedZCEtrVr7AKZw4OfZ39aEtvwUP9pacuirs2XW7Vn0PSHU-mNtqlCpuFkTMCstYTbsTDmgiHBqfG6B2w",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "09151b22-e62d-4e38-a30c-e893ddc23f22"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1739852602,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3Mzk5MzkwMDIsImlhdCI6MTczOTc2NjIwMiwianRpIjoiYTMzYTFiYWQtN2FjMi00YWY5LTk5MDItZGQ2ZGYwNzIyODQ3IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjgyNGJhNDRiLWU2YTEtNGNjMC05YmNkLWIzNzYzZmE5M2MxNSIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiYmQ3OTEyMmItMDhjYS00YzUzLTkzMDMtOTU3MTEwYjBiYjY5Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJiZDc5MTIyYi0wOGNhLTRjNTMtOTMwMy05NTcxMTBiMGJiNjkifQ.4vkCtdSLWp3oUnoXxFiXTHAfbJjnQdR9qE6I5B3VNUs",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1739939002
+}
+
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Athidhi Indische Restaurant",
+        "address": "Insterburger Strasse 16A",
+        "address2": "Karlsruhe",
+        "address3": "",
+        "phone": "",
+        "phone2": "",
+        "description":"TSE_Athidhi Indische Restaurant_76139"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQIut0dr4a5TVX1ipqrKGNyjAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA4MTQ1MloXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNDQxOTI3OTU1ODQ4NDhGM0IwMzExNEEyQzhGODFDMDcxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BhZmJjYTBkODgxYTc5ODZmOGY5ZjA1NTFlMDkwMDUyMDc2YTAyMTcxMDdhNzllMmZlOGQ5OTBmMjA1YWRkNzM5MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJ1pk0pPeEJcOqdihQ+Vyx8ana3Tju3aM6wZFyoejoLC5isszNq5ej/xhzMBZ35epklUAXFVrnAmkg/tJ1cXTM+jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMEwMycIQgjA52SSTBcAuSC4RJNFApu1nVwdujFm/VVJrDxjeluFrBu0eM3wuohAZBgIwXo5iSXCFjw3jHt+9BNPqoxRMkaK+LTWlMr00ByduSGTN/m0B1v6PLBkgnVMOeeDH",
+    "serial_number": "afbca0d881a7986f8f9f0551e090052076a0217107a79e2fe8d990f205add739",
+    "public_key": "BJ1pk0pPeEJcOqdihQ+Vyx8ana3Tju3aM6wZFyoejoLC5isszNq5ej/xhzMBZ35epklUAXFVrnAmkg/tJ1cXTM8=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "29cbad19-25ae-45bd-bcc2-a95502236baa",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23",
+    "time_creation": 1739766410,
+    "admin_puk": "3802392794",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Athidhi Indische Restaurant",
+        "phone": "",
+        "phone2": "",
+        "address": "Insterburger Strasse 16A",
+        "address2": "Karlsruhe",
+        "address3": "",
+        "description": "TSE_Athidhi Indische Restaurant_76139"
+    }
+}
+
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "29cbad19-25ae-45bd-bcc2-a95502236baa",
+    "state": "UNINITIALIZED",
+    "time_creation": 1739766410,
+    "time_uninit": 1739766461,
+    "certificate": "MIIEczCCA/qgAwIBAgIQIut0dr4a5TVX1ipqrKGNyjAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA4MTQ1MloXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNDQxOTI3OTU1ODQ4NDhGM0IwMzExNEEyQzhGODFDMDcxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BhZmJjYTBkODgxYTc5ODZmOGY5ZjA1NTFlMDkwMDUyMDc2YTAyMTcxMDdhNzllMmZlOGQ5OTBmMjA1YWRkNzM5MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJ1pk0pPeEJcOqdihQ+Vyx8ana3Tju3aM6wZFyoejoLC5isszNq5ej/xhzMBZ35epklUAXFVrnAmkg/tJ1cXTM+jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMEwMycIQgjA52SSTBcAuSC4RJNFApu1nVwdujFm/VVJrDxjeluFrBu0eM3wuohAZBgIwXo5iSXCFjw3jHt+9BNPqoxRMkaK+LTWlMr00ByduSGTN/m0B1v6PLBkgnVMOeeDH",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "afbca0d881a7986f8f9f0551e090052076a0217107a79e2fe8d990f205add739",
+    "public_key": "BJ1pk0pPeEJcOqdihQ+Vyx8ana3Tju3aM6wZFyoejoLC5isszNq5ej/xhzMBZ35epklUAXFVrnAmkg/tJ1cXTM8=",
+    "signature_counter": "118",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Insterburger Strasse 16A",
+        "address2": "Karlsruhe",
+        "description": "TSE_Athidhi Indische Restaurant_76139",
+        "name": "Athidhi Indische Restaurant"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "547854"
+}
+RESPONSE:
+{}
+
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "547854"
+}
+RESPONSE:
+{}
+
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "29cbad19-25ae-45bd-bcc2-a95502236baa",
+    "description": "fiskaly sign cloud-TSE (29cbad19-25ae-45bd-bcc2-a95502236baa)",
+    "state": "INITIALIZED",
+    "time_creation": 1739766410,
+    "time_uninit": 1739766461,
+    "time_init": 1739766583,
+    "certificate": "MIIEczCCA/qgAwIBAgIQIut0dr4a5TVX1ipqrKGNyjAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA4MTQ1MloXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNDQxOTI3OTU1ODQ4NDhGM0IwMzExNEEyQzhGODFDMDcxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BhZmJjYTBkODgxYTc5ODZmOGY5ZjA1NTFlMDkwMDUyMDc2YTAyMTcxMDdhNzllMmZlOGQ5OTBmMjA1YWRkNzM5MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJ1pk0pPeEJcOqdihQ+Vyx8ana3Tju3aM6wZFyoejoLC5isszNq5ej/xhzMBZ35epklUAXFVrnAmkg/tJ1cXTM+jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMEwMycIQgjA52SSTBcAuSC4RJNFApu1nVwdujFm/VVJrDxjeluFrBu0eM3wuohAZBgIwXo5iSXCFjw3jHt+9BNPqoxRMkaK+LTWlMr00ByduSGTN/m0B1v6PLBkgnVMOeeDH",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "afbca0d881a7986f8f9f0551e090052076a0217107a79e2fe8d990f205add739",
+    "public_key": "BJ1pk0pPeEJcOqdihQ+Vyx8ana3Tju3aM6wZFyoejoLC5isszNq5ej/xhzMBZ35epklUAXFVrnAmkg/tJ1cXTM8=",
+    "signature_counter": "124",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Insterburger Strasse 16A",
+        "address2": "Karlsruhe",
+        "description": "TSE_Athidhi Indische Restaurant_76139",
+        "name": "Athidhi Indische Restaurant"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "bb611b49-5907-47ce-af91-2d292c9d2e7b"
+}
+RESPONSE:
+{
+    "_id": "bb611b49-5907-47ce-af91-2d292c9d2e7b",
+    "state": "REGISTERED",
+    "serial_number": "bb611b49-5907-47ce-af91-2d292c9d2e7b",
+    "time_creation": 1739766656,
+    "tss_id": "29cbad19-25ae-45bd-bcc2-a95502236baa",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_jcv24rxa6daztrmhpv55husi_athidhiindische-3249780729
+FISKALY API SECRET: FLTM9GHAt7XeW6QgIuQd3otHpoBNC2seIJAaMvbHcvF
+TSE ID: 29cbad19-25ae-45bd-bcc2-a95502236baa
+TSE CLIENT ID: bb611b49-5907-47ce-af91-2d292c9d2e7b
+ADMIN PUK: 3802392794
+ADMIN PIN: 547854

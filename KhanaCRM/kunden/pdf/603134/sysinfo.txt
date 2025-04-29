@@ -1,0 +1,55 @@
+
+Host Name:                     DESKTOP-L5KNJS6
+OS Name:                       Microsoft Windows 11 Pro
+OS Version:                    10.0.26100 N/A Build 26100
+OS Manufacturer:               Microsoft Corporation
+OS Configuration:              Standalone Workstation
+OS Build Type:                 Multiprocessor Free
+Registered Owner:              kasa
+Registered Organization:       N/A
+Product ID:                    00330-53334-35267-AAOEM
+Original Install Date:         2/20/2025, 8:09:29 PM
+System Boot Time:              3/12/2025, 3:32:44 AM
+System Manufacturer:           Micro Computer (HK) Tech Limited
+System Model:                  DeskMini Series
+System Type:                   x64-based PC
+Processor(s):                  1 Processor(s) Installed.
+                               [01]: Intel64 Family 6 Model 190 Stepping 0 GenuineIntel ~800 Mhz
+BIOS Version:                  American Megatrends International, LLC. DNB20 V0.07, 7/31/2024
+Windows Directory:             C:\WINDOWS
+System Directory:              C:\WINDOWS\system32
+Boot Device:                   \Device\HarddiskVolume1
+System Locale:                 en-us;English (United States)
+Input Locale:                  en-us;English (United States)
+Time Zone:                     (UTC-08:00) Pacific Time (US & Canada)
+Total Physical Memory:         16,124 MB
+Available Physical Memory:     7,996 MB
+Virtual Memory: Max Size:      17,148 MB
+Virtual Memory: Available:     5,838 MB
+Virtual Memory: In Use:        11,310 MB
+Page File Location(s):         C:\pagefile.sys
+Domain:                        WORKGROUP
+Logon Server:                  N/A
+Hotfix(s):                     3 Hotfix(s) Installed.
+                               [01]: KB5049622
+                               [02]: KB5053598
+                               [03]: KB5052915
+Network Card(s):               2 NIC(s) Installed.
+                               [01]: Intel(R) Wi-Fi 6 AX101
+                                     Connection Name: Wi-Fi
+                                     Status:          Media disconnected
+                               [02]: Intel(R) Ethernet Controller I226-V
+                                     Connection Name: Ethernet 2
+                                     DHCP Enabled:    Yes
+                                     DHCP Server:     192.168.0.1
+                                     IP address(es)
+                                     [01]: 192.168.0.235
+                                     [02]: fe80::2d78:3343:e233:77d8
+Virtualization-based security: Status: Not enabled
+                               App Control for Business policy: Enforced
+                               App Control for Business user mode policy: Off
+                               Security Features Enabled:
+Hyper-V Requirements:          VM Monitor Mode Extensions: Yes
+                               Virtualization Enabled In Firmware: Yes
+                               Second Level Address Translation: Yes
+                               Data Execution Prevention Available: Yes

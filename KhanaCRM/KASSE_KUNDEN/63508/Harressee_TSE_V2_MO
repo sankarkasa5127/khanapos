@@ -1,0 +1,190 @@
+OLD TSE : 0dc34a0b-7ec9-43ca-9504-5d501bd6dfa2
+OLD TSE CLIENT ID: 24745b13-6ca9-4e42-a150-ca159f860d07
+OLD ADMIN PUK: 5246203099
+OLD ADMIN PIN: JAN291993
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3NDE2OTUxOTEsImlhdCI6MTc0MTYwODc5MSwianRpIjoiMzFiZjkyMDktOWFmZi00NTFhLWEyM2EtMmZlYWU1MGIzNWY2IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiIxMmRiMjZhMi1hZWFmLTRmMmMtODJhNy04YzM3M2M3MjIyZDMiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiM2I3MTFhYWYtNTU1OC00YmRkLWIxNmMtMWUxNTQ3M2E5NmFkIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIzYjcxMWFhZi01NTU4LTRiZGQtYjE2Yy0xZTE1NDczYTk2YWQiLCJvcmdhbml6YXRpb24iOiJhNjMzNmIzNy02OTEzLTRkYTQtYWZmZS1mMTAzMDhkNDViNDYiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.cB1Vm2HGm5x1IPwPdHXTK1XEWim_V5eb8ZgDLW5PfOW-mXs7wY2tt2qp3gSsyY6Ik6W1bCY-XkcSlHXml5vEx624nVkdU0LXpYwmVCnD0pSaR0FZb8gka-WzYzO4n46pJuG__5t7BToiTOgzmuRmaMdHlNsigwfQxMADEXjD6_ZqvpNum-5Sz9_c2bsuauV5za17A1a-iG7oYsBORkwUhO98yu-BZqaxAMQuGINgjY9cMN4rObkg9L7uFAoYEez9ZxsdNmsgo1dMRiJir9JV4_AIN1mLMK4jMl_1GvXEZQwyFVKat6-Df0FBLz1O8JkPMMf-cvOzNmJLY1vnua-CsQ",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "a6336b37-6913-4da4-affe-f10308d45b46"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1741695191,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3NDE3ODE1OTEsImlhdCI6MTc0MTYwODc5MSwianRpIjoiN2FhODNiYjgtN2Q5NS00ZDgxLTkxNDYtYjY3N2M4NzY3MmViIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjEyZGIyNmEyLWFlYWYtNGYyYy04MmE3LThjMzczYzcyMjJkMyIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiM2I3MTFhYWYtNTU1OC00YmRkLWIxNmMtMWUxNTQ3M2E5NmFkIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIzYjcxMWFhZi01NTU4LTRiZGQtYjE2Yy0xZTE1NDczYTk2YWQifQ.6bYrnLCQW0yzGQ0aThN2x7BrLwRsW7XdzfeF75pd49s",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1741781591
+}
+-------------------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Restaurant am Harressee",
+        "address": "Stehnweg 1",
+        "address2": "",
+        "address3": "Seligenstadt",
+        "phone": "06182640475",
+        "phone2": "",
+        "description":"TSE_Restaurant am Harressee_63500"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQKLVNBRx4Ir6s/3p2wUrMTDAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODEyNDA0NVoXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNDdFMEI4MkFBODMzNDlBQ0EyMzhFM0ExOTA3QzE5NkYxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A3ZGE2N2IxYTJmMDBhNzgyNzY4ODExZjc2ODU0NWE1MzU3OWExMjYyMzMyODUzNjU0OWVmYzVkMGQ1NmE3ODViMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABAemDVTrJMj47+eT7FpG1211ylFVwHpd8xG9/TMCshQQzQ/itSz0FdppCTtrL2Z0CnZ3HVqjhstcPrLJee7HWKajggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMF4oOvE2XqcBXV8O5IHYWv4EiWrCNdv0morM2AOym0qYvHIsiFD+LxhXpVTVIUDD9QIwckfCt9QD1oKnRrFv2YvZuYJCREjqGwESyzmIeWyywMdTJYAMJa6wAWLucnHlMm94",
+    "serial_number": "7da67b1a2f00a782768811f768545a53579a12623328536549efc5d0d56a785b",
+    "public_key": "BAemDVTrJMj47+eT7FpG1211ylFVwHpd8xG9/TMCshQQzQ/itSz0FdppCTtrL2Z0CnZ3HVqjhstcPrLJee7HWKY=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "d7a34670-a733-4375-84b8-bec81946ff49",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.26",
+    "time_creation": 1741608815,
+    "admin_puk": "9140101471",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Restaurant am Harressee",
+        "phone": "06182640475",
+        "phone2": "",
+        "address": "Stehnweg 1",
+        "address2": "",
+        "address3": "Seligenstadt",
+        "description": "TSE_Restaurant am Harressee_63500"
+    }
+}
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "d7a34670-a733-4375-84b8-bec81946ff49",
+    "state": "UNINITIALIZED",
+    "time_creation": 1741608815,
+    "time_uninit": 1741608842,
+    "certificate": "MIIEczCCA/qgAwIBAgIQKLVNBRx4Ir6s/3p2wUrMTDAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODEyNDA0NVoXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNDdFMEI4MkFBODMzNDlBQ0EyMzhFM0ExOTA3QzE5NkYxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A3ZGE2N2IxYTJmMDBhNzgyNzY4ODExZjc2ODU0NWE1MzU3OWExMjYyMzMyODUzNjU0OWVmYzVkMGQ1NmE3ODViMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABAemDVTrJMj47+eT7FpG1211ylFVwHpd8xG9/TMCshQQzQ/itSz0FdppCTtrL2Z0CnZ3HVqjhstcPrLJee7HWKajggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMF4oOvE2XqcBXV8O5IHYWv4EiWrCNdv0morM2AOym0qYvHIsiFD+LxhXpVTVIUDD9QIwckfCt9QD1oKnRrFv2YvZuYJCREjqGwESyzmIeWyywMdTJYAMJa6wAWLucnHlMm94",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "7da67b1a2f00a782768811f768545a53579a12623328536549efc5d0d56a785b",
+    "public_key": "BAemDVTrJMj47+eT7FpG1211ylFVwHpd8xG9/TMCshQQzQ/itSz0FdppCTtrL2Z0CnZ3HVqjhstcPrLJee7HWKY=",
+    "signature_counter": "67",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Stehnweg 1",
+        "address3": "Seligenstadt",
+        "description": "TSE_Restaurant am Harressee_63500",
+        "name": "Restaurant am Harressee",
+        "phone": "06182640475"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.26"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "74524115"
+}
+RESPONSE:
+200 OK
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "74524115"
+}
+RESPONSE:
+200 OK
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "d7a34670-a733-4375-84b8-bec81946ff49",
+    "description": "fiskaly sign cloud-TSE (d7a34670-a733-4375-84b8-bec81946ff49)",
+    "state": "INITIALIZED",
+    "time_creation": 1741608815,
+    "time_uninit": 1741608842,
+    "time_init": 1741608885,
+    "certificate": "MIIEczCCA/qgAwIBAgIQKLVNBRx4Ir6s/3p2wUrMTDAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODEyNDA0NVoXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNDdFMEI4MkFBODMzNDlBQ0EyMzhFM0ExOTA3QzE5NkYxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A3ZGE2N2IxYTJmMDBhNzgyNzY4ODExZjc2ODU0NWE1MzU3OWExMjYyMzMyODUzNjU0OWVmYzVkMGQ1NmE3ODViMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABAemDVTrJMj47+eT7FpG1211ylFVwHpd8xG9/TMCshQQzQ/itSz0FdppCTtrL2Z0CnZ3HVqjhstcPrLJee7HWKajggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMF4oOvE2XqcBXV8O5IHYWv4EiWrCNdv0morM2AOym0qYvHIsiFD+LxhXpVTVIUDD9QIwckfCt9QD1oKnRrFv2YvZuYJCREjqGwESyzmIeWyywMdTJYAMJa6wAWLucnHlMm94",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "7da67b1a2f00a782768811f768545a53579a12623328536549efc5d0d56a785b",
+    "public_key": "BAemDVTrJMj47+eT7FpG1211ylFVwHpd8xG9/TMCshQQzQ/itSz0FdppCTtrL2Z0CnZ3HVqjhstcPrLJee7HWKY=",
+    "signature_counter": "73",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Stehnweg 1",
+        "address3": "Seligenstadt",
+        "description": "TSE_Restaurant am Harressee_63500",
+        "name": "Restaurant am Harressee",
+        "phone": "06182640475"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.26"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "170c6108-3526-4f94-92ec-b8fa4de24863"
+}
+RESPONSE:
+{
+    "_id": "170c6108-3526-4f94-92ec-b8fa4de24863",
+    "state": "REGISTERED",
+    "serial_number": "170c6108-3526-4f94-92ec-b8fa4de24863",
+    "time_creation": 1741608916,
+    "tss_id": "d7a34670-a733-4375-84b8-bec81946ff49",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.26"
+}
+------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_9u7zdm2hg7c49wp73iqe0blty_harresse-04423510778
+FISKALY API SECRET: BWhBFFDTK1MkRsgPWAnXsCbV3BctlhxXChuj9S7e0jv
+TSE ID: d7a34670-a733-4375-84b8-bec81946ff49
+TSE CLIENT ID: 170c6108-3526-4f94-92ec-b8fa4de24863
+ADMIN PUK: 9140101471
+ADMIN PIN: 74524115

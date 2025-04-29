@@ -1,0 +1,192 @@
+OLD TSE : 12bb90ec-d5a8-4c13-a54a-7ba388738b20
+OLD TSE CLIENT ID: 449efe9d-281c-4196-88d6-e01afeff5dbc
+OLD ADMIN PUK: 0774217116
+OLD ADMIN PIN: JAN291993
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3MzkyNjk0NTEsImlhdCI6MTczOTE4MzA1MSwianRpIjoiYTNkYjI2YzctZGQzNy00Yzg4LThjOGUtMjJlMDU0OTU5YjUwIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiI3MjgyOWZlNS02ZWM0LTQwZDgtOWQ4Yi0xZTE0MDVlNTZlOGUiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiMDA1MGI3MTYtNzYwYy00MjY4LWExYTUtZDQ1ZjQ0N2I5MDEyIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIwMDUwYjcxNi03NjBjLTQyNjgtYTFhNS1kNDVmNDQ3YjkwMTIiLCJvcmdhbml6YXRpb24iOiI2ZTIyYWFkNy1lOGU2LTQ5MzAtYmI2ZC1hOGZhMjllOTQwMzAiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.Y6uSMUaiVn5g0VFBs9FKZtJlIYM6qCu_2WUs_Q0jmOcluROKY18IH30QR4YBg3F6sRuQ6uZPqLBVP_OdOBX41zxnW3bvalXGJmbosWXKOBSaEYnAhd-F_RZlOjI4Y6O_nWbFgYL43X2eic6c3e2QOfrB1O1UpUZBMjybCdhgtEynu7g1ToaIJBMr4v03H93aciFlSeHlW3sP0OTjORrgIQ5l3wg9AZ_dKRc3pfC0VFwb8pe0esSPsTQPNeNE6yJ65vWFvK2KTD9FATf_xnJMXedpWJFicc6D8OpGPL0peu4OBDl-wSqZko6K8aqqNg45LPmc5G4CqF2pNdc9H562LQ",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "6e22aad7-e8e6-4930-bb6d-a8fa29e94030"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1739269451,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3MzkzNTU4NTEsImlhdCI6MTczOTE4MzA1MSwianRpIjoiYWQ1ZTg3NzctNTZlYS00NWY1LWE0MjItN2ZkMjFmNzA2MzEyIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjcyODI5ZmU1LTZlYzQtNDBkOC05ZDhiLTFlMTQwNWU1NmU4ZSIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiMDA1MGI3MTYtNzYwYy00MjY4LWExYTUtZDQ1ZjQ0N2I5MDEyIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIwMDUwYjcxNi03NjBjLTQyNjgtYTFhNS1kNDVmNDQ3YjkwMTIifQ.t33G2mUJeGKd8zAONZKABFnGFou7ho6Jqn-KZ5Suoy0",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1739355851
+}
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Ayana Indian Kitchen",
+        "address": "By Hotel Lindenhof",
+        "address2": "Konrad-Adenauer-Platz 1",
+        "address3": "Erkelenz",
+        "phone": "+49 2431 9991111",
+        "phone2": "",
+        "description":"TSE_Ayana Indian Kitchen_41812"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEdDCCA/qgAwIBAgIQHDDXRU4l66rmAxo5CoejwzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3Mjk1NFoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfRTREMDI0RTNCNUJBNEQ1MUI2RkUzOUNDNzk0MEFCMkMxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A0ZTNjYzEzMzBhMTU1ZTI3NDgyOWI4NTJlMTgxOWZiZjg4ODliYzhlYWZkNjJjZDFjZDliNDZlNjgwODk4OWQwMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABM6CNZ+d58fVUi7G0MTMwoPG+yu0qPzZ6hVvTtytI8il4k2X9jFOmBBzODKJqGqxg0WKod4xbZonqGoTxfB1U+KjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2gAMGUCMBOSWV6jqs71ZRGQ/M6CnORBFGqzI5UTO26yEx9/sXl7gi7UnbR8N0OW62lJy/wtJwIxAIgvmRolF5myBCGDMW2q9D6xxF5WY+XzLX8HsTFthyG/WOsVdSJbFbtaLz/BZnEDpA==",
+    "serial_number": "4e3cc1330a155e274829b852e1819fbf8889bc8eafd62cd1cd9b46e6808989d0",
+    "public_key": "BM6CNZ+d58fVUi7G0MTMwoPG+yu0qPzZ6hVvTtytI8il4k2X9jFOmBBzODKJqGqxg0WKod4xbZonqGoTxfB1U+I=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "acc772e7-7b76-4a75-90d4-5d82cb9fc647",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23",
+    "time_creation": 1739183528,
+    "admin_puk": "6219615647",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Ayana Indian Kitchen",
+        "phone": "+49 2431 9991111",
+        "phone2": "",
+        "address": "By Hotel Lindenhof",
+        "address2": "Konrad-Adenauer-Platz 1",
+        "address3": "Erkelenz",
+        "description": "TSE_Ayana Indian Kitchen_41812"
+    }
+}
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "acc772e7-7b76-4a75-90d4-5d82cb9fc647",
+    "state": "UNINITIALIZED",
+    "time_creation": 1739183528,
+    "time_uninit": 1739183598,
+    "certificate": "MIIEdDCCA/qgAwIBAgIQHDDXRU4l66rmAxo5CoejwzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3Mjk1NFoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfRTREMDI0RTNCNUJBNEQ1MUI2RkUzOUNDNzk0MEFCMkMxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A0ZTNjYzEzMzBhMTU1ZTI3NDgyOWI4NTJlMTgxOWZiZjg4ODliYzhlYWZkNjJjZDFjZDliNDZlNjgwODk4OWQwMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABM6CNZ+d58fVUi7G0MTMwoPG+yu0qPzZ6hVvTtytI8il4k2X9jFOmBBzODKJqGqxg0WKod4xbZonqGoTxfB1U+KjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2gAMGUCMBOSWV6jqs71ZRGQ/M6CnORBFGqzI5UTO26yEx9/sXl7gi7UnbR8N0OW62lJy/wtJwIxAIgvmRolF5myBCGDMW2q9D6xxF5WY+XzLX8HsTFthyG/WOsVdSJbFbtaLz/BZnEDpA==",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "4e3cc1330a155e274829b852e1819fbf8889bc8eafd62cd1cd9b46e6808989d0",
+    "public_key": "BM6CNZ+d58fVUi7G0MTMwoPG+yu0qPzZ6hVvTtytI8il4k2X9jFOmBBzODKJqGqxg0WKod4xbZonqGoTxfB1U+I=",
+    "signature_counter": "111",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "By Hotel Lindenhof",
+        "address2": "Konrad-Adenauer-Platz 1",
+        "address3": "Erkelenz",
+        "description": "TSE_Ayana Indian Kitchen_41812",
+        "name": "Ayana Indian Kitchen",
+        "phone": "+49 2431 9991111"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "19992004"
+}
+RESPONSE:
+200 OK
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "19992004"
+}
+RESPONSE:
+200 OK
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "acc772e7-7b76-4a75-90d4-5d82cb9fc647",
+    "description": "fiskaly sign cloud-TSE (acc772e7-7b76-4a75-90d4-5d82cb9fc647)",
+    "state": "INITIALIZED",
+    "time_creation": 1739183528,
+    "time_uninit": 1739183598,
+    "time_init": 1739183688,
+    "certificate": "MIIEdDCCA/qgAwIBAgIQHDDXRU4l66rmAxo5CoejwzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3Mjk1NFoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfRTREMDI0RTNCNUJBNEQ1MUI2RkUzOUNDNzk0MEFCMkMxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A0ZTNjYzEzMzBhMTU1ZTI3NDgyOWI4NTJlMTgxOWZiZjg4ODliYzhlYWZkNjJjZDFjZDliNDZlNjgwODk4OWQwMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABM6CNZ+d58fVUi7G0MTMwoPG+yu0qPzZ6hVvTtytI8il4k2X9jFOmBBzODKJqGqxg0WKod4xbZonqGoTxfB1U+KjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2gAMGUCMBOSWV6jqs71ZRGQ/M6CnORBFGqzI5UTO26yEx9/sXl7gi7UnbR8N0OW62lJy/wtJwIxAIgvmRolF5myBCGDMW2q9D6xxF5WY+XzLX8HsTFthyG/WOsVdSJbFbtaLz/BZnEDpA==",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "4e3cc1330a155e274829b852e1819fbf8889bc8eafd62cd1cd9b46e6808989d0",
+    "public_key": "BM6CNZ+d58fVUi7G0MTMwoPG+yu0qPzZ6hVvTtytI8il4k2X9jFOmBBzODKJqGqxg0WKod4xbZonqGoTxfB1U+I=",
+    "signature_counter": "117",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "By Hotel Lindenhof",
+        "address2": "Konrad-Adenauer-Platz 1",
+        "address3": "Erkelenz",
+        "description": "TSE_Ayana Indian Kitchen_41812",
+        "name": "Ayana Indian Kitchen",
+        "phone": "+49 2431 9991111"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "f6af2672-66c0-40b1-87fd-b57d9ffd5cdd"
+}
+RESPONSE:
+{
+    "_id": "f6af2672-66c0-40b1-87fd-b57d9ffd5cdd",
+    "state": "REGISTERED",
+    "serial_number": "f6af2672-66c0-40b1-87fd-b57d9ffd5cdd",
+    "time_creation": 1739183754,
+    "tss_id": "acc772e7-7b76-4a75-90d4-5d82cb9fc647",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY:live_6iqacacmyg7fpspc4spgu3m0g_ayanaindiankitchen-20858311279 
+FISKALY API SECRET: 5hfTZG8muKVyBVn7hhl1zFYV75rfh3hLRjnpQPEykC3
+TSE ID: acc772e7-7b76-4a75-90d4-5d82cb9fc647
+TSE CLIENT ID: f6af2672-66c0-40b1-87fd-b57d9ffd5cdd
+ADMIN PUK: 6219615647
+ADMIN PIN: 19992004

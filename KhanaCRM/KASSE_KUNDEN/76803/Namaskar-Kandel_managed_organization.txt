@@ -1,0 +1,71 @@
+Namaskar-Kandel
+
+API_Key: live_ahm7j7e3e6c3amft1u0pcn0wn_namaskar-2416380159
+API_SECRET: kZlQBM3y4n6WS6399vMuUrsHaxtyxAI2FTudMy2rgNI
+
+token:
+request:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+response:
+{"access_token":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3MzgyNTU0ODYsImlhdCI6MTczODE2OTA4NiwianRpIjoiNTgxM2ViMjUtOGFjMC00MDA2LTk2ZTktMzM1Zjc0NTA0NTU4IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiIzYmQyYjg2OS1mN2I5LTRhNDctOTE0OC1mOThkMjRhNGQ4MjciLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiOGQzODY2MDMtMGQ2ZC00MzczLWFkZjctY2Y2MTQ4NzY3MjJhIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI4ZDM4NjYwMy0wZDZkLTQzNzMtYWRmNy1jZjYxNDg3NjcyMmEiLCJvcmdhbml6YXRpb24iOiJiMTJkODkzNC0zZWFiLTQ1MDktOWY2Yy01MjVjYmQyZTc0NTciLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.FxkO9sNoRJkezGIeuXlBChC5a-_FxiL0GeperugqdFlIhkoevGDABvmWcgNXiQ_-vk224_ivUOm50dyroSgK4iCYkL7kunsSJuSm1hJhEU50_ZgSwbbuYX6qcgg6PG6YhzIQs9SbqCmT-dHuDLOUH8KYawFzhBwzeQy-bZXU3sB4ZpvopPzsDBc8dLM-5onN3tQ8EmUhAqApZKMFibbQzLIvxQA14afr5FJxIcC5AhMCEiii8WURPebZZXobl86EgFljQQD1BqlYS6ayhcFNog0BmR2q9wkcYz-T2ZMC12YwAfdAzFmvRHoljfoVRk35xVoIedtvBwXyykDtTqdr0A","access_token_claims":{"env":"LIVE","organization_id":"b12d8934-3eab-4509-9f6c-525cbd2e7457"},"access_token_expires_in":86400,"access_token_expires_at":1738255486,"refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3MzgzNDE4ODYsImlhdCI6MTczODE2OTA4NiwianRpIjoiMzAzNGFhZmYtOWZiOC00NDkwLWE0ZTItZjFhYmQyZmMwMzkyIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjNiZDJiODY5LWY3YjktNGE0Ny05MTQ4LWY5OGQyNGE0ZDgyNyIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiOGQzODY2MDMtMGQ2ZC00MzczLWFkZjctY2Y2MTQ4NzY3MjJhIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI4ZDM4NjYwMy0wZDZkLTQzNzMtYWRmNy1jZjYxNDg3NjcyMmEifQ.THSu2n3kU4kPUS3d21o-ql1tC6tvl0NwRehSCNueT4A","refresh_token_expires_in":172800,"refresh_token_expires_at":1738341886}
+
+create TSS:
+request:
+{
+    "metadata": {
+        "name": "Namaskar",
+        "address": "Indisches Restaurant",
+        "address2": "Turmstr. 1",
+        "address3": "Kandel",
+        "phone": "07275 988487",
+        "phone2": "",
+        "description":"TSE_Namaskar_76870"
+
+    }
+}
+response:
+{"certificate":"MIIEdDCCA/qgAwIBAgIQGRI97ZyqU1d8vneQgCfJqjAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTEyNTMyMloXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNUQyMTA5MjdBQzVGNDUzNjk4MTEyNjVGNzgxQTU3QUIxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BlNWM2MGU3NmVlYjBiMTdjNTExYTJlYzQwOGQyNGJmMWE4YzQ2MjM3MzIyMDY2N2FiNjYyOGE2NTg1OGNhMjk2MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABEGnNuCsU2hHvqv9pt4aDJktbyMVyMqhksOUHLISLA7S/Pjq6KCTWb0StW0euqWfLkIOUQ+f+SaBjM4J7covtyejggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2gAMGUCMH3pTLZ7xHP70f6GHJMyIJw/kQFt/ncUk+vpz2wxyuaInnrwuXts7Pq8AZDEX8m7jgIxAIvgpY7o5TFfVA/h9pabyth2Df2oEDTeC7zY7D1T/IXAnuPCKZtDCzkk4h4OWabH0w==","serial_number":"e5c60e76eeb0b17c511a2ec408d24bf1a8c462373220667ab6628a65858ca296","public_key":"BEGnNuCsU2hHvqv9pt4aDJktbyMVyMqhksOUHLISLA7S/Pjq6KCTWb0StW0euqWfLkIOUQ+f+SaBjM4J7covtyc=","signature_algorithm":"ecdsa-plain-SHA256","signature_timestamp_format":"unixTime","transaction_data_encoding":"UTF-8","max_number_registered_clients":199,"max_number_active_transactions":2000,"supported_update_variants":"SIGNED","_id":"ca7a468a-5738-4ff4-846f-b2d560411b11","_type":"TSS","_env":"LIVE","_version":"2.1.22","time_creation":1738169390,"admin_puk":"6684895572","state":"CREATED","metadata":{"name":"Namaskar","phone":"07275 988487","phone2":"","address":"Indisches Restaurant","address2":"Turmstr. 1","address3":"Kandel","description":"TSE_Namaskar_76870"}}
+
+persionalised tss:
+request:
+{
+    "state": "UNINITIALIZED"
+}
+response:
+{"_id":"ca7a468a-5738-4ff4-846f-b2d560411b11","state":"UNINITIALIZED","time_creation":1738169390,"time_uninit":1738169491,"certificate":"MIIEdDCCA/qgAwIBAgIQGRI97ZyqU1d8vneQgCfJqjAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTEyNTMyMloXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNUQyMTA5MjdBQzVGNDUzNjk4MTEyNjVGNzgxQTU3QUIxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BlNWM2MGU3NmVlYjBiMTdjNTExYTJlYzQwOGQyNGJmMWE4YzQ2MjM3MzIyMDY2N2FiNjYyOGE2NTg1OGNhMjk2MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABEGnNuCsU2hHvqv9pt4aDJktbyMVyMqhksOUHLISLA7S/Pjq6KCTWb0StW0euqWfLkIOUQ+f+SaBjM4J7covtyejggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2gAMGUCMH3pTLZ7xHP70f6GHJMyIJw/kQFt/ncUk+vpz2wxyuaInnrwuXts7Pq8AZDEX8m7jgIxAIvgpY7o5TFfVA/h9pabyth2Df2oEDTeC7zY7D1T/IXAnuPCKZtDCzkk4h4OWabH0w==","bsi_certification_id":"0403-2021","serial_number":"e5c60e76eeb0b17c511a2ec408d24bf1a8c462373220667ab6628a65858ca296","public_key":"BEGnNuCsU2hHvqv9pt4aDJktbyMVyMqhksOUHLISLA7S/Pjq6KCTWb0StW0euqWfLkIOUQ+f+SaBjM4J7covtyc=","signature_counter":"102","signature_algorithm":"ecdsa-plain-SHA256","signature_timestamp_format":"unixTime","transaction_data_encoding":"UTF-8","number_registered_clients":0,"max_number_registered_clients":199,"number_active_transactions":0,"max_number_active_transactions":2000,"supported_update_variants":"SIGNED","metadata":{"address":"Indisches Restaurant","address2":"Turmstr. 1","address3":"Kandel","description":"TSE_Namaskar_76870","name":"Namaskar","phone":"07275 988487"},"_type":"TSS","_env":"LIVE","_version":"2.1.22"}
+
+changing adminpin:
+request:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "885500"
+}
+response:
+{}
+
+autheticatte admin:
+request:
+
+{
+	"admin_pin": "885500"
+}
+response:
+{}
+intialized tss:
+{"_id":"ca7a468a-5738-4ff4-846f-b2d560411b11","description":"fiskaly sign cloud-TSE (ca7a468a-5738-4ff4-846f-b2d560411b11)","state":"INITIALIZED","time_creation":1738169390,"time_uninit":1738169491,"time_init":1738169964,"certificate":"MIIEdDCCA/qgAwIBAgIQGRI97ZyqU1d8vneQgCfJqjAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTEyNTMyMloXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNUQyMTA5MjdBQzVGNDUzNjk4MTEyNjVGNzgxQTU3QUIxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BlNWM2MGU3NmVlYjBiMTdjNTExYTJlYzQwOGQyNGJmMWE4YzQ2MjM3MzIyMDY2N2FiNjYyOGE2NTg1OGNhMjk2MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABEGnNuCsU2hHvqv9pt4aDJktbyMVyMqhksOUHLISLA7S/Pjq6KCTWb0StW0euqWfLkIOUQ+f+SaBjM4J7covtyejggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2gAMGUCMH3pTLZ7xHP70f6GHJMyIJw/kQFt/ncUk+vpz2wxyuaInnrwuXts7Pq8AZDEX8m7jgIxAIvgpY7o5TFfVA/h9pabyth2Df2oEDTeC7zY7D1T/IXAnuPCKZtDCzkk4h4OWabH0w==","bsi_certification_id":"0403-2021","serial_number":"e5c60e76eeb0b17c511a2ec408d24bf1a8c462373220667ab6628a65858ca296","public_key":"BEGnNuCsU2hHvqv9pt4aDJktbyMVyMqhksOUHLISLA7S/Pjq6KCTWb0StW0euqWfLkIOUQ+f+SaBjM4J7covtyc=","signature_counter":"109","signature_algorithm":"ecdsa-plain-SHA256","signature_timestamp_format":"unixTime","transaction_data_encoding":"UTF-8","number_registered_clients":1,"max_number_registered_clients":199,"number_active_transactions":0,"max_number_active_transactions":2000,"supported_update_variants":"SIGNED","metadata":{"address":"Indisches Restaurant","address2":"Turmstr. 1","address3":"Kandel","description":"TSE_Namaskar_76870","name":"Namaskar","phone":"07275 988487"},"_type":"TSS","_env":"LIVE","_version":"2.1.22"}
+client:
+{"_id":"42d8e408-0a58-4f36-a32a-88f57d0b8a05","state":"REGISTERED","serial_number":"5a90f249-bf5a-4c9a-be0e-9df2f470ac6a","time_creation":1738169904,"tss_id":"ca7a468a-5738-4ff4-846f-b2d560411b11","_type":"CLIENT","_env":"LIVE","_version":"2.1.22"}
+
+
+TSE_ID:ca7a468a-5738-4ff4-846f-b2d560411b11
+TSE_CLIENT_ID:42d8e408-0a58-4f36-a32a-88f57d0b8a05
+ADMIN_PIN:885500
+ADMIN_PUK:6684895572
+
+OLD_TSE_ID: dcb0144c-b4e2-4cb1-8217-14f4ed70ac6b
+OLD_TSE_CLIENT_ID: b0c70c7f-f495-4c79-ad11-663900bade5a
+ADMIN_PIN:JAN291993
+ADMIN_PUK:1777928257

@@ -1,0 +1,201 @@
+OLD TSE : 
+OLD TSE CLIENT ID: 
+OLD ADMIN PUK: 
+OLD ADMIN PIN: 
+
+-------------------------------------------------------------------------
+
+=============NEW================
+ 
+Restaurant Name: Port India
+API Key: live_dlavcqg1d4hqxr35ayrcinm1r_portindia-8216305702
+API Secret Key: fef9kiIEVruZR7hPTKnPpGdAsqjxlHTl6ebUwipwegN
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3MzkyNjY0OTgsImlhdCI6MTczOTE4MDA5OCwianRpIjoiZGFjMGViMjEtNThiMi00MjZjLWIwMmQtNmVlNmRjMzY2YWI5IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiI1ZjJhNzNmNC1kY2M5LTQ3ODktOTYzNy1hNzY5ZmJhOTQ2MzMiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiMDY1MzkwY2UtZDg2MC00YzExLWFhMzItYWQ5Njk5NDFiYmJhIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIwNjUzOTBjZS1kODYwLTRjMTEtYWEzMi1hZDk2OTk0MWJiYmEiLCJvcmdhbml6YXRpb24iOiJlNTk0OWJkNC1kYmM3LTQxMDYtOTBjYi02MTIzODRmNzAxNWYiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.BYeSiPdsd6JtCRhrO8PArKbbAECo2tZf8NB8ofNRYTJH_d1_I9rTWCjevFEfFc0PvYu316dD2wR2fki_sLB_vRRjUozGhs583SGZNijNVMkYOX7dbKJBpeH7Rn_nL2kPGuOQecZ2wvmar7zNqMjl00ywEeSa1kBsBaG_2eT4l5MHNhZbqpplpRlxbaYtQe6s6wD9CmZe1xaRJ6AXJp-kG7T5MuLDW93tmkVmJoAf604ZtCa4o_v-HbJe9x_6MBPzeLNZjPM7aIKXceNf4kmWuyjCFzSy_tLpYG_hEZhXOBU41Of4wzXiw-LZ-qoG_eDs7oDveK3lIqNlCBhZ6fxwcA",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "e5949bd4-dbc7-4106-90cb-612384f7015f"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1739266498,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3MzkzNTI4OTgsImlhdCI6MTczOTE4MDA5OCwianRpIjoiZDUwYzA3MWQtNzRhMC00OGJjLThlOWYtNzQxOTg0NDI3ODk0IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjVmMmE3M2Y0LWRjYzktNDc4OS05NjM3LWE3NjlmYmE5NDYzMyIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiMDY1MzkwY2UtZDg2MC00YzExLWFhMzItYWQ5Njk5NDFiYmJhIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIwNjUzOTBjZS1kODYwLTRjMTEtYWEzMi1hZDk2OTk0MWJiYmEifQ.G6j-CxYQERElmUS3u118uVyiDeuJ2ayYozY0uZ9_5Es",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1739352898
+}
+
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Port India",
+        "address": "Strandpromenade 5",
+        "address2": "Sassnitz",
+        "address3": "",
+        "phone": "",
+        "phone2": "",
+        "description":"TSE_Port India_18546"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQFONYvTMyeZ/lnx0sScrcYTAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3MzI1N1oXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNTA3NzE1QjVFRjhGNEEzNUJFQkE3NTJGMzM0MzkwODgxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A4YjExNTU1YTk5NTI0ZDI5NzgwYmRjYjM0NzVkM2ExOGZlZDY5NjBmYzUwYmNkMWEzNDYyMDNmMTdlOWRkYzYwMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABATt+BntvY5av5uMcXf5pxFvws+MTLn8svuC1nvN007Hs0eIW7q8BJuudK4ABbvnVpWoRjrXUwZ3MN2+enIyZmmjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMDwmy9/XRTfRem71nmqyjVhgvXN5pXhw4Dps5KEohlr4gwHc1MzhYTwOzmGhMPA4TgIwfJ+SOUoHtiMJFDR6rZDg7mclPBhpGLnm4dXtuk3MX4A5Lq+nxPrbg7R65jhWg4DX",
+    "serial_number": "8b11555a99524d29780bdcb3475d3a18fed6960fc50bcd1a346203f17e9ddc60",
+    "public_key": "BATt+BntvY5av5uMcXf5pxFvws+MTLn8svuC1nvN007Hs0eIW7q8BJuudK4ABbvnVpWoRjrXUwZ3MN2+enIyZmk=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "80c1218d-8758-43ab-a881-7fa41786a227",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23",
+    "time_creation": 1739180203,
+    "admin_puk": "1050518364",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Port India",
+        "phone": "",
+        "phone2": "",
+        "address": "Strandpromenade 5",
+        "address2": "Sassnitz",
+        "address3": "",
+        "description": "TSE_Port India_18546"
+    }
+}
+
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "80c1218d-8758-43ab-a881-7fa41786a227",
+    "state": "UNINITIALIZED",
+    "time_creation": 1739180203,
+    "time_uninit": 1739180286,
+    "certificate": "MIIEczCCA/qgAwIBAgIQFONYvTMyeZ/lnx0sScrcYTAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3MzI1N1oXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNTA3NzE1QjVFRjhGNEEzNUJFQkE3NTJGMzM0MzkwODgxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A4YjExNTU1YTk5NTI0ZDI5NzgwYmRjYjM0NzVkM2ExOGZlZDY5NjBmYzUwYmNkMWEzNDYyMDNmMTdlOWRkYzYwMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABATt+BntvY5av5uMcXf5pxFvws+MTLn8svuC1nvN007Hs0eIW7q8BJuudK4ABbvnVpWoRjrXUwZ3MN2+enIyZmmjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMDwmy9/XRTfRem71nmqyjVhgvXN5pXhw4Dps5KEohlr4gwHc1MzhYTwOzmGhMPA4TgIwfJ+SOUoHtiMJFDR6rZDg7mclPBhpGLnm4dXtuk3MX4A5Lq+nxPrbg7R65jhWg4DX",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "8b11555a99524d29780bdcb3475d3a18fed6960fc50bcd1a346203f17e9ddc60",
+    "public_key": "BATt+BntvY5av5uMcXf5pxFvws+MTLn8svuC1nvN007Hs0eIW7q8BJuudK4ABbvnVpWoRjrXUwZ3MN2+enIyZmk=",
+    "signature_counter": "111",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Strandpromenade 5",
+        "address2": "Sassnitz",
+        "description": "TSE_Port India_18546",
+        "name": "Port India"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "880177"
+}
+RESPONSE:
+{}
+
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "880177"
+}
+RESPONSE:
+{}
+
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "80c1218d-8758-43ab-a881-7fa41786a227",
+    "description": "fiskaly sign cloud-TSE (80c1218d-8758-43ab-a881-7fa41786a227)",
+    "state": "INITIALIZED",
+    "time_creation": 1739180203,
+    "time_uninit": 1739180286,
+    "time_init": 1739180495,
+    "certificate": "MIIEczCCA/qgAwIBAgIQFONYvTMyeZ/lnx0sScrcYTAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3MzI1N1oXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNTA3NzE1QjVFRjhGNEEzNUJFQkE3NTJGMzM0MzkwODgxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A4YjExNTU1YTk5NTI0ZDI5NzgwYmRjYjM0NzVkM2ExOGZlZDY5NjBmYzUwYmNkMWEzNDYyMDNmMTdlOWRkYzYwMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABATt+BntvY5av5uMcXf5pxFvws+MTLn8svuC1nvN007Hs0eIW7q8BJuudK4ABbvnVpWoRjrXUwZ3MN2+enIyZmmjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMDwmy9/XRTfRem71nmqyjVhgvXN5pXhw4Dps5KEohlr4gwHc1MzhYTwOzmGhMPA4TgIwfJ+SOUoHtiMJFDR6rZDg7mclPBhpGLnm4dXtuk3MX4A5Lq+nxPrbg7R65jhWg4DX",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "8b11555a99524d29780bdcb3475d3a18fed6960fc50bcd1a346203f17e9ddc60",
+    "public_key": "BATt+BntvY5av5uMcXf5pxFvws+MTLn8svuC1nvN007Hs0eIW7q8BJuudK4ABbvnVpWoRjrXUwZ3MN2+enIyZmk=",
+    "signature_counter": "117",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Strandpromenade 5",
+        "address2": "Sassnitz",
+        "description": "TSE_Port India_18546",
+        "name": "Port India"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "26634e95-4556-4736-82af-3080709b3983"
+}
+RESPONSE:
+{
+    "_id": "26634e95-4556-4736-82af-3080709b3983",
+    "state": "REGISTERED",
+    "serial_number": "26634e95-4556-4736-82af-3080709b3983",
+    "time_creation": 1739180585,
+    "tss_id": "80c1218d-8758-43ab-a881-7fa41786a227",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_dlavcqg1d4hqxr35ayrcinm1r_portindia-8216305702
+FISKALY API SECRET: fef9kiIEVruZR7hPTKnPpGdAsqjxlHTl6ebUwipwegN
+TSE ID: 80c1218d-8758-43ab-a881-7fa41786a227
+TSE CLIENT ID: 26634e95-4556-4736-82af-3080709b3983
+ADMIN PUK: 1050518364
+ADMIN PIN: 880177

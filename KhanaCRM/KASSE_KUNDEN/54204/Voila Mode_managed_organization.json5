@@ -1,0 +1,190 @@
+OLD TSE : 2c62e8b8-52a1-4d1d-8fe9-1c69eeae7499
+OLD TSE CLIENT ID: 66014d71-4e59-4ed2-9f64-afb2d535309d
+OLD ADMIN PUK: 1302801646
+OLD ADMIN PIN: 224419
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3NDExODM5ODAsImlhdCI6MTc0MTA5NzU4MCwianRpIjoiM2FjYmE3NWEtMDI0Yi00MDRiLTlkMzQtOGRkZTlkZmNmZDc0IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiI3NzZhMjZhMi0yZDY3LTQzZjctOWE1YS1kYTc4MTdkNzIzYTMiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiYWYwMTE3NWYtNWNmMS00OWNhLTlkOTItNDE1NGU3YTM2Y2FkIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJhZjAxMTc1Zi01Y2YxLTQ5Y2EtOWQ5Mi00MTU0ZTdhMzZjYWQiLCJvcmdhbml6YXRpb24iOiJkNTA0NTU5My03ZjJiLTQwZGUtYjFlYi1iMzU0ZGZjNGJlNzEiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.Rw0SVRjC-e6AhtpO1NJ5hztNbCLYLA7jI5OCAmn4zVDmYGaxL2JoARo1wwdpfCVFKPagBQEwiSK19La9WOIK0AdLgs_9PK29LwFBxD5foiw6aGf20J3-ky2dB52dmJF8d0RT6E1-p5UntgU7mJVrrDfhZgzV1SjuIehF_aS-w8p693nPphYF0mU-51Z5S3bLQLifgUM6yLfwGEq0V9_lbzhO5-6fihyI6Mb6MfFZL5_x2z-ROtK1CurTTyfhXQwU-dKokYZLWgdbWOIIxjd4xbaI8_8DU-za79sNM0Vzd35mJtNVmt0otTWpywdLl1ewa0MBApuG0fNVBjg4I8l4Jg",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "d5045593-7f2b-40de-b1eb-b354dfc4be71"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1741183980,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3NDEyNzAzODAsImlhdCI6MTc0MTA5NzU4MCwianRpIjoiMmMwYTgxNGMtMjlmZS00OGNjLWFlNzYtZTcxNGZkNDE2YzNhIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6Ijc3NmEyNmEyLTJkNjctNDNmNy05YTVhLWRhNzgxN2Q3MjNhMyIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiYWYwMTE3NWYtNWNmMS00OWNhLTlkOTItNDE1NGU3YTM2Y2FkIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJhZjAxMTc1Zi01Y2YxLTQ5Y2EtOWQ5Mi00MTU0ZTdhMzZjYWQifQ.fDT_WOaxBbQtrQ8ApT174g13AA5xFkPJFJviqilJLFM",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1741270380
+}
+
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Voila Mode",
+        "address": "",
+        "address2": "Neu Str. 2",
+        "address3": "Trier",
+        "phone": "",
+        "phone2": "",
+        "description":"TSE_Voila Mode_54290"
+		}
+		}
+response:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQCkGn9jH3FX6BZJ+atuw4GDAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODEwMzYyOFoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNzY1MUFGRDdFQzk0NDgxM0IyQUJEQkEwODlBOUE3NDkxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BkYmQ3ZDczYTA0ODI5ZmI3OGE1NzFmYWY3YmRiMjExY2Y3Y2VkZWMxMjY0MzY1OTZkNmU3YTg3Mzk4ZmM5ZmM4MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABHL//cBKskCJRp+umdGjwsI0pv4tdDqkdJOSzTFa19Wgfq7Xf9X88Q6k3XinNTV/B/knEeEBMIJxH8cmxz9C88GjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMBXL7306AaO5e6JYBY1g59HJH8czqfjofHhiMnF8MEVVxbJ4VIyU9KS/VmTjxd42bQIwQcLVn3y1FHOweKPpdtKFufQhkc9aP4oquzgbRwTJ9A5ssKHYk1rg4ZmZ4vIHqW1c",
+    "serial_number": "dbd7d73a04829fb78a571faf7bdb211cf7cedec126436596d6e7a87398fc9fc8",
+    "public_key": "BHL//cBKskCJRp+umdGjwsI0pv4tdDqkdJOSzTFa19Wgfq7Xf9X88Q6k3XinNTV/B/knEeEBMIJxH8cmxz9C88E=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "3e3bd306-6cbe-47d9-94b9-62c330756055",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.25",
+    "time_creation": 1741097822,
+    "admin_puk": "1545305056",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Voila Mode",
+        "phone": "",
+        "phone2": "",
+        "address": "",
+        "address2": "Neu Str. 2",
+        "address3": "Trier",
+        "description": "TSE_Voila Mode_54290"
+    }
+}
+		
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "3e3bd306-6cbe-47d9-94b9-62c330756055",
+    "state": "UNINITIALIZED",
+    "time_creation": 1741097822,
+    "time_uninit": 1741097897,
+    "certificate": "MIIEczCCA/qgAwIBAgIQCkGn9jH3FX6BZJ+atuw4GDAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODEwMzYyOFoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNzY1MUFGRDdFQzk0NDgxM0IyQUJEQkEwODlBOUE3NDkxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BkYmQ3ZDczYTA0ODI5ZmI3OGE1NzFmYWY3YmRiMjExY2Y3Y2VkZWMxMjY0MzY1OTZkNmU3YTg3Mzk4ZmM5ZmM4MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABHL//cBKskCJRp+umdGjwsI0pv4tdDqkdJOSzTFa19Wgfq7Xf9X88Q6k3XinNTV/B/knEeEBMIJxH8cmxz9C88GjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMBXL7306AaO5e6JYBY1g59HJH8czqfjofHhiMnF8MEVVxbJ4VIyU9KS/VmTjxd42bQIwQcLVn3y1FHOweKPpdtKFufQhkc9aP4oquzgbRwTJ9A5ssKHYk1rg4ZmZ4vIHqW1c",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "dbd7d73a04829fb78a571faf7bdb211cf7cedec126436596d6e7a87398fc9fc8",
+    "public_key": "BHL//cBKskCJRp+umdGjwsI0pv4tdDqkdJOSzTFa19Wgfq7Xf9X88Q6k3XinNTV/B/knEeEBMIJxH8cmxz9C88E=",
+    "signature_counter": "133",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address2": "Neu Str. 2",
+        "address3": "Trier",
+        "description": "TSE_Voila Mode_54290",
+        "name": "Voila Mode"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.25"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "996907"
+}
+RESPONSE:
+{}
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "996907"
+}
+RESPONSE:
+{}
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "3e3bd306-6cbe-47d9-94b9-62c330756055",
+    "description": "fiskaly sign cloud-TSE (3e3bd306-6cbe-47d9-94b9-62c330756055)",
+    "state": "INITIALIZED",
+    "time_creation": 1741097822,
+    "time_uninit": 1741097897,
+    "time_init": 1741098053,
+    "certificate": "MIIEczCCA/qgAwIBAgIQCkGn9jH3FX6BZJ+atuw4GDAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODEwMzYyOFoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNzY1MUFGRDdFQzk0NDgxM0IyQUJEQkEwODlBOUE3NDkxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BkYmQ3ZDczYTA0ODI5ZmI3OGE1NzFmYWY3YmRiMjExY2Y3Y2VkZWMxMjY0MzY1OTZkNmU3YTg3Mzk4ZmM5ZmM4MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABHL//cBKskCJRp+umdGjwsI0pv4tdDqkdJOSzTFa19Wgfq7Xf9X88Q6k3XinNTV/B/knEeEBMIJxH8cmxz9C88GjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMBXL7306AaO5e6JYBY1g59HJH8czqfjofHhiMnF8MEVVxbJ4VIyU9KS/VmTjxd42bQIwQcLVn3y1FHOweKPpdtKFufQhkc9aP4oquzgbRwTJ9A5ssKHYk1rg4ZmZ4vIHqW1c",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "dbd7d73a04829fb78a571faf7bdb211cf7cedec126436596d6e7a87398fc9fc8",
+    "public_key": "BHL//cBKskCJRp+umdGjwsI0pv4tdDqkdJOSzTFa19Wgfq7Xf9X88Q6k3XinNTV/B/knEeEBMIJxH8cmxz9C88E=",
+    "signature_counter": "139",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address2": "Neu Str. 2",
+        "address3": "Trier",
+        "description": "TSE_Voila Mode_54290",
+        "name": "Voila Mode"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.25"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": ""
+}
+RESPONSE:
+{
+    "_id": "45b99242-6b97-488d-adbf-91fefcf13770",
+    "state": "REGISTERED",
+    "serial_number": "45b99242-6b97-488d-adbf-91fefcf13770",
+    "time_creation": 1741098139,
+    "tss_id": "3e3bd306-6cbe-47d9-94b9-62c330756055",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.25"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_cm00bbkf5vwqlky8ge9ngw581_voilamode-4219630395
+FISKALY API SECRET: HUul0hLEW8Zt47IgKVzrpdbxPd0rVvAVVB8LF5MABr9
+TSE ID: 3e3bd306-6cbe-47d9-94b9-62c330756055
+TSE CLIENT ID: 45b99242-6b97-488d-adbf-91fefcf13770
+ADMIN PUK: 1545305056
+ADMIN PIN: 996907
+
+sign_base_url

@@ -1,0 +1,190 @@
+OLD TSE : 2c0ca74c-b46c-4921-9906-b1e4d13df2c8
+OLD TSE CLIENT ID: 823d10d8-8ab4-4777-a1b1-1d69759742b3
+OLD ADMIN PUK: 9630624240
+OLD ADMIN PIN: 531800
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3Mzg2NzI4MTcsImlhdCI6MTczODU4NjQxNywianRpIjoiYjAxMzBkMWMtNTFmYS00ZTRmLTk0NjUtYzcyNmRhNjZkZjQ4IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiIyMWNhZDQ3YS1mNGUwLTQ5ZTAtYThhNi1jYjdhNjM2YzkxZjUiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiZjQ4NzBmYzUtNDBiOS00ZTMxLTkxZWItODQ3NWY3ZmE2ZWE4Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJmNDg3MGZjNS00MGI5LTRlMzEtOTFlYi04NDc1ZjdmYTZlYTgiLCJvcmdhbml6YXRpb24iOiIxMTk1MzhiOC0yOTdlLTQ4MGMtYTIyZC05YTMyZGFlYjNjNzEiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.EegoENXLbE738pDMWxfYpG8Z9erplMJufb2DZ2_DH0X5_T3ZW_f0XgxyRuhXlK9oGprYm5puWE6WGwJ_6umKYkKn3krOK11QwppiYVkQ1wwxtr42mqKJiTYsMKsH3IZ6J6LoEVf9g5_0xxLvbX5k0NzfJZnQXeVPUH7NBdvZQntbpS23NrKq38sHdHSnMG9N1eaKFDGwI5829u268z_a9qh4WeXt3g_ucJxqHfq4qtSh2cbFMfXjmWZbdAI-8EZsZ04oJdsuPTQxZNEXlZ_p1eYOe-kLYRWWDlGajeZx_M8foJnQjo6X_1oJ00qJvbNv0XOkicZCasNnB1wMS1rNGQ",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "119538b8-297e-480c-a22d-9a32daeb3c71"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1738672817,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3Mzg3NTkyMTcsImlhdCI6MTczODU4NjQxNywianRpIjoiMGE5Mjg0MGEtZTBlOS00ZDdhLWIyMGQtYzYyNmY1YWEzY2M5IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjIxY2FkNDdhLWY0ZTAtNDllMC1hOGE2LWNiN2E2MzZjOTFmNSIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiZjQ4NzBmYzUtNDBiOS00ZTMxLTkxZWItODQ3NWY3ZmE2ZWE4Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJmNDg3MGZjNS00MGI5LTRlMzEtOTFlYi04NDc1ZjdmYTZlYTgifQ.6teSl6QizDm3OBzASeVjeZ2D2VMkCsInDi3yoXllPF8",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1738759217
+}
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Flammkuchen Restaurant",
+        "address": "Bahnhof Str. 28",
+        "address2": "",
+        "address3": "Kriftel",
+        "phone": "61929794334",
+        "phone2": "",
+        "description":"TSE_FlammkuchenRestaurant_65830"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQI0wjd/C7FkhMmBQXOJDlzDAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTEzMzMxMloXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMzIwNEU1RTQ0NkRBNDkwQjgyN0ZGMTYwQkY2QzJGQ0ExFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BhNGM5ZmI1MWY2ODRlOTVjMzRiZTVmMzFmMmFkNGFjYmU1ODZjYWY5MjZlNjk2NmQ1NWFkOGM4MDM4NWJmZTYxMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABM18ayqdqJtXw8UdqjmlXKXS+5TIo05t1X9bxWPegpimvYpbc1Qh9c/WybgtTNUDN6fpAGPxv2VIDLzUcpbZG1ijggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMFwfLNL3jtfeXl7rNm1OxmoJrWVxsHiGH8AdP4ZCAbJR9lYvsNtSBVz9bjd9bLHW4wIwArbbhKydsvby+lgMd7ElraidD2ZVbIQJbfX5NIQLczT0XNwzFwqjOeUv581nR5pc",
+    "serial_number": "a4c9fb51f684e95c34be5f31f2ad4acbe586caf926e6966d55ad8c80385bfe61",
+    "public_key": "BM18ayqdqJtXw8UdqjmlXKXS+5TIo05t1X9bxWPegpimvYpbc1Qh9c/WybgtTNUDN6fpAGPxv2VIDLzUcpbZG1g=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "577ea3f6-8d68-469f-9166-6fd3d3856831",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.22",
+    "time_creation": 1738586687,
+    "admin_puk": "9064211658",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Flammkuchen Restaurant",
+        "phone": "61929794334",
+        "phone2": "",
+        "address": "Bahnhof Str. 28",
+        "address2": "",
+        "address3": "Kriftel",
+        "description": "TSE_FlammkuchenRestaurant_65830"
+    }
+}
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "577ea3f6-8d68-469f-9166-6fd3d3856831",
+    "state": "UNINITIALIZED",
+    "time_creation": 1738586687,
+    "time_uninit": 1738586746,
+    "certificate": "MIIEczCCA/qgAwIBAgIQI0wjd/C7FkhMmBQXOJDlzDAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTEzMzMxMloXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMzIwNEU1RTQ0NkRBNDkwQjgyN0ZGMTYwQkY2QzJGQ0ExFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BhNGM5ZmI1MWY2ODRlOTVjMzRiZTVmMzFmMmFkNGFjYmU1ODZjYWY5MjZlNjk2NmQ1NWFkOGM4MDM4NWJmZTYxMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABM18ayqdqJtXw8UdqjmlXKXS+5TIo05t1X9bxWPegpimvYpbc1Qh9c/WybgtTNUDN6fpAGPxv2VIDLzUcpbZG1ijggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMFwfLNL3jtfeXl7rNm1OxmoJrWVxsHiGH8AdP4ZCAbJR9lYvsNtSBVz9bjd9bLHW4wIwArbbhKydsvby+lgMd7ElraidD2ZVbIQJbfX5NIQLczT0XNwzFwqjOeUv581nR5pc",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "a4c9fb51f684e95c34be5f31f2ad4acbe586caf926e6966d55ad8c80385bfe61",
+    "public_key": "BM18ayqdqJtXw8UdqjmlXKXS+5TIo05t1X9bxWPegpimvYpbc1Qh9c/WybgtTNUDN6fpAGPxv2VIDLzUcpbZG1g=",
+    "signature_counter": "107",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Bahnhof Str. 28",
+        "address3": "Kriftel",
+        "description": "TSE_FlammkuchenRestaurant_65830",
+        "name": "Flammkuchen Restaurant",
+        "phone": "61929794334"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.22"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "85641239"
+}
+RESPONSE:
+200 OK
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "85641239"
+}
+RESPONSE:
+200 OK
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "577ea3f6-8d68-469f-9166-6fd3d3856831",
+    "description": "fiskaly sign cloud-TSE (577ea3f6-8d68-469f-9166-6fd3d3856831)",
+    "state": "INITIALIZED",
+    "time_creation": 1738586687,
+    "time_uninit": 1738586746,
+    "time_init": 1738586875,
+    "certificate": "MIIEczCCA/qgAwIBAgIQI0wjd/C7FkhMmBQXOJDlzDAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTEzMzMxMloXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMzIwNEU1RTQ0NkRBNDkwQjgyN0ZGMTYwQkY2QzJGQ0ExFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BhNGM5ZmI1MWY2ODRlOTVjMzRiZTVmMzFmMmFkNGFjYmU1ODZjYWY5MjZlNjk2NmQ1NWFkOGM4MDM4NWJmZTYxMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABM18ayqdqJtXw8UdqjmlXKXS+5TIo05t1X9bxWPegpimvYpbc1Qh9c/WybgtTNUDN6fpAGPxv2VIDLzUcpbZG1ijggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMFwfLNL3jtfeXl7rNm1OxmoJrWVxsHiGH8AdP4ZCAbJR9lYvsNtSBVz9bjd9bLHW4wIwArbbhKydsvby+lgMd7ElraidD2ZVbIQJbfX5NIQLczT0XNwzFwqjOeUv581nR5pc",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "a4c9fb51f684e95c34be5f31f2ad4acbe586caf926e6966d55ad8c80385bfe61",
+    "public_key": "BM18ayqdqJtXw8UdqjmlXKXS+5TIo05t1X9bxWPegpimvYpbc1Qh9c/WybgtTNUDN6fpAGPxv2VIDLzUcpbZG1g=",
+    "signature_counter": "113",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Bahnhof Str. 28",
+        "address3": "Kriftel",
+        "description": "TSE_FlammkuchenRestaurant_65830",
+        "name": "Flammkuchen Restaurant",
+        "phone": "61929794334"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.22"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "25725c44-fb9a-441c-8f2d-faa60c9762e1"
+}
+RESPONSE:
+{
+    "_id": "25725c44-fb9a-441c-8f2d-faa60c9762e1",
+    "state": "REGISTERED",
+    "serial_number": "25725c44-fb9a-441c-8f2d-faa60c9762e1",
+    "time_creation": 1738586946,
+    "tss_id": "577ea3f6-8d68-469f-9166-6fd3d3856831",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.22"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_11h2kccgcr2g7cniio3hkc1v5_flammkuchen-4680933687
+FISKALY API SECRET: McU66BI7K6bo1CrqXlMA1To6NjPsKkGNWCKbvwAH5hA
+TSE ID: 577ea3f6-8d68-469f-9166-6fd3d3856831
+TSE CLIENT ID: 25725c44-fb9a-441c-8f2d-faa60c9762e1
+ADMIN PUK: 9064211658
+ADMIN PIN: 85641239

@@ -1,0 +1,193 @@
+OLD TSE : 
+OLD TSE CLIENT ID: 
+OLD ADMIN PUK: 
+OLD ADMIN PIN: 
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3NDEyMzgxMDUsImlhdCI6MTc0MTE1MTcwNSwianRpIjoiZDdmOWVkODYtNTIzYy00YjkwLWIyYmUtNjQ2M2I3MzZiYzM1IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiJhZjg5ODBiZS0zOTJkLTQ0M2YtYmExMC00MjU1Y2I3NzEzYzgiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiNWI2ZDVkMDMtMzAzNy00MTdjLWJiYTEtOGUxZjQzYTNlZDk0Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI1YjZkNWQwMy0zMDM3LTQxN2MtYmJhMS04ZTFmNDNhM2VkOTQiLCJvcmdhbml6YXRpb24iOiI5MzIxMGY3OS1kZDcyLTQyMzMtYjFmYi02ZjAxMGY0N2ZmNmUiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.ceplldBQmsjfXvWynEOl-isl9yGKSo0R3w3gGw6ObLRQYmt3pT_TXljZpjIqa0ru-AyM4TyMisMlfOdzBLt02jPedGs1DEFkg1whfRbKPT-N0dS1t_gup2wumN4ppyRwXdCJy08xZPuiy6494V4sRNxxq2BrSZyaVEWO9FNMVQbUs6E8d0EyFKbECNDUse0hFv0qlwfDXlV3DE_vo7tNhKVCouuH7pWuNdSlL-dq4eFIWR9H8xwZgnN0kr8DkSDupiPv4i7EfKs8U2oSqPCRLESxJ_dLdo_oj2yRPxT0Fmb3tqg62D3XnNQbWeoNVOR5114sLWMa0b7ars3Olc3ZWg",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "93210f79-dd72-4233-b1fb-6f010f47ff6e"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1741238105,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3NDEzMjQ1MDUsImlhdCI6MTc0MTE1MTcwNSwianRpIjoiZWU4ZjEyYTQtODJhZC00NzBjLWI1NTItNGUzN2RiYjFlNzU2IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6ImFmODk4MGJlLTM5MmQtNDQzZi1iYTEwLTQyNTVjYjc3MTNjOCIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiNWI2ZDVkMDMtMzAzNy00MTdjLWJiYTEtOGUxZjQzYTNlZDk0Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI1YjZkNWQwMy0zMDM3LTQxN2MtYmJhMS04ZTFmNDNhM2VkOTQifQ.kyIfFDMRK73aafBa3IgOMGjbo2yQr7r2R2g5I8Ra0YY",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1741324505
+}
+
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Taste of India",
+        "address": "Indisches Restaurant",
+        "address2": "Wilhelmstrasse 52",
+        "address3": " Idar-Oberstein",
+        "phone": "+49 1575 3410470",
+        "phone2": "",
+        "description":"TSE_Taste of India_55743"
+		}
+		}
+response:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQA8eZEBtkAJo/zx2+AZmBvzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODExNTAxMloXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfM0M4N0M0MTFBQTRFNDc4N0I2NzBBQUUxNDUwQTJENDkxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BiODlmNTJhYjllOWE4N2NlNDJiYjQzZmIzOWUzNzgwNTc0N2ZjOTY2ZjEzOGU5ZTkxMTE2MzBhOTBmZDRkMThhMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABDXZMLwiuhGFu2SjodVonSz9usYM4dC2ZGDjmJRqWuKuPZTR6HVxvdtIaww34yBH3+1OyqmWIBgV3NwPe+K7Y1WjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMH0axpJ0MXWF4wj8cUK0xWWtvl6F1x8yGLN5k76SvX3LYDmKhq/3YdmN7+bqkihB5wIwFk958MhZ4PkVUhT4Y9sKDrJGfVQf/sal/SXlCIPVHFb0diquYenioRPhZH62XsQq",
+    "serial_number": "b89f52ab9e9a87ce42bb43fb39e37805747fc966f138e9e9111630a90fd4d18a",
+    "public_key": "BDXZMLwiuhGFu2SjodVonSz9usYM4dC2ZGDjmJRqWuKuPZTR6HVxvdtIaww34yBH3+1OyqmWIBgV3NwPe+K7Y1U=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "c6f9042b-59ec-4ac1-a90e-50da9f51cfed",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.25",
+    "time_creation": 1741151881,
+    "admin_puk": "2414640072",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Taste of India",
+        "phone": "+49 1575 3410470",
+        "phone2": "",
+        "address": "Indisches Restaurant",
+        "address2": "Wilhelmstrasse 52",
+        "address3": " Idar-Oberstein",
+        "description": "TSE_Taste of India_55743"
+    }
+}
+		
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "c6f9042b-59ec-4ac1-a90e-50da9f51cfed",
+    "state": "UNINITIALIZED",
+    "time_creation": 1741151881,
+    "time_uninit": 1741151914,
+    "certificate": "MIIEczCCA/qgAwIBAgIQA8eZEBtkAJo/zx2+AZmBvzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODExNTAxMloXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfM0M4N0M0MTFBQTRFNDc4N0I2NzBBQUUxNDUwQTJENDkxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BiODlmNTJhYjllOWE4N2NlNDJiYjQzZmIzOWUzNzgwNTc0N2ZjOTY2ZjEzOGU5ZTkxMTE2MzBhOTBmZDRkMThhMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABDXZMLwiuhGFu2SjodVonSz9usYM4dC2ZGDjmJRqWuKuPZTR6HVxvdtIaww34yBH3+1OyqmWIBgV3NwPe+K7Y1WjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMH0axpJ0MXWF4wj8cUK0xWWtvl6F1x8yGLN5k76SvX3LYDmKhq/3YdmN7+bqkihB5wIwFk958MhZ4PkVUhT4Y9sKDrJGfVQf/sal/SXlCIPVHFb0diquYenioRPhZH62XsQq",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "b89f52ab9e9a87ce42bb43fb39e37805747fc966f138e9e9111630a90fd4d18a",
+    "public_key": "BDXZMLwiuhGFu2SjodVonSz9usYM4dC2ZGDjmJRqWuKuPZTR6HVxvdtIaww34yBH3+1OyqmWIBgV3NwPe+K7Y1U=",
+    "signature_counter": "62",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Indisches Restaurant",
+        "address2": "Wilhelmstrasse 52",
+        "address3": " Idar-Oberstein",
+        "description": "TSE_Taste of India_55743",
+        "name": "Taste of India",
+        "phone": "+49 1575 3410470"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.25"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "122451"
+}
+RESPONSE:
+{}
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "122451"
+}
+RESPONSE:
+{}
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "c6f9042b-59ec-4ac1-a90e-50da9f51cfed",
+    "description": "fiskaly sign cloud-TSE (c6f9042b-59ec-4ac1-a90e-50da9f51cfed)",
+    "state": "INITIALIZED",
+    "time_creation": 1741151881,
+    "time_uninit": 1741151914,
+    "time_init": 1741152013,
+    "certificate": "MIIEczCCA/qgAwIBAgIQA8eZEBtkAJo/zx2+AZmBvzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODExNTAxMloXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfM0M4N0M0MTFBQTRFNDc4N0I2NzBBQUUxNDUwQTJENDkxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BiODlmNTJhYjllOWE4N2NlNDJiYjQzZmIzOWUzNzgwNTc0N2ZjOTY2ZjEzOGU5ZTkxMTE2MzBhOTBmZDRkMThhMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABDXZMLwiuhGFu2SjodVonSz9usYM4dC2ZGDjmJRqWuKuPZTR6HVxvdtIaww34yBH3+1OyqmWIBgV3NwPe+K7Y1WjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMH0axpJ0MXWF4wj8cUK0xWWtvl6F1x8yGLN5k76SvX3LYDmKhq/3YdmN7+bqkihB5wIwFk958MhZ4PkVUhT4Y9sKDrJGfVQf/sal/SXlCIPVHFb0diquYenioRPhZH62XsQq",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "b89f52ab9e9a87ce42bb43fb39e37805747fc966f138e9e9111630a90fd4d18a",
+    "public_key": "BDXZMLwiuhGFu2SjodVonSz9usYM4dC2ZGDjmJRqWuKuPZTR6HVxvdtIaww34yBH3+1OyqmWIBgV3NwPe+K7Y1U=",
+    "signature_counter": "68",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Indisches Restaurant",
+        "address2": "Wilhelmstrasse 52",
+        "address3": " Idar-Oberstein",
+        "description": "TSE_Taste of India_55743",
+        "name": "Taste of India",
+        "phone": "+49 1575 3410470"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.25"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": ""
+}
+RESPONSE:
+{
+    "_id": "13b4e36c-7f48-4738-9fcf-24bedf250364",
+    "state": "REGISTERED",
+    "serial_number": "13b4e36c-7f48-4738-9fcf-24bedf250364",
+    "time_creation": 1741152071,
+    "tss_id": "c6f9042b-59ec-4ac1-a90e-50da9f51cfed",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.25"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_8pkoheyukqqdmgbsi8w3eftym_tasteofindia-0917130053
+FISKALY API SECRET:Xi4UKfk6ci5cPT4TTQTI1whwx22dUCSL80z6UfEGrqe 
+TSE ID: c6f9042b-59ec-4ac1-a90e-50da9f51cfed
+TSE CLIENT ID:13b4e36c-7f48-4738-9fcf-24bedf250364
+ADMIN PUK: 2414640072
+ADMIN PIN:122451
+

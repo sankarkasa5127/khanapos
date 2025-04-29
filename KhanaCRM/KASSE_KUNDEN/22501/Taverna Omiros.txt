@@ -1,0 +1,191 @@
+OLD TSE : 0a7d1260-0de7-4057-b80c-e8cc3c63a3a8
+OLD TSE CLIENT ID: 2c3587d3-f02e-47f0-aaa4-7ec2691b09d6
+OLD ADMIN PUK: 3394669818
+OLD ADMIN PIN: JAN291993
+FISAKLY API KEY: live_cb6zppxj72p32jv7uywgppvxk_khana-kassensystem
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3Mzk1OTY2NjcsImlhdCI6MTczOTUxMDI2NywianRpIjoiMzkwMGYxNGEtNGUzMS00NWY4LThmY2UtNTQ5ZjFlMTA3Yjc2IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiI4NDY3YmIwMi05NDU4LTQzY2ItOGU4NS0zZWMxMGFhNDI5OWUiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiYTgzODVkMmEtYWI0NC00NDQwLTk4NTUtNTk3OWFiYmIyMDAwIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJhODM4NWQyYS1hYjQ0LTQ0NDAtOTg1NS01OTc5YWJiYjIwMDAiLCJvcmdhbml6YXRpb24iOiJlMDY3YzAyMC04ZDI5LTQ0Y2ItODNmNi0yMDA5YTI3NGEzZjEiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.OfD-GP1AuSHELhQRvnZBtojULPq6JC4z8yEHiNOXViVHOpYhWfgA-i71oPBoC_16BSIOV5CtQjoqpzme7cpX6vctE8Yptv4Xnaf-MBibMZcKvwYEKYl-GF8uXed3VfTz8oDHZWrvFuLrUyZXN69y2zFCc85es9GUlAHbmeVzwD3lm3MGhxi-z9faL8fx1zfX_dIbT4QYK6sAzedqMQ1vi9vBoIpXvVQKtPWmolHtJV1mHoWdycnA4uSCuSiZWUTU1cK2XhdHDK-rQAh3C5IaqaJQBz_TAAwiVjHBw7l12Bvrp7DdMQFPZlRhgJjPo7o7L6yTsTFt1_LEmf45zZvaAQ",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "e067c020-8d29-44cb-83f6-2009a274a3f1"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1739596667,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3Mzk2ODMwNjcsImlhdCI6MTczOTUxMDI2NywianRpIjoiMGExODA5MDgtYWYyZi00OWZhLWFkZmQtMDZiOGE3MzEyYjNhIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6Ijg0NjdiYjAyLTk0NTgtNDNjYi04ZTg1LTNlYzEwYWE0Mjk5ZSIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiYTgzODVkMmEtYWI0NC00NDQwLTk4NTUtNTk3OWFiYmIyMDAwIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJhODM4NWQyYS1hYjQ0LTQ0NDAtOTg1NS01OTc5YWJiYjIwMDAifQ.BJU9JeayJu6SXwceCZ9mQIDE3stW8NohnjIBOOJviY0",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1739683067
+}
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Taverna Omiros",
+        "address": "",
+        "address2": "Julius-Vosseler Str. 77",
+        "address3": "Hamburg",
+        "phone": "+49 40 5402824",
+        "phone2": "",
+        "description":"TSE_Taverna Omiros_22527"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQKGGWLPg+e7HIPqraMmAYqjAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA4MDIyMVoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMTgwREQxRjNGRjgwNDlBOEEyMzY3NTk1MDM2MkM1NDExFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A5YzhlMWRjYjc4ODI0MDE3Zjc2NzliNDBhOGUwZjhlM2VmNGI2YjBmNmZlZTE3MmVhNzIzNTc5OWJhMGVkYWY2MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABGG22RfYTf+SQEiDhN2wQQ+2BNScnMuMJS83DnGfVto7jSZEIHEqnUhSW222spEo1fwMJwt52tC2ncaG08IPT5ejggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMGsFjzrYIKDeG4E+a2uB6K4FFawgg8eDohT2WCi0GLmlmeBfX88y4isbVf/0P/RYLwIwEN2cF0SpZlYZRfWB3FXK7tsuUrncuiY03pn2aSphsflfyAgzctfVfmikmr3Gas5D",
+    "serial_number": "9c8e1dcb78824017f7679b40a8e0f8e3ef4b6b0f6fee172ea7235799ba0edaf6",
+    "public_key": "BGG22RfYTf+SQEiDhN2wQQ+2BNScnMuMJS83DnGfVto7jSZEIHEqnUhSW222spEo1fwMJwt52tC2ncaG08IPT5c=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "7ed0f944-69ed-4c26-9f3c-d6b1f79b5c32",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23",
+    "time_creation": 1739510443,
+    "admin_puk": "4156068019",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Taverna Omiros",
+        "phone": "+49 40 5402824",
+        "phone2": "",
+        "address": "",
+        "address2": "Julius-Vosseler Str. 77",
+        "address3": "Hamburg",
+        "description": "TSE_Taverna Omiros_22527"
+    }
+}
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "7ed0f944-69ed-4c26-9f3c-d6b1f79b5c32",
+    "state": "UNINITIALIZED",
+    "time_creation": 1739510443,
+    "time_uninit": 1739510495,
+    "certificate": "MIIEczCCA/qgAwIBAgIQKGGWLPg+e7HIPqraMmAYqjAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA4MDIyMVoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMTgwREQxRjNGRjgwNDlBOEEyMzY3NTk1MDM2MkM1NDExFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A5YzhlMWRjYjc4ODI0MDE3Zjc2NzliNDBhOGUwZjhlM2VmNGI2YjBmNmZlZTE3MmVhNzIzNTc5OWJhMGVkYWY2MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABGG22RfYTf+SQEiDhN2wQQ+2BNScnMuMJS83DnGfVto7jSZEIHEqnUhSW222spEo1fwMJwt52tC2ncaG08IPT5ejggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMGsFjzrYIKDeG4E+a2uB6K4FFawgg8eDohT2WCi0GLmlmeBfX88y4isbVf/0P/RYLwIwEN2cF0SpZlYZRfWB3FXK7tsuUrncuiY03pn2aSphsflfyAgzctfVfmikmr3Gas5D",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "9c8e1dcb78824017f7679b40a8e0f8e3ef4b6b0f6fee172ea7235799ba0edaf6",
+    "public_key": "BGG22RfYTf+SQEiDhN2wQQ+2BNScnMuMJS83DnGfVto7jSZEIHEqnUhSW222spEo1fwMJwt52tC2ncaG08IPT5c=",
+    "signature_counter": "115",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address2": "Julius-Vosseler Str. 77",
+        "address3": "Hamburg",
+        "description": "TSE_Taverna Omiros_22527",
+        "name": "Taverna Omiros",
+        "phone": "+49 40 5402824"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "13351453"
+}
+RESPONSE:
+200 OK
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "13351453"
+}
+RESPONSE:
+200 OK
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "7ed0f944-69ed-4c26-9f3c-d6b1f79b5c32",
+    "description": "fiskaly sign cloud-TSE (7ed0f944-69ed-4c26-9f3c-d6b1f79b5c32)",
+    "state": "INITIALIZED",
+    "time_creation": 1739510443,
+    "time_uninit": 1739510495,
+    "time_init": 1739510595,
+    "certificate": "MIIEczCCA/qgAwIBAgIQKGGWLPg+e7HIPqraMmAYqjAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA4MDIyMVoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMTgwREQxRjNGRjgwNDlBOEEyMzY3NTk1MDM2MkM1NDExFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A5YzhlMWRjYjc4ODI0MDE3Zjc2NzliNDBhOGUwZjhlM2VmNGI2YjBmNmZlZTE3MmVhNzIzNTc5OWJhMGVkYWY2MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABGG22RfYTf+SQEiDhN2wQQ+2BNScnMuMJS83DnGfVto7jSZEIHEqnUhSW222spEo1fwMJwt52tC2ncaG08IPT5ejggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMGsFjzrYIKDeG4E+a2uB6K4FFawgg8eDohT2WCi0GLmlmeBfX88y4isbVf/0P/RYLwIwEN2cF0SpZlYZRfWB3FXK7tsuUrncuiY03pn2aSphsflfyAgzctfVfmikmr3Gas5D",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "9c8e1dcb78824017f7679b40a8e0f8e3ef4b6b0f6fee172ea7235799ba0edaf6",
+    "public_key": "BGG22RfYTf+SQEiDhN2wQQ+2BNScnMuMJS83DnGfVto7jSZEIHEqnUhSW222spEo1fwMJwt52tC2ncaG08IPT5c=",
+    "signature_counter": "121",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address2": "Julius-Vosseler Str. 77",
+        "address3": "Hamburg",
+        "description": "TSE_Taverna Omiros_22527",
+        "name": "Taverna Omiros",
+        "phone": "+49 40 5402824"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "776d6cb9-cde2-445e-87df-c755e702f2c1"
+}
+RESPONSE:
+{
+    "_id": "776d6cb9-cde2-445e-87df-c755e702f2c1",
+    "state": "REGISTERED",
+    "serial_number": "776d6cb9-cde2-445e-87df-c755e702f2c1",
+    "time_creation": 1739510673,
+    "tss_id": "7ed0f944-69ed-4c26-9f3c-d6b1f79b5c32",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_da9slxc2kvf5kqf8yeyj2j301_tavernaomiros-4562401283
+FISKALY API SECRET: WADLUZhojDzVjaW9gJRG0ecY4t5WbqYc6VAIFv4Ninc
+TSE ID: 7ed0f944-69ed-4c26-9f3c-d6b1f79b5c32
+TSE CLIENT ID: 776d6cb9-cde2-445e-87df-c755e702f2c1
+ADMIN PUK: 4156068019
+ADMIN PIN: 13351453

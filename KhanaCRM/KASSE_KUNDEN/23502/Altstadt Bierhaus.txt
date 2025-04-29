@@ -1,0 +1,201 @@
+OLD TSE : db8cbe7f-215e-439e-8bf6-2e1682dbe73e
+OLD TSE CLIENT ID: 06119d06-4873-4b62-a620-f5d326da1d33
+OLD ADMIN PUK: 0774733192
+OLD ADMIN PIN: JAN291993
+
+-------------------------------------------------------------------------
+
+=============NEW================
+ 
+Restaurant Name: Altstadt Bierhaus
+API Key: live_4h7jzlqmwu5yqpnb7rj98fmyu_altstadtbierhaus-2229104971
+API Secret Key: WJct1T5JwWYZ8mB5yaHDTNZAFUndQZGxXGqunGf7I03
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3NDE0MTQ5MTIsImlhdCI6MTc0MTMyODUxMiwianRpIjoiYjY3YTI0MzctNDBjYy00ZTllLWE1NTgtZWM3MThjNTA1M2Q0IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiI1MWM5NWQ1Zi01NTNjLTQ0OGYtOTU5Yi1hYzBkNDFlNDhiMDciLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiYTA4OTkzN2UtZWVkYi00NmM5LTk0MWMtZjE0OTdhY2JhZGFiIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJhMDg5OTM3ZS1lZWRiLTQ2YzktOTQxYy1mMTQ5N2FjYmFkYWIiLCJvcmdhbml6YXRpb24iOiI0YmEzYzFkMC0yYTI2LTQ5NjctODgyOS1hY2VjZWRlOWRlMDYiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.NvxB3wCxAJcUrmghLCEht75VS-_rhDi4ywoGdCpDSoL4fx0jn0mdMRLZrhgNsthuBwjlOZ9WwsY3OWjCR9bVNo6jsThgI3stp0Wf2ryVOvBHyMogIT2JWipAbrLFAreOKZcfMPJ531W4Gs930JauGAffL-m-oulO5RuMeTplnNsSYQXVqIF8ovkZJZ166C-Fd0GLML6grvNhOFPmUeqzV2bxYcbETpj0_Fuz200QyqGrmlY75fCCnOTRAvjSEeYvHxDC1G3JMYQD-BdyLNvatuXhezEtexTq7nwgK4oCw5a0sbbfsKlqro0qKPdkILG2CNeDkaN6-r6HCrUnE6AjoA",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "4ba3c1d0-2a26-4967-8829-acecede9de06"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1741414912,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3NDE1MDEzMTIsImlhdCI6MTc0MTMyODUxMiwianRpIjoiNTI1ZmU2YzctNTNmZS00YzRjLTlkZDUtYTE3ZjVkYzljOTM1IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjUxYzk1ZDVmLTU1M2MtNDQ4Zi05NTliLWFjMGQ0MWU0OGIwNyIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiYTA4OTkzN2UtZWVkYi00NmM5LTk0MWMtZjE0OTdhY2JhZGFiIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJhMDg5OTM3ZS1lZWRiLTQ2YzktOTQxYy1mMTQ5N2FjYmFkYWIifQ.YlcLLtKSCgaEovMxIXn8sDqKQtlwK3ShyzZscWWciBU",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1741501312
+}
+
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Altstadt Bierhaus",
+        "address": "Braunstrasse 19",
+        "address2": "Lubeck",
+        "address3": "",
+        "phone": "",
+        "phone2": "",
+        "description":"TSE_Altstadt Bierhaus_23552"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQMIPDZgW7N84j7PEoheDHnzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODEyMDgzMloXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfRjQzOEM1NDgxMDFGNEI5RThDM0JCODRCQ0M0NEI3RkMxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BhMmQwMjhjZDQxMWU4ZmE1MDQxMmI1NTllNWI1MWYxYWE1Mzk5MGM4YzhkNzc1ZWZhYmMwNzc5ZmJhOTY5YjdkMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABLa9Mu+h4UkDyi9H3MNIOjK6EDqRsvU/lMgUlstNWiSIgnvYx7CkTBhH7O2FYOOKxDE7g0lzDH2D0LQeP5UJEuajggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMAwOzYrb14w4O3sMlwC58QtYLWTdSMQAl9s1ukF4ghB+7yb2/J1OOXJ1G6gDEaC5YgIwQgO2Xm+0k6+uSu7r+JIFK4O3z3NwgUTW8DFxGmhIACk6X9q7mW7kmwmSNHDeny3G",
+    "serial_number": "a2d028cd411e8fa50412b559e5b51f1aa53990c8c8d775efabc0779fba969b7d",
+    "public_key": "BLa9Mu+h4UkDyi9H3MNIOjK6EDqRsvU/lMgUlstNWiSIgnvYx7CkTBhH7O2FYOOKxDE7g0lzDH2D0LQeP5UJEuY=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "84f585f7-3d76-4f6b-98e6-6c3c1e06fd3b",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.26",
+    "time_creation": 1741328672,
+    "admin_puk": "4808662179",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Altstadt Bierhaus",
+        "phone": "",
+        "phone2": "",
+        "address": "Braunstrasse 19",
+        "address2": "Lubeck",
+        "address3": "",
+        "description": "TSE_Altstadt Bierhaus_23552"
+    }
+}
+
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "84f585f7-3d76-4f6b-98e6-6c3c1e06fd3b",
+    "state": "UNINITIALIZED",
+    "time_creation": 1741328672,
+    "time_uninit": 1741328742,
+    "certificate": "MIIEczCCA/qgAwIBAgIQMIPDZgW7N84j7PEoheDHnzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODEyMDgzMloXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfRjQzOEM1NDgxMDFGNEI5RThDM0JCODRCQ0M0NEI3RkMxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BhMmQwMjhjZDQxMWU4ZmE1MDQxMmI1NTllNWI1MWYxYWE1Mzk5MGM4YzhkNzc1ZWZhYmMwNzc5ZmJhOTY5YjdkMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABLa9Mu+h4UkDyi9H3MNIOjK6EDqRsvU/lMgUlstNWiSIgnvYx7CkTBhH7O2FYOOKxDE7g0lzDH2D0LQeP5UJEuajggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMAwOzYrb14w4O3sMlwC58QtYLWTdSMQAl9s1ukF4ghB+7yb2/J1OOXJ1G6gDEaC5YgIwQgO2Xm+0k6+uSu7r+JIFK4O3z3NwgUTW8DFxGmhIACk6X9q7mW7kmwmSNHDeny3G",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "a2d028cd411e8fa50412b559e5b51f1aa53990c8c8d775efabc0779fba969b7d",
+    "public_key": "BLa9Mu+h4UkDyi9H3MNIOjK6EDqRsvU/lMgUlstNWiSIgnvYx7CkTBhH7O2FYOOKxDE7g0lzDH2D0LQeP5UJEuY=",
+    "signature_counter": "64",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Braunstrasse 19",
+        "address2": "Lubeck",
+        "description": "TSE_Altstadt Bierhaus_23552",
+        "name": "Altstadt Bierhaus"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.26"
+}
+
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "011897"
+}
+RESPONSE:
+{}
+
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "011897"
+}
+RESPONSE:
+{}
+
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "84f585f7-3d76-4f6b-98e6-6c3c1e06fd3b",
+    "description": "fiskaly sign cloud-TSE (84f585f7-3d76-4f6b-98e6-6c3c1e06fd3b)",
+    "state": "INITIALIZED",
+    "time_creation": 1741328672,
+    "time_uninit": 1741328742,
+    "time_init": 1741328867,
+    "certificate": "MIIEczCCA/qgAwIBAgIQMIPDZgW7N84j7PEoheDHnzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODEyMDgzMloXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfRjQzOEM1NDgxMDFGNEI5RThDM0JCODRCQ0M0NEI3RkMxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BhMmQwMjhjZDQxMWU4ZmE1MDQxMmI1NTllNWI1MWYxYWE1Mzk5MGM4YzhkNzc1ZWZhYmMwNzc5ZmJhOTY5YjdkMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABLa9Mu+h4UkDyi9H3MNIOjK6EDqRsvU/lMgUlstNWiSIgnvYx7CkTBhH7O2FYOOKxDE7g0lzDH2D0LQeP5UJEuajggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMAwOzYrb14w4O3sMlwC58QtYLWTdSMQAl9s1ukF4ghB+7yb2/J1OOXJ1G6gDEaC5YgIwQgO2Xm+0k6+uSu7r+JIFK4O3z3NwgUTW8DFxGmhIACk6X9q7mW7kmwmSNHDeny3G",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "a2d028cd411e8fa50412b559e5b51f1aa53990c8c8d775efabc0779fba969b7d",
+    "public_key": "BLa9Mu+h4UkDyi9H3MNIOjK6EDqRsvU/lMgUlstNWiSIgnvYx7CkTBhH7O2FYOOKxDE7g0lzDH2D0LQeP5UJEuY=",
+    "signature_counter": "70",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Braunstrasse 19",
+        "address2": "Lubeck",
+        "description": "TSE_Altstadt Bierhaus_23552",
+        "name": "Altstadt Bierhaus"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.26"
+}
+
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "5b8dd4f0-bbfe-48b3-ac79-6dcfe7d2a5d4"
+}
+RESPONSE:
+{
+    "_id": "5b8dd4f0-bbfe-48b3-ac79-6dcfe7d2a5d4",
+    "state": "REGISTERED",
+    "serial_number": "5b8dd4f0-bbfe-48b3-ac79-6dcfe7d2a5d4",
+    "time_creation": 1741328950,
+    "tss_id": "84f585f7-3d76-4f6b-98e6-6c3c1e06fd3b",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.26"
+}
+
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_4h7jzlqmwu5yqpnb7rj98fmyu_altstadtbierhaus-2229104971
+FISKALY API SECRET: WJct1T5JwWYZ8mB5yaHDTNZAFUndQZGxXGqunGf7I03
+TSE ID: 84f585f7-3d76-4f6b-98e6-6c3c1e06fd3b
+TSE CLIENT ID: 5b8dd4f0-bbfe-48b3-ac79-6dcfe7d2a5d4
+ADMIN PUK: 4808662179
+ADMIN PIN: 011897

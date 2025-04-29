@@ -1,0 +1,192 @@
+OLD TSE : bb4f90da-5c0e-4e05-b9b5-6a8b26f54b50
+OLD TSE CLIENT ID: bb21f383-1678-4d97-bdba-fb6eaf1c11ca
+OLD ADMIN PUK: 
+OLD ADMIN PIN: 
+
+---------------------------------------------------------------------
+
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3MzgyMzE4OTUsImlhdCI6MTczODE0NTQ5NSwianRpIjoiNTY5NTY0NTktZjRhYS00ZDdlLTg5MWItY2ExMjdlN2QzNWI4IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiI0OGZiNTcwYi1mMTliLTRiOGMtYWQ3Zi0zYzVmYzc3MDllNTAiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiNDQzZTQ1OWYtZmFmYi00OTM4LWFjMTgtNjQwMDMwNDZlM2Y1Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI0NDNlNDU5Zi1mYWZiLTQ5MzgtYWMxOC02NDAwMzA0NmUzZjUiLCJvcmdhbml6YXRpb24iOiJhMWVkMGU5YS1lOGRlLTQyYWItOGM0Yi04NTQwYmRhYzI4YmEiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.DvPoQPxDI48wjjpLhUaqh6L6WowXX6DStWkVg4ZyjC1KTxPeB9hXKlA3PMNbUHNO8BRmLbU0hqci2mfbpPbSU5Rfy7kiiFQejAPieLSRg4Iy9W6Voc4ILVbBpW1gWxrNYmyrx_h6B4W_BfajU4AWI6XLyuruvr1LQoiEUtTimvpRI7HCKyM4A6w7dloOjnYWJ6d7suJUYjovkM9jNoNwRTrJ11S8EVNLrIwf9y-VKDDKgU2swI7gaJBhDMc6YbRceKcZ7GyA47-p8VNcQ0ZRr8EOayAYhruRju3HAlfuZ3RzjYXKc2ZlXayPescy_y-sXLYTABDsox0cuTsejXl2rg",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "a1ed0e9a-e8de-42ab-8c4b-8540bdac28ba"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1738231895,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3MzgzMTgyOTUsImlhdCI6MTczODE0NTQ5NSwianRpIjoiMDJhNjU1OTUtZTEzMS00YmM4LWJhMjEtMDJmZmE3OGE1MjQ5IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjQ4ZmI1NzBiLWYxOWItNGI4Yy1hZDdmLTNjNWZjNzcwOWU1MCIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiNDQzZTQ1OWYtZmFmYi00OTM4LWFjMTgtNjQwMDMwNDZlM2Y1Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI0NDNlNDU5Zi1mYWZiLTQ5MzgtYWMxOC02NDAwMzA0NmUzZjUifQ.d_7MKzHRgGiItc9vO6e75NU60uqqNeNnCfdMtSTw7ac",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1738318295
+}
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Ganesha",
+        "address": "Allen Str 79",
+        "address2": "",
+        "address3": "Kirchheim Teck",
+        "phone": "070217397690",
+        "phone2": "",
+        "description":"TSE_GANESHA_73230"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQGZoRCgMIv8q91ZPhiofb5TAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTEyNDczMVoXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfODVGNkNEMzM4QkM0NERFMUE2MTZGNUZCOEFBRTA3REExFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A4NjQzYzQ2OTgzOTkwODZmMDVhMzZiMjBhMzNhYTgwMDhlZjNmZWVkMDhhMTQ4MDMzODgxNDQyZDBkMzA0MGRkMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABNM/DX1Oaie5iusFrA1TkhP7c2yjurHunNcktRgh/rOzaQUSSl3e0WTZUTyyaUIObTPtqjCcbkaJQzO7RhWiJq2jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMHXMgEgoSUSAVOmXUW04TWZnvD+nNamLqbKHEjeUnq1cAUwdY4gXK4t6yC73AffnYAIwVi0OZpmCknbjT3z9eM8QQbgM/6+9lS1rWom7Fp4siOnI8lUexxLjBWC3lxYw9o2K",
+    "serial_number": "8643c4698399086f05a36b20a33aa8008ef3feed08a148033881442d0d3040dd",
+    "public_key": "BNM/DX1Oaie5iusFrA1TkhP7c2yjurHunNcktRgh/rOzaQUSSl3e0WTZUTyyaUIObTPtqjCcbkaJQzO7RhWiJq0=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "8d7a874e-6d6f-4fe4-8487-62af24a4d6ef",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.22",
+    "time_creation": 1738145843,
+    "admin_puk": "5792311568",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Ganesha",
+        "phone": "070217397690",
+        "phone2": "",
+        "address": "Allen Str 79",
+        "address2": "",
+        "address3": "Kirchheim Teck",
+        "description": "TSE_GANESHA_73230"
+    }
+}
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "8d7a874e-6d6f-4fe4-8487-62af24a4d6ef",
+    "state": "UNINITIALIZED",
+    "time_creation": 1738145843,
+    "time_uninit": 1738145887,
+    "certificate": "MIIEczCCA/qgAwIBAgIQGZoRCgMIv8q91ZPhiofb5TAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTEyNDczMVoXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfODVGNkNEMzM4QkM0NERFMUE2MTZGNUZCOEFBRTA3REExFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A4NjQzYzQ2OTgzOTkwODZmMDVhMzZiMjBhMzNhYTgwMDhlZjNmZWVkMDhhMTQ4MDMzODgxNDQyZDBkMzA0MGRkMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABNM/DX1Oaie5iusFrA1TkhP7c2yjurHunNcktRgh/rOzaQUSSl3e0WTZUTyyaUIObTPtqjCcbkaJQzO7RhWiJq2jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMHXMgEgoSUSAVOmXUW04TWZnvD+nNamLqbKHEjeUnq1cAUwdY4gXK4t6yC73AffnYAIwVi0OZpmCknbjT3z9eM8QQbgM/6+9lS1rWom7Fp4siOnI8lUexxLjBWC3lxYw9o2K",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "8643c4698399086f05a36b20a33aa8008ef3feed08a148033881442d0d3040dd",
+    "public_key": "BNM/DX1Oaie5iusFrA1TkhP7c2yjurHunNcktRgh/rOzaQUSSl3e0WTZUTyyaUIObTPtqjCcbkaJQzO7RhWiJq0=",
+    "signature_counter": "102",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Allen Str 79",
+        "address3": "Kirchheim Teck",
+        "description": "TSE_GANESHA_73230",
+        "name": "Ganesha",
+        "phone": "070217397690"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.22"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "965874321"
+}
+RESPONSE:
+200 OK
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "965874321"
+}
+RESPONSE:
+200 OK
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "8d7a874e-6d6f-4fe4-8487-62af24a4d6ef",
+    "description": "fiskaly sign cloud-TSE (8d7a874e-6d6f-4fe4-8487-62af24a4d6ef)",
+    "state": "INITIALIZED",
+    "time_creation": 1738145843,
+    "time_uninit": 1738145887,
+    "time_init": 1738146016,
+    "certificate": "MIIEczCCA/qgAwIBAgIQGZoRCgMIv8q91ZPhiofb5TAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTEyNDczMVoXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfODVGNkNEMzM4QkM0NERFMUE2MTZGNUZCOEFBRTA3REExFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A4NjQzYzQ2OTgzOTkwODZmMDVhMzZiMjBhMzNhYTgwMDhlZjNmZWVkMDhhMTQ4MDMzODgxNDQyZDBkMzA0MGRkMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABNM/DX1Oaie5iusFrA1TkhP7c2yjurHunNcktRgh/rOzaQUSSl3e0WTZUTyyaUIObTPtqjCcbkaJQzO7RhWiJq2jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMHXMgEgoSUSAVOmXUW04TWZnvD+nNamLqbKHEjeUnq1cAUwdY4gXK4t6yC73AffnYAIwVi0OZpmCknbjT3z9eM8QQbgM/6+9lS1rWom7Fp4siOnI8lUexxLjBWC3lxYw9o2K",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "8643c4698399086f05a36b20a33aa8008ef3feed08a148033881442d0d3040dd",
+    "public_key": "BNM/DX1Oaie5iusFrA1TkhP7c2yjurHunNcktRgh/rOzaQUSSl3e0WTZUTyyaUIObTPtqjCcbkaJQzO7RhWiJq0=",
+    "signature_counter": "108",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Allen Str 79",
+        "address3": "Kirchheim Teck",
+        "description": "TSE_GANESHA_73230",
+        "name": "Ganesha",
+        "phone": "070217397690"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.22"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "d5c6c8e0-2e6b-47df-b9cd-f78c0664901c"
+}
+RESPONSE:
+{
+    "_id": "d5c6c8e0-2e6b-47df-b9cd-f78c0664901c",
+    "state": "REGISTERED",
+    "serial_number": "d5c6c8e0-2e6b-47df-b9cd-f78c0664901c",
+    "time_creation": 1738146061,
+    "tss_id": "8d7a874e-6d6f-4fe4-8487-62af24a4d6ef",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.22"
+}
+---------------------------------------------------------------------
+
+FISKALY API KEY: live_9l3zlvbgbhy4u7otgjxgyvwl6_ganesha-6942710018
+FISKALY API SECRET: RpYccGAmbriRvSE3igb3koRz1X5fT3yNZWc9Tzn5zqj
+TSE ID: 8d7a874e-6d6f-4fe4-8487-62af24a4d6ef
+TSE CLIENT ID: d5c6c8e0-2e6b-47df-b9cd-f78c0664901c
+ADMIN PUK: 5792311568
+ADMIN PIN: 965874321

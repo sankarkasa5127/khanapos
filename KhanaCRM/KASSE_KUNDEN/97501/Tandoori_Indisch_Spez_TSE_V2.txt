@@ -1,0 +1,190 @@
+OLD TSE : 898b5136-6a9a-4911-bca1-7bc66610a975
+OLD TSE CLIENT ID: f281f3a9-5e6b-4f55-8d95-93cb308826af
+OLD ADMIN PUK: 6511414021
+OLD ADMIN PIN: 791032
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3NDExNTU3NDUsImlhdCI6MTc0MTA2OTM0NSwianRpIjoiZTZlZDIxNmQtZWJjZS00Y2ZhLTg2YTItOTA0YjU5MmM2YzAzIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiI2YmZiOTZiYS05YjUzLTRlNDUtYjM0ZC1mYzIwOTdhOTU4MjkiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiOGMxNTY4YjctMDM2NS00NWUzLWE4YTYtZThkOWVhMDY2M2NhIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI4YzE1NjhiNy0wMzY1LTQ1ZTMtYThhNi1lOGQ5ZWEwNjYzY2EiLCJvcmdhbml6YXRpb24iOiI0ZGE1ZGI3OS1hNzJmLTQyYzgtYWYwMC1hYjFlMGQyYjRhOGQiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.H7-lQnwxanXW6cCMGL2Vymaq3MR3ijnV3P80s7A5TTDhuxIwG5djdkq0j91lY5sgbrdfKmZDSKVxoh5u3mLvWW3xm_BTeoUaT2QymxcIkbdaYl7ZRlLEdvxt2wdZcpcJjlse7HPD8Ofu5qgHQAoDYyQkC6X9EGoz7ay_l_SI_TMTv7WqsKe7LPvp7iEr6JTy3JAzM_tS1Pt5MEkxU8uQb7aGgFGrjjeRbInc5lWahvxEh0IAn44pI0fqB46eSiJGS3t5lmQ6L_cdbaaCYbf38oQCJRTiNEOrpiQ1kpkcGMBY7rERU2dnIJex0cOaQ97W8CylEpWeNSDeA5b0m4gSLg",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "4da5db79-a72f-42c8-af00-ab1e0d2b4a8d"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1741155745,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3NDEyNDIxNDUsImlhdCI6MTc0MTA2OTM0NSwianRpIjoiMjZjZDRhNjItMWI5Ni00ZjJjLWE1MTAtYjFhNTNjZDcwOTQyIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjZiZmI5NmJhLTliNTMtNGU0NS1iMzRkLWZjMjA5N2E5NTgyOSIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiOGMxNTY4YjctMDM2NS00NWUzLWE4YTYtZThkOWVhMDY2M2NhIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI4YzE1NjhiNy0wMzY1LTQ1ZTMtYThhNi1lOGQ5ZWEwNjYzY2EifQ.DmvwKlZDzSDKe9PJ2i0i3NF-a4RVSIFMlNd0p66BNGo",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1741242145
+}
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Tandoori Indisch Spez",
+        "address": "Hauptsrraße 31",
+        "address2": "",
+        "address3": "Wonfurt",
+        "phone": "+49 9521 2569",
+        "phone2": "",
+        "description":"TSE_Tandoori Indisch Spez_97539"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQKsZ034/HFNrLS8nU4Z+A2TAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODEwMzM1NVoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfQzNENzEwMDM0MDk4NEVGQzlFNzYzQzJGNzhDRkJDQkMxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AwOTY4YTIwZjQ5YTY1YzVkNmI1ZjY0NGE2MDYxODE3OGVmY2Y5OGY0OTQyMjliMTdjMGYyZGUxMDBmYmMxOTczMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABN3BOfnQWUtIJ58pR4slymaC1Xk+0962KNuZtQ4wkmzI1Ir1vAdC9yTgtxkHwFKMYUBJlLN3jlyliZX7ysKsgw6jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMA0Yc63VXGGjsQ456mNun9BYIsYXnZ4kCS/VWauh92gcUE0HliArIzUduVlbOQS49gIwNxLg8T74uUFLqIdsXKu+unmBUm/cJvb16T8cAedqaeeG/L148JvSHFq4oJyWrvik",
+    "serial_number": "0968a20f49a65c5d6b5f644a60618178efcf98f494229b17c0f2de100fbc1973",
+    "public_key": "BN3BOfnQWUtIJ58pR4slymaC1Xk+0962KNuZtQ4wkmzI1Ir1vAdC9yTgtxkHwFKMYUBJlLN3jlyliZX7ysKsgw4=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "369e732e-e4d0-4850-b7a6-3ae89e662548",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.25",
+    "time_creation": 1741069978,
+    "admin_puk": "2198654475",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Tandoori Indisch Spez",
+        "phone": "+49 9521 2569",
+        "phone2": "",
+        "address": "Hauptsrraße 31",
+        "address2": "",
+        "address3": "Wonfurt",
+        "description": "TSE_Tandoori Indisch Spez_97539"
+    }
+}
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "369e732e-e4d0-4850-b7a6-3ae89e662548",
+    "state": "UNINITIALIZED",
+    "time_creation": 1741069978,
+    "time_uninit": 1741070003,
+    "certificate": "MIIEczCCA/qgAwIBAgIQKsZ034/HFNrLS8nU4Z+A2TAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODEwMzM1NVoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfQzNENzEwMDM0MDk4NEVGQzlFNzYzQzJGNzhDRkJDQkMxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AwOTY4YTIwZjQ5YTY1YzVkNmI1ZjY0NGE2MDYxODE3OGVmY2Y5OGY0OTQyMjliMTdjMGYyZGUxMDBmYmMxOTczMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABN3BOfnQWUtIJ58pR4slymaC1Xk+0962KNuZtQ4wkmzI1Ir1vAdC9yTgtxkHwFKMYUBJlLN3jlyliZX7ysKsgw6jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMA0Yc63VXGGjsQ456mNun9BYIsYXnZ4kCS/VWauh92gcUE0HliArIzUduVlbOQS49gIwNxLg8T74uUFLqIdsXKu+unmBUm/cJvb16T8cAedqaeeG/L148JvSHFq4oJyWrvik",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "0968a20f49a65c5d6b5f644a60618178efcf98f494229b17c0f2de100fbc1973",
+    "public_key": "BN3BOfnQWUtIJ58pR4slymaC1Xk+0962KNuZtQ4wkmzI1Ir1vAdC9yTgtxkHwFKMYUBJlLN3jlyliZX7ysKsgw4=",
+    "signature_counter": "133",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Hauptsrraße 31",
+        "address3": "Wonfurt",
+        "description": "TSE_Tandoori Indisch Spez_97539",
+        "name": "Tandoori Indisch Spez",
+        "phone": "+49 9521 2569"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.25"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "87512164"
+}
+RESPONSE:
+200 OK
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "87512164"
+}
+RESPONSE:
+200 OK
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "369e732e-e4d0-4850-b7a6-3ae89e662548",
+    "description": "fiskaly sign cloud-TSE (369e732e-e4d0-4850-b7a6-3ae89e662548)",
+    "state": "INITIALIZED",
+    "time_creation": 1741069978,
+    "time_uninit": 1741070003,
+    "time_init": 1741070065,
+    "certificate": "MIIEczCCA/qgAwIBAgIQKsZ034/HFNrLS8nU4Z+A2TAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODEwMzM1NVoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfQzNENzEwMDM0MDk4NEVGQzlFNzYzQzJGNzhDRkJDQkMxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AwOTY4YTIwZjQ5YTY1YzVkNmI1ZjY0NGE2MDYxODE3OGVmY2Y5OGY0OTQyMjliMTdjMGYyZGUxMDBmYmMxOTczMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABN3BOfnQWUtIJ58pR4slymaC1Xk+0962KNuZtQ4wkmzI1Ir1vAdC9yTgtxkHwFKMYUBJlLN3jlyliZX7ysKsgw6jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMA0Yc63VXGGjsQ456mNun9BYIsYXnZ4kCS/VWauh92gcUE0HliArIzUduVlbOQS49gIwNxLg8T74uUFLqIdsXKu+unmBUm/cJvb16T8cAedqaeeG/L148JvSHFq4oJyWrvik",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "0968a20f49a65c5d6b5f644a60618178efcf98f494229b17c0f2de100fbc1973",
+    "public_key": "BN3BOfnQWUtIJ58pR4slymaC1Xk+0962KNuZtQ4wkmzI1Ir1vAdC9yTgtxkHwFKMYUBJlLN3jlyliZX7ysKsgw4=",
+    "signature_counter": "139",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Hauptsrraße 31",
+        "address3": "Wonfurt",
+        "description": "TSE_Tandoori Indisch Spez_97539",
+        "name": "Tandoori Indisch Spez",
+        "phone": "+49 9521 2569"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.25"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "39fba34a-1fea-4103-954c-9af501c13bbc"
+}
+RESPONSE:
+{
+    "_id": "39fba34a-1fea-4103-954c-9af501c13bbc",
+    "state": "REGISTERED",
+    "serial_number": "39fba34a-1fea-4103-954c-9af501c13bbc",
+    "time_creation": 1741070377,
+    "tss_id": "369e732e-e4d0-4850-b7a6-3ae89e662548",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.25"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_4lhmy2507mx2jgehz32g2jjbh_tandoorindischspez-25920490177
+FISKALY API SECRET: 4lLYNxEFC8sLmNktG9JxkQhdq8QvqrgX6BP7vxzWt5l
+TSE ID: 369e732e-e4d0-4850-b7a6-3ae89e662548
+TSE CLIENT ID: 39fba34a-1fea-4103-954c-9af501c13bbc
+ADMIN PUK: 2198654475
+ADMIN PIN: 87512164

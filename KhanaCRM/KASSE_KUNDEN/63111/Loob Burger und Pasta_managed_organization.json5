@@ -1,0 +1,200 @@
+Loob Burger und Pasta
+
+API_KEY:live_8wwh02jzyy4ww6tmg2ftsi41x_loobburgerundpasta-4431530082
+API_SECRET: tzgjzWZgFspUBaJO3OS1FzaTXkchtDCNeJWLFhT8trd
+
+OLD TSE : 
+OLD TSE CLIENT ID: 
+OLD ADMIN PUK: 
+OLD ADMIN PIN: 
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3Mzg5OTMyMDIsImlhdCI6MTczODkwNjgwMiwianRpIjoiMTM0NGY2NDktMTM5ZS00OTUwLTk5NGQtZjAyMTlmNWZiYmE4IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiI2ZGZkOTk5OS1jZDlkLTQ0MjctYTE5Yy04YzExMmE1OWRhMWUiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiZDdmYmJlZmYtYTk4MS00Y2EyLTg4NmMtNDZlMzc4OTliYTUxIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJkN2ZiYmVmZi1hOTgxLTRjYTItODg2Yy00NmUzNzg5OWJhNTEiLCJvcmdhbml6YXRpb24iOiI5NjkxMzYzZi0wMjZhLTRlNTgtOTRkNS04YWY5NjRjNTg1MDUiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.HEcKELbQX-LZThxrJYuHxJEvpHrVLUQD2oHHWdunCOOMwAuq81SKo8Bi0MI5VFdl4V5Kg2yRdPiRgS_J8YHmfoehhrVyt97Pk0NPOFcaXOOvrENH0qBYBiOrNuY9gdc5s5aVNkPs_dLjJLCIZTwy2FNlYOBfnSs9Bt3dtpR8cOA5SD2ss14RUXGMakpZ76keTBCtXDg4eG4TxYTRpFWuWaToQ_QM3aHUUQZ2EIWdICTYHKvMZ9miT7N7odBJHpb7y6Y5B2Q2iUDRudyr2PRAiWHOkpwXSc3a27OnSltppU-pLGkGnvXzuNFVxV5GqdWmyEm1xnk2J9zxNkC2E1a7ww",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "9691363f-026a-4e58-94d5-8af964c58505"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1738993202,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3MzkwNzk2MDIsImlhdCI6MTczODkwNjgwMiwianRpIjoiZGM2NDU2OTktYWZlYy00ZDZlLThiODctMGQ1ZmU5MGFlMmQzIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjZkZmQ5OTk5LWNkOWQtNDQyNy1hMTljLThjMTEyYTU5ZGExZSIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiZDdmYmJlZmYtYTk4MS00Y2EyLTg4NmMtNDZlMzc4OTliYTUxIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJkN2ZiYmVmZi1hOTgxLTRjYTItODg2Yy00NmUzNzg5OWJhNTEifQ.lK_2p1KS37CP3m6v8vXAJC67txJeL9Kou9i61Omi9Ng",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1739079602
+}
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Loob Burger und Pasta",
+        "address": "",
+        "address2": "Friedensstraße 1",
+        "address3": "Mühlheim am Main",
+        "phone": "+4915755204577",
+        "phone2": "",
+        "description":"TSE_Loob Burger und Pasta"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQD4GXJ8rqjEc/6u1BxQJYUTAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTE0MTA0MFoXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMUUwNjM5OEMwRDc1NEZDMTk2ODQwNzdEQjVBMTE3MEMxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AyNjUyZjhjNTY4MTY0OTNlNTdkMWIyZDhiNjk3N2UzOWVmMDdjMzhhNjI2NWIzYThmNjVhZWRlYTZkZTFlMTAyMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABLrZMou87aSX5Hm4Bk9hfyCnCSOxNRFfgRFQdmf6G4c2ngrFrDpRVykSIJppNp9fmnXm9LLSdxAXpLoZnu53f0CjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMFI0JbB/A+xrjGjTjop16/sL6Zf8aO3n2SCxNb0bvM5cV2r8JJkVmqkRVi205BgOSAIwdJilOxCh12aRqZWo+rYBRTUbqBaeS0t4HoHL5tVShvTnWgHNjhAVELksm+smlPOy",
+    "serial_number": "2652f8c56816493e57d1b2d8b6977e39ef07c38a6265b3a8f65aedea6de1e102",
+    "public_key": "BLrZMou87aSX5Hm4Bk9hfyCnCSOxNRFfgRFQdmf6G4c2ngrFrDpRVykSIJppNp9fmnXm9LLSdxAXpLoZnu53f0A=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "3cf8ce93-6c42-4f32-a147-fac706e01ac5",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23",
+    "time_creation": 1738907056,
+    "admin_puk": "9038373755",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Loob Burger und Pasta",
+        "phone": "+4915755204577",
+        "phone2": "",
+        "address": "",
+        "address2": "Friedensstraße 1",
+        "address3": "Mühlheim am Main",
+        "description": "TSE_Loob Burger und Pasta"
+    }
+}
+
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "3cf8ce93-6c42-4f32-a147-fac706e01ac5",
+    "state": "UNINITIALIZED",
+    "time_creation": 1738907056,
+    "time_uninit": 1738907154,
+    "certificate": "MIIEczCCA/qgAwIBAgIQD4GXJ8rqjEc/6u1BxQJYUTAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTE0MTA0MFoXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMUUwNjM5OEMwRDc1NEZDMTk2ODQwNzdEQjVBMTE3MEMxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AyNjUyZjhjNTY4MTY0OTNlNTdkMWIyZDhiNjk3N2UzOWVmMDdjMzhhNjI2NWIzYThmNjVhZWRlYTZkZTFlMTAyMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABLrZMou87aSX5Hm4Bk9hfyCnCSOxNRFfgRFQdmf6G4c2ngrFrDpRVykSIJppNp9fmnXm9LLSdxAXpLoZnu53f0CjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMFI0JbB/A+xrjGjTjop16/sL6Zf8aO3n2SCxNb0bvM5cV2r8JJkVmqkRVi205BgOSAIwdJilOxCh12aRqZWo+rYBRTUbqBaeS0t4HoHL5tVShvTnWgHNjhAVELksm+smlPOy",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "2652f8c56816493e57d1b2d8b6977e39ef07c38a6265b3a8f65aedea6de1e102",
+    "public_key": "BLrZMou87aSX5Hm4Bk9hfyCnCSOxNRFfgRFQdmf6G4c2ngrFrDpRVykSIJppNp9fmnXm9LLSdxAXpLoZnu53f0A=",
+    "signature_counter": "111",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address2": "Friedensstraße 1",
+        "address3": "Mühlheim am Main",
+        "description": "TSE_Loob Burger und Pasta",
+        "name": "Loob Burger und Pasta",
+        "phone": "+4915755204577"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "780321"
+}
+RESPONSE:
+{}
+
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "780321"
+}
+RESPONSE:
+{}
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "3cf8ce93-6c42-4f32-a147-fac706e01ac5",
+    "description": "fiskaly sign cloud-TSE (3cf8ce93-6c42-4f32-a147-fac706e01ac5)",
+    "state": "INITIALIZED",
+    "time_creation": 1738907056,
+    "time_uninit": 1738907154,
+    "time_init": 1738907301,
+    "certificate": "MIIEczCCA/qgAwIBAgIQD4GXJ8rqjEc/6u1BxQJYUTAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTE0MTA0MFoXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMUUwNjM5OEMwRDc1NEZDMTk2ODQwNzdEQjVBMTE3MEMxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AyNjUyZjhjNTY4MTY0OTNlNTdkMWIyZDhiNjk3N2UzOWVmMDdjMzhhNjI2NWIzYThmNjVhZWRlYTZkZTFlMTAyMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABLrZMou87aSX5Hm4Bk9hfyCnCSOxNRFfgRFQdmf6G4c2ngrFrDpRVykSIJppNp9fmnXm9LLSdxAXpLoZnu53f0CjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMFI0JbB/A+xrjGjTjop16/sL6Zf8aO3n2SCxNb0bvM5cV2r8JJkVmqkRVi205BgOSAIwdJilOxCh12aRqZWo+rYBRTUbqBaeS0t4HoHL5tVShvTnWgHNjhAVELksm+smlPOy",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "2652f8c56816493e57d1b2d8b6977e39ef07c38a6265b3a8f65aedea6de1e102",
+    "public_key": "BLrZMou87aSX5Hm4Bk9hfyCnCSOxNRFfgRFQdmf6G4c2ngrFrDpRVykSIJppNp9fmnXm9LLSdxAXpLoZnu53f0A=",
+    "signature_counter": "117",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address2": "Friedensstraße 1",
+        "address3": "Mühlheim am Main",
+        "description": "TSE_Loob Burger und Pasta",
+        "name": "Loob Burger und Pasta",
+        "phone": "+4915755204577"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": ""
+}
+RESPONSE:
+{
+    "_id": "5fb7a899-41b5-4111-8cec-665ca346f200",
+    "state": "REGISTERED",
+    "serial_number": "0f209013-53e1-4052-bc17-898946908a26",
+    "time_creation": 1738907380,
+    "tss_id": "3cf8ce93-6c42-4f32-a147-fac706e01ac5",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_8wwh02jzyy4ww6tmg2ftsi41x_loobburgerundpasta-4431530082
+FISKALY API SECRET: tzgjzWZgFspUBaJO3OS1FzaTXkchtDCNeJWLFhT8trd
+TSE ID: 3cf8ce93-6c42-4f32-a147-fac706e01ac5
+TSE CLIENT ID: 5fb7a899-41b5-4111-8cec-665ca346f200
+ADMIN PUK: 9038373755
+ADMIN PIN: 780321

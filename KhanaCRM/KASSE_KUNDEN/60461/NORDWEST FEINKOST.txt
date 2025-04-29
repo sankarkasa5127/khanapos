@@ -1,0 +1,201 @@
+OLD TSE : 29d8ffce-7330-49a2-b9b5-0094a43e41b3
+OLD TSE CLIENT ID: 
+OLD ADMIN PUK: 2962953995
+OLD ADMIN PIN: JAN291993
+FISKLAY API KEY: live_cb6zppxj72p32jv7uywgppvxk_khana-kassensystem
+FISKLAY API KEY: UAD8FTUMSvtTdfLhzLNuYVvsngk6BZnnzNMJLmQg5Mn
+-------------------------------------------------------------------------
+
+=============NEW================
+ 
+Restaurant Name:NORDWEST FEINKOST 
+API Key: live_69utk85xkq3y9wgv7zw89ga1j_nordwestfeinkost-de322983260
+API Secret Key: CvpbIU3VeqsZOHEKJ1PZgVPt8Ul39H30do2ieLqjR4G
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3NDI3MDc2MjUsImlhdCI6MTc0MjYyMTIyNSwianRpIjoiMWM3ZTBlMGItYTE4OS00NjVmLWJjMTQtYTI4OGNmYWIxYmQzIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiI4OGEwNTEwYi1kM2RlLTQ1OGQtYmVlMy04ZWQ3YWQ0ZjVkMjIiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiMzVjOTNhNGQtNzBhNi00MmM1LWFiMGEtY2Q2NjEyZTg5OWQzIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIzNWM5M2E0ZC03MGE2LTQyYzUtYWIwYS1jZDY2MTJlODk5ZDMiLCJvcmdhbml6YXRpb24iOiI2OWY4YzIwYi1kOTU5LTQyZjAtYmY4Ni02YWQyZWEyZjFmZDciLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.FoNDIl04BxkAU28jFXkCLM5a7oLc03Y930MAY-kKS6UaELJBwn6vtWqsJok7rfehaGYan5hmky3eyNl_aEG-7J6wOELb9pE-xZ2D-0FGnkLZVeWIsFNmzSAJPa0PKI9UQy20AE5SeFqiNUP4F4xwj5k1TBrkU1LZAaS1whyfttwGo8YAmrgEKHFy49-qTHz28YhD8OFc3hi3eqxXNFYrhpR7JtzjA3CfpJ0mZzGK58Ymd4jIo7QH9xf3WKNkNcH-rEcvIqPSGQ1L_LOS_bcHAxpT8z13CS1uumIVn4jo1jF_XT0ArZ7fr1CmhvYCiVBuBjOlDIN3gPgUFMOyYplTRA",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "69f8c20b-d959-42f0-bf86-6ad2ea2f1fd7"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1742707625,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3NDI3OTQwMjUsImlhdCI6MTc0MjYyMTIyNSwianRpIjoiYmM5MGUxODMtNTY5ZS00Zjg3LThhOGYtODAwNmIxY2EwODcxIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6Ijg4YTA1MTBiLWQzZGUtNDU4ZC1iZWUzLThlZDdhZDRmNWQyMiIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiMzVjOTNhNGQtNzBhNi00MmM1LWFiMGEtY2Q2NjEyZTg5OWQzIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIzNWM5M2E0ZC03MGE2LTQyYzUtYWIwYS1jZDY2MTJlODk5ZDMifQ.Vh0RegoY2OL8kzyIurZFUlNdl6Zxr5ZKJT4IF_MMhFI",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1742794025
+}
+
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "NORDWEST FEINKOST",
+        "address": "Nidacorso 2",
+        "address2": "Frankfurt am Main",
+        "address3": "",
+        "phone": "",
+        "phone2": "",
+        "description":"TSE_NORDWEST FEINKOST_60439"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQLm79dWUvULgsedHveC5lMTAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODE0MzgxN1oXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfRDY4OTA4Mjg0NENFNDNGMUFDOEVENEJBNDBCODM5MTIxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A2ZTI5MWVmNjBiM2YzMTg2NjNiZmFlNjU2NTEzNWUyMzRhMWYxOWU1YTFmOTY5MTgzZTlkNjhmMDBkOWU5MTA2MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJPC9epjUmnezGyzCphO2NNok0uqvnGnzfuQ7jEA97qM6Tm3gNUUG3LDZfsYvWql3Zl6MLdRhpkAn6HtLu4Z2UqjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMF9sN3hjJzKhjVSV8e5SU6v9aIWtF+NHUb9201/mThprjloxWlrUnhdpIvM6v8cj5wIwFVdmAIADETLVRts+7vjzavhNXhiGYMmWhUVNVWPUoG0P3OksALaiuHK09inct5FF",
+    "serial_number": "6e291ef60b3f318663bfae6565135e234a1f19e5a1f969183e9d68f00d9e9106",
+    "public_key": "BJPC9epjUmnezGyzCphO2NNok0uqvnGnzfuQ7jEA97qM6Tm3gNUUG3LDZfsYvWql3Zl6MLdRhpkAn6HtLu4Z2Uo=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "c4691af4-9836-4c82-8ea8-2dd993406636",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.27",
+    "time_creation": 1742621415,
+    "admin_puk": "8102202011",
+    "state": "CREATED",
+    "metadata": {
+        "name": "NORDWEST FEINKOST",
+        "phone": "",
+        "phone2": "",
+        "address": "Nidacorso 2",
+        "address2": "Frankfurt am Main",
+        "address3": "",
+        "description": "TSE_NORDWEST FEINKOST_60439"
+    }
+}
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "c4691af4-9836-4c82-8ea8-2dd993406636",
+    "state": "UNINITIALIZED",
+    "time_creation": 1742621415,
+    "time_uninit": 1742621445,
+    "certificate": "MIIEczCCA/qgAwIBAgIQLm79dWUvULgsedHveC5lMTAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODE0MzgxN1oXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfRDY4OTA4Mjg0NENFNDNGMUFDOEVENEJBNDBCODM5MTIxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A2ZTI5MWVmNjBiM2YzMTg2NjNiZmFlNjU2NTEzNWUyMzRhMWYxOWU1YTFmOTY5MTgzZTlkNjhmMDBkOWU5MTA2MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJPC9epjUmnezGyzCphO2NNok0uqvnGnzfuQ7jEA97qM6Tm3gNUUG3LDZfsYvWql3Zl6MLdRhpkAn6HtLu4Z2UqjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMF9sN3hjJzKhjVSV8e5SU6v9aIWtF+NHUb9201/mThprjloxWlrUnhdpIvM6v8cj5wIwFVdmAIADETLVRts+7vjzavhNXhiGYMmWhUVNVWPUoG0P3OksALaiuHK09inct5FF",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "6e291ef60b3f318663bfae6565135e234a1f19e5a1f969183e9d68f00d9e9106",
+    "public_key": "BJPC9epjUmnezGyzCphO2NNok0uqvnGnzfuQ7jEA97qM6Tm3gNUUG3LDZfsYvWql3Zl6MLdRhpkAn6HtLu4Z2Uo=",
+    "signature_counter": "78",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Nidacorso 2",
+        "address2": "Frankfurt am Main",
+        "description": "TSE_NORDWEST FEINKOST_60439",
+        "name": "NORDWEST FEINKOST"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.27"
+}
+
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "454651"
+}
+RESPONSE:
+{}
+
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "454651"
+}
+RESPONSE:
+{}
+
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "c4691af4-9836-4c82-8ea8-2dd993406636",
+    "description": "fiskaly sign cloud-TSE (c4691af4-9836-4c82-8ea8-2dd993406636)",
+    "state": "INITIALIZED",
+    "time_creation": 1742621415,
+    "time_uninit": 1742621445,
+    "time_init": 1742621587,
+    "certificate": "MIIEczCCA/qgAwIBAgIQLm79dWUvULgsedHveC5lMTAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODE0MzgxN1oXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfRDY4OTA4Mjg0NENFNDNGMUFDOEVENEJBNDBCODM5MTIxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A2ZTI5MWVmNjBiM2YzMTg2NjNiZmFlNjU2NTEzNWUyMzRhMWYxOWU1YTFmOTY5MTgzZTlkNjhmMDBkOWU5MTA2MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJPC9epjUmnezGyzCphO2NNok0uqvnGnzfuQ7jEA97qM6Tm3gNUUG3LDZfsYvWql3Zl6MLdRhpkAn6HtLu4Z2UqjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMF9sN3hjJzKhjVSV8e5SU6v9aIWtF+NHUb9201/mThprjloxWlrUnhdpIvM6v8cj5wIwFVdmAIADETLVRts+7vjzavhNXhiGYMmWhUVNVWPUoG0P3OksALaiuHK09inct5FF",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "6e291ef60b3f318663bfae6565135e234a1f19e5a1f969183e9d68f00d9e9106",
+    "public_key": "BJPC9epjUmnezGyzCphO2NNok0uqvnGnzfuQ7jEA97qM6Tm3gNUUG3LDZfsYvWql3Zl6MLdRhpkAn6HtLu4Z2Uo=",
+    "signature_counter": "84",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Nidacorso 2",
+        "address2": "Frankfurt am Main",
+        "description": "TSE_NORDWEST FEINKOST_60439",
+        "name": "NORDWEST FEINKOST"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.27"
+}
+
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "202f8d35-ea74-4598-bc9b-f99a5abf195a"
+}
+RESPONSE:
+{
+    "_id": "202f8d35-ea74-4598-bc9b-f99a5abf195a",
+    "state": "REGISTERED",
+    "serial_number": "202f8d35-ea74-4598-bc9b-f99a5abf195a",
+    "time_creation": 1742621640,
+    "tss_id": "c4691af4-9836-4c82-8ea8-2dd993406636",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.27"
+}
+
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_69utk85xkq3y9wgv7zw89ga1j_nordwestfeinkost-de322983260
+FISKALY API SECRET: CvpbIU3VeqsZOHEKJ1PZgVPt8Ul39H30do2ieLqjR4G
+TSE ID: c4691af4-9836-4c82-8ea8-2dd993406636
+TSE CLIENT ID: 202f8d35-ea74-4598-bc9b-f99a5abf195a
+ADMIN PUK: 8102202011
+ADMIN PIN: 454651

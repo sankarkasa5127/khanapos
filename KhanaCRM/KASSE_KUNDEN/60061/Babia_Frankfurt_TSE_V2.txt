@@ -1,0 +1,190 @@
+OLD TSE : 
+OLD TSE CLIENT ID: 
+OLD ADMIN PUK: 
+OLD ADMIN PIN: 
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3NDA4MDg1NDAsImlhdCI6MTc0MDcyMjE0MCwianRpIjoiMjAwMzExN2ItZGJmZi00MzU1LTk1NTctMjllYTZmMTU1MGQxIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiJhNDdiNGIxOC1hZTRjLTRjN2MtOTA3Yi1lZjE1MWE3NTk0OTYiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiM2E1MWY3M2MtZmY1YS00ZTNkLWE0ZDYtMjYxYTUzYjY0N2NkIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIzYTUxZjczYy1mZjVhLTRlM2QtYTRkNi0yNjFhNTNiNjQ3Y2QiLCJvcmdhbml6YXRpb24iOiIyMjZkNzFlMy01OTFjLTRiOWYtYWE0OC02YjMzNjIwNzVjYjQiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.ZySt2yQUDzFgS84DFgN8Lp2GlNpxkw7qhPbpwb7GqMnytS9BrfGDFy5w8vwicKd1UaDiFGjKcAfZEn3CxnEyhu3s6qBqbdT86OemKUaJaEz0e0jYjhwKdhCU8G0mEY_ZmE9CzHEJF5xXNwSQGcLHKZWxQWkRLZ95naVT5Jr_xP_prvUqtGQlOnkWvnkQKLh3idLeZa5KWAjbGalOk8p6XZJq2Izi77DxtzQRJIV3lKu2BaMGAcMVrnGXYEx9J-UXo07D4PWmf7kEAenvgWaVtVHfY_Bg697D7m8K9zLATGVqIhhuwSHoxYhsGJG3S3yyk5zSSIgWLdeRSwz8rlYEHQ",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "226d71e3-591c-4b9f-aa48-6b3362075cb4"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1740808540,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3NDA4OTQ5NDAsImlhdCI6MTc0MDcyMjE0MCwianRpIjoiZTA2YzE2MTgtMGJlNC00ZDNkLWI5ZjctMWUxZDVkMjhlM2IwIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6ImE0N2I0YjE4LWFlNGMtNGM3Yy05MDdiLWVmMTUxYTc1OTQ5NiIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiM2E1MWY3M2MtZmY1YS00ZTNkLWE0ZDYtMjYxYTUzYjY0N2NkIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIzYTUxZjczYy1mZjVhLTRlM2QtYTRkNi0yNjFhNTNiNjQ3Y2QifQ.0tRt23aifaOtGvR4YcIiyvovLbwSHi-jWt8zK86qg9E",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1740894940
+}
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Babia Cafe & Bar",
+        "address": "Niddastrasse 101",
+        "address2": "",
+        "address3": "Frankfurt am Main",
+        "phone": "+49 69 90556884",
+        "phone2": "",
+        "description":"TSE_Babia Cafe & Bar_60329"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQCcQYOCxp7Ty9cJU4P8KH6TAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA5NTkzOFoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfQzAxMzc0NTg4QUI4NDk4MkI1Q0Y3MURDRkE2MDlBRjYxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BhODFkNGY1Njk2OTkzZTNlMjA5NDVkY2IyMDc2ZmQ0ZjgyNmFkYTIxMDg5MTIzNDJjZWI2ZmQ2NTRiYjFmNDRhMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABGn1BJvW1v9x2W6OcND/fotKIv7YeEKUSbxDn66mdZEH7hTZWaNpGggvPEEA2sdIY03YmajDtMO6fDBiS1Ca/H2jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMALiZvVqD4g5nO8Q0XavWOH2Fhz2gTmolmFiuzVMnTi29scSHil8pPTWSfS0eAjRcgIwRdXUaSoO/RJI4vR/asbJBDYd22Y7nSA3lHG7aPkRdomnYGN3llzMRKzNNYDjLB/v",
+    "serial_number": "a81d4f5696993e3e20945dcb2076fd4f826ada2108912342ceb6fd654bb1f44a",
+    "public_key": "BGn1BJvW1v9x2W6OcND/fotKIv7YeEKUSbxDn66mdZEH7hTZWaNpGggvPEEA2sdIY03YmajDtMO6fDBiS1Ca/H0=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "d0fa8b1a-d5d7-4be0-bd2f-49c97ae10368",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.24",
+    "time_creation": 1740722276,
+    "admin_puk": "3358379225",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Babia Cafe & Bar",
+        "phone": "+49 69 90556884",
+        "phone2": "",
+        "address": "Niddastrasse 101",
+        "address2": "",
+        "address3": "Frankfurt am Main",
+        "description": "TSE_Babia Cafe & Bar_60329"
+    }
+}
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "d0fa8b1a-d5d7-4be0-bd2f-49c97ae10368",
+    "state": "UNINITIALIZED",
+    "time_creation": 1740722276,
+    "time_uninit": 1740722298,
+    "certificate": "MIIEczCCA/qgAwIBAgIQCcQYOCxp7Ty9cJU4P8KH6TAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA5NTkzOFoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfQzAxMzc0NTg4QUI4NDk4MkI1Q0Y3MURDRkE2MDlBRjYxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BhODFkNGY1Njk2OTkzZTNlMjA5NDVkY2IyMDc2ZmQ0ZjgyNmFkYTIxMDg5MTIzNDJjZWI2ZmQ2NTRiYjFmNDRhMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABGn1BJvW1v9x2W6OcND/fotKIv7YeEKUSbxDn66mdZEH7hTZWaNpGggvPEEA2sdIY03YmajDtMO6fDBiS1Ca/H2jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMALiZvVqD4g5nO8Q0XavWOH2Fhz2gTmolmFiuzVMnTi29scSHil8pPTWSfS0eAjRcgIwRdXUaSoO/RJI4vR/asbJBDYd22Y7nSA3lHG7aPkRdomnYGN3llzMRKzNNYDjLB/v",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "a81d4f5696993e3e20945dcb2076fd4f826ada2108912342ceb6fd654bb1f44a",
+    "public_key": "BGn1BJvW1v9x2W6OcND/fotKIv7YeEKUSbxDn66mdZEH7hTZWaNpGggvPEEA2sdIY03YmajDtMO6fDBiS1Ca/H0=",
+    "signature_counter": "129",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Niddastrasse 101",
+        "address3": "Frankfurt am Main",
+        "description": "TSE_Babia Cafe & Bar_60329",
+        "name": "Babia Cafe & Bar",
+        "phone": "+49 69 90556884"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.24"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "25478451"
+}
+RESPONSE:
+200 OK
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "25478451"
+}
+RESPONSE:
+200 OK
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "d0fa8b1a-d5d7-4be0-bd2f-49c97ae10368",
+    "description": "fiskaly sign cloud-TSE (d0fa8b1a-d5d7-4be0-bd2f-49c97ae10368)",
+    "state": "INITIALIZED",
+    "time_creation": 1740722276,
+    "time_uninit": 1740722298,
+    "time_init": 1740722386,
+    "certificate": "MIIEczCCA/qgAwIBAgIQCcQYOCxp7Ty9cJU4P8KH6TAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA5NTkzOFoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfQzAxMzc0NTg4QUI4NDk4MkI1Q0Y3MURDRkE2MDlBRjYxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BhODFkNGY1Njk2OTkzZTNlMjA5NDVkY2IyMDc2ZmQ0ZjgyNmFkYTIxMDg5MTIzNDJjZWI2ZmQ2NTRiYjFmNDRhMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABGn1BJvW1v9x2W6OcND/fotKIv7YeEKUSbxDn66mdZEH7hTZWaNpGggvPEEA2sdIY03YmajDtMO6fDBiS1Ca/H2jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMALiZvVqD4g5nO8Q0XavWOH2Fhz2gTmolmFiuzVMnTi29scSHil8pPTWSfS0eAjRcgIwRdXUaSoO/RJI4vR/asbJBDYd22Y7nSA3lHG7aPkRdomnYGN3llzMRKzNNYDjLB/v",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "a81d4f5696993e3e20945dcb2076fd4f826ada2108912342ceb6fd654bb1f44a",
+    "public_key": "BGn1BJvW1v9x2W6OcND/fotKIv7YeEKUSbxDn66mdZEH7hTZWaNpGggvPEEA2sdIY03YmajDtMO6fDBiS1Ca/H0=",
+    "signature_counter": "135",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Niddastrasse 101",
+        "address3": "Frankfurt am Main",
+        "description": "TSE_Babia Cafe & Bar_60329",
+        "name": "Babia Cafe & Bar",
+        "phone": "+49 69 90556884"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.24"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "7cdf318b-d3f8-4c07-b497-c622bc5aba81"
+}
+RESPONSE:
+{
+    "_id": "7cdf318b-d3f8-4c07-b497-c622bc5aba81",
+    "state": "REGISTERED",
+    "serial_number": "7cdf318b-d3f8-4c07-b497-c622bc5aba81",
+    "time_creation": 1740722431,
+    "tss_id": "d0fa8b1a-d5d7-4be0-bd2f-49c97ae10368",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.24"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_21dhwndz9sab40p688fetwm2c_babia-1423938293
+FISKALY API SECRET: 3ATR5B4k806LQgysyAxCnQgOEH6pSp3pPWdCB16oRuB
+TSE ID: d0fa8b1a-d5d7-4be0-bd2f-49c97ae10368
+TSE CLIENT ID: 7cdf318b-d3f8-4c07-b497-c622bc5aba81
+ADMIN PUK: 3358379225
+ADMIN PIN: 25478451

@@ -1,0 +1,190 @@
+OLD TSE : 
+OLD TSE CLIENT ID: 
+OLD ADMIN PUK: 
+OLD ADMIN PIN: 
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3NDEzMjUzODEsImlhdCI6MTc0MTIzODk4MSwianRpIjoiODYxNmFiYTEtM2VhMy00NzA2LWI3MzQtZDdjNTljYjQ0N2M3IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiI2NzM3NWUwOS0zOGM3LTQ0NmItOWVjZS1hYjVmNDQ1NDQyYTYiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiY2NkZTc5YmYtYTNkNy00NjE5LTliZTItNjEwZDQ1Yjg4NDNhIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJjY2RlNzliZi1hM2Q3LTQ2MTktOWJlMi02MTBkNDViODg0M2EiLCJvcmdhbml6YXRpb24iOiJmMTA2YjBiMy04Mzc0LTRlNGUtYjA5Mi02ZTNiYTFkYTRiMzkiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.a4QANqSbDlc0BWbrKInEJ1AfxvKiTe8zIciAP4_fKsVQ-5XklfjXuBTDQu-1qdxOfP5fejH2UO7RSoIjIMRiuBD-hz9-tFnc05_1376cMsxM2RKVXSLricOKMujq20aczNr_487QS_GtkffoJI0zFCN1Aj0kx-bq0XWYu2EXD0ew1OBE-aBOQV9AVqVd2Pa2XnAgfWO_v90dv3EitY4Q6e4Rt6FXnEtvB-rH5SIKYGRX2noTT1wc6h-wYKcXGOXfhnLAUbT4nYL_7C4qzi4qSwpzgmgHEjnj0DxyT6RiB_n0H-rhydNxQZDmAqGYmPZBKpJw7b68kj0_6h1FOVkStw",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "f106b0b3-8374-4e4e-b092-6e3ba1da4b39"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1741325381,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3NDE0MTE3ODEsImlhdCI6MTc0MTIzODk4MSwianRpIjoiYmM5Y2I4ODgtYzc3MC00ZmQ4LWI1YjEtNDk2ZTY3YTI2ODM3IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjY3Mzc1ZTA5LTM4YzctNDQ2Yi05ZWNlLWFiNWY0NDU0NDJhNiIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiY2NkZTc5YmYtYTNkNy00NjE5LTliZTItNjEwZDQ1Yjg4NDNhIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJjY2RlNzliZi1hM2Q3LTQ2MTktOWJlMi02MTBkNDViODg0M2EifQ.jaMpW_9O5ISarQWDsG2divEe6IrJLH-dMG-H9p8mGsg",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1741411781
+}
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Kaschmir",
+        "address": "Kurbrunnenstrasse 15",
+        "address2": "",
+        "address3": "Bad Dürkheim",
+        "phone": "+49 6322 3039241",
+        "phone2": "",
+        "description":"TSE_Kaschmir_67098"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQNk08ozLTv638E43ehbbtejAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODExNTMwOFoXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfQzQ1NzA3MkQzREZFNDIwQUJEOUFDNUY4QzA2MjA0M0QxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A1MTgyN2ViNzcyY2VjZTc4M2E2ZDQyOWViM2U2NjA0MTNhYmUxNWViNTcwNmRlMGM1YTdiMGQ0N2EyZTE5NWQ3MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABFcP+Lxk33dXUr5D6TJSj8AFOekXusshV7KvJMg5vX8xi9GjuBI5btUhQBJSwFqnxhKpFuSndDza6I9MBLWGbc6jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMCaj+mMiJ3LQ5tHVu0+OyCQRySFX+5QDKcNX5hbMCz9EjcOhSZjcIGc0kHf4CZHL0wIwEm7PTMXpYZTNY/4BklBKwGMwjVFONB7dl+ArfHIka9IRktGbvzsXbtwhCmgPYgcS",
+    "serial_number": "51827eb772cece783a6d429eb3e660413abe15eb5706de0c5a7b0d47a2e195d7",
+    "public_key": "BFcP+Lxk33dXUr5D6TJSj8AFOekXusshV7KvJMg5vX8xi9GjuBI5btUhQBJSwFqnxhKpFuSndDza6I9MBLWGbc4=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "55ae21a7-688d-4db0-918c-9fa54a0565d3",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.26",
+    "time_creation": 1741239016,
+    "admin_puk": "1653894003",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Kaschmir",
+        "phone": "+49 6322 3039241",
+        "phone2": "",
+        "address": "Kurbrunnenstrasse 15",
+        "address2": "",
+        "address3": "Bad Dürkheim",
+        "description": "TSE_Kaschmir_67098"
+    }
+}
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "55ae21a7-688d-4db0-918c-9fa54a0565d3",
+    "state": "UNINITIALIZED",
+    "time_creation": 1741239016,
+    "time_uninit": 1741239064,
+    "certificate": "MIIEczCCA/qgAwIBAgIQNk08ozLTv638E43ehbbtejAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODExNTMwOFoXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfQzQ1NzA3MkQzREZFNDIwQUJEOUFDNUY4QzA2MjA0M0QxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A1MTgyN2ViNzcyY2VjZTc4M2E2ZDQyOWViM2U2NjA0MTNhYmUxNWViNTcwNmRlMGM1YTdiMGQ0N2EyZTE5NWQ3MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABFcP+Lxk33dXUr5D6TJSj8AFOekXusshV7KvJMg5vX8xi9GjuBI5btUhQBJSwFqnxhKpFuSndDza6I9MBLWGbc6jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMCaj+mMiJ3LQ5tHVu0+OyCQRySFX+5QDKcNX5hbMCz9EjcOhSZjcIGc0kHf4CZHL0wIwEm7PTMXpYZTNY/4BklBKwGMwjVFONB7dl+ArfHIka9IRktGbvzsXbtwhCmgPYgcS",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "51827eb772cece783a6d429eb3e660413abe15eb5706de0c5a7b0d47a2e195d7",
+    "public_key": "BFcP+Lxk33dXUr5D6TJSj8AFOekXusshV7KvJMg5vX8xi9GjuBI5btUhQBJSwFqnxhKpFuSndDza6I9MBLWGbc4=",
+    "signature_counter": "63",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Kurbrunnenstrasse 15",
+        "address3": "Bad Dürkheim",
+        "description": "TSE_Kaschmir_67098",
+        "name": "Kaschmir",
+        "phone": "+49 6322 3039241"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.26"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "55441254"
+}
+RESPONSE:
+200 OK
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "55441254"
+}
+RESPONSE:
+200 OK
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "55ae21a7-688d-4db0-918c-9fa54a0565d3",
+    "description": "fiskaly sign cloud-TSE (55ae21a7-688d-4db0-918c-9fa54a0565d3)",
+    "state": "INITIALIZED",
+    "time_creation": 1741239016,
+    "time_uninit": 1741239064,
+    "time_init": 1741239103,
+    "certificate": "MIIEczCCA/qgAwIBAgIQNk08ozLTv638E43ehbbtejAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODExNTMwOFoXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfQzQ1NzA3MkQzREZFNDIwQUJEOUFDNUY4QzA2MjA0M0QxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A1MTgyN2ViNzcyY2VjZTc4M2E2ZDQyOWViM2U2NjA0MTNhYmUxNWViNTcwNmRlMGM1YTdiMGQ0N2EyZTE5NWQ3MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABFcP+Lxk33dXUr5D6TJSj8AFOekXusshV7KvJMg5vX8xi9GjuBI5btUhQBJSwFqnxhKpFuSndDza6I9MBLWGbc6jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMCaj+mMiJ3LQ5tHVu0+OyCQRySFX+5QDKcNX5hbMCz9EjcOhSZjcIGc0kHf4CZHL0wIwEm7PTMXpYZTNY/4BklBKwGMwjVFONB7dl+ArfHIka9IRktGbvzsXbtwhCmgPYgcS",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "51827eb772cece783a6d429eb3e660413abe15eb5706de0c5a7b0d47a2e195d7",
+    "public_key": "BFcP+Lxk33dXUr5D6TJSj8AFOekXusshV7KvJMg5vX8xi9GjuBI5btUhQBJSwFqnxhKpFuSndDza6I9MBLWGbc4=",
+    "signature_counter": "69",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Kurbrunnenstrasse 15",
+        "address3": "Bad Dürkheim",
+        "description": "TSE_Kaschmir_67098",
+        "name": "Kaschmir",
+        "phone": "+49 6322 3039241"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.26"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "c4fb7f31-ff0b-46b5-b808-6c0386b84ead"
+}
+RESPONSE:
+{
+    "_id": "c4fb7f31-ff0b-46b5-b808-6c0386b84ead",
+    "state": "REGISTERED",
+    "serial_number": "c4fb7f31-ff0b-46b5-b808-6c0386b84ead",
+    "time_creation": 1741239143,
+    "tss_id": "55ae21a7-688d-4db0-918c-9fa54a0565d3",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.26"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_e9p1vqpgnqi3aolv0nwkmgpix_kaschmir-3116433277
+FISKALY API SECRET: MhwRszemZGMjjENOwbEFGC3hRTEUTrbS9PCUaVxhw2H
+TSE ID: 55ae21a7-688d-4db0-918c-9fa54a0565d3
+TSE CLIENT ID: c4fb7f31-ff0b-46b5-b808-6c0386b84ead
+ADMIN PUK: 1653894003
+ADMIN PIN: 55441254

@@ -1,0 +1,190 @@
+OLD TSE : 6ca498b2-53aa-408c-ac1b-39bf6adec3bd
+OLD TSE CLIENT ID: 08dda8aa-8092-4b87-b97d-82a1439a0ae9
+OLD ADMIN PUK: 8598936948
+OLD ADMIN PIN: JAN291993
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3NDIzOTgwOTAsImlhdCI6MTc0MjMxMTY5MCwianRpIjoiZTM1ZmY4ZGUtZmQwZi00MmFiLTk1NzEtY2FiZjMxNjEyMTgxIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiI5MTdmMDE2NC0zNTA1LTQzMjAtYmVlMS02MzNmOWRmMzZiNzAiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiN2QwYWNjMWQtM2Q4Yy00YzZmLTllMGItZjgwYWI5OWYyZjIwIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI3ZDBhY2MxZC0zZDhjLTRjNmYtOWUwYi1mODBhYjk5ZjJmMjAiLCJvcmdhbml6YXRpb24iOiJiMGFjNmQxNS02MDhiLTQ2OWMtOWNiOS0yMzRmMzc4NTk5M2EiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.DrSpUf3ZGr2UT-7VSKmWqGfxrTeWPLYj7XQFxJyQAvS-4FCFok_ZdrPpWTmXbNW-Mk6YsPv12Y-WJ37CW5uKufUMzDUpqK9H9ZhZUmKbj2MOPi0vuJ0xlEq5yHETRcahxVOeOrEsTgawZ4jfqv7N59NDvKHAZa57EKiOL6__xTpWxEDqPT4iif9hiBllgglmgRIgEtpQRGFBMJ53YMqkXvF-tOE2qujs8x_JmwpttBqmw5WfN0GT-fH7SXbl_pAiBlG9xVmhDRxnzkIyBDin_YJbrUqX0YoITN-kpoWy5NN6UUwFIf-ImfviWxq1ouTkfI-G2pSYz_ghjYKqIDnRvg",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "b0ac6d15-608b-469c-9cb9-234f3785993a"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1742398090,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3NDI0ODQ0OTAsImlhdCI6MTc0MjMxMTY5MCwianRpIjoiNzg3NTc3ZDktYjc5OC00ZjFkLWJmOWUtMDA4NTIzZWQzZDI0IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjkxN2YwMTY0LTM1MDUtNDMyMC1iZWUxLTYzM2Y5ZGYzNmI3MCIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiN2QwYWNjMWQtM2Q4Yy00YzZmLTllMGItZjgwYWI5OWYyZjIwIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI3ZDBhY2MxZC0zZDhjLTRjNmYtOWUwYi1mODBhYjk5ZjJmMjAifQ.-2mmARhOmumsUCIpbMgu0VXRbpr57yO2jLFAWLPrU4g",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1742484490
+}
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Eis-Cafe Isola Bella",
+        "address": "Detmerodemarkt 16",
+        "address2": "",
+        "address3": "Wolfsburg",
+        "phone": "+49 5361 3769015",
+        "phone2": "",
+        "description":"TSE_Eis-Cafe Isola Bella_38444"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQMF4ceHckSNWEiSmkiTsQsjAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODE0MDIzMVoXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfQUJBMDA1QjU0RjQwNEI5RUEyRTYyRjBGNUNEOTI3MkIxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A0NjdmMGFkMGUwZTZjMmMyMDIzZTFlNmJhYzVkYjAxMGI2MGZiZTgxNzIxN2IwYzMwOTdhYTE3MDUzZjU3MDY4MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABBDTy82VfHOLiibePW8NlZ9YSMkomiOXmcxYe3u4xGpLv4Tsne1FlwGc3Wool4F/cd04laIqLoKWMSXNqPkjN5GjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMCaQlbnbw8z1bjQwYuDmVg8rxLel5BMAYlp8jVFXr4gxq2R9Y5g8NeH8nJY+fD4BEQIwXS4ycavm8NsL7v35GXGQqy22J6asZ6NtXHW4DXSa4Zm2tTQz0P9ilAyNOHlOpLup",
+    "serial_number": "467f0ad0e0e6c2c2023e1e6bac5db010b60fbe817217b0c3097aa17053f57068",
+    "public_key": "BBDTy82VfHOLiibePW8NlZ9YSMkomiOXmcxYe3u4xGpLv4Tsne1FlwGc3Wool4F/cd04laIqLoKWMSXNqPkjN5E=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "ad2fd1ff-c0d6-4054-b874-08827bf55bb0",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.26",
+    "time_creation": 1742311715,
+    "admin_puk": "9500058650",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Eis-Cafe Isola Bella",
+        "phone": "+49 5361 3769015",
+        "phone2": "",
+        "address": "Detmerodemarkt 16",
+        "address2": "",
+        "address3": "Wolfsburg",
+        "description": "TSE_Eis-Cafe Isola Bella_38444"
+    }
+}
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "ad2fd1ff-c0d6-4054-b874-08827bf55bb0",
+    "state": "UNINITIALIZED",
+    "time_creation": 1742311715,
+    "time_uninit": 1742311739,
+    "certificate": "MIIEczCCA/qgAwIBAgIQMF4ceHckSNWEiSmkiTsQsjAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODE0MDIzMVoXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfQUJBMDA1QjU0RjQwNEI5RUEyRTYyRjBGNUNEOTI3MkIxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A0NjdmMGFkMGUwZTZjMmMyMDIzZTFlNmJhYzVkYjAxMGI2MGZiZTgxNzIxN2IwYzMwOTdhYTE3MDUzZjU3MDY4MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABBDTy82VfHOLiibePW8NlZ9YSMkomiOXmcxYe3u4xGpLv4Tsne1FlwGc3Wool4F/cd04laIqLoKWMSXNqPkjN5GjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMCaQlbnbw8z1bjQwYuDmVg8rxLel5BMAYlp8jVFXr4gxq2R9Y5g8NeH8nJY+fD4BEQIwXS4ycavm8NsL7v35GXGQqy22J6asZ6NtXHW4DXSa4Zm2tTQz0P9ilAyNOHlOpLup",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "467f0ad0e0e6c2c2023e1e6bac5db010b60fbe817217b0c3097aa17053f57068",
+    "public_key": "BBDTy82VfHOLiibePW8NlZ9YSMkomiOXmcxYe3u4xGpLv4Tsne1FlwGc3Wool4F/cd04laIqLoKWMSXNqPkjN5E=",
+    "signature_counter": "75",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Detmerodemarkt 16",
+        "address3": "Wolfsburg",
+        "description": "TSE_Eis-Cafe Isola Bella_38444",
+        "name": "Eis-Cafe Isola Bella",
+        "phone": "+49 5361 3769015"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.26"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "8565585"
+}
+RESPONSE:
+200 OK
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "8565585"
+}
+RESPONSE:
+200 OK
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "ad2fd1ff-c0d6-4054-b874-08827bf55bb0",
+    "description": "fiskaly sign cloud-TSE (ad2fd1ff-c0d6-4054-b874-08827bf55bb0)",
+    "state": "INITIALIZED",
+    "time_creation": 1742311715,
+    "time_uninit": 1742311739,
+    "time_init": 1742311779,
+    "certificate": "MIIEczCCA/qgAwIBAgIQMF4ceHckSNWEiSmkiTsQsjAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODE0MDIzMVoXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfQUJBMDA1QjU0RjQwNEI5RUEyRTYyRjBGNUNEOTI3MkIxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A0NjdmMGFkMGUwZTZjMmMyMDIzZTFlNmJhYzVkYjAxMGI2MGZiZTgxNzIxN2IwYzMwOTdhYTE3MDUzZjU3MDY4MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABBDTy82VfHOLiibePW8NlZ9YSMkomiOXmcxYe3u4xGpLv4Tsne1FlwGc3Wool4F/cd04laIqLoKWMSXNqPkjN5GjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMCaQlbnbw8z1bjQwYuDmVg8rxLel5BMAYlp8jVFXr4gxq2R9Y5g8NeH8nJY+fD4BEQIwXS4ycavm8NsL7v35GXGQqy22J6asZ6NtXHW4DXSa4Zm2tTQz0P9ilAyNOHlOpLup",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "467f0ad0e0e6c2c2023e1e6bac5db010b60fbe817217b0c3097aa17053f57068",
+    "public_key": "BBDTy82VfHOLiibePW8NlZ9YSMkomiOXmcxYe3u4xGpLv4Tsne1FlwGc3Wool4F/cd04laIqLoKWMSXNqPkjN5E=",
+    "signature_counter": "81",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Detmerodemarkt 16",
+        "address3": "Wolfsburg",
+        "description": "TSE_Eis-Cafe Isola Bella_38444",
+        "name": "Eis-Cafe Isola Bella",
+        "phone": "+49 5361 3769015"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.26"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "717febb5-f486-407c-8a1c-02a2a7f74d00"
+}
+RESPONSE:
+{
+    "_id": "717febb5-f486-407c-8a1c-02a2a7f74d00",
+    "state": "REGISTERED",
+    "serial_number": "717febb5-f486-407c-8a1c-02a2a7f74d00",
+    "time_creation": 1742311816,
+    "tss_id": "ad2fd1ff-c0d6-4054-b874-08827bf55bb0",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.26"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_agjihg0ns8t9va3s7u49qhvsq_eiscafeisolabella-1910104989
+FISKALY API SECRET: KdcnSCNSuFxBd1v1VjwLJAOaCZ5XabC8Kt1Xt7U0sgu
+TSE ID: ad2fd1ff-c0d6-4054-b874-08827bf55bb0
+TSE CLIENT ID: 717febb5-f486-407c-8a1c-02a2a7f74d00
+ADMIN PUK: 9500058650
+ADMIN PIN: 8565585

@@ -1,0 +1,198 @@
+OLD TSE : 
+OLD TSE CLIENT ID: 
+OLD ADMIN PUK: 
+OLD ADMIN PIN: 
+
+-------------------------------------------------------------------------
+
+=============NEW================
+ 
+Restaurant Name: Taj Mahal
+API Key: live_3gzd56nydjj9wmygikt64pvgl_tajmahal-31450884975
+API Secret Key: 4UvGFyoTyArG0NUzHJjHHOnfgUXgDKZp5K6SF0A44Tq
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3MzkyNzMxODgsImlhdCI6MTczOTE4Njc4OCwianRpIjoiMjg2ZmU4ZTAtYWFmZS00MTllLWI0MDMtN2U2M2NiOTg3ZWYyIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiIxMDkyM2I2ZC04OTkzLTQ3YzEtODc3MC1kZGQ2M2MzNjc0YWIiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiODM2MjczZWItZmFmNC00MTA0LWFiOWUtOGIwZThjNGRiOGRiIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI4MzYyNzNlYi1mYWY0LTQxMDQtYWI5ZS04YjBlOGM0ZGI4ZGIiLCJvcmdhbml6YXRpb24iOiIzYWE0NDg2YS0xMWRiLTRmYjMtYjIxYy04MTc1MTg4Yzk3ODUiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.MeyC-mp_dr6PQv4MDbxm5J5Epk0t8_Q6g3Pok-UY8Q_hcl-2sD0PXvMD3dpJg3OHwrAsXWIh106Mn0TOFvsnOLi8WfGv8YDjdhnxRlJ6CF399LFwSDkYm15x1cwbR1oO-NhMw1bJJzG68m6KoQ2ojnvX7DPkzrBxK4b4LtjTUch_VcAHjoA8MA4WaaaaHxENGnljNPGa7Qud45vHjafpgA7qItJRUeBgkcTHDNaCdSWS5UPgkvT4yZq6G8RH6KX4Cy5YlEEF4lgtm_Rq6aaN0znY1_M9eHyDB7vvn29Py_1pXietNCrihkSDdq87a4DQY7x7n8izCz0s66IrlbdHJg",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "3aa4486a-11db-4fb3-b21c-8175188c9785"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1739273188,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3MzkzNTk1ODgsImlhdCI6MTczOTE4Njc4OCwianRpIjoiNTFkNDU5YjUtODg3Yy00ZjQ4LThhMjctNWMxNTU5MDUxMDI5IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjEwOTIzYjZkLTg5OTMtNDdjMS04NzcwLWRkZDYzYzM2NzRhYiIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiODM2MjczZWItZmFmNC00MTA0LWFiOWUtOGIwZThjNGRiOGRiIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI4MzYyNzNlYi1mYWY0LTQxMDQtYWI5ZS04YjBlOGM0ZGI4ZGIifQ.L6RKIDSZkZs4MPhB0418QpSWctY9Lyq4pg_nlt9iTj0",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1739359588
+}
+
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Taj Mahal",
+        "address": "Westenhellweg 108",
+        "address2": "Dortmund",
+        "address3": "",
+        "phone": "",
+        "phone2": "",
+        "description":"TSE_Taj Mahal_44137"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQEmAEemI7lzMrnCkJ3/dWkzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3MzQzNloXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNTlFM0Q2RUUyMUQwNDFDRUJENDRGM0M4OTdENzFGMkUxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AxMTE4NjZjYzQ4Y2IzNGU0NDA1YmNlNzg2MWUyZmY2YjlmOWYyZTRiZjQ0MTdlMWExYjY0NDA0YjNhYWZmNTE4MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABGej0XcZeCgkUbhZGMKV4NeYD5DsCRYxwji5/BmisIdMPcDIITQYNwqv2lznvHXIwGKX7IbPl69/DEwA2ada0NujggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMBgb+1nJDF5E05YhsBDQaO8UK2sr0nBL4ep2yLTqcydAkrdK6jIJtLE6sKJCKWPL9gIwTWwZYteowNXU7BUy+EQLt6/LOCbo7u1hr5zqEPtL7BiKFw4h/7b5+Tj6+dP122zL",
+    "serial_number": "111866cc48cb34e4405bce7861e2ff6b9f9f2e4bf4417e1a1b64404b3aaff518",
+    "public_key": "BGej0XcZeCgkUbhZGMKV4NeYD5DsCRYxwji5/BmisIdMPcDIITQYNwqv2lznvHXIwGKX7IbPl69/DEwA2ada0Ns=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "09f01293-f3a6-4224-9b1b-a7c87d58860f",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23",
+    "time_creation": 1739186898,
+    "admin_puk": "8602401987",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Taj Mahal",
+        "phone": "",
+        "phone2": "",
+        "address": "Westenhellweg 108",
+        "address2": "Dortmund",
+        "address3": "",
+        "description": "TSE_Taj Mahal_44137"
+    }
+}
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "09f01293-f3a6-4224-9b1b-a7c87d58860f",
+    "state": "UNINITIALIZED",
+    "time_creation": 1739186898,
+    "time_uninit": 1739186970,
+    "certificate": "MIIEczCCA/qgAwIBAgIQEmAEemI7lzMrnCkJ3/dWkzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3MzQzNloXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNTlFM0Q2RUUyMUQwNDFDRUJENDRGM0M4OTdENzFGMkUxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AxMTE4NjZjYzQ4Y2IzNGU0NDA1YmNlNzg2MWUyZmY2YjlmOWYyZTRiZjQ0MTdlMWExYjY0NDA0YjNhYWZmNTE4MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABGej0XcZeCgkUbhZGMKV4NeYD5DsCRYxwji5/BmisIdMPcDIITQYNwqv2lznvHXIwGKX7IbPl69/DEwA2ada0NujggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMBgb+1nJDF5E05YhsBDQaO8UK2sr0nBL4ep2yLTqcydAkrdK6jIJtLE6sKJCKWPL9gIwTWwZYteowNXU7BUy+EQLt6/LOCbo7u1hr5zqEPtL7BiKFw4h/7b5+Tj6+dP122zL",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "111866cc48cb34e4405bce7861e2ff6b9f9f2e4bf4417e1a1b64404b3aaff518",
+    "public_key": "BGej0XcZeCgkUbhZGMKV4NeYD5DsCRYxwji5/BmisIdMPcDIITQYNwqv2lznvHXIwGKX7IbPl69/DEwA2ada0Ns=",
+    "signature_counter": "111",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Westenhellweg 108",
+        "address2": "Dortmund",
+        "description": "TSE_Taj Mahal_44137",
+        "name": "Taj Mahal"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "297953"
+}
+RESPONSE:
+{}
+
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "297953"
+}
+RESPONSE:
+{}
+
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "09f01293-f3a6-4224-9b1b-a7c87d58860f",
+    "description": "fiskaly sign cloud-TSE (09f01293-f3a6-4224-9b1b-a7c87d58860f)",
+    "state": "INITIALIZED",
+    "time_creation": 1739186898,
+    "time_uninit": 1739186970,
+    "time_init": 1739187122,
+    "certificate": "MIIEczCCA/qgAwIBAgIQEmAEemI7lzMrnCkJ3/dWkzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3MzQzNloXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNTlFM0Q2RUUyMUQwNDFDRUJENDRGM0M4OTdENzFGMkUxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AxMTE4NjZjYzQ4Y2IzNGU0NDA1YmNlNzg2MWUyZmY2YjlmOWYyZTRiZjQ0MTdlMWExYjY0NDA0YjNhYWZmNTE4MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABGej0XcZeCgkUbhZGMKV4NeYD5DsCRYxwji5/BmisIdMPcDIITQYNwqv2lznvHXIwGKX7IbPl69/DEwA2ada0NujggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMBgb+1nJDF5E05YhsBDQaO8UK2sr0nBL4ep2yLTqcydAkrdK6jIJtLE6sKJCKWPL9gIwTWwZYteowNXU7BUy+EQLt6/LOCbo7u1hr5zqEPtL7BiKFw4h/7b5+Tj6+dP122zL",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "111866cc48cb34e4405bce7861e2ff6b9f9f2e4bf4417e1a1b64404b3aaff518",
+    "public_key": "BGej0XcZeCgkUbhZGMKV4NeYD5DsCRYxwji5/BmisIdMPcDIITQYNwqv2lznvHXIwGKX7IbPl69/DEwA2ada0Ns=",
+    "signature_counter": "118",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Westenhellweg 108",
+        "address2": "Dortmund",
+        "description": "TSE_Taj Mahal_44137",
+        "name": "Taj Mahal"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "dd0fc604-65ed-40de-9e07-a9a89e875e18"
+}
+RESPONSE:
+{
+    "_id": "dd0fc604-65ed-40de-9e07-a9a89e875e18",
+    "state": "REGISTERED",
+    "serial_number": "dd0fc604-65ed-40de-9e07-a9a89e875e18",
+    "time_creation": 1739187227,
+    "tss_id": "09f01293-f3a6-4224-9b1b-a7c87d58860f",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_3gzd56nydjj9wmygikt64pvgl_tajmahal-31450884975
+FISKALY API SECRET: 4UvGFyoTyArG0NUzHJjHHOnfgUXgDKZp5K6SF0A44Tq
+TSE ID: 09f01293-f3a6-4224-9b1b-a7c87d58860f
+TSE CLIENT ID: dd0fc604-65ed-40de-9e07-a9a89e875e18
+ADMIN PUK: 8602401987
+ADMIN PIN: 297953

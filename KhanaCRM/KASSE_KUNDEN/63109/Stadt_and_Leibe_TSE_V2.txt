@@ -1,0 +1,114 @@
+*Authentication token*:
+{"access_token":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3Mzc2OTg5MzksImlhdCI6MTczNzYxMjUzOSwianRpIjoiYjRlNzJkZDMtOTUzMC00MDlhLTlkMjAtYzU1OWZkNDc3ZGQ0IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiJmZmU4OGRkYS04NzFmLTRkMjUtYWExMi0wNjQ2M2EzY2RhYjIiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiZjFkMGFlOWEtZDk5YS00ZDJlLTkyYzMtYTY1YTE1NzUxNGM3Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJmMWQwYWU5YS1kOTlhLTRkMmUtOTJjMy1hNjVhMTU3NTE0YzciLCJvcmdhbml6YXRpb24iOiI5ZTRkM2ZjZC01NGE3LTRhOWUtYTM4Zi1lMmJjMGU2NGI0NmUiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.VF9d_lhTER9e8jn3tWzhtxbL4FtG-SQA7RTimP92loyU14FsSA2bXNIYtX2I7Qhb9JVmqutWfogfdqQZ9JdkSGVzB2Kia-qCTy7RtIrc9cGq0WEeekS6ixqnBLWhREGURNHgLQhrKU_JZuxzm1xEe4I2nwTwZ0Wp19xYL-1mmd2ArM4vN9y54R8EhF-MQdDw8RkZUi5PfwlDd2xuqPVLuAiUmnql9_s83qiwNqXENdIwv1GGnCUUgGdKCjLn86yNQj-cHUU5Z6YsOSk38_LnbuBl6MWQvDU_TqF3H7HlTdWRJfmxOzj10P4-azf2sFL9eDRkaGAIWcoTQtQXmGtBYw","access_token_claims":{"env":"LIVE","organization_id":"9e4d3fcd-54a7-4a9e-a38f-e2bc0e64b46e"},"access_token_expires_in":86400,"access_token_expires_at":1737698939,"refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3Mzc3ODUzMzksImlhdCI6MTczNzYxMjUzOSwianRpIjoiMjJjZDFiOTUtYTlkOS00OTJjLTk4Y2YtMTJhYzZmNzY3MjNkIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6ImZmZTg4ZGRhLTg3MWYtNGQyNS1hYTEyLTA2NDYzYTNjZGFiMiIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiZjFkMGFlOWEtZDk5YS00ZDJlLTkyYzMtYTY1YTE1NzUxNGM3Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJmMWQwYWU5YS1kOTlhLTRkMmUtOTJjMy1hNjVhMTU3NTE0YzcifQ.SdjnrBHXaiHUviEqqoXAitIgC6KTJ51_Hw3tI3PVh3g","refresh_token_expires_in":172800,"refresh_token_expires_at":1737785339}
+
+*Initialize TSS*:
+{
+    "certificate": "MIIEdDCCA/qgAwIBAgIQLjXuZqFcZjL6UMevvRpjUzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTExMjkxOFoXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMDlCRkMxRTFDMkI5NDkxNTgxRkQ0MDU3QjNGMDkyNjYxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AyNzIzYzVmNmNjODFjOTQ1YTIwZDdmMWE5ZTkwMDFiY2YwZTFlMWQyMjU1OWQzZTJmYzFkYmYzOWQ1ZWE0NDIxMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABLbVBS3S44QVXFOFsPLYVmmWEEEeXQqnatzbjx287i4Tt0K3PLhENinhYUy46w40mmeZk0Uk8hMZFeMWBFl3OdOjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2gAMGUCMQCB8/MT7+o6K/U95H1dXmGcSamyop7qDHdwXEkL+F0OE+xSiBkIt4EtbxoIKMmsVRUCMFdLO6/bwGHU6TvmYPRBp6L/Udiyzmax2fJhUdovMm+MATKo4FbGcaTBPXl7wHRXGA==",
+    "serial_number": "2723c5f6cc81c945a20d7f1a9e9001bcf0e1e1d22559d3e2fc1dbf39d5ea4421",
+    "public_key": "BLbVBS3S44QVXFOFsPLYVmmWEEEeXQqnatzbjx287i4Tt0K3PLhENinhYUy46w40mmeZk0Uk8hMZFeMWBFl3OdM=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "bd085a17-ed92-4ea7-a140-c3d91e11e7a3",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.21",
+    "time_creation": 1737612660,
+    "admin_puk": "2608279348",
+    "state": "CREATED",
+    "metadata": {
+        "custom_field": "custom_value"
+    }
+}
+
+*Personalize TSS*:
+{
+    "_id": "bd085a17-ed92-4ea7-a140-c3d91e11e7a3",
+    "state": "UNINITIALIZED",
+    "time_creation": 1737612660,
+    "time_uninit": 1737612914,
+    "certificate": "MIIEdDCCA/qgAwIBAgIQLjXuZqFcZjL6UMevvRpjUzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTExMjkxOFoXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMDlCRkMxRTFDMkI5NDkxNTgxRkQ0MDU3QjNGMDkyNjYxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AyNzIzYzVmNmNjODFjOTQ1YTIwZDdmMWE5ZTkwMDFiY2YwZTFlMWQyMjU1OWQzZTJmYzFkYmYzOWQ1ZWE0NDIxMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABLbVBS3S44QVXFOFsPLYVmmWEEEeXQqnatzbjx287i4Tt0K3PLhENinhYUy46w40mmeZk0Uk8hMZFeMWBFl3OdOjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2gAMGUCMQCB8/MT7+o6K/U95H1dXmGcSamyop7qDHdwXEkL+F0OE+xSiBkIt4EtbxoIKMmsVRUCMFdLO6/bwGHU6TvmYPRBp6L/Udiyzmax2fJhUdovMm+MATKo4FbGcaTBPXl7wHRXGA==",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "2723c5f6cc81c945a20d7f1a9e9001bcf0e1e1d22559d3e2fc1dbf39d5ea4421",
+    "public_key": "BLbVBS3S44QVXFOFsPLYVmmWEEEeXQqnatzbjx287i4Tt0K3PLhENinhYUy46w40mmeZk0Uk8hMZFeMWBFl3OdM=",
+    "signature_counter": "96",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "custom_field": "custom_value"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.21"
+}
+
+*Changing Admin PIN*:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "12071986"
+}
+
+*Authenticate Admin*:
+{
+	"admin_pin": "12071986"
+}
+
+*Initialize TSS*
+{
+    "_id": "bd085a17-ed92-4ea7-a140-c3d91e11e7a3",
+    "description": "fiskaly sign cloud-TSE (bd085a17-ed92-4ea7-a140-c3d91e11e7a3)",
+    "state": "INITIALIZED",
+    "time_creation": 1737612660,
+    "time_uninit": 1737612914,
+    "time_init": 1737613151,
+    "certificate": "MIIEdDCCA/qgAwIBAgIQLjXuZqFcZjL6UMevvRpjUzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTExMjkxOFoXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMDlCRkMxRTFDMkI5NDkxNTgxRkQ0MDU3QjNGMDkyNjYxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AyNzIzYzVmNmNjODFjOTQ1YTIwZDdmMWE5ZTkwMDFiY2YwZTFlMWQyMjU1OWQzZTJmYzFkYmYzOWQ1ZWE0NDIxMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABLbVBS3S44QVXFOFsPLYVmmWEEEeXQqnatzbjx287i4Tt0K3PLhENinhYUy46w40mmeZk0Uk8hMZFeMWBFl3OdOjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2gAMGUCMQCB8/MT7+o6K/U95H1dXmGcSamyop7qDHdwXEkL+F0OE+xSiBkIt4EtbxoIKMmsVRUCMFdLO6/bwGHU6TvmYPRBp6L/Udiyzmax2fJhUdovMm+MATKo4FbGcaTBPXl7wHRXGA==",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "2723c5f6cc81c945a20d7f1a9e9001bcf0e1e1d22559d3e2fc1dbf39d5ea4421",
+    "public_key": "BLbVBS3S44QVXFOFsPLYVmmWEEEeXQqnatzbjx287i4Tt0K3PLhENinhYUy46w40mmeZk0Uk8hMZFeMWBFl3OdM=",
+    "signature_counter": "102",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "custom_field": "custom_value"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.21"
+}
+
+*Create Client*:
+{
+    "_id": "9655faab-f026-47bf-8fe3-0eea94007c36",
+    "state": "REGISTERED",
+    "serial_number": "9655faab-f026-47bf-8fe3-0eea94007c36",
+    "time_creation": 1737613588,
+    "tss_id": "bd085a17-ed92-4ea7-a140-c3d91e11e7a3",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.21"
+}
+
+*Logout ADMIN*:
+Done
+
+Fiskaly API key: live_9ddww6q1j6hgelo3e4avk0wha_stadtleibe
+Fiskaly API secret Key: UodgdRDwRhCWQSwFzGWLYyHziA3AOpPhbhNKuDNSjdH
+TSE ID: bd085a17-ed92-4ea7-a140-c3d91e11e7a3
+Client ID: 9655faab-f026-47bf-8fe3-0eea94007c36
+Admin Puk: 2608279348
+Admin Pin: 12071986

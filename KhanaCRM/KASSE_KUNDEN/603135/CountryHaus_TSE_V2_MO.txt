@@ -1,0 +1,186 @@
+OLD TSE : c6ad4f68-a2d8-4a6a-b30d-1654e7090cc6
+OLD TSE CLIENT ID: bb21f383-1678-4d97-bdba-fb6eaf1c11ca
+OLD ADMIN PUK: 5768832362
+OLD ADMIN PIN: JAN291993
+------------------------------------------------------------------------
+FISKALY API KEY: live_3e6vfp0d4e0x36sjxc24wc86k_countryhaus-5210017046
+FISKALY API SECRET: eaQDja4jd7WKoc48sUDB6WBdQa3oQDenSIzliCl8idc
+------------------------------------------------------------------------
+
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3MzgyMjMyNzYsImlhdCI6MTczODEzNjg3NiwianRpIjoiYWMyNjZkNjAtMmQwNy00YmZkLTgzYmYtY2FlY2E3YWE2MTBmIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiJhMmE1YzdkMi00MmRkLTQyM2YtYmE5Yy0zMzIyY2QyNmRiMDgiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiNjExYjQzOGUtNWU4My00OGYwLWE1ODMtNTBiOTk1Njc2N2JiIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI2MTFiNDM4ZS01ZTgzLTQ4ZjAtYTU4My01MGI5OTU2NzY3YmIiLCJvcmdhbml6YXRpb24iOiIzOTU0ZmQwMS0yMmVjLTRhOWItYWYxMi0yZWU5OTJkZDg0NmMiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.XmXRSzgbgpCin0uJr-0YZFvPbh3mzBmQgiSybIZndaCGxiLh-hA2jENR49Y7wcfDhcojC34eo5UzTysnGYCNUNPKOAZLAWbDESzGC5V0IKTApB93Lqedg04eJFethov2SW7CSjhjgr6O_ZZu_7Gznzbjc9ECb_LuIPgO-BFNo8oxbswgpHhhgO8ktRoynJcjm7YzNH9M7HCuHPrswOACljlMMpQN3c1k73E8dqb8_u0zxFMB4M_eCMxFzzWc0DYggIFqN-4E7AEVnungHc8ut6DLX6uf8oxdtV7Cju51IUmAcXHNHkoYBtRHD1eu_2SZc4nw-tieF9Yuwx0sXjCHPw",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "3954fd01-22ec-4a9b-af12-2ee992dd846c"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1738223276,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3MzgzMDk2NzYsImlhdCI6MTczODEzNjg3NiwianRpIjoiOTMzYjU4M2QtZmI2ZC00YTRjLTk0NjUtNWVkNjJhNTlkYmE2IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6ImEyYTVjN2QyLTQyZGQtNDIzZi1iYTljLTMzMjJjZDI2ZGIwOCIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiNjExYjQzOGUtNWU4My00OGYwLWE1ODMtNTBiOTk1Njc2N2JiIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI2MTFiNDM4ZS01ZTgzLTQ4ZjAtYTU4My01MGI5OTU2NzY3YmIifQ.bdQA_FtMbp_YAcpSKrOO7Df51CLFfyawsoWoSc1OZys",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1738309676
+}
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Country House",
+        "address": "Karoxbosteler Chausee 68",
+        "address2": "",
+        "address3": "Seevetal",
+        "phone": "041056906414",
+        "phone2": "",
+        "description":"TSE_Country House  RESTAURANT_21218"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQClrrms67jwEJrUaZqd00iDAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTEyNDI1M1oXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNDVBQzUwNThBNUNCNDZFQjgxRDNCRTI5M0NFQzU1QTUxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AzNjgyNjNkOTJjZDliMzdlNTRkZTRhMDBlZDQyMjUwODg5MTA5YWZlMmQyZjY5ZTg2OTY3OTgzNzVkOGQ3NDMyMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABIh5BlDbAE6kMkNSmG+7STQRFzzGmLCbT+pwY/KocIYI5EBhJrb6lvdevc+CWLrTc+5i2wr4hlljGMgIPxf7rx6jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMFA0+DDdiO/IRb8jT4kHv3BiOjeCRH7YGmBlo61gprltu2YBPg5ceVNBPnO3LrQVaAIwSQetP2EEtD37tIxJV8ShVMqLx+WIId3c4kkzk7mP5udHV2fVS6L4FMHe+SDn/rpY",
+    "serial_number": "368263d92cd9b37e54de4a00ed42250889109afe2d2f69e8696798375d8d7432",
+    "public_key": "BIh5BlDbAE6kMkNSmG+7STQRFzzGmLCbT+pwY/KocIYI5EBhJrb6lvdevc+CWLrTc+5i2wr4hlljGMgIPxf7rx4=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "85f06b00-9e17-419a-9f41-8c9873592113",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.22",
+    "time_creation": 1738137829,
+    "admin_puk": "7179579753",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Country House",
+        "phone": "041056906414",
+        "phone2": "",
+        "address": "Karoxbosteler Chausee 68",
+        "address2": "",
+        "address3": "Seevetal",
+        "description": "TSE_Country House  RESTAURANT_21218"
+    }
+}
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "85f06b00-9e17-419a-9f41-8c9873592113",
+    "state": "UNINITIALIZED",
+    "time_creation": 1738137829,
+    "time_uninit": 1738137875,
+    "certificate": "MIIEczCCA/qgAwIBAgIQClrrms67jwEJrUaZqd00iDAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTEyNDI1M1oXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNDVBQzUwNThBNUNCNDZFQjgxRDNCRTI5M0NFQzU1QTUxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AzNjgyNjNkOTJjZDliMzdlNTRkZTRhMDBlZDQyMjUwODg5MTA5YWZlMmQyZjY5ZTg2OTY3OTgzNzVkOGQ3NDMyMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABIh5BlDbAE6kMkNSmG+7STQRFzzGmLCbT+pwY/KocIYI5EBhJrb6lvdevc+CWLrTc+5i2wr4hlljGMgIPxf7rx6jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMFA0+DDdiO/IRb8jT4kHv3BiOjeCRH7YGmBlo61gprltu2YBPg5ceVNBPnO3LrQVaAIwSQetP2EEtD37tIxJV8ShVMqLx+WIId3c4kkzk7mP5udHV2fVS6L4FMHe+SDn/rpY",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "368263d92cd9b37e54de4a00ed42250889109afe2d2f69e8696798375d8d7432",
+    "public_key": "BIh5BlDbAE6kMkNSmG+7STQRFzzGmLCbT+pwY/KocIYI5EBhJrb6lvdevc+CWLrTc+5i2wr4hlljGMgIPxf7rx4=",
+    "signature_counter": "102",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Karoxbosteler Chausee 68",
+        "address3": "Seevetal",
+        "description": "TSE_Country House  RESTAURANT_21218",
+        "name": "Country House",
+        "phone": "041056906414"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.22"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "789654231"
+}
+RESPONSE:
+200 OK
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "789654231"
+}
+RESPONSE:
+200 OK
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "85f06b00-9e17-419a-9f41-8c9873592113",
+    "description": "fiskaly sign cloud-TSE (85f06b00-9e17-419a-9f41-8c9873592113)",
+    "state": "INITIALIZED",
+    "time_creation": 1738137829,
+    "time_uninit": 1738137875,
+    "time_init": 1738137945,
+    "certificate": "MIIEczCCA/qgAwIBAgIQClrrms67jwEJrUaZqd00iDAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTEyNDI1M1oXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNDVBQzUwNThBNUNCNDZFQjgxRDNCRTI5M0NFQzU1QTUxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AzNjgyNjNkOTJjZDliMzdlNTRkZTRhMDBlZDQyMjUwODg5MTA5YWZlMmQyZjY5ZTg2OTY3OTgzNzVkOGQ3NDMyMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABIh5BlDbAE6kMkNSmG+7STQRFzzGmLCbT+pwY/KocIYI5EBhJrb6lvdevc+CWLrTc+5i2wr4hlljGMgIPxf7rx6jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMFA0+DDdiO/IRb8jT4kHv3BiOjeCRH7YGmBlo61gprltu2YBPg5ceVNBPnO3LrQVaAIwSQetP2EEtD37tIxJV8ShVMqLx+WIId3c4kkzk7mP5udHV2fVS6L4FMHe+SDn/rpY",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "368263d92cd9b37e54de4a00ed42250889109afe2d2f69e8696798375d8d7432",
+    "public_key": "BIh5BlDbAE6kMkNSmG+7STQRFzzGmLCbT+pwY/KocIYI5EBhJrb6lvdevc+CWLrTc+5i2wr4hlljGMgIPxf7rx4=",
+    "signature_counter": "108",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Karoxbosteler Chausee 68",
+        "address3": "Seevetal",
+        "description": "TSE_Country House  RESTAURANT_21218",
+        "name": "Country House",
+        "phone": "041056906414"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.22"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "5f16dc39-1540-4cb7-a5c8-1c68a51f5f0d"
+}
+RESPONSE:
+{
+    "_id": "20433176-2d94-4f44-a0f0-c8281c642f13",
+    "state": "REGISTERED",
+    "serial_number": "20433176-2d94-4f44-a0f0-c8281c642f13",
+    "time_creation": 1738137978,
+    "tss_id": "85f06b00-9e17-419a-9f41-8c9873592113",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.22"
+}

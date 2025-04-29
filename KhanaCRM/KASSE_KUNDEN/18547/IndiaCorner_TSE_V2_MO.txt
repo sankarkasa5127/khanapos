@@ -1,0 +1,190 @@
+OLD TSE : e2750453-5a62-4001-a0ba-3830c8209991
+OLD TSE CLIENT ID: d438d913-5150-44e3-8ca7-61514bc0d8a6
+OLD ADMIN PUK: 9857229298
+OLD ADMIN PIN: 1996641
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3NDIxNDEwMTYsImlhdCI6MTc0MjA1NDYxNiwianRpIjoiNWIzZTZmODYtNzk2NC00ZTRjLTkzMTItYTc2ODJkN2ZkY2NjIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiI1NDZjNDczOS1jNWZiLTQ1MTktOGE4Yy04NjYwMGVlYmFkYjkiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiMTJlMTAyZTMtYjQ3Yi00MGJjLWEyOGQtMWRkYWYzMDI0ZGI4Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIxMmUxMDJlMy1iNDdiLTQwYmMtYTI4ZC0xZGRhZjMwMjRkYjgiLCJvcmdhbml6YXRpb24iOiI3ODNhZWU4OC05YWY3LTRhZGItYTU4Zi05N2QwYTgwNTQyMmMiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.byVdYq_i0VCVxkdvWsLi42eNn1MUlwOdTDIGCb8Ro3YoBgHVoqI6fAHJ9nK7cL9H2i726D37JcSFu_krTEjCnkDq68ciULF_PbZG1WB1AleyYj1kVcJp0pr3sbkHptKpp_SipKM7xqURWF1KOzNMs7uyKE0vEJ4jNT_23lPHAuS0SnazldsvZEaPldZHsKNHU6EjYcnDglcP-qIXEOMURGd7pr3pCvIh9z40QrItoOEWPZsA5M1t8RJ-vJV0v84plkJ3OquDz3OpUEH8BYi1eQeEBBP8oFD8M15Tv6LPkEkkLfvgnaUuhANqhqIpRI3HDBkeFgYjibjmusee5p_YuA",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "783aee88-9af7-4adb-a58f-97d0a805422c"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1742141016,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3NDIyMjc0MTYsImlhdCI6MTc0MjA1NDYxNiwianRpIjoiNWM5ZDUwZTgtZmI4Mi00YjllLTg1YjAtYjZjYjY5ODhkOTYwIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjU0NmM0NzM5LWM1ZmItNDUxOS04YThjLTg2NjAwZWViYWRiOSIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiMTJlMTAyZTMtYjQ3Yi00MGJjLWEyOGQtMWRkYWYzMDI0ZGI4Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIxMmUxMDJlMy1iNDdiLTQwYmMtYTI4ZC0xZGRhZjMwMjRkYjgifQ.aarUI4Plh9ngEYHo3MYfdxzeJQ0Fj1OJRryJ1yfu7uE",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1742227416
+}
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "India Corner Indische Reastaurant",
+        "address": "Bodden Markt  03",
+        "address2": "",
+        "address3": "Glowe",
+        "phone": "+49 38302 711811",
+        "phone2": "",
+        "description":"TSE_India Corner Indische Reastaurant_18551"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQDoV9jIPQnAkYLKamrC3X1jAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODEzMDYwMloXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfODhGRDg4QkU1QzE0NDQ5ODg3RjRENDU5OEZBOEI5RUQxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BlYWI0M2U3NzkzZjQwZmUyZGZiZjA5ZGJhYzczZmQ4ZjFjZjI2YjA4NDE0NjJlN2ZmOGM2NWZkNDAxMzAwZjdmMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABDFGvQ8vM4jlaUj02w4r3Ob/sOWfRHlKzpKc5hCIrKuP9bxJb1HT6pgeqet6MaANEV6uC0EZXhqk3ewgoyY9cyujggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMA+2jXp5vDtfuTp7FQ/YYC+nBw6KyDPZunDeOospHm4O22OztiB0gwMcINswD6NutwIwYiXqGaO9LqOZmrOjlmdGTwFoIi3mruw1tn1IWsw/DvgWdSYTl1rHSXhrNFMzH3fT",
+    "serial_number": "eab43e7793f40fe2dfbf09dbac73fd8f1cf26b0841462e7ff8c65fd401300f7f",
+    "public_key": "BDFGvQ8vM4jlaUj02w4r3Ob/sOWfRHlKzpKc5hCIrKuP9bxJb1HT6pgeqet6MaANEV6uC0EZXhqk3ewgoyY9cys=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "563bf240-9dd0-40ff-b8c9-43cc7385c4e3",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.26",
+    "time_creation": 1742054645,
+    "admin_puk": "9926647471",
+    "state": "CREATED",
+    "metadata": {
+        "name": "India Corner Indische Reastaurant",
+        "phone": "+49 38302 711811",
+        "phone2": "",
+        "address": "Bodden Markt  03",
+        "address2": "",
+        "address3": "Glowe",
+        "description": "TSE_India Corner Indische Reastaurant_18551"
+    }
+}
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "563bf240-9dd0-40ff-b8c9-43cc7385c4e3",
+    "state": "UNINITIALIZED",
+    "time_creation": 1742054645,
+    "time_uninit": 1742054672,
+    "certificate": "MIIEczCCA/qgAwIBAgIQDoV9jIPQnAkYLKamrC3X1jAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODEzMDYwMloXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfODhGRDg4QkU1QzE0NDQ5ODg3RjRENDU5OEZBOEI5RUQxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BlYWI0M2U3NzkzZjQwZmUyZGZiZjA5ZGJhYzczZmQ4ZjFjZjI2YjA4NDE0NjJlN2ZmOGM2NWZkNDAxMzAwZjdmMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABDFGvQ8vM4jlaUj02w4r3Ob/sOWfRHlKzpKc5hCIrKuP9bxJb1HT6pgeqet6MaANEV6uC0EZXhqk3ewgoyY9cyujggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMA+2jXp5vDtfuTp7FQ/YYC+nBw6KyDPZunDeOospHm4O22OztiB0gwMcINswD6NutwIwYiXqGaO9LqOZmrOjlmdGTwFoIi3mruw1tn1IWsw/DvgWdSYTl1rHSXhrNFMzH3fT",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "eab43e7793f40fe2dfbf09dbac73fd8f1cf26b0841462e7ff8c65fd401300f7f",
+    "public_key": "BDFGvQ8vM4jlaUj02w4r3Ob/sOWfRHlKzpKc5hCIrKuP9bxJb1HT6pgeqet6MaANEV6uC0EZXhqk3ewgoyY9cys=",
+    "signature_counter": "72",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Bodden Markt  03",
+        "address3": "Glowe",
+        "description": "TSE_India Corner Indische Reastaurant_18551",
+        "name": "India Corner Indische Reastaurant",
+        "phone": "+49 38302 711811"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.26"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "78459632"
+}
+RESPONSE:
+200 OK
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "78459632"
+}
+RESPONSE:
+200 OK
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "563bf240-9dd0-40ff-b8c9-43cc7385c4e3",
+    "description": "fiskaly sign cloud-TSE (563bf240-9dd0-40ff-b8c9-43cc7385c4e3)",
+    "state": "INITIALIZED",
+    "time_creation": 1742054645,
+    "time_uninit": 1742054672,
+    "time_init": 1742054710,
+    "certificate": "MIIEczCCA/qgAwIBAgIQDoV9jIPQnAkYLKamrC3X1jAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODEzMDYwMloXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfODhGRDg4QkU1QzE0NDQ5ODg3RjRENDU5OEZBOEI5RUQxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BlYWI0M2U3NzkzZjQwZmUyZGZiZjA5ZGJhYzczZmQ4ZjFjZjI2YjA4NDE0NjJlN2ZmOGM2NWZkNDAxMzAwZjdmMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABDFGvQ8vM4jlaUj02w4r3Ob/sOWfRHlKzpKc5hCIrKuP9bxJb1HT6pgeqet6MaANEV6uC0EZXhqk3ewgoyY9cyujggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMA+2jXp5vDtfuTp7FQ/YYC+nBw6KyDPZunDeOospHm4O22OztiB0gwMcINswD6NutwIwYiXqGaO9LqOZmrOjlmdGTwFoIi3mruw1tn1IWsw/DvgWdSYTl1rHSXhrNFMzH3fT",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "eab43e7793f40fe2dfbf09dbac73fd8f1cf26b0841462e7ff8c65fd401300f7f",
+    "public_key": "BDFGvQ8vM4jlaUj02w4r3Ob/sOWfRHlKzpKc5hCIrKuP9bxJb1HT6pgeqet6MaANEV6uC0EZXhqk3ewgoyY9cys=",
+    "signature_counter": "78",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Bodden Markt  03",
+        "address3": "Glowe",
+        "description": "TSE_India Corner Indische Reastaurant_18551",
+        "name": "India Corner Indische Reastaurant",
+        "phone": "+49 38302 711811"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.26"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "b3174ec8-1b04-483b-84c1-2256f90bde8c"
+}
+RESPONSE:
+{
+    "_id": "b3174ec8-1b04-483b-84c1-2256f90bde8c",
+    "state": "REGISTERED",
+    "serial_number": "b3174ec8-1b04-483b-84c1-2256f90bde8c",
+    "time_creation": 1742054749,
+    "tss_id": "563bf240-9dd0-40ff-b8c9-43cc7385c4e3",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.26"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_748tmkdaxdkr5rqsr3jqxky0c_indiacorner-23123713796
+FISKALY API SECRET: CXWubaJdE8SnpalPEuiO5eKUUKNcqgANHjbGQjuLdUh
+TSE ID: 563bf240-9dd0-40ff-b8c9-43cc7385c4e3
+TSE CLIENT ID: b3174ec8-1b04-483b-84c1-2256f90bde8c
+ADMIN PUK: 9926647471
+ADMIN PIN: 78459632

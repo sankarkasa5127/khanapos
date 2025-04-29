@@ -1,0 +1,182 @@
+OLD TSE : 
+OLD TSE CLIENT ID: 
+OLD ADMIN PUK: 
+OLD ADMIN PIN: 
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{"access_token":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3MzkyNTUzODIsImlhdCI6MTczOTE2ODk4MiwianRpIjoiZTY0OTk2NTEtMGU5Ny00NzM4LTk4MjAtNzFiNTM5Yjk4NzdmIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiJhNjZhODlkMS03YzM0LTQ5MjItYjZlZC1iNGY1N2Y1OGJjMmUiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiNjc4MjRmOTAtNjVhZC00MjFjLTlhNWItYWRhMzFjOGZjY2MzIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI2NzgyNGY5MC02NWFkLTQyMWMtOWE1Yi1hZGEzMWM4ZmNjYzMiLCJvcmdhbml6YXRpb24iOiI4ZDcwNjJmOC0wZjE1LTQ3YWQtOGVlOS0xMjQ1M2EzYmNiNTIiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.fjf4H_bCQkpg9EZK5g-Njf5ZM4-58quZ0tljYwnb2UmGEaWAoyngVKOPYhzVg9xLMUIJhNy8htUrr5E3q7DdHXCfe3WB9iH5te5ommM1NHMak1yJX5Av9AiWL_Nk1ZRWmczFCltzp9KSQqIF4K_MFFLF51MwHVvXMolYMWTeORS-vfwz4bSeEdSKFTtrHhOiYr_ozNCAwv9FFStOmg5h1io-Le8_h9MVeznTdbkqOQnJIR5M19up2ZF0utlik87F3-kGQMVbKdCE_r_xyijI69xu-NCM1YDmKDP4-xw4CS16Z1FF9CQ15dVMKrhsYtfccPdh1LEhwsHYjKvBxujrKA","access_token_claims":{"env":"LIVE","organization_id":"8d7062f8-0f15-47ad-8ee9-12453a3bcb52"},"access_token_expires_in":86400,"access_token_expires_at":1739255382,"refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3MzkzNDE3ODIsImlhdCI6MTczOTE2ODk4MiwianRpIjoiODE4MWM4OWItZTNiMC00Y2E0LThiNjItMzFiOTkzYzgxNjZhIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6ImE2NmE4OWQxLTdjMzQtNDkyMi1iNmVkLWI0ZjU3ZjU4YmMyZSIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiNjc4MjRmOTAtNjVhZC00MjFjLTlhNWItYWRhMzFjOGZjY2MzIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI2NzgyNGY5MC02NWFkLTQyMWMtOWE1Yi1hZGEzMWM4ZmNjYzMifQ.z80MumDTMns6pZYknCHdcgoiCBo22lFdUUTVA_R41cI","refresh_token_expires_in":172800,"refresh_token_expires_at":1739341782}
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Mirch Masala",
+        "address": "",
+        "address2": "Im Prufling 52",
+        "address3": "Frankfurt am Main",
+        "phone": "+49-6979350707",
+        "phone2": "",
+        "description":"TSE_Mirch Masala_60389"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEdDCCA/qgAwIBAgIQK6bvGtBqt0iZovT4Rlki3TAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3MjY1M1oXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfOThGNjNGMDBDMThBNDAwMzlFNEU3MUJCRDIwNDgzQjExFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A1YzJlYWY2MzNjNmI3ZmNlZjc1MzdiNTVlMzIzYzY4N2UwMDMxMzQ0MmM3Yzc2NTkzM2VkZTAzNTgwYTU0ZDg0MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABIQKsfrnOKBxdQiwwEtCF9LmXAp0tWdUZ605fQET+8/Iflvt0LY50Dei0CC8azr7SRAa7+r1+puUtbUby3rBubujggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2gAMGUCMQCKPlfz9ztIMfSsTrSq+K4vBI/QsTw4rm86r2bDrPkh76LW1fgii1K8u+Zs0pDUgR4CMHQdEz0iI47jDmYUi2LzhMRCRVDluLl3/Wl1Ob8+G0KX3W66VoN/jJXhYppiglTi2w==",
+    "serial_number": "5c2eaf633c6b7fcef7537b55e323c687e00313442c7c765933ede03580a54d84",
+    "public_key": "BIQKsfrnOKBxdQiwwEtCF9LmXAp0tWdUZ605fQET+8/Iflvt0LY50Dei0CC8azr7SRAa7+r1+puUtbUby3rBubs=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "7e9d2d0a-ab83-4112-bfcb-4505b1f319db",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23",
+    "time_creation": 1739169437,
+    "admin_puk": "1854974501",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Mirch Masala",
+        "phone": "+49-6979350707",
+        "phone2": "",
+        "address": "",
+        "address2": "Im Prufling 52",
+        "address3": "Frankfurt am Main",
+        "description": "TSE_Mirch Masala_60389"
+    }
+}
+
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "7e9d2d0a-ab83-4112-bfcb-4505b1f319db",
+    "state": "UNINITIALIZED",
+    "time_creation": 1739169437,
+    "time_uninit": 1739169501,
+    "certificate": "MIIEdDCCA/qgAwIBAgIQK6bvGtBqt0iZovT4Rlki3TAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3MjY1M1oXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfOThGNjNGMDBDMThBNDAwMzlFNEU3MUJCRDIwNDgzQjExFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A1YzJlYWY2MzNjNmI3ZmNlZjc1MzdiNTVlMzIzYzY4N2UwMDMxMzQ0MmM3Yzc2NTkzM2VkZTAzNTgwYTU0ZDg0MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABIQKsfrnOKBxdQiwwEtCF9LmXAp0tWdUZ605fQET+8/Iflvt0LY50Dei0CC8azr7SRAa7+r1+puUtbUby3rBubujggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2gAMGUCMQCKPlfz9ztIMfSsTrSq+K4vBI/QsTw4rm86r2bDrPkh76LW1fgii1K8u+Zs0pDUgR4CMHQdEz0iI47jDmYUi2LzhMRCRVDluLl3/Wl1Ob8+G0KX3W66VoN/jJXhYppiglTi2w==",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "5c2eaf633c6b7fcef7537b55e323c687e00313442c7c765933ede03580a54d84",
+    "public_key": "BIQKsfrnOKBxdQiwwEtCF9LmXAp0tWdUZ605fQET+8/Iflvt0LY50Dei0CC8azr7SRAa7+r1+puUtbUby3rBubs=",
+    "signature_counter": "111",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address2": "Im Prufling 52",
+        "address3": "Frankfurt am Main",
+        "description": "TSE_Mirch Masala_60389",
+        "name": "Mirch Masala",
+        "phone": "+49-6979350707"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "790468"
+}
+RESPONSE:
+{}
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "790468"
+}
+RESPONSE:
+{}
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "7e9d2d0a-ab83-4112-bfcb-4505b1f319db",
+    "description": "fiskaly sign cloud-TSE (7e9d2d0a-ab83-4112-bfcb-4505b1f319db)",
+    "state": "INITIALIZED",
+    "time_creation": 1739169437,
+    "time_uninit": 1739169501,
+    "time_init": 1739169652,
+    "certificate": "MIIEdDCCA/qgAwIBAgIQK6bvGtBqt0iZovT4Rlki3TAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3MjY1M1oXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfOThGNjNGMDBDMThBNDAwMzlFNEU3MUJCRDIwNDgzQjExFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A1YzJlYWY2MzNjNmI3ZmNlZjc1MzdiNTVlMzIzYzY4N2UwMDMxMzQ0MmM3Yzc2NTkzM2VkZTAzNTgwYTU0ZDg0MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABIQKsfrnOKBxdQiwwEtCF9LmXAp0tWdUZ605fQET+8/Iflvt0LY50Dei0CC8azr7SRAa7+r1+puUtbUby3rBubujggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2gAMGUCMQCKPlfz9ztIMfSsTrSq+K4vBI/QsTw4rm86r2bDrPkh76LW1fgii1K8u+Zs0pDUgR4CMHQdEz0iI47jDmYUi2LzhMRCRVDluLl3/Wl1Ob8+G0KX3W66VoN/jJXhYppiglTi2w==",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "5c2eaf633c6b7fcef7537b55e323c687e00313442c7c765933ede03580a54d84",
+    "public_key": "BIQKsfrnOKBxdQiwwEtCF9LmXAp0tWdUZ605fQET+8/Iflvt0LY50Dei0CC8azr7SRAa7+r1+puUtbUby3rBubs=",
+    "signature_counter": "117",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address2": "Im Prufling 52",
+        "address3": "Frankfurt am Main",
+        "description": "TSE_Mirch Masala_60389",
+        "name": "Mirch Masala",
+        "phone": "+49-6979350707"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "{{$guid}}"
+}
+RESPONSE:
+{
+    "_id": "52fb2182-5dd9-476c-9297-8796d11a8aa0",
+    "state": "REGISTERED",
+    "serial_number": "eb5474df-d78d-4e99-beaf-841be0e08ac8",
+    "time_creation": 1739169827,
+    "tss_id": "7e9d2d0a-ab83-4112-bfcb-4505b1f319db",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_8dg3huew0sio2moy7c42ulmj6_mirchmasala-de341898766
+FISKALY API SECRET: XWRY7qkuw7bDgHTtu56J1PrTht1u0nrOTmdYLS9pNVN
+TSE ID: 7e9d2d0a-ab83-4112-bfcb-4505b1f319db
+TSE CLIENT ID: 52fb2182-5dd9-476c-9297-8796d11a8aa0
+ADMIN PUK: 1854974501
+ADMIN PIN: 790468

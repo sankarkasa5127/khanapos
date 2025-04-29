@@ -1,0 +1,206 @@
+Restaurant NAME: Ezim Café
+API KEY: live_9lexwxs6jiwf70tqdsa3wanpa_ezimcafe-1280948323
+API SECERET KEY: 3zNSKU22uCdivCyPY48ix5w0lgBVtoLbtSgLfSBEhL3
+
+
+OLD TSE : f369fa5d-733c-4a54-84b6-5652d4f5ae9b
+OLD TSE CLIENT ID: 032b1bfb-ff8b-4d75-a86b-e5786b51b640
+OLD ADMIN PUK: 5537452589
+OLD ADMIN PIN: JAN291993
+
+-------------------------------------------------------------------------
+
+=============NEW================
+ 
+Restaurant Name: Ezim Café
+API Key: live_9lexwxs6jiwf70tqdsa3wanpa_ezimcafe-1280948323
+API Secret Key: 3zNSKU22uCdivCyPY48ix5w0lgBVtoLbtSgLfSBEhL3
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3MzkwOTQzNTYsImlhdCI6MTczOTAwNzk1NiwianRpIjoiNzYwYzRjNjYtZDQzMy00YTEwLWI1N2ItMjc0ZWY1OWE0YjJhIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiI1ZWIxNDMyMS01NDg3LTQ0ZjAtYmI0ZC0yNzRlYWExZDA4ZjQiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiMDk3ZjgzOTEtOTQ5Yi00Yjg5LTgzNGEtMWE2ODg2MmRmYmEzIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIwOTdmODM5MS05NDliLTRiODktODM0YS0xYTY4ODYyZGZiYTMiLCJvcmdhbml6YXRpb24iOiJhMjExOWEyMC0yY2EzLTQ4MjctOThjZi04MjdhMmQ5NjQyN2UiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.FOp6nUeQsICs_N_KOSrn6ddZY_gaEnM7PoD0ttrW3sMCddAutSmWIs571huSbRN2sH6Y29za64zmeydwbCK7HqskzB_UdHgJqLbpnSV0Cc9zi35tzJMN7G1JjzeSP2GBtKxvORunhsSGlXvwAmaT_GW3Y2HPDXsJSRMZl_5G_i7JNTiLU3JPR-Usz46KFH8wVlLWOJb7cuA3magSl5BPMNkDR9dsd_f5LhH3jQAMaKAxHBzZLHfXyzqpU_hug4YJA4XuL5y894e5ydCWoxrhqRROF4OpxVXX4YU3-iw6iOrPqwXWvBFEKDy7QCEa647IDpTuszCua12HTeGMeuIP1Q",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "a2119a20-2ca3-4827-98cf-827a2d96427e"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1739094356,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3MzkxODA3NTYsImlhdCI6MTczOTAwNzk1NiwianRpIjoiZWZhODFiYjEtM2U3Ni00NWYzLWE2YzEtNWE2MzkxM2I5NTEyIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjVlYjE0MzIxLTU0ODctNDRmMC1iYjRkLTI3NGVhYTFkMDhmNCIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiMDk3ZjgzOTEtOTQ5Yi00Yjg5LTgzNGEtMWE2ODg2MmRmYmEzIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIwOTdmODM5MS05NDliLTRiODktODM0YS0xYTY4ODYyZGZiYTMifQ.XM_3UisMzHGmmK9ItRq48WGJI3EQAU7xLkWf0vCEe98",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1739180756
+}
+
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Ezim Café",
+        "address": "Berger Str. 166",
+        "address2": "Frankfurt/M",
+        "address3": "",
+        "phone": "",
+        "phone2": "",
+        "description":"TSE_Ezim Café_60385"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQIjz1xT+Rn7Bv4XEtzw353jAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3MjIxN1oXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfRUI4NzQ2QzBDMjhENDlCMDk0NDQ1NUIyRUE3QkUxNzkxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A4MzAyYTE1ZmE2YzUzNDEyNDgyMzUzMWExYzk0MDhmMWUzZDNkNTlhYjRhMDRlMzZmZjc4ZTRhZjMzYjU1ZWNlMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABEiGgBmQOyCuOTYY52vnQF2oBWaS4gzHAbsU2CVYaZfFJYcAydcN8NwpydYXdf5PCBCsRSsKkZV2cAlblmJaBXWjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMEKoyQfpIlxnKFOqqW3yZ4AanAOU/v19hsttZN7j3juTLO26Ri9XtSZbNlzD9mZxPQIwAakBiBTU2I8dx3oVM68cYwTET+k25xRLK49rfEHz6z4b+0AXBIjEQ7M6ErMiGIgw",
+    "serial_number": "8302a15fa6c534124823531a1c9408f1e3d3d59ab4a04e36ff78e4af33b55ece",
+    "public_key": "BEiGgBmQOyCuOTYY52vnQF2oBWaS4gzHAbsU2CVYaZfFJYcAydcN8NwpydYXdf5PCBCsRSsKkZV2cAlblmJaBXU=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "bb5284b7-1507-402a-b5fd-b071b251afde",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23",
+    "time_creation": 1739008188,
+    "admin_puk": "5062543884",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Ezim Café",
+        "phone": "",
+        "phone2": "",
+        "address": "Berger Str. 166",
+        "address2": "Frankfurt/M",
+        "address3": "",
+        "description": "TSE_Ezim Café_60385"
+    }
+}
+
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "bb5284b7-1507-402a-b5fd-b071b251afde",
+    "state": "UNINITIALIZED",
+    "time_creation": 1739008188,
+    "time_uninit": 1739008373,
+    "certificate": "MIIEczCCA/qgAwIBAgIQIjz1xT+Rn7Bv4XEtzw353jAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3MjIxN1oXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfRUI4NzQ2QzBDMjhENDlCMDk0NDQ1NUIyRUE3QkUxNzkxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A4MzAyYTE1ZmE2YzUzNDEyNDgyMzUzMWExYzk0MDhmMWUzZDNkNTlhYjRhMDRlMzZmZjc4ZTRhZjMzYjU1ZWNlMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABEiGgBmQOyCuOTYY52vnQF2oBWaS4gzHAbsU2CVYaZfFJYcAydcN8NwpydYXdf5PCBCsRSsKkZV2cAlblmJaBXWjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMEKoyQfpIlxnKFOqqW3yZ4AanAOU/v19hsttZN7j3juTLO26Ri9XtSZbNlzD9mZxPQIwAakBiBTU2I8dx3oVM68cYwTET+k25xRLK49rfEHz6z4b+0AXBIjEQ7M6ErMiGIgw",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "8302a15fa6c534124823531a1c9408f1e3d3d59ab4a04e36ff78e4af33b55ece",
+    "public_key": "BEiGgBmQOyCuOTYY52vnQF2oBWaS4gzHAbsU2CVYaZfFJYcAydcN8NwpydYXdf5PCBCsRSsKkZV2cAlblmJaBXU=",
+    "signature_counter": "109",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Berger Str. 166",
+        "address2": "Frankfurt/M",
+        "description": "TSE_Ezim Café_60385",
+        "name": "Ezim Café"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "737733"
+}
+RESPONSE:
+{}
+
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "737733"
+}
+RESPONSE:
+{}
+
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "bb5284b7-1507-402a-b5fd-b071b251afde",
+    "description": "fiskaly sign cloud-TSE (bb5284b7-1507-402a-b5fd-b071b251afde)",
+    "state": "INITIALIZED",
+    "time_creation": 1739008188,
+    "time_uninit": 1739008373,
+    "time_init": 1739008901,
+    "certificate": "MIIEczCCA/qgAwIBAgIQIjz1xT+Rn7Bv4XEtzw353jAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3MjIxN1oXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfRUI4NzQ2QzBDMjhENDlCMDk0NDQ1NUIyRUE3QkUxNzkxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A4MzAyYTE1ZmE2YzUzNDEyNDgyMzUzMWExYzk0MDhmMWUzZDNkNTlhYjRhMDRlMzZmZjc4ZTRhZjMzYjU1ZWNlMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABEiGgBmQOyCuOTYY52vnQF2oBWaS4gzHAbsU2CVYaZfFJYcAydcN8NwpydYXdf5PCBCsRSsKkZV2cAlblmJaBXWjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMEKoyQfpIlxnKFOqqW3yZ4AanAOU/v19hsttZN7j3juTLO26Ri9XtSZbNlzD9mZxPQIwAakBiBTU2I8dx3oVM68cYwTET+k25xRLK49rfEHz6z4b+0AXBIjEQ7M6ErMiGIgw",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "8302a15fa6c534124823531a1c9408f1e3d3d59ab4a04e36ff78e4af33b55ece",
+    "public_key": "BEiGgBmQOyCuOTYY52vnQF2oBWaS4gzHAbsU2CVYaZfFJYcAydcN8NwpydYXdf5PCBCsRSsKkZV2cAlblmJaBXU=",
+    "signature_counter": "115",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Berger Str. 166",
+        "address2": "Frankfurt/M",
+        "description": "TSE_Ezim Café_60385",
+        "name": "Ezim Café"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "ed997ba1-16c8-4228-830a-d000ae3334fe"
+}
+RESPONSE:
+{
+    "_id": "4e690912-935c-4e35-bf4e-60c893ba25da",
+    "state": "REGISTERED",
+    "serial_number": "4e690912-935c-4e35-bf4e-60c893ba25da",
+    "time_creation": 1739009089,
+    "tss_id": "bb5284b7-1507-402a-b5fd-b071b251afde",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_9lexwxs6jiwf70tqdsa3wanpa_ezimcafe-1280948323
+FISKALY API SECRET: 3zNSKU22uCdivCyPY48ix5w0lgBVtoLbtSgLfSBEhL3
+TSE ID: bb5284b7-1507-402a-b5fd-b071b251afde
+TSE CLIENT ID: 4e690912-935c-4e35-bf4e-60c893ba25da
+ADMIN PUK: 5062543884
+ADMIN PIN: 737733

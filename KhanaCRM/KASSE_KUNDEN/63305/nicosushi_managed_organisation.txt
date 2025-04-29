@@ -1,0 +1,186 @@
+OLD TSE : be9ae012-208d-4265-997a-87fda57bfd6f
+OLD TSE CLIENT ID: 178af63f-67bd-46dc-a9ea-5b3ae47d486a
+OLD ADMIN PUK: 4783773397JAN291993
+OLD ADMIN PIN: JAN291993
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3NDI5OTIxMjksImlhdCI6MTc0MjkwNTcyOSwianRpIjoiNzc4ZmE3OWYtYmNhNi00YWY1LTg0ZTktYTRmZWY0ODlhN2Q2IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiI4MzkzZDJmMC1jY2E5LTRhYjMtYjI0Ny1kZTJhZDc1YTI2ZjIiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiMDE1YTIxOWEtNGRiZC00NGFiLThkYjUtOGVjMDMwNGRjMzg3Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIwMTVhMjE5YS00ZGJkLTQ0YWItOGRiNS04ZWMwMzA0ZGMzODciLCJvcmdhbml6YXRpb24iOiJiZWM0N2Q2ZS0xMTZhLTRiNjUtYTgwMC1jNzdmZmRlMTg5ZmIiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.TpgvWZrn-pMEnUPHA60mcIo_N4wuMEpGX0vnA8NDrvy2QOWg0yKxF3ao1CQvsVrg1wdiJYQW3bcCCvSaMG0unxFVZnmu8PFBj-Vwa1QlBYsxDUt92f0NUF_TDWt7gZ0-lqOkLbz6ot5yhSXbkBYNMY26i6eRhtjRFyLXNZomRJsTuoB0L-9AcnT9khXZB5KPnsHMS1pBT18GVZDfZLPXJOpF77-VKSiXPludbhoKGH2g49qEGkewLGutInudYouDbbr8Td-hRZuFcihi00y8i1jHVk4GxBJDIPFQHDapKJ9kU2FPOe7oeB4k1INA6HBMXjPxilFpneYjrQLGRQZfIg",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "bec47d6e-116a-4b65-a800-c77ffde189fb"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1742992129,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3NDMwNzg1MjksImlhdCI6MTc0MjkwNTcyOSwianRpIjoiZjE2MjcwNDQtYmNjZS00MGVhLWI1ZWUtNGU3MWMxNTkzZDM2IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjgzOTNkMmYwLWNjYTktNGFiMy1iMjQ3LWRlMmFkNzVhMjZmMiIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiMDE1YTIxOWEtNGRiZC00NGFiLThkYjUtOGVjMDMwNGRjMzg3Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIwMTVhMjE5YS00ZGJkLTQ0YWItOGRiNS04ZWMwMzA0ZGMzODcifQ.YInwMhytv6JJfa383IHEOFKKzdh_yTOpZmdUNMbBnQo",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1743078529
+}
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Nico Sushi",
+        "address": "Georg-Wehsarg-Str.2",
+        "address2": "Egelsbach",
+        "address3": "",
+        "phone": "",
+        "phone2": "",
+        "description":"TSE_Nico Sushi_63329"
+		}
+		}
+response:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQBFh6uSPLDixrgORMahNEejAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODE0NTYwMFoXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMDUwNjZFODYxNDAyNDBEM0EyNUQ2NEUzNkFCOTY0RUMxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A5OTllZTRhYzgxMjY1NTI3NGNkNDBlNWIyMGI1OTYzYTg1NTUzOWQxMWI0NzFiOWZmYzkxZTBkNjViMTEyY2FkMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABMYXYS6UlX1EKzDJfo5nPCF90w6cmifDHnRlQAKb+olgTXDmZKGz+k7WTi0uhV8sAJAD9lPd6/q8rUM4Vecn9O6jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMBeisBwbABI2uiaaxW7rQfB7uDGN67eUGvtGrMCQt4bpp8iSlDmznLboRorfeHtI3wIwGH60f2PRRGMzcE7R8Xqepo6l/pE+D/nsBcMz7JkQiXG0HrRLDSMTwXERFJTOmte2",
+    "serial_number": "999ee4ac812655274cd40e5b20b5963a855539d11b471b9ffc91e0d65b112cad",
+    "public_key": "BMYXYS6UlX1EKzDJfo5nPCF90w6cmifDHnRlQAKb+olgTXDmZKGz+k7WTi0uhV8sAJAD9lPd6/q8rUM4Vecn9O4=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "13084e4a-87ea-4bea-9a69-6f1ab7fec38c",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.28",
+    "time_creation": 1742905817,
+    "admin_puk": "4733272958",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Nico Sushi",
+        "phone": "",
+        "phone2": "",
+        "address": "Georg-Wehsarg-Str.2",
+        "address2": "Egelsbach",
+        "address3": "",
+        "description": "TSE_Nico Sushi_63329"
+    }
+}		
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "13084e4a-87ea-4bea-9a69-6f1ab7fec38c",
+    "state": "UNINITIALIZED",
+    "time_creation": 1742905817,
+    "time_uninit": 1742905838,
+    "certificate": "MIIEczCCA/qgAwIBAgIQBFh6uSPLDixrgORMahNEejAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODE0NTYwMFoXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMDUwNjZFODYxNDAyNDBEM0EyNUQ2NEUzNkFCOTY0RUMxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A5OTllZTRhYzgxMjY1NTI3NGNkNDBlNWIyMGI1OTYzYTg1NTUzOWQxMWI0NzFiOWZmYzkxZTBkNjViMTEyY2FkMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABMYXYS6UlX1EKzDJfo5nPCF90w6cmifDHnRlQAKb+olgTXDmZKGz+k7WTi0uhV8sAJAD9lPd6/q8rUM4Vecn9O6jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMBeisBwbABI2uiaaxW7rQfB7uDGN67eUGvtGrMCQt4bpp8iSlDmznLboRorfeHtI3wIwGH60f2PRRGMzcE7R8Xqepo6l/pE+D/nsBcMz7JkQiXG0HrRLDSMTwXERFJTOmte2",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "999ee4ac812655274cd40e5b20b5963a855539d11b471b9ffc91e0d65b112cad",
+    "public_key": "BMYXYS6UlX1EKzDJfo5nPCF90w6cmifDHnRlQAKb+olgTXDmZKGz+k7WTi0uhV8sAJAD9lPd6/q8rUM4Vecn9O4=",
+    "signature_counter": "81",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Georg-Wehsarg-Str.2",
+        "address2": "Egelsbach",
+        "description": "TSE_Nico Sushi_63329",
+        "name": "Nico Sushi"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.28"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "665490"
+}
+RESPONSE:
+{}
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "665490"
+}
+RESPONSE:
+{}
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "13084e4a-87ea-4bea-9a69-6f1ab7fec38c",
+    "description": "fiskaly sign cloud-TSE (13084e4a-87ea-4bea-9a69-6f1ab7fec38c)",
+    "state": "INITIALIZED",
+    "time_creation": 1742905817,
+    "time_uninit": 1742905838,
+    "time_init": 1742905887,
+    "certificate": "MIIEczCCA/qgAwIBAgIQBFh6uSPLDixrgORMahNEejAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODE0NTYwMFoXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMDUwNjZFODYxNDAyNDBEM0EyNUQ2NEUzNkFCOTY0RUMxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A5OTllZTRhYzgxMjY1NTI3NGNkNDBlNWIyMGI1OTYzYTg1NTUzOWQxMWI0NzFiOWZmYzkxZTBkNjViMTEyY2FkMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABMYXYS6UlX1EKzDJfo5nPCF90w6cmifDHnRlQAKb+olgTXDmZKGz+k7WTi0uhV8sAJAD9lPd6/q8rUM4Vecn9O6jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMBeisBwbABI2uiaaxW7rQfB7uDGN67eUGvtGrMCQt4bpp8iSlDmznLboRorfeHtI3wIwGH60f2PRRGMzcE7R8Xqepo6l/pE+D/nsBcMz7JkQiXG0HrRLDSMTwXERFJTOmte2",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "999ee4ac812655274cd40e5b20b5963a855539d11b471b9ffc91e0d65b112cad",
+    "public_key": "BMYXYS6UlX1EKzDJfo5nPCF90w6cmifDHnRlQAKb+olgTXDmZKGz+k7WTi0uhV8sAJAD9lPd6/q8rUM4Vecn9O4=",
+    "signature_counter": "87",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Georg-Wehsarg-Str.2",
+        "address2": "Egelsbach",
+        "description": "TSE_Nico Sushi_63329",
+        "name": "Nico Sushi"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.28"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": ""
+}
+RESPONSE:
+{
+    "_id": "84ceef68-4c76-46fd-a6ab-591c8541b25e",
+    "state": "REGISTERED",
+    "serial_number": "84ceef68-4c76-46fd-a6ab-591c8541b25e",
+    "time_creation": 1742905937,
+    "tss_id": "13084e4a-87ea-4bea-9a69-6f1ab7fec38c",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.28"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_bakw75cp09qu2n39n8f56rke3_nicosushi-2880633056
+FISKALY API SECRET: 6qo1T9N3PqgAe6HwmxUbyXxxjphMANfJOD0QR9iwW7S
+TSE ID: 13084e4a-87ea-4bea-9a69-6f1ab7fec38c
+TSE CLIENT ID:84ceef68-4c76-46fd-a6ab-591c8541b25e
+ADMIN PUK: 4733272958
+ADMIN PIN: 665490

@@ -1,0 +1,190 @@
+OLD TSE : 
+OLD TSE CLIENT ID: 
+OLD ADMIN PUK: 
+OLD ADMIN PIN: 
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3NDA5OTU5MjUsImlhdCI6MTc0MDkwOTUyNSwianRpIjoiZDQ5YjNiMTMtOGRiNy00NDQzLThkZGEtY2ExZjRmOTJhMmY3IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiI4NzZmZDc2Ny1jYWU2LTRlNjktOTZiMi02MjZjZjI1NjE2ODIiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiOTg3YmY1ZTEtNjYzZC00OWVjLWIxMmEtY2Q1M2E3ZGE3MzRlIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI5ODdiZjVlMS02NjNkLTQ5ZWMtYjEyYS1jZDUzYTdkYTczNGUiLCJvcmdhbml6YXRpb24iOiI2NjQ5NTY1Yi05N2JlLTQxMjItOWQ3Zi01MWJmMGM5OWM5NmMiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.MmyeJlCj6nLYc-VnLGM-0IC8MvZexOwfXZzqQxiBKwzQIrksjMRiPZFfKpXl-5xm3hQ-yR6p9rybQm8mQY_rt8Eq0zPEdRZSgg_yiHnJfoHpkqIMynQrnHEXuDGhKCgMEyL7ABeBsED2vlPo2VeCxlWB2jR6DRQDEQ6LnuF_vIOhd2KC37E9RuGq-MlOPa1EpxUCi8S6etAkfZKOanJLqXZfG-kauUT6hxxWposhWmOci63Q-eJwyb_gUImd2DUuWmUpJr8W5CB0tQCVn_ZvK6KzG_f_ajnG2IEQw-jTj-7DAaJjIyoWboQukTZv0IG_tnBj22UC2ZJsnm7JBHkl_Q",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "6649565b-97be-4122-9d7f-51bf0c99c96c"
+    },
+    "access_token_expires_in": 9932,
+    "access_token_expires_at": 1740995925,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3NDEwODIzMjUsImlhdCI6MTc0MDkwOTUyNSwianRpIjoiMDFkNzQzNTctYTBhYS00MTRmLWExM2QtMzFmZjRjMGE3YzQ5IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6Ijg3NmZkNzY3LWNhZTYtNGU2OS05NmIyLTYyNmNmMjU2MTY4MiIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiOTg3YmY1ZTEtNjYzZC00OWVjLWIxMmEtY2Q1M2E3ZGE3MzRlIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI5ODdiZjVlMS02NjNkLTQ5ZWMtYjEyYS1jZDUzYTdkYTczNGUifQ.2SgQBIf8EbKQnY5QeTMGD-FMlDF7laeizbqS7kb8n-I",
+    "refresh_token_expires_in": 96332,
+    "refresh_token_expires_at": 1741082325
+}
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Namaste India",
+        "address": "Schloßstraße 53A",
+        "address2": "Stuttgart",
+        "address3": "",
+        "phone": "071150076200",
+        "phone2": "",
+        "description":"TSE_Namaste India_70176"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQOUFfEtL42a7XxKt72AwwrzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODEwMTkyM1oXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfRUQzRjA2Qjg3OEFGNEE4NTgzRERGODM4QjFDQUI4ODAxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AzZTcwNWRiZjc2Njg5MjkwNWJhYTQzMzUzN2E3ZTJkNmRkYTQzYmU0Zjk5NzI0ZTdlMDk1ZjY1ZGY2NDk1ZmQ3MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABL7z1xYW7qppxjBuzW/J7ujwuryyYsP8mGwQPc8shsxoQXj5QGiaBZKP3XBb78Gc82KUn5P8kivRu6R3q4e/VDejggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMEYymjQF3K4h8uUVgQTmf824KL4V3nCpirWN66jCy4QUwjEnLFq6R5q1p8rNyKPk5wIwMCH4SS5/sf2kK+Ya4DBC5uesTZ33hnsN3qeFXwCdboqsjZfLlU5B4k2IifnqXdjT",
+    "serial_number": "3e705dbf766892905baa433537a7e2d6dda43be4f99724e7e095f65df6495fd7",
+    "public_key": "BL7z1xYW7qppxjBuzW/J7ujwuryyYsP8mGwQPc8shsxoQXj5QGiaBZKP3XBb78Gc82KUn5P8kivRu6R3q4e/VDc=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "61f6b985-fcb9-466d-a5f1-81d2886f0a41",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.24",
+    "time_creation": 1740986047,
+    "admin_puk": "2719394042",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Namaste India",
+        "phone": "071150076200",
+        "phone2": "",
+        "address": "Schloßstraße 53A",
+        "address2": "Stuttgart",
+        "address3": "",
+        "description": "TSE_Namaste India_70176"
+    }
+}
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "61f6b985-fcb9-466d-a5f1-81d2886f0a41",
+    "state": "UNINITIALIZED",
+    "time_creation": 1740986047,
+    "time_uninit": 1740986072,
+    "certificate": "MIIEczCCA/qgAwIBAgIQOUFfEtL42a7XxKt72AwwrzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODEwMTkyM1oXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfRUQzRjA2Qjg3OEFGNEE4NTgzRERGODM4QjFDQUI4ODAxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AzZTcwNWRiZjc2Njg5MjkwNWJhYTQzMzUzN2E3ZTJkNmRkYTQzYmU0Zjk5NzI0ZTdlMDk1ZjY1ZGY2NDk1ZmQ3MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABL7z1xYW7qppxjBuzW/J7ujwuryyYsP8mGwQPc8shsxoQXj5QGiaBZKP3XBb78Gc82KUn5P8kivRu6R3q4e/VDejggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMEYymjQF3K4h8uUVgQTmf824KL4V3nCpirWN66jCy4QUwjEnLFq6R5q1p8rNyKPk5wIwMCH4SS5/sf2kK+Ya4DBC5uesTZ33hnsN3qeFXwCdboqsjZfLlU5B4k2IifnqXdjT",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "3e705dbf766892905baa433537a7e2d6dda43be4f99724e7e095f65df6495fd7",
+    "public_key": "BL7z1xYW7qppxjBuzW/J7ujwuryyYsP8mGwQPc8shsxoQXj5QGiaBZKP3XBb78Gc82KUn5P8kivRu6R3q4e/VDc=",
+    "signature_counter": "132",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Schloßstraße 53A",
+        "address2": "Stuttgart",
+        "description": "TSE_Namaste India_70176",
+        "name": "Namaste India",
+        "phone": "071150076200"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.24"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "6515414"
+}
+RESPONSE:
+200 OK
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "6515414"
+}
+RESPONSE:
+200 OK
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "61f6b985-fcb9-466d-a5f1-81d2886f0a41",
+    "description": "fiskaly sign cloud-TSE (61f6b985-fcb9-466d-a5f1-81d2886f0a41)",
+    "state": "INITIALIZED",
+    "time_creation": 1740986047,
+    "time_uninit": 1740986072,
+    "time_init": 1740986125,
+    "certificate": "MIIEczCCA/qgAwIBAgIQOUFfEtL42a7XxKt72AwwrzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODEwMTkyM1oXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfRUQzRjA2Qjg3OEFGNEE4NTgzRERGODM4QjFDQUI4ODAxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AzZTcwNWRiZjc2Njg5MjkwNWJhYTQzMzUzN2E3ZTJkNmRkYTQzYmU0Zjk5NzI0ZTdlMDk1ZjY1ZGY2NDk1ZmQ3MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABL7z1xYW7qppxjBuzW/J7ujwuryyYsP8mGwQPc8shsxoQXj5QGiaBZKP3XBb78Gc82KUn5P8kivRu6R3q4e/VDejggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMEYymjQF3K4h8uUVgQTmf824KL4V3nCpirWN66jCy4QUwjEnLFq6R5q1p8rNyKPk5wIwMCH4SS5/sf2kK+Ya4DBC5uesTZ33hnsN3qeFXwCdboqsjZfLlU5B4k2IifnqXdjT",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "3e705dbf766892905baa433537a7e2d6dda43be4f99724e7e095f65df6495fd7",
+    "public_key": "BL7z1xYW7qppxjBuzW/J7ujwuryyYsP8mGwQPc8shsxoQXj5QGiaBZKP3XBb78Gc82KUn5P8kivRu6R3q4e/VDc=",
+    "signature_counter": "138",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Schloßstraße 53A",
+        "address2": "Stuttgart",
+        "description": "TSE_Namaste India_70176",
+        "name": "Namaste India",
+        "phone": "071150076200"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.24"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "36ead196-38e0-41bb-8b75-59556e998362"
+}
+RESPONSE:
+{
+    "_id": "36ead196-38e0-41bb-8b75-59556e998362",
+    "state": "REGISTERED",
+    "serial_number": "36ead196-38e0-41bb-8b75-59556e998362",
+    "time_creation": 1740986179,
+    "tss_id": "61f6b985-fcb9-466d-a5f1-81d2886f0a41",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.24"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_6202e3gn541l57ae265j3b4a4_namasteindia-de334540437
+FISKALY API SECRET: EpMsoqb41TK30mh1BqqMqhzVwqb3DhmhaeIN9hzsyfg
+TSE ID: 61f6b985-fcb9-466d-a5f1-81d2886f0a41
+TSE CLIENT ID: 36ead196-38e0-41bb-8b75-59556e998362
+ADMIN PUK: 2719394042
+ADMIN PIN: 6515414

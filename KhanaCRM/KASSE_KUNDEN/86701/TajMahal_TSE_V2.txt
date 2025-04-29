@@ -1,0 +1,97 @@
+OLD TSE : 
+OLD TSE CLIENT ID: 
+OLD ADMIN PUK: 
+OLD ADMIN PIN: 
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3Mzg3NDg5OTAsImlhdCI6MTczODY2MjU5MCwianRpIjoiNGQ3MGExMzItMTEwYS00YjA2LTliMWQtZWRjZWU4NzE0YjBjIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiI3NjZmZDZlZi03OGQxLTQ5MjUtYjA4Ny1hOGYxMjkzMmU5NjQiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzaWQiOiIyYmFiMGM2OS0wOGMyLTQ4ODctYTRlYS1kMWE5YzE5ODQ0ZDMiLCJzY29wZSI6Im9yZ2FuaXphdGlvbiIsIm9yZ2FuaXphdGlvbiI6ImI2OTMyMTIwLTRhNGEtNDY5YS04ODljLTYwYzYyNTllNGRjZSIsInR5cGUiOiJBUElfS0VZIiwiZW52IjoiTElWRSIsInNlc3Npb25fc3RhdGUiOiIyYmFiMGM2OS0wOGMyLTQ4ODctYTRlYS1kMWE5YzE5ODQ0ZDMifQ.DBVSr-Ju4XGaQHMbfCLel9lms11Z-Vt2O5OFD4wcQ7bGEGBuwNDof9hBO0eop-nr9qtA6VJ-zkO7uI4BnlLxwyeoY3YbBmP-xnkFIXalJNvX8grMQH7uYCpB2OUH3zhextqvLg6KbMrbCuykwscpRzeFiGh5s0w61CV4IrMmFufcr_W1TAivU-iviiOqFq9ODSZ4K9GLwGJNFbHqT85p0eUq4FwbkpEufEFez0oRJbWELtWHbrIMZ2M6czWhd0HK_-pxezNz25uS5snFUUKxhjSlxj4YFI0pCDOZ8scXfYzEQmZ0_B35kweRlzZT1yUFNymk5HYHdbg27g6rfD3svQ",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "b6932120-4a4a-469a-889c-60c6259e4dce"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1738748990,
+    "refresh_token": "eyJhbGciOiJIUzUxMiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIwZjkxNGMyYy1mYmFkLTRlYWItYWM2MS01MGE4MzFhMzgxNmQifQ.eyJleHAiOjE3Mzg4MzUzOTAsImlhdCI6MTczODY2MjU5MCwianRpIjoiNzk2ZDk3ODktNGVkMC00YmM2LWFmNzctOTk1YmNiZjUyYzNmIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6Ijc2NmZkNmVmLTc4ZDEtNDkyNS1iMDg3LWE4ZjEyOTMyZTk2NCIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzaWQiOiIyYmFiMGM2OS0wOGMyLTQ4ODctYTRlYS1kMWE5YzE5ODQ0ZDMiLCJzY29wZSI6Im9yZ2FuaXphdGlvbiBiYXNpYyJ9.xpcQQ2f4HVv0wbpB-1HMly6db-a243JCi-wnXCe2qxtt7IZj1P8Wx1u6BGCUnmfrXiFNEgmtojk9pETLCt9zOw",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1738835390
+}
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "",
+        "address": "",
+        "address2": "",
+        "address3": "",
+        "phone": "",
+        "phone2": "",
+        "description":""
+
+    }
+}
+RESPONSE:
+
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": ""
+}
+RESPONSE:
+
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": ""
+}
+RESPONSE:
+
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": ""
+}
+RESPONSE:
+
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_at4afifd8pikkwuiph7lvx8su_tajmahal-25820050315
+FISKALY API SECRET: O9GPAr98EDcYbL4OkW79EQfVZ7EdvdDk75I6vTcInNg
+TSE ID: 
+TSE CLIENT ID: 
+ADMIN PUK: 
+ADMIN PIN: 

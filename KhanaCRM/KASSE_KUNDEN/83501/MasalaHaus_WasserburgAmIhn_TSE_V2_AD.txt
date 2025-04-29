@@ -1,0 +1,190 @@
+OLD TSE : 
+OLD TSE CLIENT ID: 
+OLD ADMIN PUK: 
+OLD ADMIN PIN: 
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3MzkyOTE0MjgsImlhdCI6MTczOTIwNTAyOCwianRpIjoiNmI2MGI2NTEtMDc3NC00MGZmLTllMDctZGI0NTllZmNlNGJhIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiIzMTQyMGIwNi1kYWVjLTRlYTAtYjNjNS1lNDAyYzM0NzU2YzEiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiYWYwOWI2NjctMDIzNC00N2M3LWIzMzctYTBkNDEwNTIzNmI3Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJhZjA5YjY2Ny0wMjM0LTQ3YzctYjMzNy1hMGQ0MTA1MjM2YjciLCJvcmdhbml6YXRpb24iOiI2MTZmNTQ1Yy1iNzExLTRmMWUtODBjZi0yNjcwYTk2N2Q3ZjIiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.fmt9T0uRjQI3plnzdkj79MkxKFRtGORGCHYPNJe5xw9RttVHPvRb_5MFM6DbKdCTz8_7rECLn_9xrhbb5BDtLMAN60KivvlibCl1uwa6yjZIBUZbbCK9vdQYLVK79wDbtI3fbyBmyIMwPGp4G1SUwpuKy41EJaFY4lNt-40pn2VpPiXAZYzsT-axsKF8Q-XVSRMMDaREM9FdCvyPEqJwCBOWrasvNrYyBFXoLlAZYxDr-NDEuhMayAKgCl9mWy4gySWkGvKYUVclH5lfgKY2LpTCRvU0Az-X45oWSx0gM-boYMUbBPUQeyrPNMftWdLlbiKqT5KmIdma_NwfDXr4lA",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "616f545c-b711-4f1e-80cf-2670a967d7f2"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1739291428,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3MzkzNzc4MjgsImlhdCI6MTczOTIwNTAyOCwianRpIjoiMzIxODUwMDMtNDEyZS00NWM0LWFjYmUtYTg2ZjkxNzI4MDlmIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjMxNDIwYjA2LWRhZWMtNGVhMC1iM2M1LWU0MDJjMzQ3NTZjMSIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiYWYwOWI2NjctMDIzNC00N2M3LWIzMzctYTBkNDEwNTIzNmI3Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJhZjA5YjY2Ny0wMjM0LTQ3YzctYjMzNy1hMGQ0MTA1MjM2YjcifQ.AHnDpezH_YVnlJnBenNR_FdzovHQ2KsGkE_FwhjCmZM",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1739377828
+}
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Masala Haus",
+        "address": "Salzsenderzeile 3",
+        "address2": "",
+        "address3": "Wasserburg am ihn",
+        "phone": "+4980715109906",
+        "phone2": "",
+        "description":"TSE_Masala Haus_83512"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQI0vmWbX11aeu5oAifQOjrjAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3MzgxMVoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfODM3QTI5QjFGQUYyNDBBQjgwQzgzODJDQ0QxRkZFNzMxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AwN2VhNWE5ZjkzNzkxNTFhMWRiMzFkMTA2MmVjNzZjYzFmNjNhNTRlZDVjYzAzYzEwNDNlODk2YTVlYmQ3ZDBiMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABOxP6J7A/pHBq71agllrgaJqEbFsbtRWiI1s+tCqV/yk3p3m/yVLmGVUd+lF+l2rHnEmdciYLqt5FIESXPVpztyjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMCp5V/o0txSpXFDemp5ZwoSguidry4F7fSMcfPb8RiqXDYCl8BSAr1doeYBTYpKbVgIwLQzUfIQNnZOezcJKAQOAtrnbwjKL7G19ytBWyNFYc59FkFJLXSCbyfskweXbBioF",
+    "serial_number": "07ea5a9f9379151a1db31d1062ec76cc1f63a54ed5cc03c1043e896a5ebd7d0b",
+    "public_key": "BOxP6J7A/pHBq71agllrgaJqEbFsbtRWiI1s+tCqV/yk3p3m/yVLmGVUd+lF+l2rHnEmdciYLqt5FIESXPVpztw=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "11374815-0291-475e-a2e9-5ce2c54da2f0",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23",
+    "time_creation": 1739205392,
+    "admin_puk": "0730106313",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Masala Haus",
+        "phone": "+4980715109906",
+        "phone2": "",
+        "address": "Salzsenderzeile 3",
+        "address2": "",
+        "address3": "Wasserburg am ihn",
+        "description": "TSE_Masala Haus_83512"
+    }
+}
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "11374815-0291-475e-a2e9-5ce2c54da2f0",
+    "state": "UNINITIALIZED",
+    "time_creation": 1739205392,
+    "time_uninit": 1739205421,
+    "certificate": "MIIEczCCA/qgAwIBAgIQI0vmWbX11aeu5oAifQOjrjAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3MzgxMVoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfODM3QTI5QjFGQUYyNDBBQjgwQzgzODJDQ0QxRkZFNzMxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AwN2VhNWE5ZjkzNzkxNTFhMWRiMzFkMTA2MmVjNzZjYzFmNjNhNTRlZDVjYzAzYzEwNDNlODk2YTVlYmQ3ZDBiMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABOxP6J7A/pHBq71agllrgaJqEbFsbtRWiI1s+tCqV/yk3p3m/yVLmGVUd+lF+l2rHnEmdciYLqt5FIESXPVpztyjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMCp5V/o0txSpXFDemp5ZwoSguidry4F7fSMcfPb8RiqXDYCl8BSAr1doeYBTYpKbVgIwLQzUfIQNnZOezcJKAQOAtrnbwjKL7G19ytBWyNFYc59FkFJLXSCbyfskweXbBioF",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "07ea5a9f9379151a1db31d1062ec76cc1f63a54ed5cc03c1043e896a5ebd7d0b",
+    "public_key": "BOxP6J7A/pHBq71agllrgaJqEbFsbtRWiI1s+tCqV/yk3p3m/yVLmGVUd+lF+l2rHnEmdciYLqt5FIESXPVpztw=",
+    "signature_counter": "111",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Salzsenderzeile 3",
+        "address3": "Wasserburg am ihn",
+        "description": "TSE_Masala Haus_83512",
+        "name": "Masala Haus",
+        "phone": "+4980715109906"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "75369824"
+}
+RESPONSE:
+200 OK
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "75369824"
+}
+RESPONSE:
+200 OK
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "11374815-0291-475e-a2e9-5ce2c54da2f0",
+    "description": "fiskaly sign cloud-TSE (11374815-0291-475e-a2e9-5ce2c54da2f0)",
+    "state": "INITIALIZED",
+    "time_creation": 1739205392,
+    "time_uninit": 1739205421,
+    "time_init": 1739205466,
+    "certificate": "MIIEczCCA/qgAwIBAgIQI0vmWbX11aeu5oAifQOjrjAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3MzgxMVoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfODM3QTI5QjFGQUYyNDBBQjgwQzgzODJDQ0QxRkZFNzMxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AwN2VhNWE5ZjkzNzkxNTFhMWRiMzFkMTA2MmVjNzZjYzFmNjNhNTRlZDVjYzAzYzEwNDNlODk2YTVlYmQ3ZDBiMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABOxP6J7A/pHBq71agllrgaJqEbFsbtRWiI1s+tCqV/yk3p3m/yVLmGVUd+lF+l2rHnEmdciYLqt5FIESXPVpztyjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMCp5V/o0txSpXFDemp5ZwoSguidry4F7fSMcfPb8RiqXDYCl8BSAr1doeYBTYpKbVgIwLQzUfIQNnZOezcJKAQOAtrnbwjKL7G19ytBWyNFYc59FkFJLXSCbyfskweXbBioF",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "07ea5a9f9379151a1db31d1062ec76cc1f63a54ed5cc03c1043e896a5ebd7d0b",
+    "public_key": "BOxP6J7A/pHBq71agllrgaJqEbFsbtRWiI1s+tCqV/yk3p3m/yVLmGVUd+lF+l2rHnEmdciYLqt5FIESXPVpztw=",
+    "signature_counter": "117",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Salzsenderzeile 3",
+        "address3": "Wasserburg am ihn",
+        "description": "TSE_Masala Haus_83512",
+        "name": "Masala Haus",
+        "phone": "+4980715109906"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "a3175456-8798-4523-b34c-76933d74a566"
+}
+RESPONSE:
+{
+    "_id": "a3175456-8798-4523-b34c-76933d74a566",
+    "state": "REGISTERED",
+    "serial_number": "a3175456-8798-4523-b34c-76933d74a566",
+    "time_creation": 1739205507,
+    "tss_id": "11374815-0291-475e-a2e9-5ce2c54da2f0",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_5rntkmw9gl5ygfytulpu884c2_masalahaus-15625300018
+FISKALY API SECRET: xinW0GLlhA8KSkW01hrfa4x3PHeZfF9T98y31QEupjG
+TSE ID: 11374815-0291-475e-a2e9-5ce2c54da2f0
+TSE CLIENT ID: a3175456-8798-4523-b34c-76933d74a566
+ADMIN PUK: 0730106313
+ADMIN PIN: 75369824

@@ -1,0 +1,202 @@
+OLD TSE : 4b76542f-783c-4eef-8be5-82db313e2394
+OLD TSE CLIENT ID: 56f6c67a-4bfe-4dfd-9d47-6d2478c3e20c
+OLD ADMIN PUK: 1637429556
+OLD ADMIN PIN: JAN291993
+Fisakly api key: live_cb6zppxj72p32jv7uywgppvxk_khana-kassensystem
+
+-------------------------------------------------------------------------
+
+=============NEW================
+ 
+Restaurant Name: JAIPUR RESTAURANT
+API Key: live_e0os3j5jfh3yiv9g6ovhyq7lk_jaipurrestaurant-1029759974
+API Secret Key: APlyGBFS7yBXqJzeQPZKbDEZXzVUqZq3q9ykXuIwjof
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3NDAwNDM1MjYsImlhdCI6MTczOTk1NzEyNiwianRpIjoiMDU2YWQ5ZWQtMjJiYy00YmFjLTk3NjYtNjRkNzRhNjIxZWUyIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiIxYzYzYzU3Yi1hZmY0LTQzZWMtOWFlZS1iMDBhZmI0YzFmOWMiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiYTRkYmI4Y2ItODY5Zi00NDliLTkwYzEtY2RiMjA2NjkyOTM2Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJhNGRiYjhjYi04NjlmLTQ0OWItOTBjMS1jZGIyMDY2OTI5MzYiLCJvcmdhbml6YXRpb24iOiJlY2NjYmYyMC1jOTg1LTQzNGUtYjExMi1lMDBiODZjZGRlZjgiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.J7cSAa3UxiFwnRsInXzydmyOUbEzbR7wmPmwwMRjC_lFIGdEPNyPYv441Cif_13sd46YUgzmmRMczuWQz_G4QIZaDqHHkNKS1-JdY723EJU6fd7TJHtzCoXeGrXazJTJ3S2-rokt0RQddMw5l8aGCtL9FhHZPO2rvOHQcPsnlbFKGH4IFu6m69SC28dQ0zJf1zHZLHrRZjGYdkMWIxeoCBKFvtmXBhp0Tff3zGp_S_2ypIoLqQs4HkgUOUCErFT_dcj7azJ7nqyYa8bWbbKtQ1r8-v6OqnPRvSP2lQvlyGJFOXgpYvUaqsNMB6f3ZIFQ9_4cq8bWgrFs_H8FecVtsQ",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "ecccbf20-c985-434e-b112-e00b86cddef8"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1740043526,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3NDAxMjk5MjYsImlhdCI6MTczOTk1NzEyNiwianRpIjoiYjc4YTI4MmItODczMC00YWNlLWEwNTktM2E0ZjY4ZWYxZmJjIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjFjNjNjNTdiLWFmZjQtNDNlYy05YWVlLWIwMGFmYjRjMWY5YyIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiYTRkYmI4Y2ItODY5Zi00NDliLTkwYzEtY2RiMjA2NjkyOTM2Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJhNGRiYjhjYi04NjlmLTQ0OWItOTBjMS1jZGIyMDY2OTI5MzYifQ.s3LSH-Vv-faXNcE9hpGJg6OWVed7dsB7FF9wQ8BebJM",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1740129926
+}
+
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "JAIPUR RESTAURANT",
+        "address": "Stadtpromenade 10",
+        "address2": "Cottbus",
+        "address3": "",
+        "phone": "",
+        "phone2": "",
+        "description":"TSE_JAIPUR RESTAURANT_03046"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQKbhTAHx/gVhd9RS498ohRTAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA4MzUxMVoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMDIyRjJDOTJBN0FFNDkxOUEwQ0QyOTNENDdFRTBDNzcxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A3MWQ3ZGQzOGY4ZDI5MzhhNmE1NmJiNDk0MDYyYTNkMTNmM2M0NjYxZmU0ZjJhMWZlOGJkOGI1NTAyZjI3YzE2MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABLYlKy6/UgsKIqebnC5ycRK+h870ELHX+GtW4D7u7t/DoGqvw/tWi1UXRL87mzVhecHS2L36TGkCNaSIoS/uIKujggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMFCLDOlkdhnL1PjdHOU6fl9N4or1WU2gJIzHu2PZvmfwsmvN3F/vCG1uuPFRDbaLBgIwRD8sdbOFTtipn8Q8u3JLEoXoDs/qnSbz1kiadhFQBSHBVsPZOglWS/abkaUo9JZM",
+    "serial_number": "71d7dd38f8d2938a6a56bb494062a3d13f3c4661fe4f2a1fe8bd8b5502f27c16",
+    "public_key": "BLYlKy6/UgsKIqebnC5ycRK+h870ELHX+GtW4D7u7t/DoGqvw/tWi1UXRL87mzVhecHS2L36TGkCNaSIoS/uIKs=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "dad87ed2-501c-4e0e-9b42-7d0c21aed104",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23",
+    "time_creation": 1739957300,
+    "admin_puk": "6509577591",
+    "state": "CREATED",
+    "metadata": {
+        "name": "JAIPUR RESTAURANT",
+        "phone": "",
+        "phone2": "",
+        "address": "Stadtpromenade 10",
+        "address2": "Cottbus",
+        "address3": "",
+        "description": "TSE_JAIPUR RESTAURANT_03046"
+    }
+}
+
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "dad87ed2-501c-4e0e-9b42-7d0c21aed104",
+    "state": "UNINITIALIZED",
+    "time_creation": 1739957300,
+    "time_uninit": 1739957387,
+    "certificate": "MIIEczCCA/qgAwIBAgIQKbhTAHx/gVhd9RS498ohRTAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA4MzUxMVoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMDIyRjJDOTJBN0FFNDkxOUEwQ0QyOTNENDdFRTBDNzcxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A3MWQ3ZGQzOGY4ZDI5MzhhNmE1NmJiNDk0MDYyYTNkMTNmM2M0NjYxZmU0ZjJhMWZlOGJkOGI1NTAyZjI3YzE2MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABLYlKy6/UgsKIqebnC5ycRK+h870ELHX+GtW4D7u7t/DoGqvw/tWi1UXRL87mzVhecHS2L36TGkCNaSIoS/uIKujggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMFCLDOlkdhnL1PjdHOU6fl9N4or1WU2gJIzHu2PZvmfwsmvN3F/vCG1uuPFRDbaLBgIwRD8sdbOFTtipn8Q8u3JLEoXoDs/qnSbz1kiadhFQBSHBVsPZOglWS/abkaUo9JZM",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "71d7dd38f8d2938a6a56bb494062a3d13f3c4661fe4f2a1fe8bd8b5502f27c16",
+    "public_key": "BLYlKy6/UgsKIqebnC5ycRK+h870ELHX+GtW4D7u7t/DoGqvw/tWi1UXRL87mzVhecHS2L36TGkCNaSIoS/uIKs=",
+    "signature_counter": "120",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Stadtpromenade 10",
+        "address2": "Cottbus",
+        "description": "TSE_JAIPUR RESTAURANT_03046",
+        "name": "JAIPUR RESTAURANT"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "598412"
+}
+RESPONSE:
+{}
+
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "598412"
+}
+RESPONSE:
+{}
+
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "dad87ed2-501c-4e0e-9b42-7d0c21aed104",
+    "description": "fiskaly sign cloud-TSE (dad87ed2-501c-4e0e-9b42-7d0c21aed104)",
+    "state": "INITIALIZED",
+    "time_creation": 1739957300,
+    "time_uninit": 1739957387,
+    "time_init": 1739957532,
+    "certificate": "MIIEczCCA/qgAwIBAgIQKbhTAHx/gVhd9RS498ohRTAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA4MzUxMVoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMDIyRjJDOTJBN0FFNDkxOUEwQ0QyOTNENDdFRTBDNzcxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A3MWQ3ZGQzOGY4ZDI5MzhhNmE1NmJiNDk0MDYyYTNkMTNmM2M0NjYxZmU0ZjJhMWZlOGJkOGI1NTAyZjI3YzE2MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABLYlKy6/UgsKIqebnC5ycRK+h870ELHX+GtW4D7u7t/DoGqvw/tWi1UXRL87mzVhecHS2L36TGkCNaSIoS/uIKujggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMFCLDOlkdhnL1PjdHOU6fl9N4or1WU2gJIzHu2PZvmfwsmvN3F/vCG1uuPFRDbaLBgIwRD8sdbOFTtipn8Q8u3JLEoXoDs/qnSbz1kiadhFQBSHBVsPZOglWS/abkaUo9JZM",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "71d7dd38f8d2938a6a56bb494062a3d13f3c4661fe4f2a1fe8bd8b5502f27c16",
+    "public_key": "BLYlKy6/UgsKIqebnC5ycRK+h870ELHX+GtW4D7u7t/DoGqvw/tWi1UXRL87mzVhecHS2L36TGkCNaSIoS/uIKs=",
+    "signature_counter": "126",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Stadtpromenade 10",
+        "address2": "Cottbus",
+        "description": "TSE_JAIPUR RESTAURANT_03046",
+        "name": "JAIPUR RESTAURANT"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "d9eecb27-4ce2-4bd6-acee-24c8cb2ad514"
+}
+RESPONSE:
+{
+    "_id": "d9eecb27-4ce2-4bd6-acee-24c8cb2ad514",
+    "state": "REGISTERED",
+    "serial_number": "d9eecb27-4ce2-4bd6-acee-24c8cb2ad514",
+    "time_creation": 1739957587,
+    "tss_id": "dad87ed2-501c-4e0e-9b42-7d0c21aed104",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_e0os3j5jfh3yiv9g6ovhyq7lk_jaipurrestaurant-1029759974
+FISKALY API SECRET: APlyGBFS7yBXqJzeQPZKbDEZXzVUqZq3q9ykXuIwjof
+TSE ID: dad87ed2-501c-4e0e-9b42-7d0c21aed104
+TSE CLIENT ID: d9eecb27-4ce2-4bd6-acee-24c8cb2ad514
+ADMIN PUK: 6509577591
+ADMIN PIN: 598412

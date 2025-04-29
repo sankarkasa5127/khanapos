@@ -1,0 +1,199 @@
+OLD TSE : bc698e68-292d-4b8e-87ab-dff3536cb017
+OLD TSE CLIENT ID: NULL
+OLD ADMIN PUK: 5018666516
+OLD ADMIN PIN: JAN291993
+
+-------------------------------------------------------------------------
+
+=============NEW================
+ 
+Restaurant Name: DESI MARKT
+API Key: live_7ozl7g16wurlp6oj454f2sw12_desimarkt-14419440907
+API Secret Key: 3gcJlHYSmclPByXjKYDSY9XYksqwsWN5hnSam6otfQe
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3MzkyNjgwMzYsImlhdCI6MTczOTE4MTYzNiwianRpIjoiODYwZDI5NTMtYTA5OC00NGNmLTkwMGMtNzY0ZjQ0OTAyYmFlIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiI1ODViMWNiYi1hOGY5LTRhMzUtOGNjZi1jZmMyMDQyZjg0ZGIiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiYjMzY2E5ZjYtNmRhMC00OTU3LWEwNjctYWRhMjJiNTJjOWMwIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJiMzNjYTlmNi02ZGEwLTQ5NTctYTA2Ny1hZGEyMmI1MmM5YzAiLCJvcmdhbml6YXRpb24iOiI4MWY2OGFiZi1lODI1LTRmNjMtYjAzNy01YzVhMTI1YWVmMjYiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.JuGlm7ztyRkZBovjMoDf5keji_d5We1qbKphHr_-pMxLQYapYY3PDTajqpfGkdbg9ClGA9Sh7WJh8hpKzMOoNm9BO6xGVi3iyhQEut0WbT5cNcYquAPJVw3Is7lpl74TvhhGYK9DZODfABHJGhJ5MoZKxRutFBdKAwlK_fFGknaOrXMyJgDwkgOtjbdwGAqypdwbCNcLGr1EVdRqkaVRPF1BNLnCvlt_G93pdkPdjw8p_i9U-j3MRFJZzOHL6f560KZ41rdgLV29iT_N9pgABHYOwPrD3cZTl7efY_kCwiV2nMSR4jX43BBbxIS2TAzPmZR-KMa3eGrUuWMLQy3MRg",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "81f68abf-e825-4f63-b037-5c5a125aef26"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1739268036,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3MzkzNTQ0MzYsImlhdCI6MTczOTE4MTYzNiwianRpIjoiY2U4NTRjMjctZjU3Yi00YTBjLWJmN2UtZDYwMDk5MzU5ZWZmIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjU4NWIxY2JiLWE4ZjktNGEzNS04Y2NmLWNmYzIwNDJmODRkYiIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiYjMzY2E5ZjYtNmRhMC00OTU3LWEwNjctYWRhMjJiNTJjOWMwIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJiMzNjYTlmNi02ZGEwLTQ5NTctYTA2Ny1hZGEyMmI1MmM5YzAifQ.0rGNzxICz1kBPLf39VcEcV_m4J2i4SM25XklKVNOBpM",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1739354436
+}
+
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "DESI MARKT",
+        "address": "Albert-Schweitzer Strasse 78",
+        "address2": "Munchen",
+        "address3": "",
+        "phone": "",
+        "phone2": "",
+        "description":"TSE_DESI MARKT_81735"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQG9NCETORyDFX4mP910/2sDAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3MjkzN1oXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMTI1N0UyRTJEQzJCNDA3QkIxQkE3RDVEQzE0MzNDNUQxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A5ZmFkZjE4N2M1ZjFkZWNkOTY3ZmI2ZDQwOGEwODY5MWMyZjJhZDkwMmQwNGIxMDczY2YxZDZhZWRjZGExMGRjMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABHMe+PCkFVrPojT4idv+E/IXDMMkEhOc2YmVs73b9FATr+Z5MkNSWL7LMI8vDPurLeccc4te13llR1avLm849eqjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMGx26GF1XIiAdB9Tn3mBEhR59FNZL7Kh/rL8gYT62DaAybilA5SSwNMrbPimkpWRuQIwfoOkrk6C8mWpRAXUhqkKGAYPEocdOr06jOGVL0e6bf+L61xBkaokzKEQ4qkuAvjQ",
+    "serial_number": "9fadf187c5f1decd967fb6d408a08691c2f2ad902d04b1073cf1d6aedcda10dc",
+    "public_key": "BHMe+PCkFVrPojT4idv+E/IXDMMkEhOc2YmVs73b9FATr+Z5MkNSWL7LMI8vDPurLeccc4te13llR1avLm849eo=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "49d759e2-68cf-48c2-9a72-1993b972f84b",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23",
+    "time_creation": 1739181782,
+    "admin_puk": "6825532557",
+    "state": "CREATED",
+    "metadata": {
+        "name": "DESI MARKT",
+        "phone": "",
+        "phone2": "",
+        "address": "Albert-Schweitzer Strasse 78",
+        "address2": "Munchen",
+        "address3": "",
+        "description": "TSE_DESI MARKT_81735"
+    }
+}
+
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "49d759e2-68cf-48c2-9a72-1993b972f84b",
+    "state": "UNINITIALIZED",
+    "time_creation": 1739181782,
+    "time_uninit": 1739182263,
+    "certificate": "MIIEczCCA/qgAwIBAgIQG9NCETORyDFX4mP910/2sDAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3MjkzN1oXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMTI1N0UyRTJEQzJCNDA3QkIxQkE3RDVEQzE0MzNDNUQxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A5ZmFkZjE4N2M1ZjFkZWNkOTY3ZmI2ZDQwOGEwODY5MWMyZjJhZDkwMmQwNGIxMDczY2YxZDZhZWRjZGExMGRjMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABHMe+PCkFVrPojT4idv+E/IXDMMkEhOc2YmVs73b9FATr+Z5MkNSWL7LMI8vDPurLeccc4te13llR1avLm849eqjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMGx26GF1XIiAdB9Tn3mBEhR59FNZL7Kh/rL8gYT62DaAybilA5SSwNMrbPimkpWRuQIwfoOkrk6C8mWpRAXUhqkKGAYPEocdOr06jOGVL0e6bf+L61xBkaokzKEQ4qkuAvjQ",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "9fadf187c5f1decd967fb6d408a08691c2f2ad902d04b1073cf1d6aedcda10dc",
+    "public_key": "BHMe+PCkFVrPojT4idv+E/IXDMMkEhOc2YmVs73b9FATr+Z5MkNSWL7LMI8vDPurLeccc4te13llR1avLm849eo=",
+    "signature_counter": "111",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Albert-Schweitzer Strasse 78",
+        "address2": "Munchen",
+        "description": "TSE_DESI MARKT_81735",
+        "name": "DESI MARKT"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "565656"
+}
+RESPONSE:
+{}
+
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "565656"
+}
+RESPONSE:
+{}
+
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "49d759e2-68cf-48c2-9a72-1993b972f84b",
+    "description": "fiskaly sign cloud-TSE (49d759e2-68cf-48c2-9a72-1993b972f84b)",
+    "state": "INITIALIZED",
+    "time_creation": 1739181782,
+    "time_uninit": 1739182263,
+    "time_init": 1739182538,
+    "certificate": "MIIEczCCA/qgAwIBAgIQG9NCETORyDFX4mP910/2sDAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3MjkzN1oXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMTI1N0UyRTJEQzJCNDA3QkIxQkE3RDVEQzE0MzNDNUQxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A5ZmFkZjE4N2M1ZjFkZWNkOTY3ZmI2ZDQwOGEwODY5MWMyZjJhZDkwMmQwNGIxMDczY2YxZDZhZWRjZGExMGRjMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABHMe+PCkFVrPojT4idv+E/IXDMMkEhOc2YmVs73b9FATr+Z5MkNSWL7LMI8vDPurLeccc4te13llR1avLm849eqjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMGx26GF1XIiAdB9Tn3mBEhR59FNZL7Kh/rL8gYT62DaAybilA5SSwNMrbPimkpWRuQIwfoOkrk6C8mWpRAXUhqkKGAYPEocdOr06jOGVL0e6bf+L61xBkaokzKEQ4qkuAvjQ",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "9fadf187c5f1decd967fb6d408a08691c2f2ad902d04b1073cf1d6aedcda10dc",
+    "public_key": "BHMe+PCkFVrPojT4idv+E/IXDMMkEhOc2YmVs73b9FATr+Z5MkNSWL7LMI8vDPurLeccc4te13llR1avLm849eo=",
+    "signature_counter": "117",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Albert-Schweitzer Strasse 78",
+        "address2": "Munchen",
+        "description": "TSE_DESI MARKT_81735",
+        "name": "DESI MARKT"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "5dcc8161-c95b-40bd-a819-55ed3864c850"
+}
+RESPONSE:
+{
+    "_id": "5dcc8161-c95b-40bd-a819-55ed3864c850",
+    "state": "REGISTERED",
+    "serial_number": "5dcc8161-c95b-40bd-a819-55ed3864c850",
+    "time_creation": 1739182647,
+    "tss_id": "49d759e2-68cf-48c2-9a72-1993b972f84b",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_7ozl7g16wurlp6oj454f2sw12_desimarkt-14419440907
+FISKALY API SECRET: 3gcJlHYSmclPByXjKYDSY9XYksqwsWN5hnSam6otfQe
+TSE ID: 49d759e2-68cf-48c2-9a72-1993b972f84b
+TSE CLIENT ID: 5dcc8161-c95b-40bd-a819-55ed3864c850
+ADMIN PUK: 6825532557
+ADMIN PIN: 565656

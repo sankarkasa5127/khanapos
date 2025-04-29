@@ -1,0 +1,191 @@
+OLD TSE : 
+OLD TSE CLIENT ID: 
+OLD ADMIN PUK: 
+OLD ADMIN PIN: 
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3Mzg3NzU3OTgsImlhdCI6MTczODY4OTM5OCwianRpIjoiOWMwYTk0ZTItZTFlMy00ZjM2LWEyZWQtMTdkMzA0OGUwNzU4IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiI0NjE0NGM4Yi0xZmE3LTRkNDItOGY2ZS00YmU5NDBhMzk2YTgiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiYTYyMWE2YmQtZjUxNS00YTcyLWJlZTgtZjJhOTAzNjRhNWZkIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJhNjIxYTZiZC1mNTE1LTRhNzItYmVlOC1mMmE5MDM2NGE1ZmQiLCJvcmdhbml6YXRpb24iOiI0MjcxYzhlZS02YTE3LTQwNzktOGI3OC1lNjY2NDA1YjA1NjYiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.BKrIAsvOd6FYP-WCu8ud8RJk9JIM3pCgG8RVIF0A9s-X_aEaNyNqnOHU75xOlzlroJrpI9rN6EQyP8Qb2ZI9WszVxbm95aTUOzQf_dmQGNTjhC0A9yU5AuLX0vez6tR3xvI4ShaBqvRhBmx-2PgQW-cOrFMZb9KI724nrYemVCGBF3M-AMmRzGEnRzu88gu0vj4BgfGmCVq1hZkI8SwynEwkMmESW-NTFVGEP4ldZlbo9Z34mQ5Fqk1olHnGmbwoOWGeFCOWqGd82q1yiWn6nbM3XQmTsTuDND9I0gmKN0a2dMeP0KZFx2IQvHGER4_H5dAPrgJtWAk7i2KUzqYChw",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "4271c8ee-6a17-4079-8b78-e666405b0566"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1738775798,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3Mzg4NjIxOTgsImlhdCI6MTczODY4OTM5OCwianRpIjoiMjk0NjdjNTQtMGRjYi00YTNkLTg2Y2YtZGE0OTIzNjc2ZGI5IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjQ2MTQ0YzhiLTFmYTctNGQ0Mi04ZjZlLTRiZTk0MGEzOTZhOCIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiYTYyMWE2YmQtZjUxNS00YTcyLWJlZTgtZjJhOTAzNjRhNWZkIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJhNjIxYTZiZC1mNTE1LTRhNzItYmVlOC1mMmE5MDM2NGE1ZmQifQ.PVKrkDs8wKEzmBsA0qqR2V3fSxreIxtnWa8QFKUXvRg",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1738862198
+}
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": 
+    {
+        "name": "KORFU Grieschisches Restaurant",
+        "address": "Bahnhofstrasse 1",
+        "address2": "",
+        "address3": "Durmersheim",
+        "phone": "+4972452298",
+        "phone2": "",
+        "description":"TSE_KORFU Grieschisches Restaurant_76448"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQLpMGJ75yBLgGp83/5oSupDAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTEzNDM1NFoXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMTBEOEJGRjhGMzA1NDkwOTgyMjBDQjQyMkFDMDg1MjExFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AyZmUzMmZhMDI0Nzg1NjJmMTNjNjlhOWMwODk1NDYwNzRkYjcyYWViODc0ZGZjMmQzMzk5YWM1MGMwYmJjMjYwMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABHog+wMerMvVL4S6rfsIVH5gmBKndKtn7fxkWC7upXx7Ic6DDjB7BOsf8oyvX5v0kiYNZzey0E7AvXr2GBrIHwKjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMGZY8Z2pLlwsh36lLQ5SkBs5prCqRhgtm2r2rC+abX50ENVddH/O4RgQCeCf8lf2cQIwLKZoCQf8URYbYyCi1G4x3OUz8WZUKrHoNhMFdk48bj+0EqzRny2wgHSE/8KprCTH",
+    "serial_number": "2fe32fa02478562f13c69a9c089546074db72aeb874dfc2d3399ac50c0bbc260",
+    "public_key": "BHog+wMerMvVL4S6rfsIVH5gmBKndKtn7fxkWC7upXx7Ic6DDjB7BOsf8oyvX5v0kiYNZzey0E7AvXr2GBrIHwI=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "36eb3c8f-5b1f-4b19-8e6c-e229ac699931",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23",
+    "time_creation": 1738689821,
+    "admin_puk": "4763613178",
+    "state": "CREATED",
+    "metadata": {
+        "name": "KORFU Grieschisches Restaurant",
+        "phone": "+4972452298",
+        "phone2": "",
+        "address": "Bahnhofstrasse 1",
+        "address2": "",
+        "address3": "Durmersheim",
+        "description": "TSE_KORFU Grieschisches Restaurant_76448"
+    }
+}
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "36eb3c8f-5b1f-4b19-8e6c-e229ac699931",
+    "state": "UNINITIALIZED",
+    "time_creation": 1738689821,
+    "time_uninit": 1738689859,
+    "certificate": "MIIEczCCA/qgAwIBAgIQLpMGJ75yBLgGp83/5oSupDAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTEzNDM1NFoXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMTBEOEJGRjhGMzA1NDkwOTgyMjBDQjQyMkFDMDg1MjExFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AyZmUzMmZhMDI0Nzg1NjJmMTNjNjlhOWMwODk1NDYwNzRkYjcyYWViODc0ZGZjMmQzMzk5YWM1MGMwYmJjMjYwMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABHog+wMerMvVL4S6rfsIVH5gmBKndKtn7fxkWC7upXx7Ic6DDjB7BOsf8oyvX5v0kiYNZzey0E7AvXr2GBrIHwKjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMGZY8Z2pLlwsh36lLQ5SkBs5prCqRhgtm2r2rC+abX50ENVddH/O4RgQCeCf8lf2cQIwLKZoCQf8URYbYyCi1G4x3OUz8WZUKrHoNhMFdk48bj+0EqzRny2wgHSE/8KprCTH",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "2fe32fa02478562f13c69a9c089546074db72aeb874dfc2d3399ac50c0bbc260",
+    "public_key": "BHog+wMerMvVL4S6rfsIVH5gmBKndKtn7fxkWC7upXx7Ic6DDjB7BOsf8oyvX5v0kiYNZzey0E7AvXr2GBrIHwI=",
+    "signature_counter": "108",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Bahnhofstrasse 1",
+        "address3": "Durmersheim",
+        "description": "TSE_KORFU Grieschisches Restaurant_76448",
+        "name": "KORFU Grieschisches Restaurant",
+        "phone": "+4972452298"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "38569721"
+}
+RESPONSE:
+200 OK
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "38569721"
+}
+RESPONSE:
+200 OK
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "36eb3c8f-5b1f-4b19-8e6c-e229ac699931",
+    "description": "fiskaly sign cloud-TSE (36eb3c8f-5b1f-4b19-8e6c-e229ac699931)",
+    "state": "INITIALIZED",
+    "time_creation": 1738689821,
+    "time_uninit": 1738689859,
+    "time_init": 1738690066,
+    "certificate": "MIIEczCCA/qgAwIBAgIQLpMGJ75yBLgGp83/5oSupDAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTEzNDM1NFoXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMTBEOEJGRjhGMzA1NDkwOTgyMjBDQjQyMkFDMDg1MjExFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AyZmUzMmZhMDI0Nzg1NjJmMTNjNjlhOWMwODk1NDYwNzRkYjcyYWViODc0ZGZjMmQzMzk5YWM1MGMwYmJjMjYwMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABHog+wMerMvVL4S6rfsIVH5gmBKndKtn7fxkWC7upXx7Ic6DDjB7BOsf8oyvX5v0kiYNZzey0E7AvXr2GBrIHwKjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMGZY8Z2pLlwsh36lLQ5SkBs5prCqRhgtm2r2rC+abX50ENVddH/O4RgQCeCf8lf2cQIwLKZoCQf8URYbYyCi1G4x3OUz8WZUKrHoNhMFdk48bj+0EqzRny2wgHSE/8KprCTH",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "2fe32fa02478562f13c69a9c089546074db72aeb874dfc2d3399ac50c0bbc260",
+    "public_key": "BHog+wMerMvVL4S6rfsIVH5gmBKndKtn7fxkWC7upXx7Ic6DDjB7BOsf8oyvX5v0kiYNZzey0E7AvXr2GBrIHwI=",
+    "signature_counter": "114",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Bahnhofstrasse 1",
+        "address3": "Durmersheim",
+        "description": "TSE_KORFU Grieschisches Restaurant_76448",
+        "name": "KORFU Grieschisches Restaurant",
+        "phone": "+4972452298"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "6a491ecc-cf59-40fd-8cfb-3627b1e083fb"
+}
+RESPONSE:
+{
+    "_id": "6a491ecc-cf59-40fd-8cfb-3627b1e083fb",
+    "state": "REGISTERED",
+    "serial_number": "6a491ecc-cf59-40fd-8cfb-3627b1e083fb",
+    "time_creation": 1738690107,
+    "tss_id": "36eb3c8f-5b1f-4b19-8e6c-e229ac699931",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_3xm1h25t64x9i4w838n4tdqp2_corfu-220089515
+FISKALY API SECRET: 3ePA9vAin9UCuWtSDwnZOclS5RRCAMjpZAKzaA9saCJ
+TSE ID: 36eb3c8f-5b1f-4b19-8e6c-e229ac699931
+TSE CLIENT ID: 6a491ecc-cf59-40fd-8cfb-3627b1e083fb
+ADMIN PUK: 4763613178
+ADMIN PIN: 38569721

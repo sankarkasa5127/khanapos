@@ -1,0 +1,190 @@
+OLD TSE : 2c0ca74c-b46c-4921-9906-b1e4d13df2c8
+OLD TSE CLIENT ID: 823d10d8-8ab4-4777-a1b1-1d69759742b3
+OLD ADMIN PUK: 9630624240
+OLD ADMIN PIN: 531800
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3Mzg2NzY5NzQsImlhdCI6MTczODU5MDU3NCwianRpIjoiNTMyNjg1ZjItYTIzZS00YjE5LWJlZjctOWViNjNmMjdlMDQ0IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiIwNzdlMzNjNS1jYzhkLTQ5MzEtYjJjMC1jNmM3ZDljNWIzNTQiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiZTAwOWI3OTgtYjM5NS00MzU4LTkyODAtMjhiYjVhNjRjMGY2Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJlMDA5Yjc5OC1iMzk1LTQzNTgtOTI4MC0yOGJiNWE2NGMwZjYiLCJvcmdhbml6YXRpb24iOiJhNDE5MjdhYy0wNjk2LTQ3MDEtYTg4Ny1lZmVkZGYyYjdhYjYiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.SoTEupdRBcVtDpkdi9-TP5S7YBOxS-GvPZi6798p4vmxKAJjrXS4rI-bPOs3_mgUwNrK4t2xRiDI-vlxbn3GB3lP5FsHUdNnFQgEzpd0DKlKlUHH_ujYNKifTVkdKQMJKBvPJTzlz6rw0sllSGCj1foIEAheUOA-OTNwTOeSrXaVEtrL5MUXjtvyJ0nx8gazgwGXq9ejnAyFxbq9SIcTD2Nspokku_899-BCmnUMpfggVRzSaa42tZ2BFir0AelORNIHgRDCdDjY4h2v17S1E17jevqI0Y1_BTWM4Gb6i8YlrOfZ78A3WUiacxSzoAqMHGdutqZWw9VilR4zYMTFlA",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "a41927ac-0696-4701-a887-efeddf2b7ab6"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1738676974,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3Mzg3NjMzNzQsImlhdCI6MTczODU5MDU3NCwianRpIjoiYWExOGVjZjgtZGM0Ny00YWYwLWExYmMtOWQ0NDNiNmNhNzgyIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjA3N2UzM2M1LWNjOGQtNDkzMS1iMmMwLWM2YzdkOWM1YjM1NCIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiZTAwOWI3OTgtYjM5NS00MzU4LTkyODAtMjhiYjVhNjRjMGY2Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJlMDA5Yjc5OC1iMzk1LTQzNTgtOTI4MC0yOGJiNWE2NGMwZjYifQ.9cg6O9YUDiwbwxhn0J9BYeKdzzA4pSMuCCUm_5_mU6U",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1738763374
+}
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Gourmet Indian Cuisine UG Safran",
+        "address": "Korbinian Platz 1",
+        "address2": "",
+        "address3": "Ismaning",
+        "phone": "089964662",
+        "phone2": "",
+        "description":"TSE_Restaurant Safran_85737"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQBjAib154QqgZFMkoNXGqxjAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTEzMzQyNVoXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfQjI5MjAyMEI4NEEyNDMyQkFCOUVERjQzRDJFRUY4NUIxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AxNjgyYTdmYzY3ZWViNWE5MTMwMTc0ZGE0OWM1MmY2YTkyOGY4NGExMDk0OWE2YjkyNTk3NDE2MDQ0MzM2NWI1MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJiXcP4JkrCtQfCWmKxa1se+2R5NcNbEXVDC64CFu4QJj+SoO92FYZD6GAtlUKx3mfjiYmJdiJl8/n/e37ygH6mjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMFmf2trM9XM6J1MSlF4TOo2wpX9AnnwE5olPhQFL8J9ZGhYcFMMxQV3hWKwQFc6hsAIwXBQS7M0Eqt3INTbVu1oYN09IPBSQ07xvmdMgnCXMGpOz8QYkn9KLXoXeAhrrO4PU",
+    "serial_number": "1682a7fc67eeb5a9130174da49c52f6a928f84a10949a6b925974160443365b5",
+    "public_key": "BJiXcP4JkrCtQfCWmKxa1se+2R5NcNbEXVDC64CFu4QJj+SoO92FYZD6GAtlUKx3mfjiYmJdiJl8/n/e37ygH6k=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "630a4675-a8a1-4511-b2e3-a4641824a952",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.22",
+    "time_creation": 1738590993,
+    "admin_puk": "2120095454",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Gourmet Indian Cuisine UG Safran",
+        "phone": "089964662",
+        "phone2": "",
+        "address": "Korbinian Platz 1",
+        "address2": "",
+        "address3": "Ismaning",
+        "description": "TSE_Restaurant Safran_85737"
+    }
+}
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "630a4675-a8a1-4511-b2e3-a4641824a952",
+    "state": "UNINITIALIZED",
+    "time_creation": 1738590993,
+    "time_uninit": 1738591040,
+    "certificate": "MIIEczCCA/qgAwIBAgIQBjAib154QqgZFMkoNXGqxjAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTEzMzQyNVoXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfQjI5MjAyMEI4NEEyNDMyQkFCOUVERjQzRDJFRUY4NUIxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AxNjgyYTdmYzY3ZWViNWE5MTMwMTc0ZGE0OWM1MmY2YTkyOGY4NGExMDk0OWE2YjkyNTk3NDE2MDQ0MzM2NWI1MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJiXcP4JkrCtQfCWmKxa1se+2R5NcNbEXVDC64CFu4QJj+SoO92FYZD6GAtlUKx3mfjiYmJdiJl8/n/e37ygH6mjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMFmf2trM9XM6J1MSlF4TOo2wpX9AnnwE5olPhQFL8J9ZGhYcFMMxQV3hWKwQFc6hsAIwXBQS7M0Eqt3INTbVu1oYN09IPBSQ07xvmdMgnCXMGpOz8QYkn9KLXoXeAhrrO4PU",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "1682a7fc67eeb5a9130174da49c52f6a928f84a10949a6b925974160443365b5",
+    "public_key": "BJiXcP4JkrCtQfCWmKxa1se+2R5NcNbEXVDC64CFu4QJj+SoO92FYZD6GAtlUKx3mfjiYmJdiJl8/n/e37ygH6k=",
+    "signature_counter": "107",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Korbinian Platz 1",
+        "address3": "Ismaning",
+        "description": "TSE_Restaurant Safran_85737",
+        "name": "Gourmet Indian Cuisine UG Safran",
+        "phone": "089964662"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.22"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "79856241"
+}
+RESPONSE:
+200 OK
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "79856241"
+}
+RESPONSE:
+200 OK
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "630a4675-a8a1-4511-b2e3-a4641824a952",
+    "description": "fiskaly sign cloud-TSE (630a4675-a8a1-4511-b2e3-a4641824a952)",
+    "state": "INITIALIZED",
+    "time_creation": 1738590993,
+    "time_uninit": 1738591040,
+    "time_init": 1738591145,
+    "certificate": "MIIEczCCA/qgAwIBAgIQBjAib154QqgZFMkoNXGqxjAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTEzMzQyNVoXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfQjI5MjAyMEI4NEEyNDMyQkFCOUVERjQzRDJFRUY4NUIxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AxNjgyYTdmYzY3ZWViNWE5MTMwMTc0ZGE0OWM1MmY2YTkyOGY4NGExMDk0OWE2YjkyNTk3NDE2MDQ0MzM2NWI1MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJiXcP4JkrCtQfCWmKxa1se+2R5NcNbEXVDC64CFu4QJj+SoO92FYZD6GAtlUKx3mfjiYmJdiJl8/n/e37ygH6mjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMFmf2trM9XM6J1MSlF4TOo2wpX9AnnwE5olPhQFL8J9ZGhYcFMMxQV3hWKwQFc6hsAIwXBQS7M0Eqt3INTbVu1oYN09IPBSQ07xvmdMgnCXMGpOz8QYkn9KLXoXeAhrrO4PU",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "1682a7fc67eeb5a9130174da49c52f6a928f84a10949a6b925974160443365b5",
+    "public_key": "BJiXcP4JkrCtQfCWmKxa1se+2R5NcNbEXVDC64CFu4QJj+SoO92FYZD6GAtlUKx3mfjiYmJdiJl8/n/e37ygH6k=",
+    "signature_counter": "114",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Korbinian Platz 1",
+        "address3": "Ismaning",
+        "description": "TSE_Restaurant Safran_85737",
+        "name": "Gourmet Indian Cuisine UG Safran",
+        "phone": "089964662"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.22"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "35bd077d-0265-493e-a786-a3ec1a9a91dd"
+}
+RESPONSE:
+{
+    "_id": "35bd077d-0265-493e-a786-a3ec1a9a91dd",
+    "state": "REGISTERED",
+    "serial_number": "35bd077d-0265-493e-a786-a3ec1a9a91dd",
+    "time_creation": 1738591210,
+    "tss_id": "630a4675-a8a1-4511-b2e3-a4641824a952",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.22"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_9pqnpcy6anfmuqv3f0k8hemk6_gourmetindian-14314212925
+FISKALY API SECRET: WwaKMxYpHOdmzXRFJwXh7efvAtirgMNeeYoH6dFOjiI
+TSE ID: 35bd077d-0265-493e-a786-a3ec1a9a91dd
+TSE CLIENT ID: 35bd077d-0265-493e-a786-a3ec1a9a91dd
+ADMIN PUK: 2120095454
+ADMIN PIN: 79856241

@@ -1,0 +1,189 @@
+OLD TSE : a19cdb63-8ba9-4b84-9775-7f88f7aa1a3b
+OLD TSE CLIENT ID: e45d4902-3f59-4d2d-821c-bd4ce6fcd0c5
+OLD ADMIN PUK: 4016341174
+OLD ADMIN PIN: 218940
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3NDA4NTIwMjIsImlhdCI6MTc0MDc2NTYyMiwianRpIjoiMGI5ODNiMzItNDE2Ni00ZjBhLTg0M2EtMjIyYjBkZGY4ZTI4IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiI1MDI3MzY1Ny00YjMzLTRkMjctOTQ2NS0wOThlYjUyZGE2ZjMiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiZWRjYWM5NjgtZDVkZC00NTRjLWFlZWUtOWI2NTg5ZmQ4YjBmIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJlZGNhYzk2OC1kNWRkLTQ1NGMtYWVlZS05YjY1ODlmZDhiMGYiLCJvcmdhbml6YXRpb24iOiI4OTMyZWM1ZS01MGNmLTRlMGMtODZjMC0wOTU1NWQ5MzEyM2YiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.df-_QgD-4hgZtNq1Py8EYnqBohwHD58Bmi6pVShwKCwRtkGo_WSw7pH37yAk7o5JksCk2EsqpBPF7XG80PYGx16NsoZIiKZqZVulQUqtblz8VOr_njCwSKv6zWDo9yvsNdIYV-YGITZ5ISQSb_tn4Do4pnsuTLW1Yv2grR8DfnAr5os1eDDLY3id3fhWpdWzYGo3bC2zMXiA8PrHCm9VwOb5UDy8s7NZqWXf0mM9wT1czDq6Pi5muOqkmsthKrWJ41a42nDMJkrEIOcqOLWWs-g5_ZptAQTFXa2cH2R09uR2c4IguHQgPCrmdDdj_Epemp2lg_vPwoEUM1X4uY93dw",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "8932ec5e-50cf-4e0c-86c0-09555d93123f"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1740852022,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3NDA5Mzg0MjIsImlhdCI6MTc0MDc2NTYyMiwianRpIjoiMDg5ZDBmYmMtYzIzYy00NWZiLThkY2EtOTRhYWMxOWEwNmViIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjUwMjczNjU3LTRiMzMtNGQyNy05NDY1LTA5OGViNTJkYTZmMyIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiZWRjYWM5NjgtZDVkZC00NTRjLWFlZWUtOWI2NTg5ZmQ4YjBmIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJlZGNhYzk2OC1kNWRkLTQ1NGMtYWVlZS05YjY1ODlmZDhiMGYifQ.r8k3mUTu5COgqFBz44hpwC-INRtZW62mKYKBR4-ee6E",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1740938422
+}
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Restaurant Sparta",
+        "address": "Albert-Einstein-Straße 76",
+        "address2": "",
+        "address3": "Altenburg",
+        "phone": "+49 3447 311665",
+        "phone2": "",
+        "description":"TSE_Restaurant Sparta_04600"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQHTqoWvdCaDn+qIeUw+ZO4zAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODEwMDc0M1oXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMjY1NjZEMzg1RTQxNDY3MUE5RkZFMDcxQ0QwODhFRDMxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A1NzY4YTMwYWIwODgxZDg5NjNjZWM5YzgxY2VjNTgwOGUwNjliOTU2ODk4NjY3ODM5YWY1YmRlMDMzYTk5OTc2MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABIJOjQGqoETVLpvEQAuwgYKQPy8u3PVegRDH3XG8Ig0rshJyH24JSljPLt0Y/TTtPLVMxE89uP/1ZPDbWSKWDaijggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMF3DdLgKSBRunNGvHsRDIRk+mSSK4O3sO51aV5YYWDzMzZqNzy2C9/FCYDcqaCohgQIwdegnU7Q1KNqEO0RChyyX3Z7wXQg9rAE86Lq3zj0GvVEWgqsPGqhDcIpsmHNx+rHS",
+    "serial_number": "5768a30ab0881d8963cec9c81cec5808e069b956898667839af5bde033a99976",
+    "public_key": "BIJOjQGqoETVLpvEQAuwgYKQPy8u3PVegRDH3XG8Ig0rshJyH24JSljPLt0Y/TTtPLVMxE89uP/1ZPDbWSKWDag=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "89997e2c-e729-4dcc-932e-7be285d9138b",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.24",
+    "time_creation": 1740765865,
+    "admin_puk": "6999405014",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Restaurant Sparta",
+        "phone": "+49 3447 311665",
+        "phone2": "",
+        "address": "Albert-Einstein-Straße 76",
+        "address2": "",
+        "address3": "Altenburg",
+        "description": "TSE_Restaurant Sparta_04600"
+    }
+}
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "89997e2c-e729-4dcc-932e-7be285d9138b",
+    "state": "UNINITIALIZED",
+    "time_creation": 1740765865,
+    "time_uninit": 1740765889,
+    "certificate": "MIIEczCCA/qgAwIBAgIQHTqoWvdCaDn+qIeUw+ZO4zAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODEwMDc0M1oXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMjY1NjZEMzg1RTQxNDY3MUE5RkZFMDcxQ0QwODhFRDMxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A1NzY4YTMwYWIwODgxZDg5NjNjZWM5YzgxY2VjNTgwOGUwNjliOTU2ODk4NjY3ODM5YWY1YmRlMDMzYTk5OTc2MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABIJOjQGqoETVLpvEQAuwgYKQPy8u3PVegRDH3XG8Ig0rshJyH24JSljPLt0Y/TTtPLVMxE89uP/1ZPDbWSKWDaijggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMF3DdLgKSBRunNGvHsRDIRk+mSSK4O3sO51aV5YYWDzMzZqNzy2C9/FCYDcqaCohgQIwdegnU7Q1KNqEO0RChyyX3Z7wXQg9rAE86Lq3zj0GvVEWgqsPGqhDcIpsmHNx+rHS",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "5768a30ab0881d8963cec9c81cec5808e069b956898667839af5bde033a99976",
+    "public_key": "BIJOjQGqoETVLpvEQAuwgYKQPy8u3PVegRDH3XG8Ig0rshJyH24JSljPLt0Y/TTtPLVMxE89uP/1ZPDbWSKWDag=",
+    "signature_counter": "129",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Albert-Einstein-Straße 76",
+        "address3": "Altenburg",
+        "description": "TSE_Restaurant Sparta_04600",
+        "name": "Restaurant Sparta",
+        "phone": "+49 3447 311665"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.24"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "4578457"
+}
+RESPONSE:
+200 OK
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "4578457"
+}
+RESPONSE:
+200 OK
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "89997e2c-e729-4dcc-932e-7be285d9138b",
+    "description": "fiskaly sign cloud-TSE (89997e2c-e729-4dcc-932e-7be285d9138b)",
+    "state": "INITIALIZED",
+    "time_creation": 1740765865,
+    "time_uninit": 1740765889,
+    "time_init": 1740765980,
+    "certificate": "MIIEczCCA/qgAwIBAgIQHTqoWvdCaDn+qIeUw+ZO4zAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODEwMDc0M1oXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMjY1NjZEMzg1RTQxNDY3MUE5RkZFMDcxQ0QwODhFRDMxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A1NzY4YTMwYWIwODgxZDg5NjNjZWM5YzgxY2VjNTgwOGUwNjliOTU2ODk4NjY3ODM5YWY1YmRlMDMzYTk5OTc2MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABIJOjQGqoETVLpvEQAuwgYKQPy8u3PVegRDH3XG8Ig0rshJyH24JSljPLt0Y/TTtPLVMxE89uP/1ZPDbWSKWDaijggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMF3DdLgKSBRunNGvHsRDIRk+mSSK4O3sO51aV5YYWDzMzZqNzy2C9/FCYDcqaCohgQIwdegnU7Q1KNqEO0RChyyX3Z7wXQg9rAE86Lq3zj0GvVEWgqsPGqhDcIpsmHNx+rHS",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "5768a30ab0881d8963cec9c81cec5808e069b956898667839af5bde033a99976",
+    "public_key": "BIJOjQGqoETVLpvEQAuwgYKQPy8u3PVegRDH3XG8Ig0rshJyH24JSljPLt0Y/TTtPLVMxE89uP/1ZPDbWSKWDag=",
+    "signature_counter": "135",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Albert-Einstein-Straße 76",
+        "address3": "Altenburg",
+        "description": "TSE_Restaurant Sparta_04600",
+        "name": "Restaurant Sparta",
+        "phone": "+49 3447 311665"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.24"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "cb1d853e-79f6-41b5-92c2-a35cdd499b59"
+}
+RESPONSE:
+{
+    "_id": "cb1d853e-79f6-41b5-92c2-a35cdd499b59",
+    "state": "REGISTERED",
+    "serial_number": "cb1d853e-79f6-41b5-92c2-a35cdd499b59",
+    "time_creation": 1740766010,
+    "tss_id": "89997e2c-e729-4dcc-932e-7be285d9138b",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.24"
+}
+------------------------------------------------------------------------------------------------
+FISKLAY API KEY: live_84erqifrxn23kggthns4sy9tr_restaurantsparta-16628200991
+FISKALY API SECRET: Wxg2h1udUvbYvjlzoCH9OYnPetRRltVJMWbtnBrWVpm
+TSE ID: 89997e2c-e729-4dcc-932e-7be285d9138b
+TSE CLIENT ID: cb1d853e-79f6-41b5-92c2-a35cdd499b59
+ADMIN PUK: 6999405014
+ADMIN PIN: 4578457

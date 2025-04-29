@@ -1,0 +1,191 @@
+OLD TSE : 6e567bbc-09aa-44c8-9571-a56ac286b494
+OLD TSE CLIENT ID: 9363d3bc-a3b9-4920-9327-647f88e9714c
+OLD ADMIN PUK: 8942909471
+OLD ADMIN PIN: 231567
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3NDA5MDg2NjUsImlhdCI6MTc0MDgyMjI2NSwianRpIjoiNjgwZGE3YzYtM2I1Mi00OWZmLWI0YTItMDY1YjM1MDMzOGIyIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiI4MjQyMDI4ZC0wMDE2LTQ2MTktYTcyZC02NTA5M2FmNWUyMzMiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiNjVkZDQyOWMtMjYwMS00ZjQ1LTkyOWMtOGQxMzM2YjFlMTBlIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI2NWRkNDI5Yy0yNjAxLTRmNDUtOTI5Yy04ZDEzMzZiMWUxMGUiLCJvcmdhbml6YXRpb24iOiIzY2ZhNDI1Ny04N2M0LTRlMjctYmM4Zi0wN2Q5NTc1NDM5NTIiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.gvmN-i1-MQgPpr-TMNKYxR8j0HueJGOtL8-VhcUlFU4j7RykPFu6D0dYolllV24LoTj88FGMTvvWWByutZI1ZAr29cWqXBNYuh5rfl5FQljQWQVh27BnhwW7CT4mzV4XAsPm540kd0tV1eBSfmPlg756klF3Je118Ke0I3SCiyK9lTFMjIzDFM0WKXfl6FKYVIbQUXYKFmQlXLjoYZXYOd3tYEyjMBPSpYEFBV5Ll4ZuTxjkQr_C50blnVuvCN_v6qoMmencQYkdwuhvot6J4-sQ0_h9CHUdnAKdNwk8kiXTvWJc7f_2MWZfll8p_YmYkLfQRngXIVJIuAY52BjZAg",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "3cfa4257-87c4-4e27-bc8f-07d957543952"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1740908665,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3NDA5OTUwNjUsImlhdCI6MTc0MDgyMjI2NSwianRpIjoiMmE2MDU3OWQtZTkzMi00ZjdhLTk0NjQtYzQ3ODRjODNkNWVjIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjgyNDIwMjhkLTAwMTYtNDYxOS1hNzJkLTY1MDkzYWY1ZTIzMyIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiNjVkZDQyOWMtMjYwMS00ZjQ1LTkyOWMtOGQxMzM2YjFlMTBlIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI2NWRkNDI5Yy0yNjAxLTRmNDUtOTI5Yy04ZDEzMzZiMWUxMGUifQ.oh_F7qnefeT3uhYEKWR0Lz0UcDX6-sAPKcEU1VL5BI8",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1740995065
+}
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Ganesha Bietigheim",
+        "address": "Indisches Restaurant",
+        "address2": "Parkäcker straße 2",
+        "address3": "Bietigheim-Bissingen",
+        "phone": "071429194490",
+        "phone2": "",
+        "description":"TSE_Ganesha Bietigheim_74321"
+		}
+		}
+response:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQIGIGEAmiUO8/q8hUTa5htTAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODEwMTUyNloXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfRTg2REI5MkUzRjE2NEQ5QkIwQzM2QzNEQjQwQTBEMUMxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AzNWQ5MzMzNjIyNDZkZGMyNzJiNWRkMDgzOTE1ZWQwMmYwMjFmNWExODRkM2Q0ZTgxYWI0MTEwYTc3ZGIyM2VhMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABC6YaoBWp8Y/URretnRq6ywVAT64FKy1vHMrsbKP1WbvB38JrHsivXmf0pJdaCtfZDqD+ERHE50v9vrFfXso2ISjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMAHcJT/xHOdGCotr4TMDScBqKtZpQIkCyMSzhXn0vGD1eFCMGi0KNMq2HjPfjqroUQIwaFA03n9XjH1v2244Jh9XBtuBc9tMtIbBwBYPtbRZTOWpJdLnZqMk81vW+GzuvMZZ",
+    "serial_number": "35d933362246ddc272b5dd083915ed02f021f5a184d3d4e81ab4110a77db23ea",
+    "public_key": "BC6YaoBWp8Y/URretnRq6ywVAT64FKy1vHMrsbKP1WbvB38JrHsivXmf0pJdaCtfZDqD+ERHE50v9vrFfXso2IQ=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "6b677682-3013-4370-bbf2-8e165dca0b4f",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.24",
+    "time_creation": 1740822514,
+    "admin_puk": "5418712447",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Ganesha Bietigheim",
+        "phone": "071429194490",
+        "phone2": "",
+        "address": "Indisches Restaurant",
+        "address2": "Parkäcker straße 2",
+        "address3": "Bietigheim-Bissingen",
+        "description": "TSE_Ganesha Bietigheim_74321"
+    }
+}
+		
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "6b677682-3013-4370-bbf2-8e165dca0b4f",
+    "state": "UNINITIALIZED",
+    "time_creation": 1740822514,
+    "time_uninit": 1740822561,
+    "certificate": "MIIEczCCA/qgAwIBAgIQIGIGEAmiUO8/q8hUTa5htTAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODEwMTUyNloXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfRTg2REI5MkUzRjE2NEQ5QkIwQzM2QzNEQjQwQTBEMUMxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AzNWQ5MzMzNjIyNDZkZGMyNzJiNWRkMDgzOTE1ZWQwMmYwMjFmNWExODRkM2Q0ZTgxYWI0MTEwYTc3ZGIyM2VhMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABC6YaoBWp8Y/URretnRq6ywVAT64FKy1vHMrsbKP1WbvB38JrHsivXmf0pJdaCtfZDqD+ERHE50v9vrFfXso2ISjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMAHcJT/xHOdGCotr4TMDScBqKtZpQIkCyMSzhXn0vGD1eFCMGi0KNMq2HjPfjqroUQIwaFA03n9XjH1v2244Jh9XBtuBc9tMtIbBwBYPtbRZTOWpJdLnZqMk81vW+GzuvMZZ",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "35d933362246ddc272b5dd083915ed02f021f5a184d3d4e81ab4110a77db23ea",
+    "public_key": "BC6YaoBWp8Y/URretnRq6ywVAT64FKy1vHMrsbKP1WbvB38JrHsivXmf0pJdaCtfZDqD+ERHE50v9vrFfXso2IQ=",
+    "signature_counter": "130",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Indisches Restaurant",
+        "address2": "Parkäcker straße 2",
+        "address3": "Bietigheim-Bissingen",
+        "description": "TSE_Ganesha Bietigheim_74321",
+        "name": "Ganesha Bietigheim",
+        "phone": "071429194490"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.24"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "668890"
+}
+RESPONSE:
+{}
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "668890"
+}
+RESPONSE:
+
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "6b677682-3013-4370-bbf2-8e165dca0b4f",
+    "description": "fiskaly sign cloud-TSE (6b677682-3013-4370-bbf2-8e165dca0b4f)",
+    "state": "INITIALIZED",
+    "time_creation": 1740822514,
+    "time_uninit": 1740822561,
+    "time_init": 1740822676,
+    "certificate": "MIIEczCCA/qgAwIBAgIQIGIGEAmiUO8/q8hUTa5htTAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODEwMTUyNloXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfRTg2REI5MkUzRjE2NEQ5QkIwQzM2QzNEQjQwQTBEMUMxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AzNWQ5MzMzNjIyNDZkZGMyNzJiNWRkMDgzOTE1ZWQwMmYwMjFmNWExODRkM2Q0ZTgxYWI0MTEwYTc3ZGIyM2VhMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABC6YaoBWp8Y/URretnRq6ywVAT64FKy1vHMrsbKP1WbvB38JrHsivXmf0pJdaCtfZDqD+ERHE50v9vrFfXso2ISjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMAHcJT/xHOdGCotr4TMDScBqKtZpQIkCyMSzhXn0vGD1eFCMGi0KNMq2HjPfjqroUQIwaFA03n9XjH1v2244Jh9XBtuBc9tMtIbBwBYPtbRZTOWpJdLnZqMk81vW+GzuvMZZ",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "35d933362246ddc272b5dd083915ed02f021f5a184d3d4e81ab4110a77db23ea",
+    "public_key": "BC6YaoBWp8Y/URretnRq6ywVAT64FKy1vHMrsbKP1WbvB38JrHsivXmf0pJdaCtfZDqD+ERHE50v9vrFfXso2IQ=",
+    "signature_counter": "136",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Indisches Restaurant",
+        "address2": "Parkäcker straße 2",
+        "address3": "Bietigheim-Bissingen",
+        "description": "TSE_Ganesha Bietigheim_74321",
+        "name": "Ganesha Bietigheim",
+        "phone": "071429194490"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.24"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": ""
+}
+RESPONSE:
+{
+    "_id": "480b5732-bb15-4df2-9be2-50a3a8d63747",
+    "state": "REGISTERED",
+    "serial_number": "480b5732-bb15-4df2-9be2-50a3a8d63747",
+    "time_creation": 1740822739,
+    "tss_id": "6b677682-3013-4370-bbf2-8e165dca0b4f",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.24"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_3lyl3d4sghcuyrxjqn62zumoi_ganeshabietigheim-3307510482
+FISKALY API SECRET: c4Ypu4J0xlD2EX17MZPL1TFbRbLR95MGPUBMTJ7lk2R
+TSE ID: 6b677682-3013-4370-bbf2-8e165dca0b4f
+TSE CLIENT ID: 480b5732-bb15-4df2-9be2-50a3a8d63747
+ADMIN PUK: 5418712447
+ADMIN PIN: 668890

@@ -1,0 +1,194 @@
+OLD TSE : 31399f17-54d4-4b6b-83e7-e55220cf97e1
+OLD TSE CLIENT ID: 95666b8f-7484-4853-8277-16130669e2e0
+OLD ADMIN PUK: 2290800786
+OLD ADMIN PIN: JAN291993
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3Mzk4NzU2MzgsImlhdCI6MTczOTc4OTIzOCwianRpIjoiMTFiZDA3YjgtOWUxNy00MWRlLTgyN2ItZTViNzY2NjNkZjE0IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiJlY2EzOGMyNi1lNjg1LTRjNmMtOTY5ZC03MjhlMjRmZWYwMzIiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiMzMzMGNkODktZDAzMi00MDU0LTgxMDItY2UwNzVhNGNkYzQ3Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIzMzMwY2Q4OS1kMDMyLTQwNTQtODEwMi1jZTA3NWE0Y2RjNDciLCJvcmdhbml6YXRpb24iOiJmZjEwNGYyNS0xNTVkLTRiMzYtYWIwZC1kZWQ0ZjQ3MzNhODYiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.WCiDohW5DX5nwZmLOQ7eT2oDU-MUMGO2D-D-fvu79Qwa9yygA9StcHK6J0vZiJSEvyxzxLKKbFOWm_1wi47wZz3b93dAA8T9PQ3h3PBSLEpTbMJZv8nW7jAo--7NjPUd6AD4BzlBrxdF_-x-RQX0mfKUe6mL6e7NMaDJ3XW_ita4mHGyWiwzGKD4LgpYA8j3WtPHRr9FP6QPPnnjrbFvhDKKHU-UfY_4GxZWvFgYRoeQ8GIyoU8JFfsvETz-nKyPUjEqxkEPcDoGEC_Od9SbVBDqXoIh7hhrtf9GrY4zddE820TzwmLWA3gTgUUTdmYb_3LT3ZUqSbtR06m_-L9u2g",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "ff104f25-155d-4b36-ab0d-ded4f4733a86"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1739875638,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3Mzk5NjIwMzgsImlhdCI6MTczOTc4OTIzOCwianRpIjoiMWNiOTM2MWMtM2YxYS00MjI5LWE1N2MtYjA2N2FiZDZmNWVhIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6ImVjYTM4YzI2LWU2ODUtNGM2Yy05NjlkLTcyOGUyNGZlZjAzMiIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiMzMzMGNkODktZDAzMi00MDU0LTgxMDItY2UwNzVhNGNkYzQ3Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIzMzMwY2Q4OS1kMDMyLTQwNTQtODEwMi1jZTA3NWE0Y2RjNDcifQ.hwPkgkk-sHP7KlcCqnVaJQ5k3KpxuMIWgH0GXcjQB0Q",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1739962038
+}
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Parthenon",
+        "address": "Leerer Landstr 18",
+        "address2": "Aurich",
+        "address3": "",
+        "phone": "",
+        "phone2": "",
+        "description":"TSE_Parthenon_26603"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQGFuBc7H7AqHUViWK/fhdIzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA4MTg1MVoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNEUzMTg1QUY2QzM1NEQ2MEIxQTgyNjZFQkZGNDk1RTUxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AzZTkzOTFmZmM4Y2UxODkxNWNiMjQ3NTg2MWExMDVmNDQ1MTRkMDdiYmRlZDU3Mzg5MzAwNjVjZGViMTA3MWJiMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABFLLXUKx3u1skvxP4NKY0q6Ty11M63/TPdw3f/k/G9qQpRNs46/zIAfvSS6TnxIloNHFftLGG0IW+rM0uXlfw9qjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMEmm9ijETo3a/V8+xGwk9fk6swGchj52rbPM2NhMwcyon5XpRtYjiRwgNttvuxOe5QIwJbkLcQo2HcuPJKlSyTPrBWnJEPzKNnbDfb1kl5egUUbMUJc2QSDyOaB2Fo2evRTn",
+    "serial_number": "3e9391ffc8ce18915cb2475861a105f44514d07bbded5738930065cdeb1071bb",
+    "public_key": "BFLLXUKx3u1skvxP4NKY0q6Ty11M63/TPdw3f/k/G9qQpRNs46/zIAfvSS6TnxIloNHFftLGG0IW+rM0uXlfw9o=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "98f0bdc2-6bc7-46a1-93c0-f94844d97986",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23",
+    "time_creation": 1739789353,
+    "admin_puk": "9974026358",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Parthenon",
+        "phone": "",
+        "phone2": "",
+        "address": "Leerer Landstr 18",
+        "address2": "Aurich",
+        "address3": "",
+        "description": "TSE_Parthenon_26603"
+    }
+}
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "98f0bdc2-6bc7-46a1-93c0-f94844d97986",
+    "state": "UNINITIALIZED",
+    "time_creation": 1739789353,
+    "time_uninit": 1739789408,
+    "certificate": "MIIEczCCA/qgAwIBAgIQGFuBc7H7AqHUViWK/fhdIzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA4MTg1MVoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNEUzMTg1QUY2QzM1NEQ2MEIxQTgyNjZFQkZGNDk1RTUxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AzZTkzOTFmZmM4Y2UxODkxNWNiMjQ3NTg2MWExMDVmNDQ1MTRkMDdiYmRlZDU3Mzg5MzAwNjVjZGViMTA3MWJiMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABFLLXUKx3u1skvxP4NKY0q6Ty11M63/TPdw3f/k/G9qQpRNs46/zIAfvSS6TnxIloNHFftLGG0IW+rM0uXlfw9qjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMEmm9ijETo3a/V8+xGwk9fk6swGchj52rbPM2NhMwcyon5XpRtYjiRwgNttvuxOe5QIwJbkLcQo2HcuPJKlSyTPrBWnJEPzKNnbDfb1kl5egUUbMUJc2QSDyOaB2Fo2evRTn",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "3e9391ffc8ce18915cb2475861a105f44514d07bbded5738930065cdeb1071bb",
+    "public_key": "BFLLXUKx3u1skvxP4NKY0q6Ty11M63/TPdw3f/k/G9qQpRNs46/zIAfvSS6TnxIloNHFftLGG0IW+rM0uXlfw9o=",
+    "signature_counter": "118",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Leerer Landstr 18",
+        "address2": "Aurich",
+        "description": "TSE_Parthenon_26603",
+        "name": "Parthenon"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "780941"
+}
+RESPONSE:
+{}
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "780941"
+}
+RESPONSE:
+{}
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "98f0bdc2-6bc7-46a1-93c0-f94844d97986",
+    "description": "fiskaly sign cloud-TSE (98f0bdc2-6bc7-46a1-93c0-f94844d97986)",
+    "state": "INITIALIZED",
+    "time_creation": 1739789353,
+    "time_uninit": 1739789408,
+    "time_init": 1739789476,
+    "certificate": "MIIEczCCA/qgAwIBAgIQGFuBc7H7AqHUViWK/fhdIzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA4MTg1MVoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNEUzMTg1QUY2QzM1NEQ2MEIxQTgyNjZFQkZGNDk1RTUxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AzZTkzOTFmZmM4Y2UxODkxNWNiMjQ3NTg2MWExMDVmNDQ1MTRkMDdiYmRlZDU3Mzg5MzAwNjVjZGViMTA3MWJiMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABFLLXUKx3u1skvxP4NKY0q6Ty11M63/TPdw3f/k/G9qQpRNs46/zIAfvSS6TnxIloNHFftLGG0IW+rM0uXlfw9qjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMEmm9ijETo3a/V8+xGwk9fk6swGchj52rbPM2NhMwcyon5XpRtYjiRwgNttvuxOe5QIwJbkLcQo2HcuPJKlSyTPrBWnJEPzKNnbDfb1kl5egUUbMUJc2QSDyOaB2Fo2evRTn",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "3e9391ffc8ce18915cb2475861a105f44514d07bbded5738930065cdeb1071bb",
+    "public_key": "BFLLXUKx3u1skvxP4NKY0q6Ty11M63/TPdw3f/k/G9qQpRNs46/zIAfvSS6TnxIloNHFftLGG0IW+rM0uXlfw9o=",
+    "signature_counter": "124",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Leerer Landstr 18",
+        "address2": "Aurich",
+        "description": "TSE_Parthenon_26603",
+        "name": "Parthenon"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": ""
+}
+RESPONSE:
+{
+    "_id": "5f962934-be70-461d-a638-ed2b803bf317",
+    "state": "REGISTERED",
+    "serial_number": "2ca1cbcd-3f52-456b-8daa-7ea9374198da",
+    "time_creation": 1739789523,
+    "tss_id": "98f0bdc2-6bc7-46a1-93c0-f94844d97986",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_f3m3qn4p5za73zxtf9vr4wmme_parthenon-5413906729
+FISKALY API SECRET: HmCQRx9xurxtEXTLEJSIsVYS01nyOQSWJ6VvdE6iTsA
+TSE ID: 98f0bdc2-6bc7-46a1-93c0-f94844d97986
+TSE CLIENT ID: 5f962934-be70-461d-a638-ed2b803bf317
+ADMIN PUK: 9974026358
+ADMIN PIN: 780941
+sign_base_url
+token
+tssId
+adminPuk
+adminpin
+clientId

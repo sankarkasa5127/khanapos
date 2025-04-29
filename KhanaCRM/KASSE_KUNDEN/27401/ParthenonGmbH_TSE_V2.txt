@@ -1,0 +1,190 @@
+OLD TSE : 
+OLD TSE CLIENT ID: 
+OLD ADMIN PUK: 
+OLD ADMIN PIN: 
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3NDEwODczMDMsImlhdCI6MTc0MTAwMDkwMywianRpIjoiMzdjMzllMDMtZGViZS00NjhjLTg4NjctOTRmZGE0ZjU2YTg2IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiJkM2ZlMDlmZC00NGI3LTQ3NDItYmZjZS1iZjY1YmYxMTE5MjMiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiYWVmOWE4ZTAtZTY1Zi00YTczLWFkNWUtMTcwNGI0MzFlZWIyIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJhZWY5YThlMC1lNjVmLTRhNzMtYWQ1ZS0xNzA0YjQzMWVlYjIiLCJvcmdhbml6YXRpb24iOiI5Njg1ZDkyYy03MWY5LTRlZTQtOGFlZC0xM2QyMmYxZTFiODQiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.IPGJXUQXwFi5T_If_T7d78oaTx6p_Qq50M9XLbUL4kZOOWc0fc0wnsV5YxwtaNG-V2ul6JBl9jKhWyu_nmDGXLdV25LEAPBkqJiiW0kEFIYeBTnPiB3k8iIgLHCIcJGBT5Z6m2P7_rIalhwgYm2naxcbAtop5sAtHRYleIUOoNaYAWiOKeFJNy2j_455DaO1XgVybFwUS_pHCsAQchKO97TiV0Lq3GI6X6rM9JKIxEQZP_y4M-0D3zreoLaD2IYVqn-zoJ5wdgw8PcVOLyewcW02mpB_U5Cc-jQzRxuph92yXfZpHFHmt5RqVQwVp5UkE5ZLQspJ87mwtpdDfNqCiA",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "9685d92c-71f9-4ee4-8aed-13d22f1e1b84"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1741087303,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3NDExNzM3MDMsImlhdCI6MTc0MTAwMDkwMywianRpIjoiZjI2ZmYyNTQtZjNkMi00M2Y2LWEzZjAtYThhYWNiZjI0OTQyIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6ImQzZmUwOWZkLTQ0YjctNDc0Mi1iZmNlLWJmNjViZjExMTkyMyIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiYWVmOWE4ZTAtZTY1Zi00YTczLWFkNWUtMTcwNGI0MzFlZWIyIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJhZWY5YThlMC1lNjVmLTRhNzMtYWQ1ZS0xNzA0YjQzMWVlYjIifQ.35Kqvq3KkCVCyCIlQhUN8j15lnL1LXXfTHk2LdhGtSQ",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1741173703
+}
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "ParthenonBRVGmbH",
+        "address": "Neue Strasse 2",
+        "address2": "",
+        "address3": "Bremervoerde",
+        "phone": "+49 4761 4222",
+        "phone2": "",
+        "description":"TSE_ParthenonBRVGmbH_27432"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQN2jeRK9mx+tiYPzSbPkwxjAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODEwMjcwNFoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfQjk4RDQ5ODQ4NEY5NDc5QkJGRERBOTdDQjBBMEY5QkUxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AwNTg4NjI1NDdmMjZhM2NmOGNhNTNlNDg1ZDU2NjEwY2Q3ZTY2NzQ3NjhlZTZiNzdiZWJjYTJjYTc1NWI0NjY1MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABItAn+ugRH9L9UzKaNibCfrBVNzQ6kTsTe/IkURJDhOKwiPi5h8CEcrHOtWaFQQs9os3HYYHjosk/ijuHNvBYAWjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMAhu7NTMryVjwCtWeciRy5hqXSV8K4cKmw5Od6vXxQM4U/4+qRJzF5SaosNyE4kzIwIwUDOGDrlQqkJrLC6g1btM5ejMEy+w7jT7nWl7SeO5y+F8o60P2y5emTbE6eOWrlSe",
+    "serial_number": "058862547f26a3cf8ca53e485d56610cd7e6674768ee6b77bebca2ca755b4665",
+    "public_key": "BItAn+ugRH9L9UzKaNibCfrBVNzQ6kTsTe/IkURJDhOKwiPi5h8CEcrHOtWaFQQs9os3HYYHjosk/ijuHNvBYAU=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "3db9496c-8520-4915-8225-94b7dc73a7b4",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.24",
+    "time_creation": 1741001107,
+    "admin_puk": "9056861723",
+    "state": "CREATED",
+    "metadata": {
+        "name": "ParthenonBRVGmbH",
+        "phone": "+49 4761 4222",
+        "phone2": "",
+        "address": "Neue Strasse 2",
+        "address2": "",
+        "address3": "Bremervoerde",
+        "description": "TSE_ParthenonBRVGmbH_27432"
+    }
+}
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "3db9496c-8520-4915-8225-94b7dc73a7b4",
+    "state": "UNINITIALIZED",
+    "time_creation": 1741001107,
+    "time_uninit": 1741001211,
+    "certificate": "MIIEczCCA/qgAwIBAgIQN2jeRK9mx+tiYPzSbPkwxjAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODEwMjcwNFoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfQjk4RDQ5ODQ4NEY5NDc5QkJGRERBOTdDQjBBMEY5QkUxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AwNTg4NjI1NDdmMjZhM2NmOGNhNTNlNDg1ZDU2NjEwY2Q3ZTY2NzQ3NjhlZTZiNzdiZWJjYTJjYTc1NWI0NjY1MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABItAn+ugRH9L9UzKaNibCfrBVNzQ6kTsTe/IkURJDhOKwiPi5h8CEcrHOtWaFQQs9os3HYYHjosk/ijuHNvBYAWjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMAhu7NTMryVjwCtWeciRy5hqXSV8K4cKmw5Od6vXxQM4U/4+qRJzF5SaosNyE4kzIwIwUDOGDrlQqkJrLC6g1btM5ejMEy+w7jT7nWl7SeO5y+F8o60P2y5emTbE6eOWrlSe",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "058862547f26a3cf8ca53e485d56610cd7e6674768ee6b77bebca2ca755b4665",
+    "public_key": "BItAn+ugRH9L9UzKaNibCfrBVNzQ6kTsTe/IkURJDhOKwiPi5h8CEcrHOtWaFQQs9os3HYYHjosk/ijuHNvBYAU=",
+    "signature_counter": "132",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Neue Strasse 2",
+        "address3": "Bremervoerde",
+        "description": "TSE_ParthenonBRVGmbH_27432",
+        "name": "ParthenonBRVGmbH",
+        "phone": "+49 4761 4222"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.24"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "8414845"
+}
+RESPONSE:
+200 OK
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "8414845"
+}
+RESPONSE:
+200 OK
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "3db9496c-8520-4915-8225-94b7dc73a7b4",
+    "description": "fiskaly sign cloud-TSE (3db9496c-8520-4915-8225-94b7dc73a7b4)",
+    "state": "INITIALIZED",
+    "time_creation": 1741001107,
+    "time_uninit": 1741001211,
+    "time_init": 1741001391,
+    "certificate": "MIIEczCCA/qgAwIBAgIQN2jeRK9mx+tiYPzSbPkwxjAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODEwMjcwNFoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfQjk4RDQ5ODQ4NEY5NDc5QkJGRERBOTdDQjBBMEY5QkUxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0AwNTg4NjI1NDdmMjZhM2NmOGNhNTNlNDg1ZDU2NjEwY2Q3ZTY2NzQ3NjhlZTZiNzdiZWJjYTJjYTc1NWI0NjY1MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABItAn+ugRH9L9UzKaNibCfrBVNzQ6kTsTe/IkURJDhOKwiPi5h8CEcrHOtWaFQQs9os3HYYHjosk/ijuHNvBYAWjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMAhu7NTMryVjwCtWeciRy5hqXSV8K4cKmw5Od6vXxQM4U/4+qRJzF5SaosNyE4kzIwIwUDOGDrlQqkJrLC6g1btM5ejMEy+w7jT7nWl7SeO5y+F8o60P2y5emTbE6eOWrlSe",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "058862547f26a3cf8ca53e485d56610cd7e6674768ee6b77bebca2ca755b4665",
+    "public_key": "BItAn+ugRH9L9UzKaNibCfrBVNzQ6kTsTe/IkURJDhOKwiPi5h8CEcrHOtWaFQQs9os3HYYHjosk/ijuHNvBYAU=",
+    "signature_counter": "138",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Neue Strasse 2",
+        "address3": "Bremervoerde",
+        "description": "TSE_ParthenonBRVGmbH_27432",
+        "name": "ParthenonBRVGmbH",
+        "phone": "+49 4761 4222"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.24"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "a9dc38be-df28-4df4-980f-5e596350c040"
+}
+RESPONSE:
+{
+    "_id": "a9dc38be-df28-4df4-980f-5e596350c040",
+    "state": "REGISTERED",
+    "serial_number": "a9dc38be-df28-4df4-980f-5e596350c040",
+    "time_creation": 1741001512,
+    "tss_id": "3db9496c-8520-4915-8225-94b7dc73a7b4",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.24"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_8wt2e5kmyzzvesa9y80d7y8p0_parthenongmbh-5221019929
+FISKALY API SECRET: hibPQSiBXX56IgdxGvoGMkFmeR2pdM8UX1l7YhhAg8o
+TSE ID: 3db9496c-8520-4915-8225-94b7dc73a7b4
+TSE CLIENT ID: a9dc38be-df28-4df4-980f-5e596350c040
+ADMIN PUK: 9056861723
+ADMIN PIN: 8414845

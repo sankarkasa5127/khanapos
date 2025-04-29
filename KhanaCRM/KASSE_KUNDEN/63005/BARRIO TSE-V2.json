@@ -1,0 +1,173 @@
+STEP 1 : TOKEN CREATION
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3MzE3NDI5NDksImlhdCI6MTczMTY1NjU0OSwianRpIjoiYjRiMDZjMjMtZTE4Yi00NTA1LWI3ZjYtOWUyZDNiMDdjZjM2IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiIxODE2MzdhYi1kZDYzLTQyYzgtYWFhOS00NjA3NThmNjdkYTAiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiYzc1YWRmYWUtODNhYy00M2JjLTk1NzQtMjFkZTg5ZWQ0YTU5Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJjNzVhZGZhZS04M2FjLTQzYmMtOTU3NC0yMWRlODllZDRhNTkiLCJvcmdhbml6YXRpb24iOiJjZmYyNWRmYS00ZDhjLTRkOGYtYjNiNy1kZGE2ODhlZGU2ZTgiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.Chg7R1lJ5ObZigWbd8GWZuuG0e9jUYt2mbBGQ1_2qWCZgY-C4TT2Y4WrCFRfoRP3je2NlV_qFOmDTRG2kbzJ1g-ny8X3TVtzUBkeo3l3FuogtVlPngge2hXHa7RkI337MrfL-1y7_qz8pbMMtHf5irVxrd1sGBZrpuxxroYlQ9EWzMmI9RU301_ikWX5niF5Svi93-39ViwCEzvl9Zj36WUNCGOY-FbcQ1kQXMhZ8_isxlsL1SLh9kBm-MuUGwGEyWLkuXX1_TbCXPdaIc93Em7L8QzPBXxGfRHt4Uv2NCOs4Mde6DHBz7ZXcBDgOczgnMcN7KPj9oP0quIabdSIwg",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "cff25dfa-4d8c-4d8f-b3b7-dda688ede6e8"
+    },
+    "access_token_expires_in": 72247,
+    "access_token_expires_at": 1731742949,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3MzE4MjkzNDksImlhdCI6MTczMTY1NjU0OSwianRpIjoiMTJmMjRmMDktOTA5My00MTE5LTgzZWItNjI0MDMyMTJhMTFkIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjE4MTYzN2FiLWRkNjMtNDJjOC1hYWE5LTQ2MDc1OGY2N2RhMCIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiYzc1YWRmYWUtODNhYy00M2JjLTk1NzQtMjFkZTg5ZWQ0YTU5Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJjNzVhZGZhZS04M2FjLTQzYmMtOTU3NC0yMWRlODllZDRhNTkifQ.W6PXrkHZyB0sa02WQAGKFPGqCBx3A57vGwuAX9g0_so",
+    "refresh_token_expires_in": 158647,
+    "refresh_token_expires_at": 1731829349
+}
+
+STEP 2 : CREATE TSE
+~ REQUEST SENT ~
+{
+    "metadata": {
+        "name": "BARRIO",
+        "address": "",
+        "address2": "Berliner Str. 2",
+        "address3": "Offenbach am Main",
+        "phone": "",
+        "phone2": "",
+        "description":"TSE_BARRIO_63065"
+
+    }
+}
+	RESPONSE:
+	{
+    "certificate": "MIIEczCCA/qgAwIBAgIQL/95QO7kmU19ii+snSineDAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MDcxNjE2Mzg1M1oXDTMyMDcxNjIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMjIyMDkxMEU1QUVBNEY4MDgwNEZGM0ZBNTUyQ0ZDRkExFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BmMTdlYmU4M2IyZTMzNzRmMjVmOTE1ODQ2MzA1MzBkNWQ4NzAyMjY3ZmM0Njk3MjFjZjFlNWVlY2EyMjliOGUxMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABLI117eSlknY9MKtcL+AuFgrKhhobsNh+rjqFpufiCNMpIgF1Y3BJwEOMrZ3NPiiYDSOH8CSpnOZOq4QmevXRzyjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCME4IgUpppVnTCTbfxqn1vsgbbzawAVKdgQkKQfsm/ExUbwS1m+tkffcT/wNYteFpnwIwfIqFuypGSOW5Xg8Fn6OESwsQ2KSvhhMy+R8DBJW24rG1ApDOJtOSgGUElS6RZtc8",
+    "serial_number": "f17ebe83b2e3374f25f91584630530d5d8702267fc469721cf1e5eeca229b8e1",
+    "public_key": "BLI117eSlknY9MKtcL+AuFgrKhhobsNh+rjqFpufiCNMpIgF1Y3BJwEOMrZ3NPiiYDSOH8CSpnOZOq4QmevXRzw=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": 
+	{
+        "name": "BARRIO",
+        "phone": "",
+        "phone2": "",
+        "address": "",
+        "address2": "Berliner Str. 2",
+        "address3": "Offenbach am Main",
+        "description": "TSE_BARRIO_63065"
+    },
+    "_id": "52155b2c-7feb-4fb4-b0da-c14e73d2d47b",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.19",
+    "time_creation": 1731671167,
+    "admin_puk": "9974066117",
+    "state": "CREATED"
+	}
+
+STEP 3 : PERSONALIZED_TSE (STATE CHANGE TO "UNINITIALIZED"):
+~ REQUEST SENT ~
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "52155b2c-7feb-4fb4-b0da-c14e73d2d47b",
+    "state": "UNINITIALIZED",
+    "time_creation": 1731671167,
+    "time_uninit": 1731671390,
+    "certificate": "MIIEczCCA/qgAwIBAgIQL/95QO7kmU19ii+snSineDAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MDcxNjE2Mzg1M1oXDTMyMDcxNjIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMjIyMDkxMEU1QUVBNEY4MDgwNEZGM0ZBNTUyQ0ZDRkExFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BmMTdlYmU4M2IyZTMzNzRmMjVmOTE1ODQ2MzA1MzBkNWQ4NzAyMjY3ZmM0Njk3MjFjZjFlNWVlY2EyMjliOGUxMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABLI117eSlknY9MKtcL+AuFgrKhhobsNh+rjqFpufiCNMpIgF1Y3BJwEOMrZ3NPiiYDSOH8CSpnOZOq4QmevXRzyjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCME4IgUpppVnTCTbfxqn1vsgbbzawAVKdgQkKQfsm/ExUbwS1m+tkffcT/wNYteFpnwIwfIqFuypGSOW5Xg8Fn6OESwsQ2KSvhhMy+R8DBJW24rG1ApDOJtOSgGUElS6RZtc8",
+    "bsi_certification_id": "0403-2021",
+    "bsi_certification_valid_to": 1874534400,
+    "serial_number": "f17ebe83b2e3374f25f91584630530d5d8702267fc469721cf1e5eeca229b8e1",
+    "public_key": "BLI117eSlknY9MKtcL+AuFgrKhhobsNh+rjqFpufiCNMpIgF1Y3BJwEOMrZ3NPiiYDSOH8CSpnOZOq4QmevXRzw=",
+    "signature_counter": "128",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata":
+	{
+        "address2": "Berliner Str. 2",
+        "address3": "Offenbach am Main",
+        "description": "TSE_BARRIO_63065",
+        "name": "BARRIO"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.19"
+}
+
+STEP 4 : CHANGING ADMIN PIN
+~ REQUEST SENT ~
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "220802"
+}
+RESPONSE : 
+~ CREATED ~
+STATUS 200 OK
+
+STEP 5 : AUTHENTICATE ADMIN
+~ REQUEST SENT ~
+{
+	"admin_pin": "220802"
+}
+RESPONSE :
+~ CREATED ~
+STATUS 200 OK
+
+STEP 6 : INITALIZING TSS
+~ REQUEST SENT ~
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "52155b2c-7feb-4fb4-b0da-c14e73d2d47b",
+    "description": "fiskaly sign cloud-TSE (52155b2c-7feb-4fb4-b0da-c14e73d2d47b)",
+    "state": "INITIALIZED",
+    "time_creation": 1731671167,
+    "time_uninit": 1731671390,
+    "time_init": 1731671854,
+    "certificate": "MIIEczCCA/qgAwIBAgIQL/95QO7kmU19ii+snSineDAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MDcxNjE2Mzg1M1oXDTMyMDcxNjIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMjIyMDkxMEU1QUVBNEY4MDgwNEZGM0ZBNTUyQ0ZDRkExFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BmMTdlYmU4M2IyZTMzNzRmMjVmOTE1ODQ2MzA1MzBkNWQ4NzAyMjY3ZmM0Njk3MjFjZjFlNWVlY2EyMjliOGUxMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABLI117eSlknY9MKtcL+AuFgrKhhobsNh+rjqFpufiCNMpIgF1Y3BJwEOMrZ3NPiiYDSOH8CSpnOZOq4QmevXRzyjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCME4IgUpppVnTCTbfxqn1vsgbbzawAVKdgQkKQfsm/ExUbwS1m+tkffcT/wNYteFpnwIwfIqFuypGSOW5Xg8Fn6OESwsQ2KSvhhMy+R8DBJW24rG1ApDOJtOSgGUElS6RZtc8",
+    "bsi_certification_id": "0403-2021",
+    "bsi_certification_valid_to": 1874534400,
+    "serial_number": "f17ebe83b2e3374f25f91584630530d5d8702267fc469721cf1e5eeca229b8e1",
+    "public_key": "BLI117eSlknY9MKtcL+AuFgrKhhobsNh+rjqFpufiCNMpIgF1Y3BJwEOMrZ3NPiiYDSOH8CSpnOZOq4QmevXRzw=",
+    "signature_counter": "134",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address2": "Berliner Str. 2",
+        "address3": "Offenbach am Main",
+        "description": "TSE_BARRIO_63065",
+        "name": "BARRIO"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.19"
+}
+
+STEP 7 : CREATING CLIENT ID
+~ REQUEST SENT ~
+{
+    "serial_number": "d1f9a999-3add-4e57-9a15-2254c312d210"
+}
+RESPONSE : 
+{
+    "_id": "d1f9a999-3add-4e57-9a15-2254c312d210",
+    "state": "REGISTERED",
+    "serial_number": "d1f9a999-3add-4e57-9a15-2254c312d210",
+    "time_creation": 1731672022,
+    "tss_id": "52155b2c-7feb-4fb4-b0da-c14e73d2d47b",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.19"
+}
+
+TSE_ID: 52155b2c-7feb-4fb4-b0da-c14e73d2d47b
+TSE_CLIENT_ID: d1f9a999-3add-4e57-9a15-2254c312d210
+ADMIN_PIN: 220802
+ADMIN_PUK: 9974066117

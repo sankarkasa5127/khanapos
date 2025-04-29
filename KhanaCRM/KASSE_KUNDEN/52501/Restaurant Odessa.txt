@@ -1,0 +1,200 @@
+OLD TSE : 
+OLD TSE CLIENT ID: 
+OLD ADMIN PUK: 
+OLD ADMIN PIN: 
+
+-------------------------------------------------------------------------
+
+=============NEW================
+ 
+Restaurant Name: Restaurant Odessa
+API Key: live_1veq0hia3qi1rc4omfwae8wz1_odessa-21051801172
+API Secret Key: rR0eg6PLH8qBcmjh4NHm7w8jg6OzL5nL6FwHavpvVlz
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3NDI0NDg5MjIsImlhdCI6MTc0MjM2MjUyMiwianRpIjoiNDI3N2M0NjQtMzkzZS00NTEyLWFiOTUtMGZjNDAxN2ZkMGM1IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiI0Y2IxN2QyYi0wNWIxLTQzOTEtODI5YS1hYjJiNDQyM2Y4MDMiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiNTAxN2Y0ZDEtMzAwYS00MDJkLTliYTAtMzExZTI1MDE4MjZjIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI1MDE3ZjRkMS0zMDBhLTQwMmQtOWJhMC0zMTFlMjUwMTgyNmMiLCJvcmdhbml6YXRpb24iOiIxZmEwZDc2Yi00YjQ1LTQ2NTgtOTNjNy1mNWVlMzU5NTRlZWQiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.ENmmjLekf7GGeqJtVIVv0g4CQTd22lZ_KSipqt2nM1UJfvijzklAVEDyO9jLDThggW_1OCL2UBZycLRccV5ECON_7Oc1XYm_ZvQubK-00R9rI2m_8B_g9HRP9ovnKCopkfXXApvNFpJ2YSXTXpFYkrbDppJd1Ef-qGgRUVMygIcBG9dSNkfmaS3OSAFVDdI_au8K3ua2FiPh0FUTMzK4QGYyjeeU_G9ZY2sbiqx37lH3HqDVabcg6Xznb3oFGzonwDkUieMUGHlOU0K0YVYNnjKuvkQ-ZViMwUR8r4CkLYWyc3est2dfkQ7Rtj9wmgqU95RtajsiOndxmnMGW-jNrQ",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "1fa0d76b-4b45-4658-93c7-f5ee35954eed"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1742448922,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3NDI1MzUzMjIsImlhdCI6MTc0MjM2MjUyMiwianRpIjoiY2RjMjJiMDQtMWIyNi00OWU2LTk4MWQtMTg3OGRlMjYwMTM2IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjRjYjE3ZDJiLTA1YjEtNDM5MS04MjlhLWFiMmI0NDIzZjgwMyIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiNTAxN2Y0ZDEtMzAwYS00MDJkLTliYTAtMzExZTI1MDE4MjZjIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI1MDE3ZjRkMS0zMDBhLTQwMmQtOWJhMC0zMTFlMjUwMTgyNmMifQ.YNbxVrUVP3dR9N2gzC-G45TWhWf6iJS9w1kvksUMCGs",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1742535322
+}
+
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Restaurant Odessa",
+        "address": "Heerlener Str. 1B",
+        "address2": "Uebach-Palenberg",
+        "address3": "",
+        "phone": "",
+        "phone2": "",
+        "description":"TSE_Restaurant Odessa_52531"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQOwAwcdl0w+ktab3HYBQ9JTAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODE0MDEwNFoXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfRjI5ODY3MEM5QjA3NEI4RkJFODYwMkZCOTA5MjU0QUExFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BlYmYwZWUyYzc3NGU5OGM0MTM2NzY0Mjg3NjUxMDRmMzc3MzBlZGIzYWY4YjFmZTQ1ZDkxMTUzMzQ1NThmYWRkMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABNy7bi2vZtKQDkxNzX5fqVMeWgd+F6OhPEEufXPOiaR0jBvYhAS/NScFFJ/JW7VP1GK/4ywC65s6CH9Hl8ba5RWjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMBkmOfE4sqcw2pzOHreWjKWSYpkUgZJSSxRFMJKfg6D7MznQwPjV+zXgtaWCNsznaQIwYlc7/frfUTn43d2zflavhR8Ij1tcm5nNtYck2gqLJHgvwhXRc18Alyp8uzRfhDeO",
+    "serial_number": "ebf0ee2c774e98c413676428765104f37730edb3af8b1fe45d9115334558fadd",
+    "public_key": "BNy7bi2vZtKQDkxNzX5fqVMeWgd+F6OhPEEufXPOiaR0jBvYhAS/NScFFJ/JW7VP1GK/4ywC65s6CH9Hl8ba5RU=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "696aed73-09bb-4802-ab29-bc85b0ffef2a",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.26",
+    "time_creation": 1742362736,
+    "admin_puk": "2942323522",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Restaurant Odessa",
+        "phone": "",
+        "phone2": "",
+        "address": "Heerlener Str. 1B",
+        "address2": "Uebach-Palenberg",
+        "address3": "",
+        "description": "TSE_Restaurant Odessa_52531"
+    }
+}
+
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "696aed73-09bb-4802-ab29-bc85b0ffef2a",
+    "state": "UNINITIALIZED",
+    "time_creation": 1742362736,
+    "time_uninit": 1742362794,
+    "certificate": "MIIEczCCA/qgAwIBAgIQOwAwcdl0w+ktab3HYBQ9JTAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODE0MDEwNFoXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfRjI5ODY3MEM5QjA3NEI4RkJFODYwMkZCOTA5MjU0QUExFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BlYmYwZWUyYzc3NGU5OGM0MTM2NzY0Mjg3NjUxMDRmMzc3MzBlZGIzYWY4YjFmZTQ1ZDkxMTUzMzQ1NThmYWRkMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABNy7bi2vZtKQDkxNzX5fqVMeWgd+F6OhPEEufXPOiaR0jBvYhAS/NScFFJ/JW7VP1GK/4ywC65s6CH9Hl8ba5RWjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMBkmOfE4sqcw2pzOHreWjKWSYpkUgZJSSxRFMJKfg6D7MznQwPjV+zXgtaWCNsznaQIwYlc7/frfUTn43d2zflavhR8Ij1tcm5nNtYck2gqLJHgvwhXRc18Alyp8uzRfhDeO",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "ebf0ee2c774e98c413676428765104f37730edb3af8b1fe45d9115334558fadd",
+    "public_key": "BNy7bi2vZtKQDkxNzX5fqVMeWgd+F6OhPEEufXPOiaR0jBvYhAS/NScFFJ/JW7VP1GK/4ywC65s6CH9Hl8ba5RU=",
+    "signature_counter": "76",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Heerlener Str. 1B",
+        "address2": "Uebach-Palenberg",
+        "description": "TSE_Restaurant Odessa_52531",
+        "name": "Restaurant Odessa"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.26"
+}
+
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "574857"
+}
+RESPONSE:
+{}
+
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "574857"
+}
+RESPONSE:
+{}
+
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "696aed73-09bb-4802-ab29-bc85b0ffef2a",
+    "description": "fiskaly sign cloud-TSE (696aed73-09bb-4802-ab29-bc85b0ffef2a)",
+    "state": "INITIALIZED",
+    "time_creation": 1742362736,
+    "time_uninit": 1742362794,
+    "time_init": 1742363009,
+    "certificate": "MIIEczCCA/qgAwIBAgIQOwAwcdl0w+ktab3HYBQ9JTAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODE0MDEwNFoXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfRjI5ODY3MEM5QjA3NEI4RkJFODYwMkZCOTA5MjU0QUExFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BlYmYwZWUyYzc3NGU5OGM0MTM2NzY0Mjg3NjUxMDRmMzc3MzBlZGIzYWY4YjFmZTQ1ZDkxMTUzMzQ1NThmYWRkMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABNy7bi2vZtKQDkxNzX5fqVMeWgd+F6OhPEEufXPOiaR0jBvYhAS/NScFFJ/JW7VP1GK/4ywC65s6CH9Hl8ba5RWjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMBkmOfE4sqcw2pzOHreWjKWSYpkUgZJSSxRFMJKfg6D7MznQwPjV+zXgtaWCNsznaQIwYlc7/frfUTn43d2zflavhR8Ij1tcm5nNtYck2gqLJHgvwhXRc18Alyp8uzRfhDeO",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "ebf0ee2c774e98c413676428765104f37730edb3af8b1fe45d9115334558fadd",
+    "public_key": "BNy7bi2vZtKQDkxNzX5fqVMeWgd+F6OhPEEufXPOiaR0jBvYhAS/NScFFJ/JW7VP1GK/4ywC65s6CH9Hl8ba5RU=",
+    "signature_counter": "82",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Heerlener Str. 1B",
+        "address2": "Uebach-Palenberg",
+        "description": "TSE_Restaurant Odessa_52531",
+        "name": "Restaurant Odessa"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.26"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "df100f92-92bf-4d85-93a8-f953f12d1d62"
+}
+RESPONSE:
+{
+    "_id": "df100f92-92bf-4d85-93a8-f953f12d1d62",
+    "state": "REGISTERED",
+    "serial_number": "df100f92-92bf-4d85-93a8-f953f12d1d62",
+    "time_creation": 1742363069,
+    "tss_id": "696aed73-09bb-4802-ab29-bc85b0ffef2a",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.26"
+}
+
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_1veq0hia3qi1rc4omfwae8wz1_odessa-21051801172
+FISKALY API SECRET: rR0eg6PLH8qBcmjh4NHm7w8jg6OzL5nL6FwHavpvVlz
+TSE ID: 696aed73-09bb-4802-ab29-bc85b0ffef2a
+TSE CLIENT ID: df100f92-92bf-4d85-93a8-f953f12d1d62
+ADMIN PUK: 2942323522
+ADMIN PIN: 574857

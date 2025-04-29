@@ -1,0 +1,190 @@
+OLD TSE : 
+OLD TSE CLIENT ID: 
+OLD ADMIN PUK: 
+OLD ADMIN PIN: 
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3Mzk0ODUxNTcsImlhdCI6MTczOTM5ODc1NywianRpIjoiYmJiZGVjMDgtYjRjYy00NjdhLWFlNTktMGMwYzA0NTZjZGQ3IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiI1MjBjZDY3Ny02NmI4LTQ5YzEtYjZmNy0zZmU3MGVlODlmZGIiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiYTI3MzE2NjAtN2Q2MC00MjNlLTgyNjktYjc5N2UwMTk2YjAyIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJhMjczMTY2MC03ZDYwLTQyM2UtODI2OS1iNzk3ZTAxOTZiMDIiLCJvcmdhbml6YXRpb24iOiI3YTlmYzBjNy1iOWFiLTQyMGQtOTU1OS1jMDdmMjNkZGE0MDkiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.T8DWjZQtQ93oY7l3hy7_Bx3_OaLwCWnWAvMqwGL3uIqQTXoJQjaggynpmg9koSsTuUKiNInwu70O1FWaQsCPpd8MimhhHEKOm11EYg4kgnM_XWWMWUEuPD2kOjiEgznSAt3KVkKm_55JTlHfIRbc__VOW4mNpaxapXWHwYGT9AUVLUEIcUvHxZMzqry33nPH6hSwf4C_T2vL0KRo9u76yLiTtvnzRqGHFbPddxZzIxDNRx5D71li4pUbAZdzdZiWfBSwDSg5IuebFU0wndoby9axM8vY00PT1q_EuCHKBmjZOdQS7xnUmrq4Q6tVfQA3AhIggLJX9hTvnYMe__W2Ag",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "7a9fc0c7-b9ab-420d-9559-c07f23dda409"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1739485157,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3Mzk1NzE1NTcsImlhdCI6MTczOTM5ODc1NywianRpIjoiN2Q4NmFmZDMtY2IzYi00ZTkwLTg3NjUtYjYwZmU1OTlmYmJiIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjUyMGNkNjc3LTY2YjgtNDljMS1iNmY3LTNmZTcwZWU4OWZkYiIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiYTI3MzE2NjAtN2Q2MC00MjNlLTgyNjktYjc5N2UwMTk2YjAyIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJhMjczMTY2MC03ZDYwLTQyM2UtODI2OS1iNzk3ZTAxOTZiMDIifQ.fe74Xx4gqYx6vMD9IZ8IZRmmzO0I_ee-7rugMTwoTfc",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1739571557
+}
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Pattaya Restaurant",
+        "address": "Sömmerringstraße 4",
+        "address2": "",
+        "address3": "Frankfurt am Main",
+        "phone": "+496995209360",
+        "phone2": "",
+        "description":"TSE_Pattaya Restaurant_60322"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQPg16OCu9jIXMffskRPWC1TAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3NTYzMFoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfN0U1MjYwOTIwQzJBNDVEMEIyNDNEODZCM0NBNkVENEIxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A1YTYwZWJmMDIzMTVhYjFkMzI1NjQ4NWE2NmU3Y2YzZjhkMzZiMTMxMDAzMGZiNjc5MWZlOWEyOTI2MjBkMGZiMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABMdzOqIz+kioKcFV+BKciVtTkbbazIDkFhemTqKUio245Z+wCRmCwRyZCVsSqjdbIKhMVR/19Y69schK8VhK09ejggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMDi2+9mRjMA0pgTRUWQ4dC16Yckr8cGKZbzoJa/DpCuePAgiw6RUbeUyn9n69bToBQIwfg2eHsHi4a6e3BpaHF4rsgq6CNL5mlMtIPZSW9wRy7zwwCZBeNg3mYKH0cqoDZUY",
+    "serial_number": "5a60ebf02315ab1d3256485a66e7cf3f8d36b1310030fb6791fe9a292620d0fb",
+    "public_key": "BMdzOqIz+kioKcFV+BKciVtTkbbazIDkFhemTqKUio245Z+wCRmCwRyZCVsSqjdbIKhMVR/19Y69schK8VhK09c=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "0dce90e8-959b-45bc-ba90-300efd7b2e0c",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23",
+    "time_creation": 1739398891,
+    "admin_puk": "5526621234",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Pattaya Restaurant",
+        "phone": "+496995209360",
+        "phone2": "",
+        "address": "Sömmerringstraße 4",
+        "address2": "",
+        "address3": "Frankfurt am Main",
+        "description": "TSE_Pattaya Restaurant_60322"
+    }
+}
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "0dce90e8-959b-45bc-ba90-300efd7b2e0c",
+    "state": "UNINITIALIZED",
+    "time_creation": 1739398891,
+    "time_uninit": 1739398923,
+    "certificate": "MIIEczCCA/qgAwIBAgIQPg16OCu9jIXMffskRPWC1TAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3NTYzMFoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfN0U1MjYwOTIwQzJBNDVEMEIyNDNEODZCM0NBNkVENEIxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A1YTYwZWJmMDIzMTVhYjFkMzI1NjQ4NWE2NmU3Y2YzZjhkMzZiMTMxMDAzMGZiNjc5MWZlOWEyOTI2MjBkMGZiMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABMdzOqIz+kioKcFV+BKciVtTkbbazIDkFhemTqKUio245Z+wCRmCwRyZCVsSqjdbIKhMVR/19Y69schK8VhK09ejggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMDi2+9mRjMA0pgTRUWQ4dC16Yckr8cGKZbzoJa/DpCuePAgiw6RUbeUyn9n69bToBQIwfg2eHsHi4a6e3BpaHF4rsgq6CNL5mlMtIPZSW9wRy7zwwCZBeNg3mYKH0cqoDZUY",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "5a60ebf02315ab1d3256485a66e7cf3f8d36b1310030fb6791fe9a292620d0fb",
+    "public_key": "BMdzOqIz+kioKcFV+BKciVtTkbbazIDkFhemTqKUio245Z+wCRmCwRyZCVsSqjdbIKhMVR/19Y69schK8VhK09c=",
+    "signature_counter": "113",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Sömmerringstraße 4",
+        "address3": "Frankfurt am Main",
+        "description": "TSE_Pattaya Restaurant_60322",
+        "name": "Pattaya Restaurant",
+        "phone": "+496995209360"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "897985"
+}
+RESPONSE:
+200 OK
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "897985"
+}
+RESPONSE:
+200 OK
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "0dce90e8-959b-45bc-ba90-300efd7b2e0c",
+    "description": "fiskaly sign cloud-TSE (0dce90e8-959b-45bc-ba90-300efd7b2e0c)",
+    "state": "INITIALIZED",
+    "time_creation": 1739398891,
+    "time_uninit": 1739398923,
+    "time_init": 1739398984,
+    "certificate": "MIIEczCCA/qgAwIBAgIQPg16OCu9jIXMffskRPWC1TAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3NTYzMFoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfN0U1MjYwOTIwQzJBNDVEMEIyNDNEODZCM0NBNkVENEIxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A1YTYwZWJmMDIzMTVhYjFkMzI1NjQ4NWE2NmU3Y2YzZjhkMzZiMTMxMDAzMGZiNjc5MWZlOWEyOTI2MjBkMGZiMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABMdzOqIz+kioKcFV+BKciVtTkbbazIDkFhemTqKUio245Z+wCRmCwRyZCVsSqjdbIKhMVR/19Y69schK8VhK09ejggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMDi2+9mRjMA0pgTRUWQ4dC16Yckr8cGKZbzoJa/DpCuePAgiw6RUbeUyn9n69bToBQIwfg2eHsHi4a6e3BpaHF4rsgq6CNL5mlMtIPZSW9wRy7zwwCZBeNg3mYKH0cqoDZUY",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "5a60ebf02315ab1d3256485a66e7cf3f8d36b1310030fb6791fe9a292620d0fb",
+    "public_key": "BMdzOqIz+kioKcFV+BKciVtTkbbazIDkFhemTqKUio245Z+wCRmCwRyZCVsSqjdbIKhMVR/19Y69schK8VhK09c=",
+    "signature_counter": "119",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Sömmerringstraße 4",
+        "address3": "Frankfurt am Main",
+        "description": "TSE_Pattaya Restaurant_60322",
+        "name": "Pattaya Restaurant",
+        "phone": "+496995209360"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "61999f63-065f-4856-b40c-53e39ef8d4d0"
+}
+RESPONSE:
+{
+    "_id": "61999f63-065f-4856-b40c-53e39ef8d4d0",
+    "state": "REGISTERED",
+    "serial_number": "61999f63-065f-4856-b40c-53e39ef8d4d0",
+    "time_creation": 1739399027,
+    "tss_id": "0dce90e8-959b-45bc-ba90-300efd7b2e0c",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_79chqxzbmiljrmnlfwe1nard5_pattayarestaurant-1487009972
+FISKALY API SECRET: waiy1crzL8GRJhu809WhWQvhVbjbZLkeN7OAOmzjF8q
+TSE ID: 0dce90e8-959b-45bc-ba90-300efd7b2e0c
+TSE CLIENT ID: 61999f63-065f-4856-b40c-53e39ef8d4d0
+ADMIN PUK: 5526621234
+ADMIN PIN: 897985

@@ -1,0 +1,202 @@
+OLD TSE : 
+OLD TSE CLIENT ID: 
+OLD ADMIN PUK: 
+OLD ADMIN PIN: 
+
+-------------------------------------------------------------------------
+
+=============NEW================
+ 
+Restaurant Name: KERALA
+API Key: live_7hxuor8tx7l6lpifaxxgj7090_kerala-14312761662
+API Secret Key: OBXTdRFgB8yFa1hxBFyIngMdl5rOg0eIGMHXjcfN3gk
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3Mzk4NzIxOTQsImlhdCI6MTczOTc4NTc5NCwianRpIjoiYmI2ZDNjNGUtYjYwZi00ZDBmLWFlMmQtZmFjOTQzZmFhMThiIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiIwMjgwYjNjZS00YTdhLTQ0NTgtYWVkYy1hZGM0YTJmNzFiMTEiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiMzVjNmQzMDEtOTBhYS00ZDJhLTg5MzktYzBkMWU5NTZjMDRhIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIzNWM2ZDMwMS05MGFhLTRkMmEtODkzOS1jMGQxZTk1NmMwNGEiLCJvcmdhbml6YXRpb24iOiI3ZWE3ZjBlZi1iZTg0LTQ2N2UtOTM0ZC0zNjk4ODFlMzgwMDQiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.Tx3vapCRMqWnYijpc8uFHvXDLYTimWs0d_Rf-PHsuCISNde5K__cpwaOeEDeFZYsDASIXBfJD73gIG1y48Uxc7XXIRHahgETlw3dTPWa81KLHjrGt1DeohS607iY3eGz7ve5iSePtK1RMJ_JcEhdE1BKbStrQXFjqCZz69Aaa8PTl9BuIB7gOQ_hIDL-5_rY1_4CjEIodRrKS9yz2ojlSYPHdgEFyAFycsvmWDM7628yi8i1ZoilGstOQtH99S97qREicBRhfhpptEGuvxckNmzOatACegkxjBtwrQOtNbPAlXm74nk84u3MWwyMs6PftcB-yVdcKDuAa7kr3gX7cw",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "7ea7f0ef-be84-467e-934d-369881e38004"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1739872194,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3Mzk5NTg1OTQsImlhdCI6MTczOTc4NTc5NCwianRpIjoiYjY2ZjY4MzUtYmE1Ni00Yzk3LTgwNDEtNjA5NDgzNjZjNjI3IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjAyODBiM2NlLTRhN2EtNDQ1OC1hZWRjLWFkYzRhMmY3MWIxMSIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiMzVjNmQzMDEtOTBhYS00ZDJhLTg5MzktYzBkMWU5NTZjMDRhIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIzNWM2ZDMwMS05MGFhLTRkMmEtODkzOS1jMGQxZTk1NmMwNGEifQ.1nKTPWbuDo3GFedYaZpBfNDD5fjggZHtuYJITpx3dTY",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1739958594
+}
+
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "KERALA",
+        "address": "Dakshin UG",
+        "address2": "Prinzregentenplatz 23",
+        "address3": "Muenchen",
+        "phone": "",
+        "phone2": "",
+        "description":"TSE_KERALA_81675"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQKlXp0GKzmfSED3k00CTQkDAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA4MTcyNVoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfREU5OEYxQjg2QkZGNEFEMjhDRTZCMDI3NjA0REZCQ0YxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BmZGI5YzBhMmRmNjA4Y2I0YWEyYmQ2MmY4NDRmNGY2YzNiOGY1ZTRlZDIzNGNkNmExZDE3YjA0NGNlMjkyNzU3MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABPQ8SL/Wl1VJ7rpDa/nkoetgga3R24G1jqxWf2OEYUZvdyM1ku9ke3bMQ56QSK97IBm6ci/+KMLl9NM6kj0tR/2jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMF1C4UDj7aSuqC7lkniLRB/qp2Pmk8j1fqf9Z9wDvPPP28Rpe/PnrqNqgpMTFKJHHgIwWqzMrVo+lRuBfpRoHd7GqX6uwmmia8aNXYYZWsN/PLoq1zBiAF4lS+w/J6crWZqi",
+    "serial_number": "fdb9c0a2df608cb4aa2bd62f844f4f6c3b8f5e4ed234cd6a1d17b044ce292757",
+    "public_key": "BPQ8SL/Wl1VJ7rpDa/nkoetgga3R24G1jqxWf2OEYUZvdyM1ku9ke3bMQ56QSK97IBm6ci/+KMLl9NM6kj0tR/0=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "8a8db958-e538-477b-ae74-8fcb2fc1f3c7",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23",
+    "time_creation": 1739785915,
+    "admin_puk": "7322015386",
+    "state": "CREATED",
+    "metadata": {
+        "name": "KERALA",
+        "phone": "",
+        "phone2": "",
+        "address": "Dakshin UG",
+        "address2": "Prinzregentenplatz 23",
+        "address3": "Muenchen",
+        "description": "TSE_KERALA_81675"
+    }
+}
+
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "8a8db958-e538-477b-ae74-8fcb2fc1f3c7",
+    "state": "UNINITIALIZED",
+    "time_creation": 1739785915,
+    "time_uninit": 1739785970,
+    "certificate": "MIIEczCCA/qgAwIBAgIQKlXp0GKzmfSED3k00CTQkDAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA4MTcyNVoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfREU5OEYxQjg2QkZGNEFEMjhDRTZCMDI3NjA0REZCQ0YxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BmZGI5YzBhMmRmNjA4Y2I0YWEyYmQ2MmY4NDRmNGY2YzNiOGY1ZTRlZDIzNGNkNmExZDE3YjA0NGNlMjkyNzU3MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABPQ8SL/Wl1VJ7rpDa/nkoetgga3R24G1jqxWf2OEYUZvdyM1ku9ke3bMQ56QSK97IBm6ci/+KMLl9NM6kj0tR/2jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMF1C4UDj7aSuqC7lkniLRB/qp2Pmk8j1fqf9Z9wDvPPP28Rpe/PnrqNqgpMTFKJHHgIwWqzMrVo+lRuBfpRoHd7GqX6uwmmia8aNXYYZWsN/PLoq1zBiAF4lS+w/J6crWZqi",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "fdb9c0a2df608cb4aa2bd62f844f4f6c3b8f5e4ed234cd6a1d17b044ce292757",
+    "public_key": "BPQ8SL/Wl1VJ7rpDa/nkoetgga3R24G1jqxWf2OEYUZvdyM1ku9ke3bMQ56QSK97IBm6ci/+KMLl9NM6kj0tR/0=",
+    "signature_counter": "118",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Dakshin UG",
+        "address2": "Prinzregentenplatz 23",
+        "address3": "Muenchen",
+        "description": "TSE_KERALA_81675",
+        "name": "KERALA"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "025874"
+}
+RESPONSE:
+{}
+
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "025874"
+}
+RESPONSE:
+{}
+
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "8a8db958-e538-477b-ae74-8fcb2fc1f3c7",
+    "description": "fiskaly sign cloud-TSE (8a8db958-e538-477b-ae74-8fcb2fc1f3c7)",
+    "state": "INITIALIZED",
+    "time_creation": 1739785915,
+    "time_uninit": 1739785970,
+    "time_init": 1739786200,
+    "certificate": "MIIEczCCA/qgAwIBAgIQKlXp0GKzmfSED3k00CTQkDAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA4MTcyNVoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfREU5OEYxQjg2QkZGNEFEMjhDRTZCMDI3NjA0REZCQ0YxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BmZGI5YzBhMmRmNjA4Y2I0YWEyYmQ2MmY4NDRmNGY2YzNiOGY1ZTRlZDIzNGNkNmExZDE3YjA0NGNlMjkyNzU3MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABPQ8SL/Wl1VJ7rpDa/nkoetgga3R24G1jqxWf2OEYUZvdyM1ku9ke3bMQ56QSK97IBm6ci/+KMLl9NM6kj0tR/2jggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMF1C4UDj7aSuqC7lkniLRB/qp2Pmk8j1fqf9Z9wDvPPP28Rpe/PnrqNqgpMTFKJHHgIwWqzMrVo+lRuBfpRoHd7GqX6uwmmia8aNXYYZWsN/PLoq1zBiAF4lS+w/J6crWZqi",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "fdb9c0a2df608cb4aa2bd62f844f4f6c3b8f5e4ed234cd6a1d17b044ce292757",
+    "public_key": "BPQ8SL/Wl1VJ7rpDa/nkoetgga3R24G1jqxWf2OEYUZvdyM1ku9ke3bMQ56QSK97IBm6ci/+KMLl9NM6kj0tR/0=",
+    "signature_counter": "124",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Dakshin UG",
+        "address2": "Prinzregentenplatz 23",
+        "address3": "Muenchen",
+        "description": "TSE_KERALA_81675",
+        "name": "KERALA"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "58dd87d3-4b84-4644-8006-1d8534a3beeb"
+}
+RESPONSE:
+{
+    "_id": "58dd87d3-4b84-4644-8006-1d8534a3beeb",
+    "state": "REGISTERED",
+    "serial_number": "58dd87d3-4b84-4644-8006-1d8534a3beeb",
+    "time_creation": 1739786259,
+    "tss_id": "8a8db958-e538-477b-ae74-8fcb2fc1f3c7",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_7hxuor8tx7l6lpifaxxgj7090_kerala-14312761662
+FISKALY API SECRET: OBXTdRFgB8yFa1hxBFyIngMdl5rOg0eIGMHXjcfN3gk
+TSE ID: 8a8db958-e538-477b-ae74-8fcb2fc1f3c7
+TSE CLIENT ID: 58dd87d3-4b84-4644-8006-1d8534a3beeb
+ADMIN PUK: 7322015386
+ADMIN PIN: 025874

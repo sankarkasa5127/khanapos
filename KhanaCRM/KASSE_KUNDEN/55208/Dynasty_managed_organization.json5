@@ -1,0 +1,91 @@
+DYNASTY
+
+API_KEY:live_zava1pfzdtihtzdvcoqo6dog_dynasty-0810150616
+
+API_SECRET:EymgoKYDSfckP4WRsw5Qi5RuAooFjIT3QkTnkbHnSnx
+
+steps to create tse-v2:
+step1:
+request:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+response:
+{"access_token":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3Mzc3OTA0MzMsImlhdCI6MTczNzcwNDAzMywianRpIjoiODg1Y2UzNWUtOTA1ZS00MzJkLWFlZGItMjFhZWYwMTIxNmMwIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiIwMDg4MzM3Zi02OWE1LTQ1MTMtOTc3Ny1jMmUwMjJmMTUwNmIiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiNjA4YTllYzMtZWMzNy00ZTM5LTljYjMtYmFlNWMzZTY0ODdkIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI2MDhhOWVjMy1lYzM3LTRlMzktOWNiMy1iYWU1YzNlNjQ4N2QiLCJvcmdhbml6YXRpb24iOiIxMDkwNGJmMi0xZmRjLTQ4ZWUtYjZlYS1jMmVmOWI5N2NhYzAiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.Jhp26duxwdutnf8wO4XPBVNi88xPd540gI7eRhLeBgDY05jpwB-6INuVCVC2C7KbrMwt5gMuktnyyjDan2OHnZOA1swhE6Uh_pYwG-EcXG6nhaF1tEGyXia7OuDOCpaqnz0iHHVE356smq4DR2mIzQIWHV8QGs4z2Nx0wjEZr0qA-fEFBxQH0FOTz-VmiACImTlEsNPn3TZD4DeBfDcCvamw0sFWD947e67r3_cIT8k6TaY3Jgw_g8XzueccTl3zug5dIxvzVFv70uz-m9xfk8zlDbf8GzoLW4Yx7vi1doqsWzQF7X4KfUxlxKT33NoIG2L1GpIJyxDuItvChf4CoA","access_token_claims":{"env":"LIVE","organization_id":"10904bf2-1fdc-48ee-b6ea-c2ef9b97cac0"},"access_token_expires_in":86400,"access_token_expires_at":1737790433,"refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3Mzc4NzY4MzMsImlhdCI6MTczNzcwNDAzMywianRpIjoiOWQ4Y2EwNjgtZDVlMi00ZDk0LWIyODctNjA0NmNlMDM4MmM3IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjAwODgzMzdmLTY5YTUtNDUxMy05Nzc3LWMyZTAyMmYxNTA2YiIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiNjA4YTllYzMtZWMzNy00ZTM5LTljYjMtYmFlNWMzZTY0ODdkIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI2MDhhOWVjMy1lYzM3LTRlMzktOWNiMy1iYWU1YzNlNjQ4N2QifQ.Z73UnxmxtMtPS7BABE6t0JNfgJD4oYYDBxnF3oVmtRM","refresh_token_expires_in":172800,"refresh_token_expires_at":1737876833}
+
+step2:
+create tss:
+request:
+{
+    "metadata": {
+        "name": "Dynasty",
+        "address": "China Restaurant",
+        "address2": "Marie-Curie-Ring 9",
+        "address3": "Saulheim",
+        "phone": "067329329089",
+        "phone2": "",
+        "description":"TSE_Dynasty_55291"
+
+    }
+	
+	response:
+	{"certificate":"MIIEczCCA/qgAwIBAgIQIXCUJevpkRbUvhwll9wqGjAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTExMzk1M1oXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfRDE1Qjc1RURDM0I1NDczQjk2MDk4NzY0RjU0QUZGQ0IxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A1YmU2ZjNmNjYwMzcyMjc3ZTIzMjIxYWIyMjA5ODZlMmM3OGJkOWY5MTU1YjIzMDY3NGM1ZWUwMTU5NjJkNjc0MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJ+R2bRAfn4/VFmogsbrixcuzkEXOrR9f8YLWjZFHheEtyBXRgHKp39YbC8jpNgJ83d27ylOVPT9/UnYKaKveCqjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMBU/otobjM9sXhL91Qg24zReufOtD0lv5YUYKTaNmZqatDmk7b72iOgKP+3U72YCxAIwDPxGSBzf8lglwtXndbMnylbcshjHZeQchvUc8cmGpF+TeBZMKeOBvOYPyoWoROCO","serial_number":"5be6f3f660372277e23221ab220986e2c78bd9f9155b230674c5ee015962d674","public_key":"BJ+R2bRAfn4/VFmogsbrixcuzkEXOrR9f8YLWjZFHheEtyBXRgHKp39YbC8jpNgJ83d27ylOVPT9/UnYKaKveCo=","signature_algorithm":"ecdsa-plain-SHA256","signature_timestamp_format":"unixTime","transaction_data_encoding":"UTF-8","max_number_registered_clients":199,"max_number_active_transactions":2000,"supported_update_variants":"SIGNED","_id":"25ba3860-0ee9-48af-afc8-df1e266d2e53","_type":"TSS","_env":"LIVE","_version":"2.1.22","time_creation":1737709516,"admin_puk":"0802335518","state":"CREATED","metadata":{"name":"Dynasty","phone":"067329329089","phone2":"","address":"China Restaurant","address2":"Marie-Curie-Ring 9","address3":"Saulheim","description":"TSE_Dynasty_55291"}}
+	
+step 3:
+Personalize TSS
+request:
+{
+    "state": "UNINITIALIZED"
+}
+
+response:
+{"_id":"25ba3860-0ee9-48af-afc8-df1e266d2e53","state":"UNINITIALIZED","time_creation":1737709516,"time_uninit":1737710082,"certificate":"MIIEczCCA/qgAwIBAgIQIXCUJevpkRbUvhwll9wqGjAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTExMzk1M1oXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfRDE1Qjc1RURDM0I1NDczQjk2MDk4NzY0RjU0QUZGQ0IxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A1YmU2ZjNmNjYwMzcyMjc3ZTIzMjIxYWIyMjA5ODZlMmM3OGJkOWY5MTU1YjIzMDY3NGM1ZWUwMTU5NjJkNjc0MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJ+R2bRAfn4/VFmogsbrixcuzkEXOrR9f8YLWjZFHheEtyBXRgHKp39YbC8jpNgJ83d27ylOVPT9/UnYKaKveCqjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMBU/otobjM9sXhL91Qg24zReufOtD0lv5YUYKTaNmZqatDmk7b72iOgKP+3U72YCxAIwDPxGSBzf8lglwtXndbMnylbcshjHZeQchvUc8cmGpF+TeBZMKeOBvOYPyoWoROCO","bsi_certification_id":"0403-2021","serial_number":"5be6f3f660372277e23221ab220986e2c78bd9f9155b230674c5ee015962d674","public_key":"BJ+R2bRAfn4/VFmogsbrixcuzkEXOrR9f8YLWjZFHheEtyBXRgHKp39YbC8jpNgJ83d27ylOVPT9/UnYKaKveCo=","signature_counter":"97","signature_algorithm":"ecdsa-plain-SHA256","signature_timestamp_format":"unixTime","transaction_data_encoding":"UTF-8","number_registered_clients":0,"max_number_registered_clients":199,"number_active_transactions":0,"max_number_active_transactions":2000,"supported_update_variants":"SIGNED","metadata":{"address":"China Restaurant","address2":"Marie-Curie-Ring 9","address3":"Saulheim","description":"TSE_Dynasty_55291","name":"Dynasty","phone":"067329329089"},"_type":"TSS","_env":"LIVE","_version":"2.1.22"}
+step 4:
+changing admin-pin:
+request:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "901590"
+}
+response:
+{}
+
+step5:
+Authenticate Admin
+
+request:
+{
+	"admin_pin": "901590"
+}
+response:
+{}
+
+step6:
+
+request:
+{
+    "state": "INITIALIZED"
+}
+
+response:
+
+{"_id":"25ba3860-0ee9-48af-afc8-df1e266d2e53","description":"fiskaly sign cloud-TSE (25ba3860-0ee9-48af-afc8-df1e266d2e53)","state":"INITIALIZED","time_creation":1737709516,"time_uninit":1737710082,"time_init":1737710935,"certificate":"MIIEczCCA/qgAwIBAgIQIXCUJevpkRbUvhwll9wqGjAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyNTExMzk1M1oXDTMyMTAyNTIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfRDE1Qjc1RURDM0I1NDczQjk2MDk4NzY0RjU0QUZGQ0IxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A1YmU2ZjNmNjYwMzcyMjc3ZTIzMjIxYWIyMjA5ODZlMmM3OGJkOWY5MTU1YjIzMDY3NGM1ZWUwMTU5NjJkNjc0MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJ+R2bRAfn4/VFmogsbrixcuzkEXOrR9f8YLWjZFHheEtyBXRgHKp39YbC8jpNgJ83d27ylOVPT9/UnYKaKveCqjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMBU/otobjM9sXhL91Qg24zReufOtD0lv5YUYKTaNmZqatDmk7b72iOgKP+3U72YCxAIwDPxGSBzf8lglwtXndbMnylbcshjHZeQchvUc8cmGpF+TeBZMKeOBvOYPyoWoROCO","bsi_certification_id":"0403-2021","serial_number":"5be6f3f660372277e23221ab220986e2c78bd9f9155b230674c5ee015962d674","public_key":"BJ+R2bRAfn4/VFmogsbrixcuzkEXOrR9f8YLWjZFHheEtyBXRgHKp39YbC8jpNgJ83d27ylOVPT9/UnYKaKveCo=","signature_counter":"103","signature_algorithm":"ecdsa-plain-SHA256","signature_timestamp_format":"unixTime","transaction_data_encoding":"UTF-8","number_registered_clients":0,"max_number_registered_clients":199,"number_active_transactions":0,"max_number_active_transactions":2000,"supported_update_variants":"SIGNED","metadata":{"address":"China Restaurant","address2":"Marie-Curie-Ring 9","address3":"Saulheim","description":"TSE_Dynasty_55291","name":"Dynasty","phone":"067329329089"},"_type":"TSS","_env":"LIVE","_version":"2.1.22"}
+
+
+step7:
+request:
+{
+	"serial_number": "{{$guid}}"
+}
+
+response:
+{"_id":"076e535a-8d39-4747-8eef-cf35fa3d3554","state":"REGISTERED","serial_number":"076e535a-8d39-4747-8eef-cf35fa3d3554","time_creation":1737711190,"tss_id":"25ba3860-0ee9-48af-afc8-df1e266d2e53","_type":"CLIENT","_env":"LIVE","_version":"2.1.22"}
+
+
+TSE_ID:25ba3860-0ee9-48af-afc8-df1e266d2e53
+TSE_CLIENT_ID:076e535a-8d39-4747-8eef-cf35fa3d3554
+ADMIN-PIN:901590
+ADMIN_PUK:0802335518
+
+

@@ -1,0 +1,190 @@
+OLD TSE : 
+OLD TSE CLIENT ID: 
+OLD ADMIN PUK: 
+OLD ADMIN PIN: 
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3NDExODM1ODEsImlhdCI6MTc0MTA5NzE4MSwianRpIjoiZWZiYjA1MjktNGI3ZC00MWYxLWE3MDEtMDE5MWRmMzMxNGU2IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiJlMTc5MmNmMy0zZjdkLTRlZDktYmQzNS05MTI3YjJhYzNiZTciLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiYzI3Mjc0YTMtYWViYy00ZjBkLWFlZWQtOTExYWI5M2JmNDk2Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJjMjcyNzRhMy1hZWJjLTRmMGQtYWVlZC05MTFhYjkzYmY0OTYiLCJvcmdhbml6YXRpb24iOiI4MzJmNmM4OC04NmI1LTQwODUtODI0NS01OTA3OTk0MmQwZDgiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.ZednMfYs0fF95nteyadm46jDgYP0PGjJlv9-yhjujQf55QQ1Ith4gDtvIsjkW8N3QHspSu8pE3GI0Bra4NrcwqUfNFk5geN4z6HFbzAJUd2D0GB9jD8rLpoLT1Ak6BjjtXVEaDgVIzyv5tg40luHf33aehuuCKdJu2WvuTePLFrH5bT4PNGjGjHN8Kd1PEKlVEwAyZcj6SCoayd1oYBFJrVbyshuVFa6GK355B0bkp19lZG1CB_07jcY5kZ3lq1KH5VJcLz7oWWpUXOmFXTw5XurtdEcYtHb9s4t5JyyTa68LA_3Ueob_0mguSSKVlzJHfZYxWlbJiV8gMQmiJ4Twg",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "832f6c88-86b5-4085-8245-59079942d0d8"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1741183581,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3NDEyNjk5ODEsImlhdCI6MTc0MTA5NzE4MSwianRpIjoiNTRhYzI5Y2EtMmUxOS00ZjkwLTg2N2UtOWIwNmViNGUzZDg1IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6ImUxNzkyY2YzLTNmN2QtNGVkOS1iZDM1LTkxMjdiMmFjM2JlNyIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiYzI3Mjc0YTMtYWViYy00ZjBkLWFlZWQtOTExYWI5M2JmNDk2Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiJjMjcyNzRhMy1hZWJjLTRmMGQtYWVlZC05MTFhYjkzYmY0OTYifQ.xBhopVMoz5xT05oUw7hjN4mDA3z5YsQcx-zEx757RlQ",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1741269981
+}
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Elizee",
+        "address": "Fleischstrasse 56-60",
+        "address2": "",
+        "address3": "Trier",
+        "phone": "+49 176 23347757",
+        "phone2": "",
+        "description":"TSE_Elizee_54290"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQEBRL5AN+v3gaGLv/sMZbtzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODExMjYyNFoXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMkQyMTc3RjgyMEFBNENGOUEwMEUwMjZDNDYwQ0I5QjkxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BiYzcxZTQ2OGZkZDRkY2EyMTNjY2NmNDdkZDhiOTQ1N2NlNDRlMDQzYWIwNzBlOGQ2OWY2NjM2MjkyYTEzMDAxMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJXvOwUa9QGBObJeQXO/usM1W4/uBRmPP5hH9ad1cySKU+hcuGzGP+PUeQJfpu1jTUO9tOwXlLh6IwFD45iw6vqjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMAu2iuO9Xf9UDyb6eae00ny87aBE/09Aw/KM76Tkaz9N4cZ/oUM7P0IH4swaHBKkeAIwBPhMO9WK7HACPv7qQzHZH+bQJt7stu9anJ/vIju0NwpEL5HUNBX6qnWvrm8hnWU4",
+    "serial_number": "bc71e468fdd4dca213cccf47dd8b9457ce44e043ab070e8d69f6636292a13001",
+    "public_key": "BJXvOwUa9QGBObJeQXO/usM1W4/uBRmPP5hH9ad1cySKU+hcuGzGP+PUeQJfpu1jTUO9tOwXlLh6IwFD45iw6vo=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "b124e41d-a7fd-4bf7-9a72-2516b75c2508",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.25",
+    "time_creation": 1741097301,
+    "admin_puk": "9327990039",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Elizee",
+        "phone": "+49 176 23347757",
+        "phone2": "",
+        "address": "Fleischstrasse 56-60",
+        "address2": "",
+        "address3": "Trier",
+        "description": "TSE_Elizee_54290"
+    }
+}
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "b124e41d-a7fd-4bf7-9a72-2516b75c2508",
+    "state": "UNINITIALIZED",
+    "time_creation": 1741097301,
+    "time_uninit": 1741097325,
+    "certificate": "MIIEczCCA/qgAwIBAgIQEBRL5AN+v3gaGLv/sMZbtzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODExMjYyNFoXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMkQyMTc3RjgyMEFBNENGOUEwMEUwMjZDNDYwQ0I5QjkxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BiYzcxZTQ2OGZkZDRkY2EyMTNjY2NmNDdkZDhiOTQ1N2NlNDRlMDQzYWIwNzBlOGQ2OWY2NjM2MjkyYTEzMDAxMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJXvOwUa9QGBObJeQXO/usM1W4/uBRmPP5hH9ad1cySKU+hcuGzGP+PUeQJfpu1jTUO9tOwXlLh6IwFD45iw6vqjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMAu2iuO9Xf9UDyb6eae00ny87aBE/09Aw/KM76Tkaz9N4cZ/oUM7P0IH4swaHBKkeAIwBPhMO9WK7HACPv7qQzHZH+bQJt7stu9anJ/vIju0NwpEL5HUNBX6qnWvrm8hnWU4",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "bc71e468fdd4dca213cccf47dd8b9457ce44e043ab070e8d69f6636292a13001",
+    "public_key": "BJXvOwUa9QGBObJeQXO/usM1W4/uBRmPP5hH9ad1cySKU+hcuGzGP+PUeQJfpu1jTUO9tOwXlLh6IwFD45iw6vo=",
+    "signature_counter": "61",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Fleischstrasse 56-60",
+        "address3": "Trier",
+        "description": "TSE_Elizee_54290",
+        "name": "Elizee",
+        "phone": "+49 176 23347757"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.25"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "4568956"
+}
+RESPONSE:
+200 OK
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "4568956"
+}
+RESPONSE:
+200 OK
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "b124e41d-a7fd-4bf7-9a72-2516b75c2508",
+    "description": "fiskaly sign cloud-TSE (b124e41d-a7fd-4bf7-9a72-2516b75c2508)",
+    "state": "INITIALIZED",
+    "time_creation": 1741097301,
+    "time_uninit": 1741097325,
+    "time_init": 1741097424,
+    "certificate": "MIIEczCCA/qgAwIBAgIQEBRL5AN+v3gaGLv/sMZbtzAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI1MDEwODExMjYyNFoXDTMzMDEwODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfMkQyMTc3RjgyMEFBNENGOUEwMEUwMjZDNDYwQ0I5QjkxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BiYzcxZTQ2OGZkZDRkY2EyMTNjY2NmNDdkZDhiOTQ1N2NlNDRlMDQzYWIwNzBlOGQ2OWY2NjM2MjkyYTEzMDAxMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJXvOwUa9QGBObJeQXO/usM1W4/uBRmPP5hH9ad1cySKU+hcuGzGP+PUeQJfpu1jTUO9tOwXlLh6IwFD45iw6vqjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMAu2iuO9Xf9UDyb6eae00ny87aBE/09Aw/KM76Tkaz9N4cZ/oUM7P0IH4swaHBKkeAIwBPhMO9WK7HACPv7qQzHZH+bQJt7stu9anJ/vIju0NwpEL5HUNBX6qnWvrm8hnWU4",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "bc71e468fdd4dca213cccf47dd8b9457ce44e043ab070e8d69f6636292a13001",
+    "public_key": "BJXvOwUa9QGBObJeQXO/usM1W4/uBRmPP5hH9ad1cySKU+hcuGzGP+PUeQJfpu1jTUO9tOwXlLh6IwFD45iw6vo=",
+    "signature_counter": "67",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Fleischstrasse 56-60",
+        "address3": "Trier",
+        "description": "TSE_Elizee_54290",
+        "name": "Elizee",
+        "phone": "+49 176 23347757"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.25"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "435275ec-ff27-453b-8096-ef9886cadbe7"
+}
+RESPONSE:
+{
+    "_id": "435275ec-ff27-453b-8096-ef9886cadbe7",
+    "state": "REGISTERED",
+    "serial_number": "435275ec-ff27-453b-8096-ef9886cadbe7",
+    "time_creation": 1741097462,
+    "tss_id": "b124e41d-a7fd-4bf7-9a72-2516b75c2508",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.25"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_7rld39v7qk117ac2d7mydxc60_elizee-4219630395
+FISKALY API SECRET: 1QIxu7t3bd9Jzvsji0DKXzj97C4Fq4dkc9AAKsfEAMK
+TSE ID: b124e41d-a7fd-4bf7-9a72-2516b75c2508
+TSE CLIENT ID: 435275ec-ff27-453b-8096-ef9886cadbe7
+ADMIN PUK: 9327990039
+ADMIN PIN: 4568956

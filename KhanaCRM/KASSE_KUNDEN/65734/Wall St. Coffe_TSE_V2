@@ -1,0 +1,190 @@
+OLD TSE : dd39e352-d42d-4744-9ea0-490555fd78c4
+OLD TSE CLIENT ID: 134d51a7-8ea0-48c7-a3ff-8cef8f22986f
+OLD ADMIN PUK: 1811090684
+OLD ADMIN PIN: JAN291993
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+
+REQUEST:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3NDA2MzMwNzMsImlhdCI6MTc0MDU0NjY3MywianRpIjoiODUzYzQwMGUtOGJlYi00NzBmLWJmZDgtNmZhN2JmZGYwYjg4IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiJlYmNlNTNhMC03MmQ4LTQ3ZDYtODYxYy01YTljMTMwN2QzODQiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiMWM1NjBkZDYtNzkzNi00MDM1LTg1NjAtODJmOTRkZmUxMGVmIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIxYzU2MGRkNi03OTM2LTQwMzUtODU2MC04MmY5NGRmZTEwZWYiLCJvcmdhbml6YXRpb24iOiIyNDlkZWU1ZC02NGVlLTRhMDAtOWYzMS03ODRhMjg3MmIyZTYiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.NGjGWCKqGpmFc2AR8inutXIEr7-8Zsm16xfxyCdZF0P0C3NOHiw-_mCn9GwY295922ktXnl8AOcx3z-nH2ops2mQ0UdesCfC3BISoSmMxiIcZEOjd2qJ7FVTzJY01inUaHv0qEfClnTkVWupC9FJ8-d3C9xCu0vZDoYsPi6SAalKBK0fB1h87C4lgRX3xycBVQFYeX4NZZ3ilAzQlvIWFUiCUjwVO9VRb6359GCHUsndbXnLBdyrG4UvctfII8lxBIX8bbtZiBdFuh7GiNa_QB_LhpeuqYkH3ODEwyVg00JYHdoZMXvTwnj8yIAjz0iOoxuvSpgF5clklaTiWRrZhQ",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "249dee5d-64ee-4a00-9f31-784a2872b2e6"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1740633073,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3NDA3MTk0NzMsImlhdCI6MTc0MDU0NjY3MywianRpIjoiYzAzNmEzZmMtZDhmNi00ZTViLTg3NTItMjM5ODVhYjZkYzRhIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6ImViY2U1M2EwLTcyZDgtNDdkNi04NjFjLTVhOWMxMzA3ZDM4NCIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiMWM1NjBkZDYtNzkzNi00MDM1LTg1NjAtODJmOTRkZmUxMGVmIiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiIxYzU2MGRkNi03OTM2LTQwMzUtODU2MC04MmY5NGRmZTEwZWYifQ.6tcHH7sl_fJnhnqr-YGFo7Uu8YPnLon__ArYI9wJRdo",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1740719473
+}
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "WALL ST COFFEE",
+        "address": "Mergenthalerallee 79-81",
+        "address2": "",
+        "address3": "Eschborn",
+        "phone": "+49 15562 057841",
+        "phone2": "",
+        "description":"TSE_WALL ST COFFEE_65760"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEdDCCA/qgAwIBAgIQJmOzhJg1esuMB/L+L0K70DAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA5NDEwOVoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNEEzMkUxNTAxRUNCNEIwQ0I5OUJBRDMyMjdFOTE1RTQxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A2NjAxZjFlYThlNThmODc2Zjg4NDFhMjFhNDNiY2Q0MWQ0YTU5ZWZmNTQ2YmU0NTY5MWE2NjdkNjVlYmMyNzc5MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABNrSorFyYeiPc3SS25tZjocKGKfhgfd8YYNbW4hj7aCDwoApSkAA+R2pe8yB4YxNGffOpkPVKJOqdXtd9HA4u8mjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2gAMGUCMGR5v5MIqfi9lgUaV4AhWDA5l2qiKl+x5L2hLQNGt3w89gBE6amGXMcMMBaww/4YOAIxAIIUnfjFZlYBlw+qnadHDbgu73by1otV6dnHxhq236y7By0PnWMyO5X1KBYudi/YuQ==",
+    "serial_number": "6601f1ea8e58f876f8841a21a43bcd41d4a59eff546be45691a667d65ebc2779",
+    "public_key": "BNrSorFyYeiPc3SS25tZjocKGKfhgfd8YYNbW4hj7aCDwoApSkAA+R2pe8yB4YxNGffOpkPVKJOqdXtd9HA4u8k=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "abe69355-02ee-465c-9b1d-cbf1a50e87fa",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.24",
+    "time_creation": 1740546951,
+    "admin_puk": "4218648961",
+    "state": "CREATED",
+    "metadata": {
+        "name": "WALL ST COFFEE",
+        "phone": "+49 15562 057841",
+        "phone2": "",
+        "address": "Mergenthalerallee 79-81",
+        "address2": "",
+        "address3": "Eschborn",
+        "description": "TSE_WALL ST COFFEE_65760"
+    }
+}
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "abe69355-02ee-465c-9b1d-cbf1a50e87fa",
+    "state": "UNINITIALIZED",
+    "time_creation": 1740546951,
+    "time_uninit": 1740546974,
+    "certificate": "MIIEdDCCA/qgAwIBAgIQJmOzhJg1esuMB/L+L0K70DAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA5NDEwOVoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNEEzMkUxNTAxRUNCNEIwQ0I5OUJBRDMyMjdFOTE1RTQxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A2NjAxZjFlYThlNThmODc2Zjg4NDFhMjFhNDNiY2Q0MWQ0YTU5ZWZmNTQ2YmU0NTY5MWE2NjdkNjVlYmMyNzc5MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABNrSorFyYeiPc3SS25tZjocKGKfhgfd8YYNbW4hj7aCDwoApSkAA+R2pe8yB4YxNGffOpkPVKJOqdXtd9HA4u8mjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2gAMGUCMGR5v5MIqfi9lgUaV4AhWDA5l2qiKl+x5L2hLQNGt3w89gBE6amGXMcMMBaww/4YOAIxAIIUnfjFZlYBlw+qnadHDbgu73by1otV6dnHxhq236y7By0PnWMyO5X1KBYudi/YuQ==",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "6601f1ea8e58f876f8841a21a43bcd41d4a59eff546be45691a667d65ebc2779",
+    "public_key": "BNrSorFyYeiPc3SS25tZjocKGKfhgfd8YYNbW4hj7aCDwoApSkAA+R2pe8yB4YxNGffOpkPVKJOqdXtd9HA4u8k=",
+    "signature_counter": "127",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Mergenthalerallee 79-81",
+        "address3": "Eschborn",
+        "description": "TSE_WALL ST COFFEE_65760",
+        "name": "WALL ST COFFEE",
+        "phone": "+49 15562 057841"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.24"
+}
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "87945769"
+}
+RESPONSE:
+200 OK
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "87945769"
+}
+RESPONSE:
+200 OK
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "abe69355-02ee-465c-9b1d-cbf1a50e87fa",
+    "description": "fiskaly sign cloud-TSE (abe69355-02ee-465c-9b1d-cbf1a50e87fa)",
+    "state": "INITIALIZED",
+    "time_creation": 1740546951,
+    "time_uninit": 1740546974,
+    "time_init": 1740547141,
+    "certificate": "MIIEdDCCA/qgAwIBAgIQJmOzhJg1esuMB/L+L0K70DAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA5NDEwOVoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfNEEzMkUxNTAxRUNCNEIwQ0I5OUJBRDMyMjdFOTE1RTQxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0A2NjAxZjFlYThlNThmODc2Zjg4NDFhMjFhNDNiY2Q0MWQ0YTU5ZWZmNTQ2YmU0NTY5MWE2NjdkNjVlYmMyNzc5MQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABNrSorFyYeiPc3SS25tZjocKGKfhgfd8YYNbW4hj7aCDwoApSkAA+R2pe8yB4YxNGffOpkPVKJOqdXtd9HA4u8mjggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2gAMGUCMGR5v5MIqfi9lgUaV4AhWDA5l2qiKl+x5L2hLQNGt3w89gBE6amGXMcMMBaww/4YOAIxAIIUnfjFZlYBlw+qnadHDbgu73by1otV6dnHxhq236y7By0PnWMyO5X1KBYudi/YuQ==",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "6601f1ea8e58f876f8841a21a43bcd41d4a59eff546be45691a667d65ebc2779",
+    "public_key": "BNrSorFyYeiPc3SS25tZjocKGKfhgfd8YYNbW4hj7aCDwoApSkAA+R2pe8yB4YxNGffOpkPVKJOqdXtd9HA4u8k=",
+    "signature_counter": "133",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Mergenthalerallee 79-81",
+        "address3": "Eschborn",
+        "description": "TSE_WALL ST COFFEE_65760",
+        "name": "WALL ST COFFEE",
+        "phone": "+49 15562 057841"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.24"
+}
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "96d99004-5f88-467c-8527-53eafb09ac37"
+}
+RESPONSE:
+{
+    "_id": "96d99004-5f88-467c-8527-53eafb09ac37",
+    "state": "REGISTERED",
+    "serial_number": "96d99004-5f88-467c-8527-53eafb09ac37",
+    "time_creation": 1740547256,
+    "tss_id": "abe69355-02ee-465c-9b1d-cbf1a50e87fa",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.24"
+}
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_261hcojh3wfhcy1kh0sodlmna_wallstcoffe-4024801806
+FISKALY API SECRET: g774bkIy9lknpDjhAH7yKaazpw7syPTvdJxIc7ozBvy
+TSE ID: abe69355-02ee-465c-9b1d-cbf1a50e87fa
+TSE CLIENT ID: 96d99004-5f88-467c-8527-53eafb09ac37
+ADMIN PUK: 4218648961
+ADMIN PIN: 87945769

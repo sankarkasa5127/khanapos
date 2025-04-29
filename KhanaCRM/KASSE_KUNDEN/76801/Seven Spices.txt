@@ -1,0 +1,201 @@
+OLD TSE : 
+OLD TSE CLIENT ID: 
+OLD ADMIN PUK: 
+OLD ADMIN PIN: 
+
+-------------------------------------------------------------------------
+
+=============NEW================
+ 
+Restaurant Name: Seven Spices
+API Key: live_4tlo2c468u8r4szqmtq6g5dij_sevenspices-2408142887
+API Secret Key: XCKfZe9vllq1xiUicMCEzMtVKELxEZdKVsQnTGtvCA9
+------------------------------------------------------------------------
+*AUTHENTICATE TOKEN*:
+{
+	"api_key": "{{api_key}}",
+	"api_secret": "{{api_secret}}"
+}
+RESPONSE:
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTTm5CU0hCTUljQUpBalczaUhDNFRWOTR4MFZCeU00S25LSFJ0eU8tdnBnIn0.eyJleHAiOjE3Mzk0NDMzNjUsImlhdCI6MTczOTM1Njk2NSwianRpIjoiOTUyMTAzM2EtY2Y2Yi00Y2VhLWI1OGEtOGZiM2U0NGU1NDMzIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJzdWIiOiIxNTAyNmZkMi00MWY5LTQ3ZjMtYmE3My1jNGMwYmUwMGJlYWQiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiNDRkNjkzNDQtODVmOC00MmI4LWJhMjYtOWIwZjc5OGIyY2Y2Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI0NGQ2OTM0NC04NWY4LTQyYjgtYmEyNi05YjBmNzk4YjJjZjYiLCJvcmdhbml6YXRpb24iOiI1MTc0M2E5NC04NTA1LTQ4MmEtODFhMi01YWU2YjU0MDliYWIiLCJ0eXBlIjoiQVBJX0tFWSIsImVudiI6IkxJVkUifQ.PHuTGlJo831MOqR-SwsS3jZ6J4QDs7FfE1n_czIrIgb5UlJ1a4wHopmwdnbifrlSyR_Z2m3Z2IFsudE-DxIPZkvlV3d2GkCiomxbbPRVskTd92sSWEIt0GZJyWOQhK2lCqoUOM52W8LsBUbMm3YJa3Jar_6liwdXR2oGuTWJuobNZWViASFaXBCyu41MrMY3eMru84y3e3MyUIPforXkFc3DNEn9P1uxqevGXvjJxIfkJplJu-n6UrAKOazmCZN8acXZ47GNjekwRYZ3Mreudem8g1AF2uvCeYQmlMd3FPRsLAqPEb92TFpP-Agh4WOB20WGB-DKTab1OOnMc8Z8Gw",
+    "access_token_claims": {
+        "env": "LIVE",
+        "organization_id": "51743a94-8505-482a-81a2-5ae6b5409bab"
+    },
+    "access_token_expires_in": 86400,
+    "access_token_expires_at": 1739443365,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NDQxMWU1MC00OTVkLTRlMTYtODcyOS04MWIwZjg1YmVmMjYifQ.eyJleHAiOjE3Mzk1Mjk3NjUsImlhdCI6MTczOTM1Njk2NSwianRpIjoiNjk3ZDg4Y2MtMzBjYS00MjM2LWI0Y2EtYmMxNzg5Y2JlZWU0IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmZpc2thbHkuY29tL2F1dGgvcmVhbG1zL2Zpc2thbHkiLCJhdWQiOiJodHRwczovL2F1dGguZmlza2FseS5jb20vYXV0aC9yZWFsbXMvZmlza2FseSIsInN1YiI6IjE1MDI2ZmQyLTQxZjktNDdmMy1iYTczLWM0YzBiZTAwYmVhZCIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJrYXNzZW5zaWNodi1hcGkiLCJzZXNzaW9uX3N0YXRlIjoiNDRkNjkzNDQtODVmOC00MmI4LWJhMjYtOWIwZjc5OGIyY2Y2Iiwic2NvcGUiOiJvcmdhbml6YXRpb24iLCJzaWQiOiI0NGQ2OTM0NC04NWY4LTQyYjgtYmEyNi05YjBmNzk4YjJjZjYifQ.1CnofT4jBJNLLoub6yMn-aAU7KHahIBpt8UA_m6PR8M",
+    "refresh_token_expires_in": 172800,
+    "refresh_token_expires_at": 1739529765
+}
+
+-----------------------------------------------------------------
+*CREATE TSE*:
+
+REQUEST:
+{
+    "metadata": {
+        "name": "Seven Spices",
+        "address": "Königstrasse 20,",
+        "address2": "Landau in der Pfalz",
+        "address3": "",
+        "phone": "",
+        "phone2": "",
+        "description":"TSE_Seven Spices_76829"
+
+    }
+}
+RESPONSE:
+{
+    "certificate": "MIIEczCCA/qgAwIBAgIQKPSVy9IvciHY7b8SHpbpdTAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3NDYwNVoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfODc3REU1Qzg0NTA2NEYxRDk1QUEzNkJDQjVBRjY1MTUxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BiN2E2NDFmY2E3NjIxYWYzZTY2MGY0YzFmMTRmMDhhOTJlZTdjNWVmYmRjYjAyNGZjMWI5ZWFlMTVmZTVkYjlhMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABPOHv1IA4mFc6hJ4vJrGqxhcm+yMe/gX3URLcX64pyBs9lQEJqGjnyhjhPxxmAYvRDBsOlqyE9eIgGHQdRs6LmujggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMCqV0NQft2GRF5nas5rJS3XCKkS0CTFfdp3sbbEYMJQ2kg5mnFO2nI9Gm431cS+UMAIwKAOcxJh5zpm+OxTmxcY4WpAGBfRkDXtp0zqu6R9YFzzb1+Qb5EmSGhU+2yjyI4XS",
+    "serial_number": "b7a641fca7621af3e660f4c1f14f08a92ee7c5efbdcb024fc1b9eae15fe5db9a",
+    "public_key": "BPOHv1IA4mFc6hJ4vJrGqxhcm+yMe/gX3URLcX64pyBs9lQEJqGjnyhjhPxxmAYvRDBsOlqyE9eIgGHQdRs6Lms=",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "max_number_registered_clients": 199,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "_id": "6755d67d-68ee-414f-93e1-6736214fd640",
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23",
+    "time_creation": 1739357143,
+    "admin_puk": "4479899180",
+    "state": "CREATED",
+    "metadata": {
+        "name": "Seven Spices",
+        "phone": "",
+        "phone2": "",
+        "address": "Königstrasse 20,",
+        "address2": "Landau in der Pfalz",
+        "address3": "",
+        "description": "TSE_Seven Spices_76829"
+    }
+}
+
+---------------------------------------------------------------------------------
+*PERSONALIZE TSS*:
+
+REQUEST:
+{
+    "state": "UNINITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "6755d67d-68ee-414f-93e1-6736214fd640",
+    "state": "UNINITIALIZED",
+    "time_creation": 1739357143,
+    "time_uninit": 1739357192,
+    "certificate": "MIIEczCCA/qgAwIBAgIQKPSVy9IvciHY7b8SHpbpdTAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3NDYwNVoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfODc3REU1Qzg0NTA2NEYxRDk1QUEzNkJDQjVBRjY1MTUxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BiN2E2NDFmY2E3NjIxYWYzZTY2MGY0YzFmMTRmMDhhOTJlZTdjNWVmYmRjYjAyNGZjMWI5ZWFlMTVmZTVkYjlhMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABPOHv1IA4mFc6hJ4vJrGqxhcm+yMe/gX3URLcX64pyBs9lQEJqGjnyhjhPxxmAYvRDBsOlqyE9eIgGHQdRs6LmujggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMCqV0NQft2GRF5nas5rJS3XCKkS0CTFfdp3sbbEYMJQ2kg5mnFO2nI9Gm431cS+UMAIwKAOcxJh5zpm+OxTmxcY4WpAGBfRkDXtp0zqu6R9YFzzb1+Qb5EmSGhU+2yjyI4XS",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "b7a641fca7621af3e660f4c1f14f08a92ee7c5efbdcb024fc1b9eae15fe5db9a",
+    "public_key": "BPOHv1IA4mFc6hJ4vJrGqxhcm+yMe/gX3URLcX64pyBs9lQEJqGjnyhjhPxxmAYvRDBsOlqyE9eIgGHQdRs6Lms=",
+    "signature_counter": "113",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Königstrasse 20,",
+        "address2": "Landau in der Pfalz",
+        "description": "TSE_Seven Spices_76829",
+        "name": "Seven Spices"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+-------------------------------------------------------------------------------
+*CHANGING ADMIN PIN*:
+
+REQUEST:
+{
+    "admin_puk": "{{adminPuk}}",
+    "new_admin_pin": "369789"
+}
+RESPONSE:
+{}
+
+--------------------------------------------------------------------------------
+*AUTHENTICATE ADMIN*:
+
+REQUEST:
+{
+	"admin_pin": "369789"
+}
+RESPONSE:
+{}
+
+-------------------------------------------------------------------------------
+*INTIALIZE TSS*:
+
+REQUEST:
+{
+    "state": "INITIALIZED"
+}
+RESPONSE:
+{
+    "_id": "6755d67d-68ee-414f-93e1-6736214fd640",
+    "description": "fiskaly sign cloud-TSE (6755d67d-68ee-414f-93e1-6736214fd640)",
+    "state": "INITIALIZED",
+    "time_creation": 1739357143,
+    "time_uninit": 1739357192,
+    "time_init": 1739357367,
+    "certificate": "MIIEczCCA/qgAwIBAgIQKPSVy9IvciHY7b8SHpbpdTAKBggqhkjOPQQDAzBFMRswGQYDVQQDExJEQVJaLVRTRS1TVUItQ0EtMDExDTALBgNVBAoTBERBUloxCzAJBgNVBAYTAkRFMQowCAYDVQQFEwEyMB4XDTI0MTAyODA3NDYwNVoXDTMyMTAyODIzNTk1OVowgdQxSTBHBgNVBAMMQEJTSS1EU1otQ0MtMTE1M19CU0ktRFNaLUNDLTExMzBfODc3REU1Qzg0NTA2NEYxRDk1QUEzNkJDQjVBRjY1MTUxFTATBgNVBAoTDGZpc2thbHkgR21iSDEYMBYGA1UELhMPQlNJLURTWi1DQy0xMTUzMUkwRwYDVQQFE0BiN2E2NDFmY2E3NjIxYWYzZTY2MGY0YzFmMTRmMDhhOTJlZTdjNWVmYmRjYjAyNGZjMWI5ZWFlMTVmZTVkYjlhMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABPOHv1IA4mFc6hJ4vJrGqxhcm+yMe/gX3URLcX64pyBs9lQEJqGjnyhjhPxxmAYvRDBsOlqyE9eIgGHQdRs6LmujggI6MIICNjAfBgNVHSMEGDAWgBRsySR+ZuH5TCT2MIwLaxq4tIczejAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADBaBgNVHSAEUzBRME8GCisGAQQBg5NvAQMwQTA/BggrBgEFBQcCARYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMFQGA1UdEgRNMEuBFHRzZS1yb290LWNhQGRhLXJ6LmRlhjNodHRwczovL3d3dy5kYS1yei5kZS9kZS91ZWJlci1kYXJ6L3VudGVybmVobWVuL3BraS8wgfEGA1UdHwSB6TCB5jByoHCgboZsaHR0cDovL3RzZS1wa2kuZGEtcnoubmV0L3RzZS1wa2kvY3JsP2lzc3VlckROPUNOJTNEREFSWi1UU0UtU1VCLUNBLTAxJTJDTyUzRERBUlolMkNDJTNEREUlMkNTRVJJQUxOVU1CRVIlM0QyMHCgbqBshmpsZGFwOi8vbGRhcC10c2UtcGtpLmRhLXJ6Lm5ldC9zZXJpYWxOdW1iZXI9MixDTj1EQVJaLVRTRS1TVUItQ0EtMDEsREM9REFSWixEQz1ERT9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0ME8GCCsGAQUFBwEBBEMwQTA/BggrBgEFBQcwAoYzaHR0cHM6Ly93d3cuZGEtcnouZGUvZGUvdWViZXItZGFyei91bnRlcm5laG1lbi9wa2kvMAoGCCqGSM49BAMDA2cAMGQCMCqV0NQft2GRF5nas5rJS3XCKkS0CTFfdp3sbbEYMJQ2kg5mnFO2nI9Gm431cS+UMAIwKAOcxJh5zpm+OxTmxcY4WpAGBfRkDXtp0zqu6R9YFzzb1+Qb5EmSGhU+2yjyI4XS",
+    "bsi_certification_id": "0403-2021",
+    "serial_number": "b7a641fca7621af3e660f4c1f14f08a92ee7c5efbdcb024fc1b9eae15fe5db9a",
+    "public_key": "BPOHv1IA4mFc6hJ4vJrGqxhcm+yMe/gX3URLcX64pyBs9lQEJqGjnyhjhPxxmAYvRDBsOlqyE9eIgGHQdRs6Lms=",
+    "signature_counter": "119",
+    "signature_algorithm": "ecdsa-plain-SHA256",
+    "signature_timestamp_format": "unixTime",
+    "transaction_data_encoding": "UTF-8",
+    "number_registered_clients": 0,
+    "max_number_registered_clients": 199,
+    "number_active_transactions": 0,
+    "max_number_active_transactions": 2000,
+    "supported_update_variants": "SIGNED",
+    "metadata": {
+        "address": "Königstrasse 20,",
+        "address2": "Landau in der Pfalz",
+        "description": "TSE_Seven Spices_76829",
+        "name": "Seven Spices"
+    },
+    "_type": "TSS",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+------------------------------------------------------------------------------
+*CREATE CLINET*:
+
+REQUEST:
+{
+    "serial_number": "ed112ced-f51f-4741-b5bb-1da17fc867fa"
+}
+RESPONSE:
+{
+    "_id": "ed112ced-f51f-4741-b5bb-1da17fc867fa",
+    "state": "REGISTERED",
+    "serial_number": "ed112ced-f51f-4741-b5bb-1da17fc867fa",
+    "time_creation": 1739357509,
+    "tss_id": "6755d67d-68ee-414f-93e1-6736214fd640",
+    "_type": "CLIENT",
+    "_env": "LIVE",
+    "_version": "2.1.23"
+}
+
+------------------------------------------------------------------------------------------------
+
+FISKLAY API KEY: live_4tlo2c468u8r4szqmtq6g5dij_sevenspices-2408142887
+FISKALY API SECRET: XCKfZe9vllq1xiUicMCEzMtVKELxEZdKVsQnTGtvCA9
+TSE ID: 6755d67d-68ee-414f-93e1-6736214fd640
+TSE CLIENT ID: ed112ced-f51f-4741-b5bb-1da17fc867fa
+ADMIN PUK: 4479899180
+ADMIN PIN: 369789
