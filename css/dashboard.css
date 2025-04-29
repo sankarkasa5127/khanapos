@@ -1,0 +1,75 @@
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {padding-top: 50px;font-family: "Open Sans", sans-serif !important;}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{font-family: "Open Sans", sans-serif !important;}
+a{color:#000;}
+a:hover{color:#000;}
+/*
+ * Global add-ons
+ */
+.sub-header {padding-bottom: 10px;border-bottom: 1px solid #eee;}
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {border: 0;background-color: #f3be4a;}
+.navbar-dark .navbar-brand img{max-width: 80px;}
+
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.sidebar {display: none;}
+@media (min-width: 768px) {
+.sidebar {position: fixed;top: 51px;bottom: 0;left: 0;z-index: 1000;display: block;padding: 20px;overflow-x: hidden;overflow-y: auto;background-color: #f5f5f5;border-right: 1px solid #eee;scrollbar-width:thin;}
+}
+
+/* Sidebar navigation */
+.nav-sidebar {margin-right: -21px;margin-bottom: 20px;margin-left: -20px;}
+.nav-sidebar > li > a {padding-right: 10px;padding-left: 10px;color: #000;margin: 5px 10px;border-radius: 10px;font-weight: 600;padding-top: 8px;padding-bottom: 8px;}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {color: #000;background-color: #f3be4a;}
+.nav-sidebar > li > a:hover{color: #000;background-color: #f3be4a;}
+.nav-sidebar > li > a:hover i{color: #eda300;}
+.nav-sidebar > .active > a i{color: #eda300;}
+.btn-primary{background-color: #000!important; border-color: #000!important; color:#fff!important;}
+.btn-mt{margin-top: 8px;}
+
+/*
+ * Main content
+ */
+.main {padding: 20px;position: relative;}
+.image-overlay{background-size: contain;background-repeat: no-repeat;background-position: center center;width: 95%;height: 94vh;position: absolute;top: 0;z-index: 1;background-color: #000;}
+
+@media (min-width: 768px) {
+.main {padding-right: 40px;padding-left: 40px;}
+}
+
+/*
+ * Placeholder dashboard ideas
+ */
+.placeholders {margin-bottom: 30px;text-align: center;}
+.placeholders h4 {margin-bottom: 0;}
+.placeholder {margin-bottom: 20px;}
+.placeholder img {display: inline-block;border-radius: 50%;}
+.datepicker{color: #000!important;}
+.price-box{border-radius: 10px;box-shadow: 0 6px 30px rgba(182, 186, 203, 0.5);}
+
+.roweditcol .btn.btn-danger.rowedit, .rowedit .btn, td .btn.btn-primary {margin-right: 3px;}
+.modal-content{border-radius: 12px;}
+.modal-title {margin: 0;line-height: 1.42857143;font-weight: 600;font-size: 18px;display: inline-block;padding-left: 15px;}
+.modal .close{font-size: 32px;font-weight: 500; opacity: 0.6;}
+.modal .btn{margin-left: 15px; margin-top: 5px;}
+.modal .col-form-label{font-weight: 600;}
+.modal-header {padding: 15px;border-bottom: 1px solid #e5e5e5;background-color: #f3be4a;border-radius: 12px 12px 0 0;}
+.nav-tabs > li > a{color: #000;}
+.modal .col-form-label span a{color:#000;}
+.pdfrefresh{background-color: #000; border-color: transparent;color: #fff;border-radius: 5px;}
+.modal .nav-tabs > li > a{font-weight: 500;}
+
