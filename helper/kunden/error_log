@@ -1,0 +1,24 @@
+[24-May-2024 03:08:52 UTC] PHP Warning:  require_once(db.php): Failed to open stream: No such file or directory in /home4/harjayal/khana-portal.harjassinfotech.org/helper/kunden/uploadFilesPDF.php on line 2
+[24-May-2024 03:08:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/harjayal/khana-portal.harjassinfotech.org/helper/kunden/uploadFilesPDF.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/harjayal/khana-portal.harjassinfotech.org/helper/kunden/uploadFilesPDF.php on line 2
+[24-May-2024 03:19:53 UTC] PHP Warning:  Undefined array key "invoiceid" in /home4/harjayal/khana-portal.harjassinfotech.org/helper/kunden/uploadFilesPDF.php on line 6
+[24-May-2024 03:19:53 UTC] PHP Warning:  Undefined array key "invoiceRealId" in /home4/harjayal/khana-portal.harjassinfotech.org/helper/kunden/uploadFilesPDF.php on line 7
+[24-May-2024 05:24:08 UTC] PHP Warning:  require_once(db.php): Failed to open stream: No such file or directory in /home4/harjayal/khana-portal.harjassinfotech.org/helper/kunden/addContact.php on line 2
+[24-May-2024 05:24:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/harjayal/khana-portal.harjassinfotech.org/helper/kunden/addContact.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/harjayal/khana-portal.harjassinfotech.org/helper/kunden/addContact.php on line 2
+[24-May-2024 05:51:14 UTC] PHP Warning:  require_once(db.php): Failed to open stream: No such file or directory in /home4/harjayal/khana-portal.harjassinfotech.org/helper/kunden/deleteContact.php on line 2
+[24-May-2024 05:51:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/harjayal/khana-portal.harjassinfotech.org/helper/kunden/deleteContact.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/harjayal/khana-portal.harjassinfotech.org/helper/kunden/deleteContact.php on line 2
+[24-May-2024 11:02:59 UTC] PHP Parse error:  syntax error, unexpected token "," in /home4/harjayal/khana-portal.harjassinfotech.org/helper/kunden/addAnydesk.php on line 19
+[24-May-2024 11:03:46 UTC] PHP Warning:  require_once(db.php): Failed to open stream: No such file or directory in /home4/harjayal/khana-portal.harjassinfotech.org/helper/kunden/addAnydesk.php on line 2
+[24-May-2024 11:03:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/harjayal/khana-portal.harjassinfotech.org/helper/kunden/addAnydesk.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/harjayal/khana-portal.harjassinfotech.org/helper/kunden/addAnydesk.php on line 2
+[24-May-2024 11:04:23 UTC] PHP Warning:  Undefined array key "anydeskDescriptions" in /home4/harjayal/khana-portal.harjassinfotech.org/helper/kunden/addAnydesk.php on line 33
