@@ -42,7 +42,7 @@
 ?>
 <div class="col-lg-3 col-md-3">
    <div class="price-box">
-      <i class="fas fa-inbox icon1"></i>
+      <i class="fa-solid fa-bag-shopping icon1"></i>
       <div class="contant-box">
          <h3 class="main-title">Total Orders</h3>
          <p class="tprice"><?= $orderInfo['total_count'] ?></i></p>
@@ -51,7 +51,7 @@
 </div> 
 <div class="col-lg-3 col-md-3">
    <div class="price-box">
-      <i class="fas fa-university icon1"></i>
+      <i class="fas fa-money-bill icon1"></i>
       <div class="contant-box">
          <h3 class="main-title">Total Amount</h3>
          <p class="tprice"><?php echo formatPrice($orderInfo['total_amount']); ?></p>
@@ -60,7 +60,7 @@
 </div>
 <div class="col-lg-3 col-md-3">
    <div class="price-box">
-      <i class="fas fa-money-bill icon1"></i>
+      <i class="fa-solid fa-bag-shopping icon1"></i>
       <div class="contant-box">
          <h3 class="main-title">Today Orders</h3>
          <p class="tprice"><?= $todayOrderInfo['total_count'] ?></p>
@@ -69,9 +69,9 @@
 </div>
 <div class="col-lg-3 col-md-3">
    <div class="price-box">
-      <i class="far fa-credit-card icon1"></i>
+      <i class="fas fa-money-bill icon1"></i>
       <div class="contant-box">
-         <h3 class="main-title">Total Amount</h3>
+         <h3 class="main-title">Today Amount</h3>
          <p class="tprice"><?php echo formatPrice($todayOrderInfo['total_amount']);?></p>
       </div>
    </div>
